@@ -1,5 +1,5 @@
 # Code repository
-[Book cover](/images/cover-small.jpg)
+![Book cover](/images/cover-small.jpg)
 **Practical Statistics for Data Scientists:**  
 50+ Essential Concepts Using R and Python
 by Peter Bruce, Andrew Bruce, and [Peter Gedeck](https://www.amazon.com/Peter-Gedeck/e/B082BJZJKX/)
