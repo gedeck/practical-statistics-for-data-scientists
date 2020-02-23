@@ -1,16 +1,13 @@
 # Code repository
-practical-statistics-for-data-scientists
-Code repository for O'Reilly book
 
+**Practical Statistics for Data Scientists: 
+50+ Essential Concepts Using R and Python 2nd Edition**
+by Peter Bruce, Andrew Bruce, and [Peter Gedeck](https://www.amazon.com/Peter-Gedeck/e/B082BJZJKX/)
 
-https://www.amazon.com/Practical-Statistics-Data-Scientists-Essential/dp/149207294X
+Publisher: O'Reilly Media; 2 edition (June 9, 2020)
+ISBN-13: 978-1492072942
 
-First Header | Second Header
------------- | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
-
-![GitHub Logo](/images/cover-small.jpg)
+[](/images/cover-small.jpg)
 
 
 ## See also
