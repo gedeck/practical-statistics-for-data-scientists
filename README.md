@@ -1,14 +1,13 @@
 # Code repository
-
-**Practical Statistics for Data Scientists: 
-50+ Essential Concepts Using R and Python 2nd Edition**
+[](/images/cover-small.jpg)
+**Practical Statistics for Data Scientists:**  
+50+ Essential Concepts Using R and Python
 by Peter Bruce, Andrew Bruce, and [Peter Gedeck](https://www.amazon.com/Peter-Gedeck/e/B082BJZJKX/)
 
 Publisher: O'Reilly Media; 2 edition (June 9, 2020)
 ISBN-13: 978-1492072942
 
-[](/images/cover-small.jpg)
-
+https://www.oreilly.com/catalog/errata.csp?isbn=0636920305309
 
 ## See also
 - O'Reilly: https://www.oreilly.com/library/view/practical-statistics-for/9781492072935/
