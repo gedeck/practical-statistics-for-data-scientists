@@ -16,6 +16,6 @@ by Peter Bruce, Andrew Bruce, and [Peter Gedeck](https://www.amazon.com/Peter-Ge
 
 
 ## See also
-- O'Reilly: https://www.oreilly.com/library/view/practical-statistics-for/9781492072935/
+- O'Reilly: https://oreil.ly/practicalStats_dataSci_2e
 - Errata: http://oreilly.com/catalog/errata.csp?isbn=9781492072942
 - The code repository for the first edition is at: https://github.com/andrewgbruce/statistics-for-data-scientists
