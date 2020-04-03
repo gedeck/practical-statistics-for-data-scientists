@@ -72,7 +72,7 @@ graph
 ca_analysis <- ca(housetasks)
 plot(ca_analysis)
 
-install.packages("ggrepel")
+# install.packages("ggrepel")
 library(ggrepel)
 
 ca_analysis$sv ** 2
@@ -86,15 +86,16 @@ coords = rbind(
     cbind(rowcoord, type='rowcoord'),
     cbind(colcoord, type='columns')
 )
+row.names(coords) <- gsub('_', ' ', row.names(coords))
 
 graph <- ggplot(coords, aes(x=Dim1, y=Dim2, color=type, label=rownames(coords), shape=type)) +
     geom_hline(yintercept=0, linetype='dotted', color='#444444') + 
     geom_vline(xintercept = 0, linetype='dotted', color='#444444') +
     geom_point() +
     geom_text_repel() + 
-    xlab(sprintf('Dimension 1 (%.1f %%)', 100 * contrib[1])) +
-    ylab(sprintf('Dimension 2 (%.1f %%)', 100 * contrib[2])) +
-    scale_colour_manual(values = c('blue', 'red')) +
+    xlab(sprintf('Dimension 1 (%.1f%%)', 100 * contrib[1])) +
+    ylab(sprintf('Dimension 2 (%.1f%%)', 100 * contrib[2])) +
+    scale_color_manual(values = c('blue', 'red')) +
     theme_bw() +
     theme(legend.position = "none") 
 graph

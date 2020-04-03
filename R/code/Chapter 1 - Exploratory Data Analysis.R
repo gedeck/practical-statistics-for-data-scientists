@@ -110,21 +110,21 @@ nrow(kc_tax0)
 # If the number of data points gets large, scatter plots will no longer be meaningful. Here methods that visualize densities are more useful. The `stat_hexbin` method for is one powerful approach.
 
 graph <- ggplot(kc_tax0, (aes(x=SqFtTotLiving, y=TaxAssessedValue))) + 
-  stat_binhex(colour='white') + 
+  stat_binhex(color='white') + 
   theme_bw() + 
   scale_fill_gradient(low='white', high='blue') +
   scale_y_continuous(labels = function(x) format(x, scientific = FALSE)) +
-  labs(x='Finished Square Feet', y='Tax Assessed Value')
+  labs(x='Finished Square Feet', y='Tax-Assessed Value')
 graph
 
 # Visualize as a two-dimensional extension of the density plot.
 
 graph <- ggplot(kc_tax0, aes(SqFtTotLiving, TaxAssessedValue)) +
   theme_bw() + 
-  geom_point(colour='blue', alpha=0.1) + 
-  geom_density2d(colour='white') + 
+  geom_point(color='blue', alpha=0.1) + 
+  geom_density2d(color='white') + 
   scale_y_continuous(labels = function(x) format(x, scientific = FALSE)) +
-  labs(x='Finished Square Feet', y='Tax Assessed Value')
+  labs(x='Finished Square Feet', y='Tax-Assessed Value')
 graph
 
 ### Two Categorical Variables
@@ -157,6 +157,6 @@ graph <- ggplot(subset(kc_tax0, ZipCode %in% c(98188, 98105, 98108, 98126)),
   theme_bw() + 
   scale_fill_gradient(low='gray95', high='black') +
   scale_y_continuous(labels = function(x) format(x, scientific = FALSE)) +
-  labs(x='Finished Square Feet', y='Tax Assessed Value') +
+  labs(x='Finished Square Feet', y='Tax-Assessed Value') +
   facet_wrap('ZipCode')
 graph

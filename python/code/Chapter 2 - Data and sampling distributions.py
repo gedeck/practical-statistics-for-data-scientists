@@ -105,7 +105,7 @@ for x in confidence_interval:
     ax.plot([x, x], [0, 65], color='black')
     ax.text(x, 70, f'{x:.0f}', 
             horizontalalignment='center', verticalalignment='center')
-ax.text(sum(confidence_interval) / 2, 60, '90 % interval',
+ax.text(sum(confidence_interval) / 2, 60, '90% interval',
         horizontalalignment='center', verticalalignment='center')
 
 meanIncome = results.mean()

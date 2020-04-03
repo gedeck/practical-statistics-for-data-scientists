@@ -220,7 +220,7 @@ graph <- ggplot(roc_df, aes(x=specificity, y=recall)) +
   scale_y_continuous(expand=c(0, 0)) + 
   geom_line(data=data.frame(x=(0:100) / 100), aes(x=x, y=1-x),
             linetype='dotted', color='red') +
-  theme_bw()
+  theme_bw() + theme(plot.margin=unit(c(5.5, 10, 5.5, 5.5), "points"))
 graph
 
 ### AUC
@@ -233,7 +233,7 @@ graph <- ggplot(roc_df, aes(specificity)) +
   scale_x_reverse(expand=c(0, 0)) +
   scale_y_continuous(expand=c(0, 0)) +
   labs(y='recall') +
-  theme_bw()
+  theme_bw() + theme(plot.margin=unit(c(5.5, 10, 5.5, 5.5), "points"))
 graph
 
 ## Strategies for Imbalanced Data

@@ -64,7 +64,7 @@ graph <- ggplot(data=loan200_df, aes(x=payment_inc_ratio, y=dti, color=outcome))
   geom_point(data=nearest_points, aes(shape=outcome), size=2) +
   geom_point(data=loan200_df[1,], aes(shape=outcome), size=2) +
   scale_shape_manual(values=c(15, 16, 4)) +
-  scale_colour_manual(values = c("paid off"="#1b9e77", "default"="#d95f02", "newloan"='black')) +
+  scale_color_manual(values = c("paid off"="#1b9e77", "default"="#d95f02", "newloan"='black')) +
   geom_path(data=circle_df, aes(x=x, y=y), color='black') +
   xlim(3, 15) + 
   ylim(17, 29) +
@@ -150,7 +150,7 @@ graph <- ggplot(data=loan3000, aes(x=borrower_score, y=payment_inc_ratio)) +
   scale_color_manual(values=c('blue', 'red')) +
   scale_shape_manual(values = c(1, 46)) +
   geom_segment(data=r_tree, aes(x=x1, y=y1, xend=x2, yend=y2, linetype=rule_number), size=1.5, alpha=.7) +
-  guides(colour = guide_legend(override.aes = list(size=1.5)),
+  guides(color = guide_legend(override.aes = list(size=1.5)),
          linetype = guide_legend(keywidth=3, override.aes = list(size=1))) +
   scale_x_continuous(expand=c(0,0)) + 
   scale_y_continuous(expand=c(0,0), limits=c(0, 25)) + 
@@ -161,11 +161,11 @@ graph
 
 graph <- ggplot(data=loan3000, aes(x=borrower_score, y=payment_inc_ratio)) +
   geom_point( aes(color=outcome, shape=outcome, size=outcome), alpha=.8) +
-  scale_colour_manual(values = c("paid off"="#7fbc41", "default"="#d95f02")) +
+  scale_color_manual(values = c("paid off"="#7fbc41", "default"="#d95f02")) +
   scale_shape_manual(values = c('paid off'=0, 'default'=1)) +
   scale_size_manual(values = c('paid off'=0.5, 'default'=2)) +
   geom_segment(data=r_tree, aes(x=x1, y=y1, xend=x2, yend=y2), size=1.5) + #, linetype=rule_number), size=1.5, alpha=.7) +
-  guides(colour = guide_legend(override.aes = list(size=1.5)),
+  guides(color = guide_legend(override.aes = list(size=1.5)),
          linetype = guide_legend(keywidth=3, override.aes = list(size=1))) +
   scale_x_continuous(expand=c(0,0)) + 
   scale_y_continuous(expand=c(0,0), limits=c(0, 25)) + 
@@ -173,7 +173,7 @@ graph <- ggplot(data=loan3000, aes(x=borrower_score, y=payment_inc_ratio)) +
   geom_label(data=rules, aes(x=x, y=y, label=rule_number), 
              size=2.5,
              fill='#eeeeee', label.r=unit(0, "lines"), label.padding=unit(0.2, "lines")) +
-  guides(colour = guide_legend(override.aes = list(size=2))) +
+  guides(color = guide_legend(override.aes = list(size=2))) +
   theme_bw()
 graph
 
@@ -227,13 +227,13 @@ rf_df <- cbind(loan3000, pred = pred)
 graph <- ggplot(data=rf_df, aes(x=borrower_score, y=payment_inc_ratio, 
                        shape=pred, color=pred, size=pred)) +
   geom_point(alpha=.8) +
-  scale_colour_manual(values = c('paid off'='#b8e186', 'default'='#d95f02')) +
+  scale_color_manual(values = c('paid off'='#b8e186', 'default'='#d95f02')) +
   scale_shape_manual(values = c('paid off'=0, 'default'=1)) +
   scale_size_manual(values = c('paid off'=0.5, 'default'=2)) +
 
   scale_x_continuous(expand=c(0,0)) + 
   scale_y_continuous(expand=c(0,0), lim=c(0, 20)) + 
-  guides(colour = guide_legend(override.aes = list(size=2))) +
+  guides(color = guide_legend(override.aes = list(size=2))) +
   theme_bw()
 graph
 
@@ -315,13 +315,13 @@ graph
 graph <- ggplot(data=xgb_df, aes(x=borrower_score, y=payment_inc_ratio, 
                 color=pred_default, shape=pred_default, size=pred_default)) +
   geom_point(alpha=.8) +
-  scale_colour_manual(values = c('FALSE'='#b8e186', 'TRUE'='#d95f02')) +
+  scale_color_manual(values = c('FALSE'='#b8e186', 'TRUE'='#d95f02')) +
   scale_shape_manual(values = c('FALSE'=0, 'TRUE'=1)) +
   scale_size_manual(values = c('FALSE'=0.5, 'TRUE'=2)) +
 
   scale_x_continuous(expand=c(0.03, 0)) + 
   scale_y_continuous(expand=c(0, 0), lim=c(0, 20)) + 
-  guides(colour = guide_legend(override.aes = list(size=2))) +
+  guides(color = guide_legend(override.aes = list(size=2))) +
   theme_bw()
 graph
 
@@ -369,7 +369,7 @@ graph <- ggplot(errors, aes(x=iter, y=train_error, group=type)) +
   theme_bw() +
   theme(legend.key.width = unit(1.5,"cm")) +
   labs(x="Iterations", y="Error") +
-  guides(colour = guide_legend(override.aes = list(size=1)))
+  guides(color = guide_legend(override.aes = list(size=1)))
 graph
 
 ### Hyperparameters and Cross-Validation

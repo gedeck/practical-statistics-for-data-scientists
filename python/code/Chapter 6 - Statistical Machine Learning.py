@@ -304,7 +304,7 @@ scores = defaultdict(list)
 for _ in range(3):
     train_X, valid_X, train_y, valid_y = train_test_split(X, y, 
                                                           test_size=0.3)
-    r = rf.fit(train_X, train_y)
+    rf.fit(train_X, train_y)
     acc = metrics.accuracy_score(valid_y, rf.predict(valid_X))
     for column in X.columns:
         X_t = valid_X.copy()
