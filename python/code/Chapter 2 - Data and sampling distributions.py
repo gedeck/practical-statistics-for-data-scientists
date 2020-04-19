@@ -5,6 +5,9 @@
 # Import required Python packages.
 
 from pathlib import Path
+import inspect
+import os
+
 import pandas as pd
 import numpy as np
 from scipy import stats
@@ -13,7 +16,9 @@ from sklearn.utils import resample
 import seaborn as sns
 import matplotlib.pylab as plt
 
-DATA = Path('.').resolve().parents[1] / 'data'
+filename = inspect.getframeinfo(inspect.currentframe()).filename
+curr_dir = str(os.path.dirname(os.path.abspath(filename)))
+DATA = Path(curr_dir) / 'data'
 
 # Define paths to data sets. If you don't keep your data in the same directory as the code, adapt the path names.
 

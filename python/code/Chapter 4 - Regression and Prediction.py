@@ -5,6 +5,8 @@
 # Import required Python packages.
 
 from pathlib import Path
+import inspect
+import os
 
 import pandas as pd
 import numpy as np
@@ -28,7 +30,9 @@ print()
 
 # Define paths to data sets. If you don't keep your data in the same directory as the code, adapt the path names.
 
-DATA = Path('.').resolve().parents[1] / 'data'
+filename = inspect.getframeinfo(inspect.currentframe()).filename
+curr_dir = str(os.path.dirname(os.path.abspath(filename)))
+DATA = Path(curr_dir) / 'data'
 
 LUNG_CSV = DATA / 'LungDisease.csv'
 HOUSE_CSV = DATA / 'house_sales.csv'
