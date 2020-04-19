@@ -8,6 +8,8 @@ import math
 import os
 import random
 from pathlib import Path
+import inspect
+import os
 from collections import defaultdict
 from itertools import product
 
@@ -31,7 +33,9 @@ import matplotlib.pyplot as plt
 from matplotlib.patches import Ellipse
 
 
-DATA = Path('.').resolve().parents[1] / 'data'
+filename = inspect.getframeinfo(inspect.currentframe()).filename
+curr_dir = str(os.path.dirname(os.path.abspath(filename)))
+DATA = Path(curr_dir) / 'data'
 
 # Define paths to data sets. If you don't keep your data in the same directory as the code, adapt the path names.
 
