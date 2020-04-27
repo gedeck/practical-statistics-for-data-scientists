@@ -5,6 +5,8 @@
 # Import required Python packages.
 
 from pathlib import Path
+import common
+
 import pandas as pd
 import numpy as np
 
@@ -25,12 +27,11 @@ from dmba import classificationSummary
 
 import seaborn as sns
 import matplotlib.pyplot as plt
+print()
 
+# Define paths to data sets. If you don't keep your data in a directory parallel to the code, adjust the method dataDirectory.
 
-
-DATA = Path('.').resolve().parents[1] / 'data'
-
-# Define paths to data sets. If you don't keep your data in the same directory as the code, adapt the path names.
+DATA = common.dataDirectory()
 
 LOAN3000_CSV = DATA / 'loan3000.csv'
 LOAN_DATA_CSV = DATA / 'loan_data.csv.gz'
