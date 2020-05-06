@@ -171,8 +171,8 @@ res = stats.f_oneway(four_sessions[four_sessions.Page == 'Page 1'].Time,
                      four_sessions[four_sessions.Page == 'Page 2'].Time,
                      four_sessions[four_sessions.Page == 'Page 3'].Time,
                      four_sessions[four_sessions.Page == 'Page 4'].Time)
-print(f'F-Statistic: {res.statistic / 2:.4f}')
-print(f'p-value: {res.pvalue / 2:.4f}')
+print(f'F-Statistic: {res.statistic:.4f}')
+print(f'p-value: {res.pvalue:.4f}')
 
 #### Two-way anova only available with statsmodels
 # ```
