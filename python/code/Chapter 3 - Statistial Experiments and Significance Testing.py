@@ -4,6 +4,7 @@
 
 # Import required Python packages.
 
+import common
 from pathlib import Path
 import random
 
@@ -17,9 +18,9 @@ from statsmodels.stats import power
 
 import matplotlib.pylab as plt
 
-DATA = Path('.').resolve().parents[1] / 'data'
+# Define paths to data sets. If you don't keep your data in a directory parallel to the code, adjust the method dataDirectory.
 
-# Define paths to data sets. If you don't keep your data in the same directory as the code, adapt the path names.
+DATA = common.dataDirectory()
 
 WEB_PAGE_DATA_CSV = DATA / 'web_page_data.csv'
 FOUR_SESSIONS_CSV = DATA / 'four_sessions.csv'

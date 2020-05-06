@@ -4,6 +4,7 @@
 
 # Import required Python packages.
 
+import common
 import math
 import os
 import random
@@ -29,11 +30,12 @@ from dmba import plotDecisionTree, textDecisionTree
 import seaborn as sns
 import matplotlib.pyplot as plt
 from matplotlib.patches import Ellipse
+print()
 
+# Define paths to data sets. If you don't keep your data in a directory parallel to the code, adjust the method dataDirectory.
 
+DATA = common.dataDirectory()
 DATA = Path('.').resolve().parents[1] / 'data'
-
-# Define paths to data sets. If you don't keep your data in the same directory as the code, adapt the path names.
 
 LOAN200_CSV = DATA / 'loan200.csv'
 LOAN3000_CSV = DATA / 'loan3000.csv'

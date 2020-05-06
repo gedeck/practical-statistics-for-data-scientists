@@ -4,6 +4,7 @@
 
 # Import required Python packages.
 
+import common
 from pathlib import Path
 
 import pandas as pd
@@ -15,9 +16,9 @@ import wquantiles
 import seaborn as sns
 import matplotlib.pylab as plt
 
-# Define paths to data sets. If you don't keep your data in the same directory as the code, adapt the path names.
+# Define paths to data sets. If you don't keep your data in a directory parallel to the code, adjust the method dataDirectory.
 
-DATA = Path('.').resolve().parents[1] / 'data'
+DATA = common.dataDirectory()
 
 AIRLINE_STATS_CSV = DATA / 'airline_stats.csv'
 KC_TAX_CSV = DATA / 'kc_tax.csv.gz'
