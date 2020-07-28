@@ -4,8 +4,9 @@
 
 # Import required R packages.
 
+# lmPerm is available from CRAN
 # conda install r-devtools
-devtools::install_github('mtorchiano/lmPerm')
+# devtools::install_github('mtorchiano/lmPerm')
 
 library(ggplot2)
 library(dplyr)

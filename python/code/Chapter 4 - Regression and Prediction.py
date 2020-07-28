@@ -4,7 +4,6 @@
 
 # Import required Python packages.
 
-import common
 from pathlib import Path
 
 import pandas as pd
@@ -26,9 +25,9 @@ import matplotlib.pyplot as plt
 from dmba import stepwise_selection
 from dmba import AIC_score
 
-# Define paths to data sets. If you don't keep your data in a directory parallel to the code, adjust the method dataDirectory.
+# Define paths to data sets. If you don't keep your data in the same directory as the code, adapt the path names.
 
-DATA = common.dataDirectory()
+DATA = Path('.').resolve().parents[1] / 'data'
 
 LUNG_CSV = DATA / 'LungDisease.csv'
 HOUSE_CSV = DATA / 'house_sales.csv'
@@ -189,11 +188,14 @@ residuals = pd.DataFrame({
     'Year': house['Year'],
 })
 print(residuals.head())
-axes = residuals.boxplot(['abs_residual_lm', 'abs_residual_wt'], by='Year', figsize=(10, 4))
-axes[0].set_ylim(0, 300000)
+# axes = residuals.boxplot(['abs_residual_lm', 'abs_residual_wt'], by='Year', figsize=(10, 4))
+# axes[0].set_ylim(0, 300000)
 
-for year, group in residuals.groupby('Year'):
-    print(year, np.mean(group['abs_residual_lm']), np.mean(group['abs_residual_wt']))
+pd.DataFrame(([year, np.mean(group['abs_residual_lm']), np.mean(group['abs_residual_wt'])] 
+              for year, group in residuals.groupby('Year')),
+             columns=['Year', 'mean abs_residual_lm', 'mean abs_residual_wt'])
+# for year, group in residuals.groupby('Year'):
+#     print(year, np.mean(group['abs_residual_lm']), np.mean(group['abs_residual_wt']))
 
 ## Factor variables in regression
 ### Dummy Variables Representation

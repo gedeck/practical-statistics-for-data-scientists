@@ -4,7 +4,6 @@
 
 # Import required Python packages.
 
-import common
 import math
 from pathlib import Path
 import pandas as pd
@@ -24,11 +23,11 @@ import matplotlib.pyplot as plt
 from matplotlib import cm 
 from matplotlib.colors import from_levels_and_colors
 import seaborn as sns
-print()
 
-# Define paths to data sets. If you don't keep your data in a directory parallel to the code, adjust the method dataDirectory.
 
-DATA = common.dataDirectory()
+DATA = Path('.').resolve().parents[1] / 'data'
+
+# Define paths to data sets. If you don't keep your data in the same directory as the code, adapt the path names.
 
 SP500_DATA_CSV = DATA / 'sp500_data.csv.gz'
 SP500_SECTORS_CSV = DATA / 'sp500_sectors.csv'

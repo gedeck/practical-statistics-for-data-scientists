@@ -4,7 +4,6 @@
 
 # Import required Python packages.
 
-import common
 from pathlib import Path
 import random
 
@@ -18,9 +17,9 @@ from statsmodels.stats import power
 
 import matplotlib.pylab as plt
 
-# Define paths to data sets. If you don't keep your data in a directory parallel to the code, adjust the method dataDirectory.
+DATA = Path('.').resolve().parents[1] / 'data'
 
-DATA = common.dataDirectory()
+# Define paths to data sets. If you don't keep your data in the same directory as the code, adapt the path names.
 
 WEB_PAGE_DATA_CSV = DATA / 'web_page_data.csv'
 FOUR_SESSIONS_CSV = DATA / 'four_sessions.csv'
@@ -171,8 +170,8 @@ res = stats.f_oneway(four_sessions[four_sessions.Page == 'Page 1'].Time,
                      four_sessions[four_sessions.Page == 'Page 2'].Time,
                      four_sessions[four_sessions.Page == 'Page 3'].Time,
                      four_sessions[four_sessions.Page == 'Page 4'].Time)
-print(f'F-Statistic: {res.statistic:.4f}')
-print(f'p-value: {res.pvalue:.4f}')
+print(f'F-Statistic: {res.statistic / 2:.4f}')
+print(f'p-value: {res.pvalue / 2:.4f}')
 
 #### Two-way anova only available with statsmodels
 # ```

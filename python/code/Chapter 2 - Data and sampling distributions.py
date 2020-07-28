@@ -4,9 +4,7 @@
 
 # Import required Python packages.
 
-import common
 from pathlib import Path
-
 import pandas as pd
 import numpy as np
 from scipy import stats
@@ -15,9 +13,9 @@ from sklearn.utils import resample
 import seaborn as sns
 import matplotlib.pylab as plt
 
-# Define paths to data sets. If you don't keep your data in a directory parallel to the code, adjust the method dataDirectory.
+DATA = Path('.').resolve().parents[1] / 'data'
 
-DATA = common.dataDirectory()
+# Define paths to data sets. If you don't keep your data in the same directory as the code, adapt the path names.
 
 LOANS_INCOME_CSV = DATA / 'loans_income.csv'
 SP500_DATA_CSV = DATA / 'sp500_data.csv.gz'
