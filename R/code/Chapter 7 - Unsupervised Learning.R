@@ -72,8 +72,10 @@ graph
 ca_analysis <- ca(housetasks)
 plot(ca_analysis)
 
-# install.packages("ggrepel")
-library(ggrepel)
+if (!require(ggrepel)) {
+    install.packages('ggrepel')
+    library(ggrepel)
+}
 
 ca_analysis$sv ** 2
 summary(ca_analysis)

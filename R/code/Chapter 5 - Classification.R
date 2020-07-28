@@ -4,13 +4,13 @@
 
 # Import required R packages.
 
+library(klaR)
 library(MASS)
 library(dplyr)
 library(ggplot2)
 library(FNN)
 library(mgcv)
 library(rpart)
-library(klaR)
 
 # Define paths to data sets. If you don't keep your data in the same directory as the code, adapt the path names.
 
