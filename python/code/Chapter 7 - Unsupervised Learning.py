@@ -160,10 +160,10 @@ plt.show()
 ### Selecting the Number of Clusters
 
 inertia = []
-for n_clusters in range(2, 14):
+for n_clusters in range(2, 15):
     kmeans = KMeans(n_clusters=n_clusters, random_state=0).fit(top_sp)
     inertia.append(kmeans.inertia_ / n_clusters)
-inertias = pd.DataFrame({'n_clusters': range(2, 14), 'inertia': inertia})
+inertias = pd.DataFrame({'n_clusters': range(2, 15), 'inertia': inertia})
 ax = inertias.plot(x='n_clusters', y='inertia')
 plt.xlabel('Number of clusters(k)')
 plt.ylabel('Average Within-Cluster Squared Distances')
@@ -181,13 +181,11 @@ syms1 = ['AAPL', 'AMZN', 'AXP', 'COP', 'COST', 'CSCO', 'CVX', 'GOOGL', 'HD',
 df = sp500_px.loc[sp500_px.index >= '2011-01-01', syms1].transpose()
 
 Z = linkage(df, method='complete')
-print(Z.shape)
 
 ### The Dendrogram
 
 fig, ax = plt.subplots(figsize=(5, 5))
-
-dendrogram(Z, labels=df.index, color_threshold=0)
+dendrogram(Z, labels=list(df.index), color_threshold=0)
 plt.xticks(rotation=90)
 ax.set_ylabel('distance')
 
