@@ -17,7 +17,11 @@ from statsmodels.stats import power
 
 import matplotlib.pylab as plt
 
-DATA = Path('.').resolve().parents[1] / 'data'
+try:
+    import common
+    DATA = common.dataDirectory()
+except ImportError:
+    DATA = Path().resolve() / 'data'
 
 # Define paths to data sets. If you don't keep your data in the same directory as the code, adapt the path names.
 

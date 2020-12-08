@@ -25,9 +25,13 @@ import matplotlib.pyplot as plt
 from dmba import stepwise_selection
 from dmba import AIC_score
 
-# Define paths to data sets. If you don't keep your data in the same directory as the code, adapt the path names.
+try:
+    import common
+    DATA = common.dataDirectory()
+except ImportError:
+    DATA = Path().resolve() / 'data'
 
-DATA = Path('.').resolve().parents[1] / 'data'
+# Define paths to data sets. If you don't keep your data in the same directory as the code, adapt the path names.
 
 LUNG_CSV = DATA / 'LungDisease.csv'
 HOUSE_CSV = DATA / 'house_sales.csv'
