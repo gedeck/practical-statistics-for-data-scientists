@@ -13,7 +13,11 @@ from sklearn.utils import resample
 import seaborn as sns
 import matplotlib.pylab as plt
 
-DATA = Path('.').resolve().parents[1] / 'data'
+try:
+    import common
+    DATA = common.dataDirectory()
+except ImportError:
+    DATA = Path().resolve() / 'data'
 
 # Define paths to data sets. If you don't keep your data in the same directory as the code, adapt the path names.
 
@@ -203,7 +207,7 @@ plt.show()
 
 ### Exponential Distribution
 
-sample = stats.expon.rvs(0.2, size=100)
+sample = stats.expon.rvs(scale=5, size=100)
 
 pd.Series(sample).plot.hist()
 plt.show()

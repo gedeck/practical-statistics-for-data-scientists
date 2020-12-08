@@ -23,9 +23,13 @@ import matplotlib.pyplot as plt
 from matplotlib import cm 
 from matplotlib.colors import from_levels_and_colors
 import seaborn as sns
+print()
 
-
-DATA = Path('.').resolve().parents[1] / 'data'
+try:
+    import common
+    DATA = common.dataDirectory()
+except ImportError:
+    DATA = Path().resolve() / 'data'
 
 # Define paths to data sets. If you don't keep your data in the same directory as the code, adapt the path names.
 
@@ -160,10 +164,10 @@ plt.show()
 ### Selecting the Number of Clusters
 
 inertia = []
-for n_clusters in range(2, 14):
+for n_clusters in range(2, 15):
     kmeans = KMeans(n_clusters=n_clusters, random_state=0).fit(top_sp)
     inertia.append(kmeans.inertia_ / n_clusters)
-inertias = pd.DataFrame({'n_clusters': range(2, 14), 'inertia': inertia})
+inertias = pd.DataFrame({'n_clusters': range(2, 15), 'inertia': inertia})
 ax = inertias.plot(x='n_clusters', y='inertia')
 plt.xlabel('Number of clusters(k)')
 plt.ylabel('Average Within-Cluster Squared Distances')
@@ -186,8 +190,7 @@ print(Z.shape)
 ### The Dendrogram
 
 fig, ax = plt.subplots(figsize=(5, 5))
-
-dendrogram(Z, labels=df.index, color_threshold=0)
+dendrogram(Z, labels=list(df.index), color_threshold=0)
 plt.xticks(rotation=90)
 ax.set_ylabel('distance')
 

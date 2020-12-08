@@ -15,9 +15,13 @@ import wquantiles
 import seaborn as sns
 import matplotlib.pylab as plt
 
-# Define paths to data sets. If you don't keep your data in the same directory as the code, adapt the path names.
+try:
+    import common
+    DATA = common.dataDirectory()
+except ImportError:
+    DATA = Path().resolve() / 'data'
 
-DATA = Path('.').resolve().parents[1] / 'data'
+# Define paths to data sets. If you don't keep your data in the same directory as the code, adapt the path names.
 
 AIRLINE_STATS_CSV = DATA / 'airline_stats.csv'
 KC_TAX_CSV = DATA / 'kc_tax.csv.gz'
