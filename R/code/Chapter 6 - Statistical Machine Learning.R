@@ -297,7 +297,8 @@ graph
 predictors <- data.matrix(loan3000[, c('borrower_score', 'payment_inc_ratio')])
 label <- as.numeric(loan3000[,'outcome']) - 1
 xgb <- xgboost(data=predictors, label=label, objective='binary:logistic', 
-               params=list(subsample=0.63, eta=0.1), nrounds=100)
+               params=list(subsample=0.63, eta=0.1), nrounds=100, 
+               eval_metric='error')
 
 
 pred <- predict(xgb, newdata=predictors)
@@ -333,7 +334,8 @@ label <- as.numeric(loan_data$outcome)-1
 test_idx <- sample(nrow(loan_data), 10000)
 
 xgb_default <- xgboost(data=predictors[-test_idx,], label=label[-test_idx], 
-                       objective='binary:logistic', nrounds=250, verbose=0)
+                       objective='binary:logistic', nrounds=250, verbose=0, 
+                       eval_metric='error')
 pred_default <- predict(xgb_default, predictors[test_idx,])
 error_default <- abs(label[test_idx] - pred_default) > 0.5
 xgb_default$evaluation_log[250,]
@@ -341,7 +343,8 @@ mean(error_default)
 
 xgb_penalty <- xgboost(data=predictors[-test_idx,], label=label[-test_idx], 
                        params=list(eta=.1, subsample=.63, lambda=1000),
-                       objective='binary:logistic', nrounds=250, verbose=0)
+                       objective='binary:logistic', nrounds=250, verbose=0, 
+                       eval_metric='error')
 pred_penalty <- predict(xgb_penalty, predictors[test_idx,])
 error_penalty <- abs(label[test_idx] - pred_penalty) > 0.5
 xgb_penalty$evaluation_log[250,]
@@ -387,7 +390,8 @@ for(i in 1:nrow(params)){
     xgb <- xgboost(data=predictors[-fold_idx,], label=label[-fold_idx], 
                    params=list(eta=params[i, 'eta'], 
                                max_depth=params[i, 'max_depth']),
-                   objective='binary:logistic', nrounds=100, verbose=0)
+                   objective='binary:logistic', nrounds=100, verbose=0, 
+                   eval_metric='error')
     pred <- predict(xgb, predictors[fold_idx,])
     error[i, k] <- mean(abs(label[fold_idx] - pred) >= 0.5)
   }

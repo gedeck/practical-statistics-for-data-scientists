@@ -394,7 +394,7 @@ pd.DataFrame({
 # The `regplot` in _seaborn_ allows adding a lowess smoothing line to the scatterplot.
 
 fig, ax = plt.subplots(figsize=(5, 5))
-sns.regplot(result_98105.fittedvalues, np.abs(result_98105.resid), 
+sns.regplot(x=result_98105.fittedvalues, y=np.abs(result_98105.resid), 
             scatter_kws={'alpha': 0.25},
             line_kws={'color': 'C1'},
             lowess=True, ax=ax)

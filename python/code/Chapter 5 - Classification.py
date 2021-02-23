@@ -461,7 +461,7 @@ for n, (title, model) in enumerate(models.items()):
     boundary[title] = yvalues[np.argmax(Z > 0, axis=0)]
     boundary[title][Z[-1,:] == 0] = yvalues[-1]
 
-    c = ax.pcolormesh(xx, yy, Z, cmap='Blues', vmin=0.1, vmax=1.3)
+    c = ax.pcolormesh(xx, yy, Z, cmap='Blues', vmin=0.1, vmax=1.3, shading='auto')
     ax.set_title(title)
     ax.grid(True)
 

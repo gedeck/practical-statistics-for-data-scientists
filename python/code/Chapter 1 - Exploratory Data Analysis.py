@@ -265,7 +265,7 @@ plt.show()
 # The _seaborn_ kdeplot is a two-dimensional extension of the density plot.
 
 fig, ax = plt.subplots(figsize=(4, 4))
-ax = sns.kdeplot(kc_tax0.SqFtTotLiving, kc_tax0.TaxAssessedValue, ax=ax)
+sns.kdeplot(data=kc_tax0, x='SqFtTotLiving', y='TaxAssessedValue', ax=ax)
 ax.set_xlabel('Finished Square Feet')
 ax.set_ylabel('Tax Assessed Value')
 
@@ -306,7 +306,7 @@ plt.show()
 # _Pandas_ also supports a variation of boxplots called _violinplot_.
 
 fig, ax = plt.subplots(figsize=(5, 5))
-sns.violinplot(airline_stats.airline, airline_stats.pct_carrier_delay,
+sns.violinplot(data=airline_stats, x='airline', y='pct_carrier_delay',
                ax=ax, inner='quartile', color='white')
 ax.set_xlabel('')
 ax.set_ylabel('Daily % of Delayed Flights')

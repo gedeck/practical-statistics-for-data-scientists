@@ -185,6 +185,7 @@ syms1 = ['AAPL', 'AMZN', 'AXP', 'COP', 'COST', 'CSCO', 'CVX', 'GOOGL', 'HD',
 df = sp500_px.loc[sp500_px.index >= '2011-01-01', syms1].transpose()
 
 Z = linkage(df, method='complete')
+print(Z.shape)
 
 ### The Dendrogram
 
