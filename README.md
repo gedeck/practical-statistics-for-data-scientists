@@ -15,7 +15,7 @@ by Peter Bruce, Andrew Bruce, and [Peter Gedeck](https://www.amazon.com/Peter-Ge
 ## Binder
 Open the repository in Binder
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/gedeck/practical-statistics-for-data-scientists/HEAD)
-
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/gedeck/practical-statistics-for-data-scientists/pg/R_Python_binder)
 ## R
 Run the following commands in R to install all required packages
 ```
