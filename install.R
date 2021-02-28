@@ -17,3 +17,4 @@ install.packages('ca')
 install.packages('ggrepel')
 
 install.packages('klaR')
+install.packages('hexbin')
