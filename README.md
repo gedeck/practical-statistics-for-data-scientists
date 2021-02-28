@@ -12,8 +12,11 @@ by Peter Bruce, Andrew Bruce, and [Peter Gedeck](https://www.amazon.com/Peter-Ge
 - Buy on [Amazon](https://www.amazon.com/Practical-Statistics-Data-Scientists-Essential/dp/149207294X)
 - Errata: http://oreilly.com/catalog/errata.csp?isbn=9781492072942
 
-## Binder
-Open the repository in Binder: 
+## Online
+View the notebooks online:
+[![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/gedeck/practical-statistics-for-data-scientists/tree/master/)
+
+Excecute the notebooks in Binder: 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/gedeck/practical-statistics-for-data-scientists/HEAD)
 
  This can take some time if the binder environment needs to be rebuilt. 
