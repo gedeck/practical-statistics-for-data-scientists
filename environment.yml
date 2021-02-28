@@ -1,0 +1,20 @@
+channels:
+- conda-forge
+- bioconda
+dependencies:
+- python
+- jupyter
+- pandas
+- matplotlib
+- scipy
+- statsmodels
+- wquantiles
+- seaborn
+- scikit-learn
+- pygam
+- dmba
+- pydotplus
+- imbalanced-learn
+- prince
+- xgboost
+- graphviz
