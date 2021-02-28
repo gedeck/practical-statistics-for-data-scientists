@@ -9,4 +9,4 @@
 * deulkkae (https://github.com/deulkkae, February 2021, R, Python):
   * Correction of `house_sales.csv` file (Issue #14)
   * Changes to xgboost API (Issues #15, #16)
-  * Changed results after update R v3 to v4 (Issues #17)
+  * Changed results after update R v3 to v4 (Issues #16)
