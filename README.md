@@ -12,6 +12,10 @@ by Peter Bruce, Andrew Bruce, and [Peter Gedeck](https://www.amazon.com/Peter-Ge
 - Buy on [Amazon](https://www.amazon.com/Practical-Statistics-Data-Scientists-Essential/dp/149207294X)
 - Errata: http://oreilly.com/catalog/errata.csp?isbn=9781492072942
 
+## Binder
+Open the repository in Binder
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/gedeck/practical-statistics-for-data-scientists/HEAD)
+
 ## R
 Run the following commands in R to install all required packages
 ```
@@ -39,24 +43,7 @@ We recommend to use a conda environment to run the Python code.
 ```
 conda create -n sfds python
 conda activate sfds
-
-pip install jupyter
-pip install pandas
-pip install matplotlib
-pip install scipy
-pip install statsmodels
-pip install wquantiles
-pip install seaborn
-pip install scikit-learn
-pip install pygam
-pip install dmba
-pip install pydotplus
-
-pip install imbalanced-learn
-pip install prince
-
-conda install --yes -c conda-forge xgboost
-conda install --yes graphviz
+conda env update -n sfds -f environment.yml
 ```
 
 ## See also

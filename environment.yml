@@ -18,3 +18,19 @@ dependencies:
 - prince
 - xgboost
 - graphviz
+- r-essentials 
+- r-base
+- r-vioplot
+- r-corrplot
+- r-gmodels
+- r-matrixStats
+- r-pwr
+- r-FNN
+- r-DMwR
+- r-xgboost
+- r-ellipse
+- r-mclust
+- r-ca
+- r-ggrepel
+- r-klaR
+# - r-lmPerm
