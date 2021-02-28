@@ -16,9 +16,9 @@ library(rpart)
 
 PSDS_PATH <- file.path(dirname(dirname(getwd())))
 
-loan3000 <- read.csv(file.path(PSDS_PATH, 'data', 'loan3000.csv'))
-loan_data <- read.csv(file.path(PSDS_PATH, 'data', 'loan_data.csv.gz'))
-full_train_set <- read.csv(file.path(PSDS_PATH, 'data', 'full_train_set.csv.gz'))
+loan3000 <- read.csv(file.path(PSDS_PATH, 'data', 'loan3000.csv'), stringsAsFactors=TRUE)
+loan_data <- read.csv(file.path(PSDS_PATH, 'data', 'loan_data.csv.gz'), stringsAsFactors=TRUE)
+full_train_set <- read.csv(file.path(PSDS_PATH, 'data', 'full_train_set.csv.gz'), stringsAsFactors=TRUE)
 
 # order the outcome variable
 loan3000$outcome <- ordered(loan3000$outcome, levels=c('paid off', 'default'))
@@ -40,6 +40,8 @@ predict(naive_model, new_loan)
 
 print(predict(naive_model, new_loan))
 
+# Due to changes in R's default behavior of converting strings to factors, it is important to convert string columns to factors when using the naive Bayes implementation in `klaR`. Use either `stringsAsFactors=TRUE` when loading the data or convert to factors explicitly.
+
 #### Example not in book
 
 less_naive <- NaiveBayes(outcome ~ borrower_score + payment_inc_ratio + 
@@ -49,9 +51,9 @@ less_naive$table[1:2]
 stats <- less_naive$table[[1]]
 graph <- ggplot(data.frame(borrower_score=c(0,1)), aes(borrower_score)) +
   stat_function(fun = dnorm, color='blue', linetype=1, 
-                arg=list(mean=stats[1, 1], sd=stats[1, 2])) +
+                args=list(mean=stats[1, 1], sd=stats[1, 2])) +
   stat_function(fun = dnorm, color='red', linetype=2, 
-                arg=list(mean=stats[2, 1], sd=stats[2, 2])) +
+                args=list(mean=stats[2, 1], sd=stats[2, 2])) +
   labs(y='probability')
 graph
 

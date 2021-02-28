@@ -350,13 +350,14 @@ predictors = ['borrower_score', 'payment_inc_ratio']
 outcome = 'outcome'
 
 X = loan3000[predictors]
-y = loan3000[outcome]
+y = pd.Series([1 if o == 'default' else 0 for o in loan3000[outcome]])
 
-xgb = XGBClassifier(objective='binary:logistic', subsample=.63)
+xgb = XGBClassifier(objective='binary:logistic', subsample=.63, 
+                    use_label_encoder=False, eval_metric='error')
 print(xgb.fit(X, y))
 
 xgb_df = X.copy()
-xgb_df['prediction'] = xgb.predict(X)
+xgb_df['prediction'] = ['default' if p == 1 else 'paid off' for p in xgb.predict(X)]
 xgb_df['prob_default'] = xgb.predict_proba(X)[:, 0]
 print(xgb_df.head())
 
@@ -392,11 +393,13 @@ y = pd.Series([1 if o == 'default' else 0 for o in loan_data[outcome]])
 train_X, valid_X, train_y, valid_y = train_test_split(X, y, test_size=10000)
 
 xgb_default = XGBClassifier(objective='binary:logistic', n_estimators=250, max_depth=6,
-                            reg_lambda=0, learning_rate=0.3, subsample=1)
+                            reg_lambda=0, learning_rate=0.3, subsample=1,
+                            use_label_encoder=False, eval_metric='error')
 xgb_default.fit(train_X, train_y)
 
 xgb_penalty = XGBClassifier(objective='binary:logistic', n_estimators=250, max_depth=6,
-                            reg_lambda=1000, learning_rate=0.1, subsample=0.63)
+                            reg_lambda=1000, learning_rate=0.1, subsample=0.63,
+                            use_label_encoder=False, eval_metric='error')
 print(xgb_penalty.fit(train_X, train_y))
 
 pred_default = xgb_default.predict_proba(train_X)[:, 1]
@@ -440,7 +443,8 @@ idx = np.random.choice(range(5), size=len(X), replace=True)
 error = []
 for eta, max_depth in product([0.1, 0.5, 0.9], [3, 6, 9]):
     xgb = XGBClassifier(objective='binary:logistic', n_estimators=250, 
-                        max_depth=max_depth, learning_rate=eta)
+                        max_depth=max_depth, learning_rate=eta,
+                        use_label_encoder=False, eval_metric='error')
     cv_error = []
     for k in range(5):
         fold_idx = idx == k

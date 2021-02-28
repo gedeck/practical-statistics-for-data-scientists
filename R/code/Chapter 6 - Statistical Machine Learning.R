@@ -15,13 +15,13 @@ library(xgboost)
 
 PSDS_PATH <- file.path(dirname(dirname(getwd())))
 
-loan200 <- read.csv(file.path(PSDS_PATH, 'data', 'loan200.csv'))
+loan200 <- read.csv(file.path(PSDS_PATH, 'data', 'loan200.csv'), stringsAsFactors=TRUE)
 loan200$outcome <- ordered(loan200$outcome, levels=c('paid off', 'default'))
 
-loan3000 <- read.csv(file.path(PSDS_PATH, 'data', 'loan3000.csv'))
+loan3000 <- read.csv(file.path(PSDS_PATH, 'data', 'loan3000.csv'), stringsAsFactors=TRUE)
 loan3000$outcome <- ordered(loan3000$outcome, levels=c('paid off', 'default'))
 
-loan_data <- read.csv(file.path(PSDS_PATH, 'data', 'loan_data.csv.gz'))
+loan_data <- read.csv(file.path(PSDS_PATH, 'data', 'loan_data.csv.gz'), stringsAsFactors=TRUE)
 loan_data <- select(loan_data, -X, -status)
 loan_data$outcome <- ordered(loan_data$outcome, levels=c('paid off', 'default'))
 

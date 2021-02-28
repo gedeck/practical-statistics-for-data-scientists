@@ -57,9 +57,10 @@ X = pd.get_dummies(loan_data[predictors], prefix='', prefix_sep='')
 y = loan_data[outcome]
 
 naive_model = MultinomialNB(alpha=0.01, fit_prior=True)
+naive_model = MultinomialNB(alpha=0, fit_prior=False)
 naive_model.fit(X, y)
 
-new_loan = X.loc[146:146, :] 
+new_loan = X.loc[146:146, :]
 print('predicted class: ', naive_model.predict(new_loan)[0])
 
 probabilities = pd.DataFrame(naive_model.predict_proba(new_loan),
