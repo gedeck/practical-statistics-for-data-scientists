@@ -8,6 +8,10 @@ RUN_IMAGE=$(RUN) $(IMAGE)
 jupyter: docker/image.$(IMAGE)
 	@ $(RUN) -p 8893:8893 $(IMAGE) jupyter notebook --allow-root --port=8893
 
+bash:
+	@ $(RUN_IMAGE) bash
+
+
 # Docker container
 build: touch-docker docker/image.$(IMAGE)
 

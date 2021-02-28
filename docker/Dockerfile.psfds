@@ -29,6 +29,7 @@ RUN apt-get update && apt-get install -yq --no-install-recommends \
 # Create alternative for nano -> nano-tiny
 RUN update-alternatives --install /usr/bin/nano nano /bin/nano-tiny 10
 
-RUN pip install jupyter
+COPY ./environment.yml /tmp/environment.yml
+RUN conda env update -n base -f /tmp/environment.yml
 
 WORKDIR /code
