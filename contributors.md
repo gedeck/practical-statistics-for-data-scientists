@@ -12,3 +12,5 @@
   * Changed results after update R v3 to v4 (Issues #16)
 * jan-janssen  (https://github.com/jan-janssen, February 2021, Python):
   * Binder integration for Python (PR #17)
+* jcclark141152 (https://github.com/jcclark141152, April 2021, Python):
+  * Incorrect variable referenced (Issue #20)

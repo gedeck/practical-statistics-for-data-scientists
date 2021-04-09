@@ -232,7 +232,7 @@ print(f'Observed chi2: {chi2observed:.4f}')
 print(f'Resampled p-value: {resampled_p_value:.4f}')
 
 chisq, pvalue, df, expected = stats.chi2_contingency(clicks)
-print(f'Observed chi2: {chi2observed:.4f}')
+print(f'Observed chi2: {chisq:.4f}')
 print(f'p-value: {pvalue:.4f}')
 
 ### Figure chi-sq distribution
