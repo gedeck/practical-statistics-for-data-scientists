@@ -14,3 +14,5 @@
   * Binder integration for Python (PR #17)
 * jcclark141152 (https://github.com/jcclark141152, April 2021, Python):
   * Incorrect variable referenced (Issue #20)
+* Gabriel Simmonds (April 2021, R)
+  * Correct code for Figure 4.12 

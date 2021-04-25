@@ -156,8 +156,6 @@ lm(AdjSalePrice ~  SqFtTotLiving*ZipGroup + SqFtLot +
      BldgGrade + PropertyType,
    data=house, na.action=na.omit)
 
-head(model.matrix(~C(PropertyType, sum) , data=house))
-
 ## Testing the Assumptions: Regression Diagnostics
 ### Outliers
 
@@ -261,7 +259,7 @@ lm_spline <- lm(AdjSalePrice ~ bs(SqFtTotLiving, knots=knots, degree=3) +  SqFtL
 lm_spline
 
 terms1 <- predict(lm_spline, type='terms')
-partial_resid1 <- resid(lm_spline) + terms
+partial_resid1 <- resid(lm_spline) + terms1
 
 df1 <- data.frame(SqFtTotLiving = house_98105[, 'SqFtTotLiving'],
                  Terms = terms1[, 1],
