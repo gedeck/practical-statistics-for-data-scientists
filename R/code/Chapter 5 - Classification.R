@@ -264,7 +264,7 @@ mean(pred > 0)
 ### Data Generation
 # There are a variety of SMOTE implementation available in R. The package `unbalanced` provides SMOTE and other methods. Unfortunately, it's not working for your dataset. 
 # 
-# The SMOTE implementation in the package `DMwR` works
+# The SMOTE implementation in the package `DMwR` works. However `DMwR` is no longer supported.
 
 loan_data_samp <- sample_frac(full_train_set, .05)
 
@@ -276,12 +276,12 @@ loan_data_samp <- sample_frac(full_train_set, .05)
 # head(smote_data)
 
 # install.packages('DMwR')
-library(DMwR)
-smote_data <- SMOTE(outcome ~ ., loan_data_samp, 
-                    perc.over = 2000, perc.under=100)
-dim(loan_data_samp)
-dim(smote_data)
-head(smote_data)
+# library(DMwR)
+# smote_data <- SMOTE(outcome ~ ., loan_data_samp, 
+#                     perc.over = 2000, perc.under=100)
+# dim(loan_data_samp)
+# dim(smote_data)
+# head(smote_data)
 
 ### Exploring the Predictions
 
