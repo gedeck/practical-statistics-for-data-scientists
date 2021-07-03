@@ -34,6 +34,8 @@ Likely causes:
  Reason: no suitable image found.  
  Did find:\n\t/usr/local/opt/libomp/lib/libomp.dylib: mach-o, but wrong architecture\n\t/opt/homebrew/Cellar/libomp/12.0.0/lib/libomp.dylib: mach-o, but wrong architecture']
 ```
+I solved this problem by simply copying **libomp.a** and **libomp.dylib** from `/usr/local/Cellar/libomp/11.0.0/lib` on my Mac Intel Macbook Air, into `/opt/homebrew/Cellar/libomp/12.0.0/lib` on my Mac Arm M1 Macbook Pro. Now, Chapter 6, including all the `ch_6_*.py` files, run on the Arm M1 box. `brew install cmake` on the Intel Mac created these files originally.
+
 
 (On Mac 64-bit Intel processor)
 ```
