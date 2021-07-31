@@ -1,8 +1,8 @@
 ![Book cover](/images/cover-small.jpg)
 
 # Code repository
-<table>
- <tr>
+<table style='border:none'>
+ <tr style='border:none'>
   <td style='border:none'><img src='/images/OReilly-english.jpg' width=300></td>
   <td style='border:none'>
    <b>Practical Statistics for Data Scientists:</b>
