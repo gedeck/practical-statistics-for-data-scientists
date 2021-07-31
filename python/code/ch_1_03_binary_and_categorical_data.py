@@ -18,7 +18,7 @@ print("""  Exploring Binary and Categorical Data""")
 print()
 print( "  # Table 1-6" )
 print()
-print("  Pandas_ also supports bar charts for displaying a single categorical variable.")
+print("  Pandas also supports bar charts for displaying a single categorical variable.")
 
 print("""
 dfw = pd.read_csv('dfw_airline.csv')

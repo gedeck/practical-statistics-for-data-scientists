@@ -64,6 +64,7 @@ house_outlier = common.printx("house_outlier = ", "sm.OLS(house_98105[outcome], 
 
 print("""result_98105 = house_outlier.fit()""")
 result_98105 = house_outlier.fit()
+print()
 
 print( "  # The package statsmodel provides a number of plots to analyze the data point influence" )
 print("""

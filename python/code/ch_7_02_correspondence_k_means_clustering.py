@@ -114,14 +114,15 @@ print("""
 ## Hierarchical Clustering
 ### A Simple Example
 """)
-
+print("""syms1 = ['AAPL', 'AMZN', 'AXP', 'COP', 'COST', 'CSCO', 'CVX', 'GOOGL', 'HD',
+         'INTC', 'JPM', 'MSFT', 'SLB', 'TGT', 'USB', 'WFC', 'WMT', 'XOM']
+df = sp500_px.loc[sp500_px.index >= '2011-01-01', syms1].transpose()
+Z = linkage(df, method='complete')
+""")
 syms1 = ['AAPL', 'AMZN', 'AXP', 'COP', 'COST', 'CSCO', 'CVX', 'GOOGL', 'HD',
          'INTC', 'JPM', 'MSFT', 'SLB', 'TGT', 'USB', 'WFC', 'WMT', 'XOM']
 df = sp500_px.loc[sp500_px.index >= '2011-01-01', syms1].transpose()
-
 Z = linkage(df, method='complete')
-print("Z.shape")
+
+print("print(Z.shape)")
 print(Z.shape)
-
-
-# Next 190 dendrogram

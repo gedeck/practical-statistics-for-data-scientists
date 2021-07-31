@@ -126,8 +126,10 @@ print('penalty: ', np.mean(error_penalty))
 print()
 
 results = []
+print("# for ntree_limit in range(1, 250): # causes 250 deprecation warnings")
+print("for ntree_limit in range(1, 10):")
 # for ntree_limit in range(1, 250): # causes 250 deprecation warnings
-for ntree_limit in range(1, 2):
+for ntree_limit in range(1, 10):
     train_default = xgb_default.predict_proba(train_X, ntree_limit=ntree_limit)[:, 1]
     train_penalty = xgb_penalty.predict_proba(train_X, ntree_limit=ntree_limit)[:, 1]
     pred_default = xgb_default.predict_proba(valid_X, ntree_limit=ntree_limit)[:, 1]

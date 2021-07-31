@@ -17,6 +17,15 @@ Then run the Python files from the command line, e.g.:
 At the top of the ch_*.py files is `#!/usr/local/bin/python`.
 This should point to Python 3.
 
+#### Chapter 3:
+`# python Chapter\ 3\ -\ Statistial\ Experiments\ and\ Significance\ Testing.py`
+Line 77
+`print(np.mean(perm_diffs > mean_b - mean_a))`
+
+should be
+
+`print(np.mean(perm_diffs) > mean_b - mean_a)`
+
 #### Chapter 6:
 (On Mac M1 Arm processor)
 ```
@@ -66,4 +75,8 @@ Traceback (most recent call last):
     if val is not None and len(data) != len(val):
 TypeError: object of type 'float' has no len()
 ```
-See comment on line 31 of `ch_7_04_model_based_clustering_mixtures_of_normals_selecting_the_number_of_clusters.py`
+See comment on line 32 of `ch_7_04_model_based_clustering_mixtures_of_normals_selecting_the_number_of_clusters.py`
+
+
+Finally, a pedantic correction in the book.
+First edition, page 194. "For each additional year that the worker is exposed to cotton dust the worker's PEFR measurement is reduced by -4.185." No, it's reduced by +4.185.

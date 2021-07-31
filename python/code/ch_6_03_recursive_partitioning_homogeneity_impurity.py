@@ -78,6 +78,7 @@ plt.tight_layout()
 print("plt.show()")
 plt.show()
 
+print()
 print("  ### Measuring Homogeneity or Impurity")
 print()
 

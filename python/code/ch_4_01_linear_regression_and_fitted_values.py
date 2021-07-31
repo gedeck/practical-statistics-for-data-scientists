@@ -23,18 +23,18 @@ import common
 
 print( "  ## Simple Linear Regression" )
 print( "  ### The Regression Equation" )
-print("")
+print( "  ### Lung Disease" )
+print()
 print("lung = pd.read_csv('LungDisease.csv')")
 lung = pd.read_csv(common.LUNG_CSV)
 print("""lung.plot.scatter(x='Exposure', y='PEFR')
-plt.tight_layout()
 plt.show()
 """)
 lung.plot.scatter(x='Exposure', y='PEFR')
 plt.tight_layout()
 plt.show()
 
-print( "  # We can use the 'LinearRegression' model from _scikit-learn_." )
+print( "  # We can use the 'LinearRegression' model from scikit-learn" )
 print("""
 predictors = ['Exposure']
 outcome = 'PEFR'
@@ -61,8 +61,7 @@ y = model.predict(x)
 ax.plot((7.5, 7.5, 17.5), (y[0], y[1], y[1]), '--')
 ax.text(5, np.mean(y), r'$\Delta Y$', size='larger')
 ax.text(12, y[1] - 10, r'$\Delta X$', size='larger')
-ax.text(12, 390, r'$b_1 = \frac{\Delta Y}{\Delta X}$', size='larger')
-plt.tight_layout()
+ax.text(12, 390, r'$b_1 = \\frac{\Delta Y}{\Delta X}$', size='larger')
 plt.show()""")
 ax.set_xlim(0, 23)
 ax.set_ylim(295, 450)
@@ -78,11 +77,11 @@ ax.text(12, y[1] - 10, r'$\Delta X$', size='larger')
 ax.text(12, 390, r'$b_1 = \frac{\Delta Y}{\Delta X}$', size='larger')
 plt.tight_layout()
 plt.show()
-print("")
+print()
 
 print( "  ### Fitted Values and Residuals" )
 print( "  # The method 'predict' of a fitted scikit-learn model can be used to predict new data points." )
-print("")
+print()
 
 print("""fitted = model.predict(lung[predictors])
 residuals = lung[outcome] - fitted
@@ -90,7 +89,6 @@ ax = lung.plot.scatter(x='Exposure', y='PEFR', figsize=(4, 4))
 ax.plot(lung.Exposure, fitted)
 for x, yactual, yfitted in zip(lung.Exposure, lung.PEFR, fitted):
     ax.plot((x, x), (yactual, yfitted), '--', color='C1')
-plt.tight_layout()
 plt.show()""")
 fitted = model.predict(lung[predictors])
 residuals = lung[outcome] - fitted
@@ -100,10 +98,12 @@ for x, yactual, yfitted in zip(lung.Exposure, lung.PEFR, fitted):
     ax.plot((x, x), (yactual, yfitted), '--', color='C1')
 plt.tight_layout()
 plt.show()
-print("")
+print()
 
 print( "  ## Multiple linear regression" )
-print("""subset = ['AdjSalePrice', 'SqFtTotLiving', 'SqFtLot', 'Bathrooms',
+print("""  ### House sales
+
+subset = ['AdjSalePrice', 'SqFtTotLiving', 'SqFtLot', 'Bathrooms',
           'Bedrooms', 'BldgGrade']""")
 subset = ['AdjSalePrice', 'SqFtTotLiving', 'SqFtLot', 'Bathrooms',
           'Bedrooms', 'BldgGrade']
@@ -131,3 +131,24 @@ print(f'Intercept: {house_lm.intercept_:.3f}')
 print('Coefficients:')
 for name, coef in zip(predictors, house_lm.coef_):
     print(f' {name}: {coef}')
+print()
+
+fitted = house_lm.predict(house[predictors])
+RMSE = np.sqrt(mean_squared_error(house[outcome], fitted))
+r2 = r2_score(house[outcome], fitted)
+print(f'RMSE: {RMSE:.0f}')
+print(f'r2: {r2:.4f}')
+
+print( """
+  # While scikit-learn provides a variety of different metrics,
+  # statsmodels provides a more in-depth analysis of the linear regression model.
+  # This package has two different ways of specifying the model, one that is similar to
+  # scikit-learn and one that allows specifying R-style formulas. Here we use the first approach.
+  # As statsmodels doesn't add an intercept automaticaly, we need to add a constant column with value
+  # 1 to the predictors. We can use the pandas method assign for this.
+""")
+model = sm.OLS(house[outcome], house[predictors].assign(const=1))
+results = model.fit()
+print("print(results.summary())")
+print(results.summary())
+print()

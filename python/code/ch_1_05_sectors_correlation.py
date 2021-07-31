@@ -14,13 +14,19 @@ import seaborn as sns
 import matplotlib.pylab as plt
 import common
 
+print("""
+sp500_sym = pd.read_csv('sp500_sectors.csv')
+sp500_px = pd.read_csv( 'sp500_data.csv.gz', index_col=0)""")
 sp500_sym = pd.read_csv(common.SP500_SECTORS_CSV)
-sp500_px = pd.read_csv(common.SP500_DATA_CSV, index_col=0)
+sp500_px = pd.read_csv( common.SP500_DATA_CSV, index_col=0)
 
+print()
 print( "  # Table 1-7" )
 print("""
   Determine telecommunications symbols
-telecomSymbols = sp500_sym[sp500_sym['sector'] == 'telecommunications_services']['symbol']""")
+
+telecomSymbols = sp500_sym[sp500_sym['sector'] == 'telecommunications_services']['symbol']
+""")
 telecomSymbols = sp500_sym[sp500_sym['sector'] == 'telecommunications_services']['symbol']
 
 print("  Filter data for dates July 2012 through June 2015")
@@ -30,6 +36,7 @@ print("""telecom.corr()
 print(telecom)""")
 telecom.corr()
 print(telecom)
+print()
 
 print("  Next we focus on funds traded on major exchanges (sector == 'etf').")
 
@@ -42,7 +49,8 @@ print(etfs.head())
 print("""
   Due to the large number of columns in this table, looking at the correlation matrix
   is cumbersome and it's more convenient to plot the correlation as a heatmap.
-  The seaborn package provides a convenient implementation for heatmaps.""")
+  The seaborn package provides a convenient implementation for heatmaps.
+""")
 
 print("fig, ax = plt.subplots(figsize=(5, 4))")
 fig, ax = plt.subplots(figsize=(5, 4))

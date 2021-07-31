@@ -44,7 +44,8 @@ y = loan3000[outcome]
 loan_tree = DecisionTreeClassifier(random_state=1, criterion='entropy',
                                    min_impurity_decrease=0.003)
 loan_tree.fit(X, y)
-plotDecisionTree(loan_tree, feature_names=predictors, class_names=loan_tree.classes_)
+# The following line has no effect
+# plotDecisionTree(loan_tree, feature_names=predictors, class_names=loan_tree.classes_)
 print(textDecisionTree(loan_tree))""")
 predictors = ['borrower_score', 'payment_inc_ratio']
 outcome = 'outcome'
@@ -53,5 +54,6 @@ y = loan3000[outcome]
 loan_tree = DecisionTreeClassifier(random_state=1, criterion='entropy',
                                    min_impurity_decrease=0.003)
 loan_tree.fit(X, y)
-plotDecisionTree(loan_tree, feature_names=predictors, class_names=loan_tree.classes_)
+# The following line has no effect
+# plotDecisionTree(loan_tree, feature_names=predictors, class_names=loan_tree.classes_)
 print(textDecisionTree(loan_tree))

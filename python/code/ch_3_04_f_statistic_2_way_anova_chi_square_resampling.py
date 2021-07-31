@@ -57,14 +57,19 @@ res = common.printx("res = ", """stats.f_oneway(four_sessions[four_sessions.Page
                      {'stats': stats, 'four_sessions': four_sessions} )
 print(f'F-Statistic: {res.statistic / 2:.4f}')
 print(f'p-value: {res.pvalue / 2:.4f}')
+print()
 
 print( "  #### Two-way anova only available with statsmodels" )
+print()
 print( "formula = 'len ~ C(supp) + C(dose) + C(supp):C(dose)'" )
 print( "model = ols(formula, data).fit()" )
 print( "aov_table = anova_lm(model, typ=2)" )
+print()
+
 print( "  ## Chi-Square Test" )
 print( "  ### Chi-Square Test: A Resampling Approach" )
 print( "  # Table 3-4" )
+print()
 
 print("click_rate = pd.read_csv('click_rates.csv')")
 click_rate = pd.read_csv(common.CLICK_RATE_CSV)
@@ -72,14 +77,17 @@ clicks = common.printx("clicks = ", "click_rate.pivot(index='Click', columns='He
                                     {'click_rate': click_rate} )
 print("print(clicks)")
 print(clicks)
+print()
 
 print( "  # Table 3-5" )
+print()
 print("""row_average = clicks.mean(axis=1)
 pd.DataFrame({
     'Headline A': row_average,
     'Headline B': row_average,
     'Headline C': row_average,
-})""")
+})
+""")
 row_average = clicks.mean(axis=1)
 pd.DataFrame({
     'Headline A': row_average,
@@ -88,10 +96,23 @@ pd.DataFrame({
 })
 
 print( "  # Resampling approach" )
+print()
 box = [1] * 34
 box.extend([0] * 2966)
 random.shuffle(box)
 
+print("""def chi2(observed, expected):
+    pearson_residuals = []
+    for row, expect in zip(observed, expected):
+        pearson_residuals.append([(observe - expect) ** 2 / expect
+                                  for observe in row])
+    # return sum of squares
+    return np.sum(pearson_residuals)
+
+expected_clicks = 34 / 3
+expected_noclicks = 1000 - expected_clicks
+expected = [34 / 3, 1000 - 34 / 3]
+chi2observed = chi2(clicks.values, expected)""")
 def chi2(observed, expected):
     pearson_residuals = []
     for row, expect in zip(observed, expected):
@@ -105,6 +126,17 @@ expected_noclicks = 1000 - expected_clicks
 expected = [34 / 3, 1000 - 34 / 3]
 chi2observed = chi2(clicks.values, expected)
 
+print("""
+def perm_fun(box):
+    sample_clicks = [sum(random.sample(box, 1000)),
+                     sum(random.sample(box, 1000)),
+                     sum(random.sample(box, 1000))]
+    sample_noclicks = [1000 - n for n in sample_clicks]
+    return chi2([sample_clicks, sample_noclicks], expected)
+
+perm_chi2 = [perm_fun(box) for _ in range(2000)]
+
+resampled_p_value = sum(perm_chi2 > chi2observed) / len(perm_chi2)""")
 def perm_fun(box):
     sample_clicks = [sum(random.sample(box, 1000)),
                      sum(random.sample(box, 1000)),
@@ -117,15 +149,16 @@ perm_chi2 = [perm_fun(box) for _ in range(2000)]
 resampled_p_value = sum(perm_chi2 > chi2observed) / len(perm_chi2)
 print(f'Observed chi2: {chi2observed:.4f}')
 print(f'Resampled p-value: {resampled_p_value:.4f}')
+print()
 
 chisq, pvalue, df, expected = stats.chi2_contingency(clicks)
 print(f'Observed chi2: {chisq:.4f}')
 print(f'p-value: {pvalue:.4f}')
+print()
 
 print( "  ### Figure chi-sq distribution" )
-
+print()
 x = [1 + i * (30 - 1) / 99 for i in range(100)]
-
 chi = pd.DataFrame({
     'x': x,
     'chi_1': stats.chi2.pdf(x, df=1),

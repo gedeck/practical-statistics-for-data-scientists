@@ -16,7 +16,7 @@ import common
 
 print("""  Density Estimates
   Density is an alternative to histograms that can provide more insight into the distribution of the data points.
-  Use the argument `bw_method` to control the smoothness of the density curve (bw_method = 0.3).
+  Use the argument bw_method to control the smoothness of the density curve (bw_method = 0.3).
 """)
 print("state = pd.read_csv('state.csv')")
 state = pd.read_csv(common.STATE_CSV)

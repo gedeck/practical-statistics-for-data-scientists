@@ -30,6 +30,20 @@ loan_data = pd.read_csv(common.LOAN_DATA_CSV)
 print("sp500_px = pd.read_csv('sp500_data.csv.gz', index_col=0)")
 sp500_px = pd.read_csv(common.SP500_DATA_CSV, index_col=0)
 print()
+print("""loan_data['outcome'] = pd.Categorical(loan_data['outcome'],
+                                      categories=['paid off', 'default'],
+                                      ordered=True)
+defaults = loan_data.loc[loan_data['outcome'] == 'default',]
+
+columns = ['loan_amnt', 'annual_inc', 'revol_bal', 'open_acc',
+           'dti', 'revol_util']
+
+df = defaults[columns]
+kmeans = KMeans(n_clusters=4, random_state=1).fit(df)
+counts = Counter(kmeans.labels_)
+
+centers = pd.DataFrame(kmeans.cluster_centers_, columns=columns)
+centers['size'] = [counts[i] for i in range(4)]""")
 loan_data['outcome'] = pd.Categorical(loan_data['outcome'],
                                       categories=['paid off', 'default'],
                                       ordered=True)
@@ -61,6 +75,16 @@ print(centers)
 print()
 
 print("  ### Dominant Variables")
+print("""
+syms = ['GOOGL', 'AMZN', 'AAPL', 'MSFT', 'CSCO', 'INTC', 'CVX', 'XOM',
+        'SLB', 'COP', 'JPM', 'WFC', 'USB', 'AXP', 'WMT', 'TGT', 'HD', 'COST']
+top_sp1 = sp500_px.loc[sp500_px.index >= '2005-01-01', syms]
+
+sp_pca1 = PCA()
+sp_pca1.fit(top_sp1)
+explained_variance = pd.DataFrame(sp_pca1.explained_variance_)
+ax = explained_variance.head(10).plot.bar(legend=False, figsize=(4, 4))
+ax.set_xlabel('Component')""")
 syms = ['GOOGL', 'AMZN', 'AAPL', 'MSFT', 'CSCO', 'INTC', 'CVX', 'XOM',
         'SLB', 'COP', 'JPM', 'WFC', 'USB', 'AXP', 'WMT', 'TGT', 'HD', 'COST']
 top_sp1 = sp500_px.loc[sp500_px.index >= '2005-01-01', syms]
@@ -75,6 +99,7 @@ plt.tight_layout()
 print("plt.show()")
 plt.show()
 print()
+
 print("""loadings = pd.DataFrame(sp_pca1.components_[0:2, :],
                         columns=top_sp1.columns)
 print(loadings.transpose())""")
@@ -82,12 +107,14 @@ loadings = pd.DataFrame(sp_pca1.components_[0:2, :],
                         columns=top_sp1.columns)
 print(loadings.transpose())
 
-print("""  ### Categorical Data and Gower's Distance
+print("""
+  ### Categorical Data and Gower's Distance
   # Currently not available in any of the standard packages.
   # However work is in progress to add it to scikit-learn. We will update this notebook once it becomes available
-  #
   # https://github.com/scikit-learn/scikit-learn/pull/9555/
 """)
+print("""x = defaults[['dti', 'payment_inc_ratio', 'home_', 'purpose_']].loc[0:4, :]
+print(x)""")
 x = defaults[['dti', 'payment_inc_ratio', 'home_', 'purpose_']].loc[0:4, :]
 print(x)
 
@@ -125,7 +152,8 @@ print(x)
 # round(scale(centers0, center=-attr(df0, 'scaled:center'), scale=FALSE), 2)
 # ```
 
-print("""  ### Problems with Clustering Mixed Data
+print("""
+  ### Problems with Clustering Mixed Data
 """)
 print("""columns = ['dti', 'payment_inc_ratio', 'home_', 'pub_rec_zero']
 df = pd.get_dummies(defaults[columns])

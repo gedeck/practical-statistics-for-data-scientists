@@ -39,6 +39,7 @@ ax.axhline(0, color='grey', lw=1)
 ax.axvline(0, color='grey', lw=1)
 
 plt.tight_layout()
+print("plt.show()")
 plt.show()
 
 ax = telecom.plot.scatter(x='T', y='VZ', figsize=(4, 4), marker='$\u25EF$', alpha=0.5)
@@ -59,14 +60,14 @@ kc_tax0 = common.printx( "kc_tax0 = ", """kc_tax.loc[(kc_tax.TaxAssessedValue < 
 print("print(kc_tax0.shape)")
 print(kc_tax0.shape)
 
-print("""  Hexagonal binning and Contours
+print("""
+  Hexagonal binning and Contours
   Plotting numeric versus numeric data
   If the number of data points gets large, scatter plots will no longer
   be meaningful. Here methods that visualize densities are more useful.
   The hexbin method for pandas data frames is one powerful approach.
 
-  These graphs are very slow to draw.
-  """)
+  These graphs are very slow to draw.""")
 
 ax = common.printx( "ax = ", """kc_tax0.plot.hexbin(x='SqFtTotLiving', y='TaxAssessedValue',
                          gridsize=30, sharex=False, figsize=(5, 4))""", {'kc_tax0': kc_tax0} )
@@ -76,9 +77,12 @@ print("ax.set_ylabel('Tax Assessed Value')")
 ax.set_ylabel('Tax Assessed Value')
 
 plt.tight_layout()
+print("plt.show()")
 plt.show()
 
-print("""  The seaborn kdeplot is a two-dimensional extension of the density plot.""")
+print("""
+  The seaborn kdeplot is a two-dimensional extension of the density plot.
+""")
 
 print("""fig, ax = plt.subplots(figsize=(4, 4))
 sns.kdeplot(data=kc_tax0, x='SqFtTotLiving', y='TaxAssessedValue', ax=ax)

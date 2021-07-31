@@ -47,7 +47,27 @@ fig, axes = plt.subplots(nrows=2, ncols=2, figsize=(5, 5))
 ## Model based clustering
 ### Multivariate Normal Distribution
 # > Define a colormap that corresponds to the probability levels
+print("""mean = [0.5, -0.5]
+cov = [[1, 1], [1, 2]]
+probability = [.5, .75, .95, .99]
+def probLevel(p):
+    D = 1
+    return (1 - p) / (2 * math.pi * D)
+levels = [probLevel(p) for p in probability]
 
+fig, ax = plt.subplots(figsize=(5, 5))
+
+x, y = np.mgrid[-2.8:3.8:.01, -5:4:.01]
+pos = np.empty(x.shape + (2,))
+pos[:, :, 0] = x; pos[:, :, 1] = y
+rv = multivariate_normal(mean, cov)
+
+CS = ax.contourf(x, y, rv.pdf(pos), cmap=cm.GnBu, levels=50)
+ax.contour(CS, levels=levels, colors=['black'])
+ax.plot(*mean, color='black', marker='o')
+
+# Note that this produces two graphs
+plt.show()""")
 mean = [0.5, -0.5]
 cov = [[1, 1], [1, 2]]
 probability = [.5, .75, .95, .99]
@@ -68,10 +88,15 @@ ax.contour(CS, levels=levels, colors=['black'])
 ax.plot(*mean, color='black', marker='o')
 
 plt.tight_layout()
+# Note that this produces two graphs
 plt.show()
 
+print()
 print("  ### Mixtures of Normals")
-
+print("""
+df = sp500_px.loc[sp500_px.index >= '2011-01-01', ['XOM', 'CVX']]
+mclust = GaussianMixture(n_components=2).fit(df)
+print(mclust.bic(df))""")
 df = sp500_px.loc[sp500_px.index >= '2011-01-01', ['XOM', 'CVX']]
 mclust = GaussianMixture(n_components=2).fit(df)
 print(mclust.bic(df))
@@ -83,6 +108,7 @@ ax.set_xlim(-3, 3)
 ax.set_ylim(-3, 3)
 
 plt.tight_layout()
+print("plt.show()")
 plt.show()
 
 print('Mean')
@@ -91,8 +117,7 @@ print('Covariances')
 print(mclust.covariances_)
 print()
 
-print("""  ### Selecting the number of clusters
-""")
+print("""  ### Selecting the number of clusters""")
 results = []
 covariance_types = ['full', 'tied', 'diag', 'spherical']
 for n_components in range(1, 9):
@@ -110,7 +135,12 @@ results = pd.DataFrame(results)
 
 colors = ['C0', 'C1', 'C2', 'C3']
 styles = ['C0-','C1:','C0-.', 'C1--']
-
+print("""
+fig, ax = plt.subplots(figsize=(4, 4))
+for i, covariance_type in enumerate(covariance_types):
+    subset = results.loc[results.covariance_type == covariance_type, :]
+    subset.plot(x='n_components', y='bic', ax=ax, label=covariance_type,
+                kind='line', style=styles[i]) # , color=colors[i])""")
 fig, ax = plt.subplots(figsize=(4, 4))
 for i, covariance_type in enumerate(covariance_types):
     subset = results.loc[results.covariance_type == covariance_type, :]
@@ -120,7 +150,3 @@ for i, covariance_type in enumerate(covariance_types):
 plt.tight_layout()
 print("plt.show()")
 plt.show()
-
-
-
-# Next 300 scaling and categorical

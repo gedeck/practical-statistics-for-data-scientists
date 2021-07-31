@@ -44,29 +44,49 @@ newloan = loan200.loc[0:0, predictors]
 X = loan200.loc[1:, predictors]
 y = loan200.loc[1:, outcome]
 
+print("""knn = KNeighborsClassifier(n_neighbors=20)
+knn.fit(X, y)
+knn.predict(newloan)
+prob = knn.predict_proba( newloan )
+one = prob[0][0]
+two = prob[0][1]
+print("newloan is ", newloan)
+print("Probability of payment of new loan ", one )
+print("Probability of default of new loan ", two )""")
 knn = KNeighborsClassifier(n_neighbors=20)
 knn.fit(X, y)
 knn.predict(newloan)
-print(knn.predict_proba(newloan))
+prob = knn.predict_proba( newloan )
+one = prob[0][0]
+two = prob[0][1]
+print("newloan is ", newloan)
+print("Probability of payment of new loan ", one )
+print("Probability of default of new loan ", two )
+if( one > two ):
+  print("The new loan will probably be paid")
+else:
+  print("The new loan will probably not be paid")
 
-nbrs = knn.kneighbors(newloan)
+nbrs = knn.kneighbors(newloan) # ♬ Neighbors... everybody needs good neighbors... ♪♪♪
 maxDistance = np.max(nbrs[0][0])
-
 fig, ax = plt.subplots(figsize=(4, 4))
-sns.scatterplot(x='payment_inc_ratio', y='dti', style='outcome',
-                hue='outcome', data=loan200, alpha=0.3, ax=ax)
-sns.scatterplot(x='payment_inc_ratio', y='dti', style='outcome',
+common.printx("", """sns.scatterplot(x='payment_inc_ratio', y='dti', style='outcome',
+                hue='outcome', data=loan200, alpha=0.3, ax=ax)""",
+                {'sns':sns, 'loan200':loan200, 'pd':pd, 'ax':ax, 'nbrs':nbrs} )
+common.printx("", """sns.scatterplot(x='payment_inc_ratio', y='dti', style='outcome',
                 hue='outcome',
                 data=pd.concat([loan200.loc[0:0, :], loan200.loc[nbrs[1][0] + 1,:]]),
-                ax=ax, legend=False)
-ellipse = Ellipse(xy=newloan.values[0],
+                ax=ax, legend=False)""",
+                {'sns':sns, 'loan200':loan200, 'pd':pd, 'ax':ax, 'nbrs':nbrs} )
+ellipse = common.printx("ellipse = ", """Ellipse(xy=newloan.values[0],
                   width=2 * maxDistance, height=2 * maxDistance,
-                  edgecolor='black', fc='None', lw=1)
+                  edgecolor='black', fc='None', lw=1)""",
+                  {'newloan':newloan, 'Ellipse':Ellipse, 'maxDistance':maxDistance} )
 ax.add_patch(ellipse)
 ax.set_xlim(3, 16)
 ax.set_ylim(15, 30)
-
 plt.tight_layout()
+print("plt.show()")
 plt.show()
 print()
 
@@ -81,10 +101,14 @@ loan_data['outcome'] = pd.Categorical(loan_data['outcome'],
 predictors = ['payment_inc_ratio', 'dti', 'revol_bal', 'revol_util']
 outcome = 'outcome'
 newloan = loan_data.loc[0:0, predictors]
-print(newloan)
+print("newloan ", newloan)
 X = loan_data.loc[1:, predictors]
 y = loan_data.loc[1:, outcome]
 
+print("""knn = KNeighborsClassifier(n_neighbors=5)
+knn.fit(X, y)
+nbrs = knn.kneighbors(newloan)
+print(X.iloc[nbrs[1][0], :])""")
 knn = KNeighborsClassifier(n_neighbors=5)
 knn.fit(X, y)
 nbrs = knn.kneighbors(newloan)
@@ -96,13 +120,21 @@ y = loan_data.loc[1:, outcome]
 
 scaler = preprocessing.StandardScaler()
 scaler.fit(X * 1.0)
-
 X_std = scaler.transform(X * 1.0)
 newloan_std = scaler.transform(newloan * 1.0)
+print("""
+  # The same, but with standardized values
 
+scaler = preprocessing.StandardScaler()
+scaler.fit(X * 1.0)
+X_std = scaler.transform(X * 1.0)
+newloan_std = scaler.transform(newloan * 1.0)
 knn = KNeighborsClassifier(n_neighbors=5)
 knn.fit(X_std, y)
-
+nbrs = knn.kneighbors(newloan_std)
+print(X.iloc[nbrs[1][0], :])""")
+knn = KNeighborsClassifier(n_neighbors=5)
+knn.fit(X_std, y)
 nbrs = knn.kneighbors(newloan_std)
 print(X.iloc[nbrs[1][0], :])
 print()
@@ -115,7 +147,6 @@ loan_data = loan_data.drop(columns=['Unnamed: 0', 'status'])
 loan_data['outcome'] = pd.Categorical(loan_data['outcome'],
                                       categories=['paid off', 'default'],
                                       ordered=True)
-
 predictors = ['dti', 'revol_bal', 'revol_util', 'open_acc',
               'delinq_2yrs_zero', 'pub_rec_zero']
 outcome = 'outcome'
@@ -123,11 +154,24 @@ outcome = 'outcome'
 X = loan_data[predictors]
 y = loan_data[outcome]
 
+print("""knn = KNeighborsClassifier(n_neighbors=20)
+knn.fit(X, y)
+plt.scatter(range(len(X)), [bs + random.gauss(0, 0.015) for bs in knn.predict_proba(X)[:,0]],
+            alpha=0.1, marker='.')
+knn.predict_proba(X)[:, 0]""")
 knn = KNeighborsClassifier(n_neighbors=20)
 knn.fit(X, y)
 plt.scatter(range(len(X)), [bs + random.gauss(0, 0.015) for bs in knn.predict_proba(X)[:,0]],
             alpha=0.1, marker='.')
 knn.predict_proba(X)[:, 0]
+plt.tight_layout()
+print("plt.show()")
+plt.show()
 
+print("""
+  # The likelihood a borrower will default based on his credit history
+
+loan_data['borrower_score'] = knn.predict_proba(X)[:, 0]
+print(loan_data['borrower_score'].describe())""")
 loan_data['borrower_score'] = knn.predict_proba(X)[:, 0]
 print(loan_data['borrower_score'].describe())

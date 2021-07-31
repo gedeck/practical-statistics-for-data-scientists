@@ -33,8 +33,7 @@ ax.hist(xsample, bins=30)
 ax.set_axis_off()
 ax.set_xlim(-3, 3)
 ax.set_position
-plt.show()
-""")
+plt.show()""")
 ax = axes[0]
 ax.fill(x, stats.norm.pdf(x))
 ax.set_axis_off()

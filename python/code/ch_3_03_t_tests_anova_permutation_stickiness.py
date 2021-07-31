@@ -21,18 +21,18 @@ session_times.Time = 100 * session_times.Time""")
 session_times = pd.read_csv(common.WEB_PAGE_DATA_CSV)
 session_times.Time = 100 * session_times.Time
 
-print( "  ## t-Tests" )
-
-res = stats.ttest_ind(session_times[session_times.Page == 'Page A'].Time,
+res = common.printx("""  ## t-Tests
+res = """, """stats.ttest_ind(session_times[session_times.Page == 'Page A'].Time,
                       session_times[session_times.Page == 'Page B'].Time,
-                      equal_var=False)
+                      equal_var=False)""", {'stats':stats, 'session_times':session_times} )
 print(f'p-value for single sided test: {res.pvalue / 2:.4f}')
 
-tstat, pvalue, df = sm.stats.ttest_ind(
+tstat, pvalue, df = common.printx("tstat, pvalue, df = ", """sm.stats.ttest_ind(
     session_times[session_times.Page == 'Page A'].Time,
     session_times[session_times.Page == 'Page B'].Time,
-    usevar='unequal', alternative='smaller')
+    usevar='unequal', alternative='smaller')""", {'sm':sm, 'session_times':session_times} )
 print(f'p-value: {pvalue:.4f}')
+print()
 
 print( "  ## ANOVA" )
 print("four_sessions = pd.read_csv('four_sessions.csv')")
@@ -51,10 +51,13 @@ plt.show()
 
 print("print(pd.read_csv('four_sessions.csv').head())")
 print(pd.read_csv(common.FOUR_SESSIONS_CSV).head())
+print()
 
 observed_variance = four_sessions.groupby('Page').mean().var()[0]
 print('Observed means:', four_sessions.groupby('Page').mean().values.ravel())
 print('Variance:', observed_variance)
+print()
+
 print( "  # Permutation test example with stickiness" )
 def perm_test(df):
     df = df.copy()
@@ -79,19 +82,3 @@ ax.set_ylabel('Frequency')
 plt.tight_layout()
 print("plt.show()")
 plt.show()
-
-print( "  ### F-Statistic" )
-print( "  # We can compute an ANOVA table using statsmodel." )
-print( """
-model = smf.ols('Time ~ Page', data=four_sessions).fit()
-aov_table = sm.stats.anova_lm(model)""")
-model = smf.ols('Time ~ Page', data=four_sessions).fit()
-aov_table = sm.stats.anova_lm(model)
-print(aov_table)
-
-res = stats.f_oneway(four_sessions[four_sessions.Page == 'Page 1'].Time,
-                     four_sessions[four_sessions.Page == 'Page 2'].Time,
-                     four_sessions[four_sessions.Page == 'Page 3'].Time,
-                     four_sessions[four_sessions.Page == 'Page 4'].Time)
-print(f'F-Statistic: {res.statistic / 2:.4f}')
-print(f'p-value: {res.pvalue / 2:.4f}')

@@ -25,8 +25,7 @@ print("""
   actually represents:
      The probability that, given a chance model, results as extreme as the observed results could occur.
 """)
-print("""
-session_times = pd.read_csv( 'web_page_data.csv' )
+print("""session_times = pd.read_csv( 'web_page_data.csv' )
 session_times.Time = 100 * session_times.Time""")
 session_times = pd.read_csv(common.WEB_PAGE_DATA_CSV)
 session_times.Time = 100 * session_times.Time
@@ -50,12 +49,16 @@ def perm_fun(x, nA, nB):
 random.seed(1)
 obs_pct_diff = 100 * (200 / 23739 - 182 / 22588)
 print(f'Observed difference: {obs_pct_diff:.4f}%')
+print("""
+conversion = [0] * 45945
+conversion.extend([1] * 382)
+conversion = pd.Series(conversion)""")
 conversion = [0] * 45945
 conversion.extend([1] * 382)
 conversion = pd.Series(conversion)
 
-perm_diffs = [100 * perm_fun(conversion, 23739, 22588)
-              for _ in range(1000)]
+perm_diffs = common.printx("perm_diffs = ", """[100 * perm_fun(conversion, 23739, 22588)
+              for _ in range(1000)]""", {'perm_fun':perm_fun, 'conversion':conversion} )
 
 fig, ax = plt.subplots(figsize=(5, 5))
 ax.hist(perm_diffs, bins=11, rwidth=0.9)
@@ -65,11 +68,13 @@ ax.set_xlabel('Conversion rate (percent)')
 ax.set_ylabel('Frequency')
 
 plt.tight_layout()
+print("plt.show()")
 plt.show()
 print()
 
 print( "  ### P-Value" )
-print( """  # If 'np.mean' is applied to a list of booleans, it gives the percentage of how often
+print( """
+  # If 'np.mean' is applied to a list of booleans, it gives the percentage of how often
   # True was found in the list (#True / #Total).""" )
 print()
 print("print(np.mean([diff > obs_pct_diff for diff in perm_diffs]))")

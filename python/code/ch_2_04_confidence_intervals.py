@@ -14,7 +14,7 @@ import matplotlib.pylab as plt
 import common
 
 print("  Confidence Intervals")
-print("")
+print()
 
 print("loans_income = pd.read_csv('loans_income.csv', squeeze=True)")
 loans_income = pd.read_csv(common.LOANS_INCOME_CSV, squeeze=True)
@@ -23,7 +23,7 @@ print(loans_income.mean())
 
 print("np.random.seed(seed=3)")
 np.random.seed(seed=3)
-print("")
+print()
 
 print( "  Create a sample of 20 loan income data")
 sample20 = common.printx("sample20 = ", "resample(loans_income, n_samples=20, replace=False)",
@@ -45,12 +45,16 @@ results = common.printx("results = ", "pd.Series(results)", {'pd': pd, 'results'
 confidence_interval = common.printx("confidence_interval = ", "list(results.quantile([0.05, 0.95]))",
                                                                           {'results': results} )
 ax = common.printx("ax = ", "results.plot.hist(bins=30, figsize=(4, 3))", {'results': results} )
+
+print("ax is a ", type(ax))
+
 print("""
 ax.plot(confidence_interval, [55, 55], color='black')
 for x in confidence_interval:
     ax.plot([x, x], [0, 65], color='black')
     ax.text(x, 70, f'{x:.0f}',
             horizontalalignment='center', verticalalignment='center')
+
 ax.text(sum(confidence_interval) / 2, 60, '90% interval',
         horizontalalignment='center', verticalalignment='center')""")
 ax.plot(confidence_interval, [55, 55], color='black')
@@ -58,6 +62,7 @@ for x in confidence_interval:
     ax.plot([x, x], [0, 65], color='black')
     ax.text(x, 70, f'{x:.0f}',
             horizontalalignment='center', verticalalignment='center')
+
 ax.text(sum(confidence_interval) / 2, 60, '90% interval',
         horizontalalignment='center', verticalalignment='center')
 
@@ -80,6 +85,7 @@ ax.set_ylim(0, 80)
 ax.set_ylabel('Counts')
 plt.tight_layout()
 plt.show()
+print()
 
 np.random.seed(seed=3)
 print("  Create a sample of 20 loan income data")

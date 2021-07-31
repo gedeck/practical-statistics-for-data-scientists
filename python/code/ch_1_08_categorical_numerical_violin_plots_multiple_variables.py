@@ -27,8 +27,10 @@ crosstab = common.printx( "crosstab = ", """lc_loans.pivot_table(index='grade', 
                                 aggfunc=lambda x: len(x), margins=True)""", {'lc_loans': lc_loans} )
 print("print(crosstab) ")
 print(crosstab)
+print()
 
 print( "  # Table 1-8(2)" )
+print()
 print("""df = crosstab.copy().loc['A':'G',:]
 df.loc[:,'Charged Off':'Late'] = df.loc[:,'Charged Off':'Late'].div(df['All'], axis=0)
 df['All'] = df['All'] / sum(df['All'])
@@ -40,7 +42,8 @@ df['All'] = df['All'] / sum(df['All'])
 perc_crosstab = df
 print(perc_crosstab)
 
-print("""  Categorical and Numeric Data
+print("""
+  Categorical and Numeric Data
   Pandas boxplots of a column can be grouped by a different column.""")
 
 airline_stats = pd.read_csv(common.AIRLINE_STATS_CSV)
@@ -58,7 +61,7 @@ plt.suptitle('')
 plt.tight_layout()
 plt.show()
 
-print("")
+print()
 print("Pandas also supports a variation of boxplots called violinplot.")
 
 fig, ax = common.printx( "fig, ax = ", "plt.subplots(figsize=(5, 5))", {'plt': plt} )
@@ -74,7 +77,8 @@ ax.set_ylabel('Daily % of Delayed Flights')
 plt.tight_layout()
 plt.show()
 
-print("""  Visualizing Multiple Variables
+print("""
+  Visualizing Multiple Variables
 """)
 print("kc_tax = pd.read_csv('kc_tax.csv.gz')")
 kc_tax = pd.read_csv(common.KC_TAX_CSV)

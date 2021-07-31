@@ -54,9 +54,12 @@ residuals = pd.DataFrame({
     'abs_residual_wt': np.abs(house_wt.predict(house[predictors]) - house[outcome]),
     'Year': house['Year'],
 })
+print("print(residuals.head())")
 print(residuals.head())
+print()
 print( "  # axes = residuals.boxplot(['abs_residual_lm', 'abs_residual_wt'], by='Year', figsize=(10, 4))" )
 print( "  # axes[0].set_ylim(0, 300000)" )
+print()
 
 pd.DataFrame(([year, np.mean(group['abs_residual_lm']), np.mean(group['abs_residual_wt'])]
               for year, group in residuals.groupby('Year')),
@@ -88,8 +91,10 @@ print('Coefficients:')
 for name, coef in zip(X.columns, house_lm_factor.coef_):
     print(f' {name}: {coef}')
 
+print()
 print( "  ### Factor Variables with many levels" )
 
+print("print(pd.DataFrame(house['ZipCode'].value_counts()).transpose())")
 print(pd.DataFrame(house['ZipCode'].value_counts()).transpose())
 
 predictors = ['SqFtTotLiving', 'SqFtLot', 'Bathrooms',
@@ -113,7 +118,9 @@ zip_groups = pd.DataFrame([
 ]).sort_values('median_residual')
 zip_groups['cum_count'] = np.cumsum(zip_groups['count'])
 zip_groups['ZipGroup'] = pd.qcut(zip_groups['cum_count'], 5, labels=False, retbins=False)
-zip_groups.head()
+print("print(zip_groups.head())")
+print(zip_groups.head())
+print("print(zip_groups.ZipGroup.value_counts().sort_index())")
 print(zip_groups.ZipGroup.value_counts().sort_index())
 
 to_join = zip_groups[['ZipCode', 'ZipGroup']].set_index('ZipCode')
@@ -133,12 +140,16 @@ def score_model(model, variables):
         return AIC_score(y, [y.mean()] * len(y), model, df=1)
     return AIC_score(y, model.predict(X[variables]), model)
 
+print()
 print( "  ## Interpreting the Regression Equation" )
 print( "  ### Correlated predictors" )
-
-print( "  # The results from the stepwise regression are." )
+print( "  # The results from the stepwise regression are..." )
+print("""
 best_model, best_variables = stepwise_selection(X.columns, train_model, score_model,
-                                                verbose=True)
+                                                verbose=True)""")
+
+best_model, best_variables = stepwise_selection(X.columns, train_model, score_model,
+                                                                                                verbose=True)
 print(f'Intercept: {best_model.intercept_:.3f}')
 print('Coefficients:')
 for name, coef in zip(best_variables, best_model.coef_):
@@ -156,5 +167,3 @@ print(f'Intercept: {reduced_lm.intercept_:.3f}')
 print('Coefficients:')
 for name, coef in zip(X.columns, reduced_lm.coef_):
     print(f' {name}: {coef}')
-
-    ### ### Confounding variables line 285 NEXT

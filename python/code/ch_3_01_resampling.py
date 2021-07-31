@@ -28,6 +28,7 @@ ax.set_xlabel('')
 ax.set_ylabel('Time (in seconds)')
 plt.suptitle('')
 plt.tight_layout()
+print("plt.show()")
 plt.show()
 
 print("""
@@ -38,7 +39,7 @@ mean_a = session_times[session_times.Page == 'Page A'].Time.mean()
 mean_b = session_times[session_times.Page == 'Page B'].Time.mean()
 print(mean_b - mean_a)
 
-print("")
+print()
 print( "  The following code is different to the R version. idx_A and idx_B are reversed." )
 print( "  Permutation test example with stickiness" )
 print("""
@@ -59,7 +60,7 @@ def perm_fun(x, nA, nB):
 
 nA = common.printx( "nA = ", "session_times[session_times.Page == 'Page A'].shape[0]", {'session_times': session_times} )
 nB = common.printx( "nB = ", "session_times[session_times.Page == 'Page B'].shape[0]", {'session_times': session_times} )
-print("")
+print()
 print("print(perm_fun(session_times.Time, nA, nB))")
 print(perm_fun(session_times.Time, nA, nB))
 
@@ -80,10 +81,14 @@ ax.set_ylabel('Frequency')
 plt.tight_layout()
 plt.show()
 
-    The following, from Chapter 3 - Statistial Experiments and Significance Testing.py, produces error
-    "TypeError: '>' not supported between instances of 'list' and 'float'"
-print(np.mean(perm_diffs > mean_b - mean_a))""")
-
+    The following, from Chapter 3 - Statistial Experiments and Significance Testing.py, produces error in Python 3.8.5:
+     Traceback (most recent call last):
+     File "Chapter 3 - Statistial Experiments and Significance Testing.py", line 77, in <module>
+       print(np.mean(perm_diffs > mean_b - mean_a))
+     TypeError: '>' not supported between instances of 'list' and 'float'
+    Maybe it should be
+       print(np.mean(perm_diffs) > mean_b - mean_a)
+     """)
 ax.hist(perm_diffs, bins=11, rwidth=0.9)
 ax.axvline(x = mean_b - mean_a, color='black', lw=2)
 ax.text(50, 190, 'Observed\ndifference', bbox={'facecolor':'white'})
@@ -91,4 +96,5 @@ ax.set_xlabel('Session time differences (in seconds)')
 ax.set_ylabel('Frequency')
 plt.tight_layout()
 plt.show()
-# print(np.mean(perm_diffs > mean_b - mean_a))
+
+print(np.mean(perm_diffs) > mean_b - mean_a)

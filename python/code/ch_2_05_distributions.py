@@ -32,8 +32,7 @@ plt.show()
 print()
 
 print( "  ## Long-Tailed Distributions" )
-print("""
-sp500_px = pd.read_csv('sp500_data.csv.gz')
+print("""sp500_px = pd.read_csv('sp500_data.csv.gz')
 nflx = sp500_px.NFLX
 nflx = np.diff(np.log(nflx[nflx>0]))
 fig, ax = plt.subplots(figsize=(4, 4))
@@ -54,6 +53,7 @@ print("""print(stats.binom.pmf(2, n=5, p=0.1))
 print(stats.binom.cdf(2, n=5, p=0.1))""" )
 print(stats.binom.pmf(2, n=5, p=0.1))
 print(stats.binom.cdf(2, n=5, p=0.1))
+print()
 
 print( "  ## Poisson and Related Distribution" )
 print( "  ### Poisson Distributions" )

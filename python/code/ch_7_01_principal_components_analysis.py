@@ -39,8 +39,13 @@ loadings = common.printx("loadings = ", "pd.DataFrame(pcs.components_, columns=o
                                        {'pd':pd, 'pcs':pcs, 'oil_px':oil_px} )
 print("print(loadings)")
 print(loadings)
-print()
 
+print("""
+def abline(slope, intercept, ax):
+    # Calculate coordinates of a line based on slope and intercept
+    x_vals = np.array(ax.get_xlim())
+    return (x_vals, intercept + slope * x_vals)
+""")
 def abline(slope, intercept, ax):
     """Calculate coordinates of a line based on slope and intercept"""
     x_vals = np.array(ax.get_xlim())
@@ -50,6 +55,11 @@ print("ax = oil_px.plot.scatter(x='XOM', y='CVX', alpha=0.3, figsize=(4, 4))")
 ax = oil_px.plot.scatter(x='XOM', y='CVX', alpha=0.3, figsize=(4, 4))
 ax.set_xlim(-3, 3)
 ax.set_ylim(-3, 3)
+print("""ax.plot(*abline(loadings.loc[0, 'CVX'] / loadings.loc[0, 'XOM'], 0, ax),
+        '--', color='C1')
+ax.plot(*abline(loadings.loc[1, 'CVX'] / loadings.loc[1, 'XOM'], 0, ax),
+        '--', color='C1')
+""")
 ax.plot(*abline(loadings.loc[0, 'CVX'] / loadings.loc[0, 'XOM'], 0, ax),
         '--', color='C1')
 ax.plot(*abline(loadings.loc[1, 'CVX'] / loadings.loc[1, 'XOM'], 0, ax),
@@ -62,6 +72,16 @@ print()
 
 print( "  ### Interpreting principal components" )
 print()
+print("""syms = sorted(['AAPL', 'MSFT', 'CSCO', 'INTC', 'CVX', 'XOM', 'SLB', 'COP',
+        'JPM', 'WFC', 'USB', 'AXP', 'WMT', 'TGT', 'HD', 'COST'])
+top_sp = sp500_px.loc[sp500_px.index >= '2011-01-01', syms]
+
+sp_pca = PCA()
+sp_pca.fit(top_sp)
+
+explained_variance = pd.DataFrame(sp_pca.explained_variance_)
+ax = explained_variance.head(10).plot.bar(legend=False, figsize=(4, 4))
+ax.set_xlabel('Component')""")
 syms = sorted(['AAPL', 'MSFT', 'CSCO', 'INTC', 'CVX', 'XOM', 'SLB', 'COP',
         'JPM', 'WFC', 'USB', 'AXP', 'WMT', 'TGT', 'HD', 'COST'])
 top_sp = sp500_px.loc[sp500_px.index >= '2011-01-01', syms]

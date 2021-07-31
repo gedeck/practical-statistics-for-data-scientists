@@ -20,7 +20,8 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
 from xgboost import XGBClassifier
 # You have to comment out the following line to enable matplotlib.pyplot to work
-# from dmba import plotDecisionTree, textDecisionTree
+# But this program hangs on plt.show() if you do that - graphical windows which you have to terminate manually
+from dmba import plotDecisionTree, textDecisionTree
 import seaborn as sns
 import matplotlib.pyplot as plt
 from matplotlib.patches import Ellipse
@@ -30,9 +31,10 @@ import common
 os.environ['KMP_DUPLICATE_LIB_OK'] = 'TRUE'
 
 print()
-
 print( "  ## Bagging and the Random Forest")
+print()
 print( "  ### Random Forest")
+print()
 
 print("loan3000 = pd.read_csv('loan3000.csv')")
 loan3000 = pd.read_csv(common.LOAN3000_CSV)
@@ -86,6 +88,7 @@ plt.tight_layout()
 print("plt.show()")
 plt.show()
 
+print()
 print("  ### Variable importance")
 print("  # This is different to R. The accuracy decrease is not available out of the box.")
 print()
@@ -136,6 +139,7 @@ df = pd.DataFrame({
     'Entropy decrease': rf_all_entropy.feature_importances_,
 })
 df = df.sort_values('Accuracy decrease')
+fig, axes = plt.subplots(ncols=2, figsize=(8, 5))
 
 fig, ax = common.printx("fig, ax = ", "plt.subplots(ncols=2, figsize=(8, 5))", {'plt':plt} )
 ax = df.plot(kind='barh', x='feature', y='Accuracy decrease',
@@ -150,6 +154,3 @@ ax.get_yaxis().set_visible(False)
 plt.tight_layout()
 print("plt.show()")
 plt.show()
-
-
-# Next 345 boosting

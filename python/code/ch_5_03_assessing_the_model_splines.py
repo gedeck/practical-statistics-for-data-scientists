@@ -95,8 +95,7 @@ def partialResidualPlot(model, df, outcome, feature, fig, ax):
     ax.plot(results.feature, results.ypartial, color='black')
     ax.set_xlabel(feature)
     ax.set_ylabel(f'Residual + {feature} contribution')
-    return ax
-""")
+    return ax""")
 from statsmodels.genmod.generalized_linear_model import GLMResults
 def partialResidualPlot(model, df, outcome, feature, fig, ax):
     y_actual = [0 if s == 'default' else 1 for s in df[outcome]]
@@ -137,6 +136,3 @@ ax.set_xlim(0, 25)
 ax.set_ylim(-2.5, 2.5)
 plt.tight_layout()
 plt.show()
-
-
-# Next 279 Confusion

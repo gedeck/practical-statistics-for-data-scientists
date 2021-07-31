@@ -50,7 +50,8 @@ plt.tight_layout()
 print("plt.show()")
 plt.show()
 
-print("""###  Logistic Regression and the GLM
+print("""
+  ###  Logistic Regression and the GLM
   # The package scikit-learn has a specialised class for 'LogisticRegression'.
   Statsmodels has a more general method based on generalized linear model (GLM).
 """)

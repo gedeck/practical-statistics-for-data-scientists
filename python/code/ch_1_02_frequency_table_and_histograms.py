@@ -13,20 +13,16 @@ import wquantiles
 import seaborn as sns
 import matplotlib.pylab as plt
 import common
-'airline_stats.csv'
+
 print("""  Put the US states into \"bins\" by population:
   Frequency Table and Histograms
   The `cut` method for pandas data splits the dataset into bins.
   There are a number of arguments for the method.
   The following code creates equal sized bins.
   The method `value_counts` returns a frequency table.
-
-state = pd.read_csv('airline_stats.csv')
-binnedPopulation = pd.cut(state['Population'], 10)
-print(binnedPopulation.value_counts())
 """)
 
-print("state = pd.read_csv(common.STATE_CSV)")
+print("state = pd.read_csv('state.csv')")
 state = pd.read_csv(common.STATE_CSV)
 print("""binnedPopulation = pd.cut(state['Population'], 10)
 print(binnedPopulation.value_counts())
@@ -34,14 +30,15 @@ print(binnedPopulation.value_counts())
 binnedPopulation = pd.cut(state['Population'], 10)
 print(binnedPopulation.value_counts())
 
+print()
 print( "  # Table 1.5" )
-print("")
+print()
 print("binnedPopulation.name = 'binnedPopulation'")
 binnedPopulation.name = 'binnedPopulation'
 df = common.printx( "df = ", "pd.concat([state, binnedPopulation], axis=1)", {'state': state, 'pd': pd, 'binnedPopulation': binnedPopulation})
 df = common.printx( "df = ", "df.sort_values(by='Population')", {'df': df})
 
-print("")
+print()
 print("groups = []")
 groups = []
 print("""
@@ -61,7 +58,7 @@ for group, subset in df.groupby(by='binnedPopulation'):
     })
 print(pd.DataFrame(groups))
 
-print("")
+print()
 print("Pandas also supports histograms for exploratory data analysis.")
 
 ax = common.printx( "ax = ", "(state['Population'] / 1_000_000).plot.hist(figsize=(4, 4))", {'state': state})
