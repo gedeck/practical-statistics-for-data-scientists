@@ -1,10 +1,10 @@
 ![Book cover](/images/cover-small.jpg)
 
 # Code repository
-<table style='border:none'>
- <tr style='border:none'>
-  <td style='border:none'><img src='/images/OReilly-english.jpg' width=300></td>
-  <td style='border:none'>
+<table width='100%'>
+ <tr>
+  <td><img src='/images/OReilly-english.jpg' width=300></td>
+  <td>
    <b>Practical Statistics for Data Scientists:</b>
 
 50+ Essential Concepts Using R and Python
