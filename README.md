@@ -55,3 +55,10 @@ conda env update -n sfds -f environment.yml
 - O'Reilly: https://oreil.ly/practicalStats_dataSci_2e
 - Errata: http://oreilly.com/catalog/errata.csp?isbn=9781492072942
 - The code repository for the first edition is at: https://github.com/andrewgbruce/statistics-for-data-scientists
+
+## Other language versions
+
+![Book cover](/images/OReilly-japanese.jpg)
+![Book cover](/images/OReilly-german.jpg)
+![Book cover](/images/OReilly-korean.jpg)
+
