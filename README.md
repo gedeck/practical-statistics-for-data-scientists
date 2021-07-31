@@ -60,15 +60,24 @@ conda env update -n sfds -f environment.yml
 <table>
  <tr>
   <td><img src='/images/OReilly-japanese.jpg' width=200></td>
-  <td>Japanese: データサイエンスのための統計学入門 第2版 ―予測、分類、統計モデリング、統計的機械学習とR/Pythonプログラミング (2020: ISBN 487311926X, Shinya Ohashi (supervised), Toshiaki Kurokawa (translated))</td>
+  <td><b>Japanese:</b><br>
+   データサイエンスのための統計学入門 第2版 ―予測、分類、統計モデリング、統計的機械学習とR/Pythonプログラミング <br>
+   2020: ISBN 487311926X, Shinya Ohashi (supervised), Toshiaki Kurokawa (translated)
+  </td>
  </tr>
  <tr>
   <td><img src='/images/OReilly-german.jpg' width=200></td>
-  <td>German: Praktische Statistik für Data Scientists: 50+ essenzielle Konzepte mit R und Python (2021: ISBN 3960091532, Marcus Fraaß (Übersetzer))</td>
+  <td><b>German:</b><br>
+   Praktische Statistik für Data Scientists: 50+ essenzielle Konzepte mit R und Python <br>
+   2021: ISBN 3960091532, Marcus Fraaß (Übersetzer)
+  </td>
  </tr>
  <tr>
   <td><img src='/images/OReilly-korean.jpg' width=200></td>
-  <td>Korean: Practical Statistics for Data Scientists: 데이터 과학을 위한 통계(2판) (2021: ISBN 9791162244180, Junyong Lee (translation))</td>
+  <td><b>Korean:</b><br>
+   Practical Statistics for Data Scientists: 데이터 과학을 위한 통계(2판) 
+   2021: ISBN 9791162244180, Junyong Lee (translation)
+  </td>
  </tr>
 </table>
 
