@@ -3,8 +3,8 @@
 # Code repository
 <table>
  <tr>
-  <td><img src='/images/OReilly-english.jpg' width=300></td>
-  <td>
+  <td style='border:none'><img src='/images/OReilly-english.jpg' width=300></td>
+  <td style='border:none'>
    <b>Practical Statistics for Data Scientists:</b>
 
 50+ Essential Concepts Using R and Python
