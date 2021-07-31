@@ -3,9 +3,9 @@
 # Code repository
 <table>
  <tr>
-  <td><img src='/images/OReilly-english.jpg' width=200></td>
+  <td><img src='/images/OReilly-english.jpg' width=300></td>
   <td>
-**Practical Statistics for Data Scientists:**  
+   <b>Practical Statistics for Data Scientists:</b>
 
 50+ Essential Concepts Using R and Python
 
