@@ -58,6 +58,16 @@ conda env update -n sfds -f environment.yml
 
 ## Other language versions
 <table>
+  <tr>
+   <td><img src='/images/OReilly-english.jpg' width=200></td>
+  <td><b>English:</b><br>
+   Practical Statistics for Data Scientists: 50+ Essential Concepts Using R and Python<br>
+   2020: ISBN 149207294X<br>
+   <a href='https://www.google.com/books/edition/Practical_Statistics_for_Data_Scientists/F2bcDwAAQBAJ?hl=en'>Google books</a>,
+   <a href='https://www.amazon.com/Practical-Statistics-Data-Scientists-Essential/dp/149207294X'>Amazon</a>
+  </td>
+ </tr>
+
  <tr>
   <td><img src='/images/OReilly-japanese.jpg' width=200></td>
   <td><b>Japanese:</b><br>
