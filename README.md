@@ -1,6 +1,10 @@
 ![Book cover](/images/cover-small.jpg)
 
 # Code repository
+<table>
+ <tr>
+  <td><img src='/images/OReilly-english.jpg' width=200></td>
+  <td>
 **Practical Statistics for Data Scientists:**  
 
 50+ Essential Concepts Using R and Python
@@ -11,6 +15,10 @@ by Peter Bruce, Andrew Bruce, and [Peter Gedeck](https://www.amazon.com/Peter-Ge
 - ISBN-13: 978-1492072942
 - Buy on [Amazon](https://www.amazon.com/Practical-Statistics-Data-Scientists-Essential/dp/149207294X)
 - Errata: http://oreilly.com/catalog/errata.csp?isbn=9781492072942
+    </td>
+  </tr>
+</table>
+ 
 
 ## Online
 View the notebooks online:
