@@ -1,5 +1,3 @@
-![Book cover](/images/cover-small.jpg)
-
 # Code repository
 <table width='100%'>
  <tr>
