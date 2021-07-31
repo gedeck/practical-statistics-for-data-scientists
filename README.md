@@ -58,7 +58,7 @@ conda env update -n sfds -f environment.yml
 
 ## Other language versions
 
-![Book cover](/images/OReilly-japanese.jpg)
-![Book cover](/images/OReilly-german.jpg)
-![Book cover](/images/OReilly-korean.jpg)
+![Book cover](/images/OReilly-japanese.jpg | width=200)
+![Book cover](/images/OReilly-german.jpg | width=200)
+![Book cover](/images/OReilly-korean.jpg | width=200)
 
