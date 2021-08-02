@@ -79,16 +79,7 @@ ax.text(50, 190, 'Observed\ndifference', bbox={'facecolor':'white'})
 ax.set_xlabel('Session time differences (in seconds)')
 ax.set_ylabel('Frequency')
 plt.tight_layout()
-plt.show()
-
-    The following, from Chapter 3 - Statistial Experiments and Significance Testing.py, produces error in Python 3.8.5:
-     Traceback (most recent call last):
-     File "Chapter 3 - Statistial Experiments and Significance Testing.py", line 77, in <module>
-       print(np.mean(perm_diffs > mean_b - mean_a))
-     TypeError: '>' not supported between instances of 'list' and 'float'
-    Maybe it should be
-       print(np.mean(perm_diffs) > mean_b - mean_a)
-     """)
+plt.show() """)
 ax.hist(perm_diffs, bins=11, rwidth=0.9)
 ax.axvline(x = mean_b - mean_a, color='black', lw=2)
 ax.text(50, 190, 'Observed\ndifference', bbox={'facecolor':'white'})
@@ -97,4 +88,28 @@ ax.set_ylabel('Frequency')
 plt.tight_layout()
 plt.show()
 
-print(np.mean(perm_diffs) > mean_b - mean_a)
+print("""
+    The following, from Chapter 3 - Statistial Experiments and Significance Testing.py, produces error:
+     Traceback (most recent call last):
+     File "Chapter 3 - Statistial Experiments and Significance Testing.py", line 77, in <module>
+       print(np.mean(perm_diffs > mean_b - mean_a))
+     TypeError: '>' not supported between instances of 'list' and 'float'
+    with Python before 3.9, and old versions of numpy, scipy and pandas.
+    Below is a solution which works with 3.8.
+
+def make_boolean_array_of_perm_diffs( perm_diffs, b_minus_a ):
+  arr = []
+  for diff in perm_diffs:
+    arr.append( diff > b_minus_a )
+  return arr
+
+boolean_array = make_boolean_array_of_perm_diffs( perm_diffs, mean_b - mean_a )
+print( np.mean( boolean_array ))  """)
+def make_boolean_array_of_perm_diffs( perm_diffs, b_minus_a ):
+  arr = []
+  for diff in perm_diffs:
+    arr.append( diff > b_minus_a )
+  return arr
+
+boolean_array = make_boolean_array_of_perm_diffs( perm_diffs, mean_b - mean_a )
+print( np.mean( boolean_array ))
