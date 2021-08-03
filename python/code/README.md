@@ -28,7 +28,7 @@ blows up in Python 3.8.5, scipy 1.7.0, pandas 1.2.4, numpy 1.20.2.
 
 In `ch_3_01_resampling.py`, changed it to
 
-`print(np.mean(np.array(perm_diffs) > mean_b - mean_a))``
+`print(np.mean(np.array(perm_diffs) > mean_b - mean_a))`
 
 
 #### Chapter 6:
