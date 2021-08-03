@@ -19,11 +19,17 @@ This should point to Python 3.
 
 #### Chapter 3:
 `# python Chapter\ 3\ -\ Statistial\ Experiments\ and\ Significance\ Testing.py`
+
 Line 77
+
 `print(np.mean(perm_diffs > mean_b - mean_a))`
+
 blows up in Python 3.8.5, scipy 1.7.0, pandas 1.2.4, numpy 1.20.2.
-The solution for Python 3.8.5 is in ch_3_01_resampling.py, lines 108..115:
-make_boolean_array_of_perm_diffs()
+
+In `ch_3_01_resampling.py`, changed it to
+
+`print(np.mean(np.array(perm_diffs) > mean_b - mean_a))``
+
 
 #### Chapter 6:
 (On Mac M1 Arm processor)

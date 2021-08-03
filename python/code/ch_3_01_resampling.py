@@ -97,19 +97,6 @@ print("""
     with Python before 3.9, and old versions of numpy, scipy and pandas.
     Below is a solution which works with 3.8.
 
-def make_boolean_array_of_perm_diffs( perm_diffs, b_minus_a ):
-  arr = []
-  for diff in perm_diffs:
-    arr.append( diff > b_minus_a )
-  return arr
+print(np.mean(np.array(perm_diffs) > mean_b - mean_a)) """)
 
-boolean_array = make_boolean_array_of_perm_diffs( perm_diffs, mean_b - mean_a )
-print( np.mean( boolean_array ))  """)
-def make_boolean_array_of_perm_diffs( perm_diffs, b_minus_a ):
-  arr = []
-  for diff in perm_diffs:
-    arr.append( diff > b_minus_a )
-  return arr
-
-boolean_array = make_boolean_array_of_perm_diffs( perm_diffs, mean_b - mean_a )
-print( np.mean( boolean_array ))
+print(np.mean(np.array(perm_diffs) > mean_b - mean_a))
