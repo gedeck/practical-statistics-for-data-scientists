@@ -262,10 +262,10 @@ ax.set_ylabel('Tax Assessed Value')
 plt.tight_layout()
 plt.show()
 
-# The _seaborn_ kdeplot is a two-dimensional extension of the density plot.
+# The _seaborn_ kdeplot is a two-dimensional extension of the density plot. The calculation of the 2D-density for the full dataset takes several minutes. It is sufficient to create the visualization with a smaller sample of the dataset. With 10,000 data points, creating the graph takes only seconds. While some details may be lost, the overall shape is preserved.
 
 fig, ax = plt.subplots(figsize=(4, 4))
-sns.kdeplot(data=kc_tax0, x='SqFtTotLiving', y='TaxAssessedValue', ax=ax)
+sns.kdeplot(data=kc_tax0.sample(10000), x='SqFtTotLiving', y='TaxAssessedValue', ax=ax)
 ax.set_xlabel('Finished Square Feet')
 ax.set_ylabel('Tax Assessed Value')
 
