@@ -30,7 +30,7 @@ Excecute the notebooks in Binder:
 ## Other language versions
 <table>
   <tr>
-   <td><img src='/images/OReilly-english.png' width=200></td>
+   <td><img src='/images/OReilly-english.jpg' width=200></td>
   <td><b>English:</b><br>
    Practical Statistics for Data Scientists: 50+ Essential Concepts Using R and Python<br>
    2020: ISBN 149207294X<br>
@@ -70,7 +70,7 @@ Excecute the notebooks in Binder:
   </td>
  </tr>
  <tr>
-  <td><img src='/images/OReilly-chinese.jpg' width=200></td>
+  <td><img src='/images/OReilly-chinese.png' width=200></td>
   <td><b>Chinese:</b><br>
    Practical Statistics for Data Scientists: 数据科学中的实用统计学（第2版）
    2021: ISBN 978-7-115-56902-8, Chen Guangxin (translation)
