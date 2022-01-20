@@ -70,6 +70,17 @@ Excecute the notebooks in Binder:
   </td>
  </tr>
  <tr>
+  <td><img src='/images/OReilly-polish.jpg' width=200></td>
+  <td><b>Polish:</b><br>
+   Statystyka praktyczna w data science. 50 kluczowych zagadnien w jezykach R i Python
+   2021: ISBN 9788328374270
+   <br>
+   <a href='https://www.google.com/books/edition/Statystyka_praktyczna_w_data_science/GyqSzgEACAAJ'>Google books</a>,
+   <a href='https://www.amazon.com/Statystyka-praktyczna-science-kluczowych-zagadnien/dp/8328374277/'>Amazon</a>,
+   <a href='https://helion.pl/ksiazki/statystyka-praktyczna-w-data-science-50-kluczowych-zagadnien-w-jezykach-r-i-python-wydanie-ii-peter-bruce-andrew-bruce-peter-gedeck,stpra2.htm'>Helion</a>
+  </td>
+ </tr>
+ <tr>
   <td><img src='/images/OReilly-chinese.png' width=200></td>
   <td><b>Chinese:</b><br>
    Practical Statistics for Data Scientists: 数据科学中的实用统计学（第2版）
