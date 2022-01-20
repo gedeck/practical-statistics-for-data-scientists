@@ -30,7 +30,7 @@ Excecute the notebooks in Binder:
 ## Other language versions
 <table>
   <tr>
-   <td><img src='/images/OReilly-english.jpg' width=200></td>
+   <td><img src='/images/OReilly-english.png' width=200></td>
   <td><b>English:</b><br>
    Practical Statistics for Data Scientists: 50+ Essential Concepts Using R and Python<br>
    2020: ISBN 149207294X<br>
