@@ -61,7 +61,7 @@ Excecute the notebooks in Binder:
  <tr>
   <td><img src='/images/OReilly-korean.jpg' width=200></td>
   <td><b>Korean:</b><br>
-   Practical Statistics for Data Scientists: 데이터 과학을 위한 통계(2판)
+   Practical Statistics for Data Scientists: 데이터 과학을 위한 통계(2판)<br>
    2021: ISBN 9791162244180, Junyong Lee (translation)
    <br>
    <a href='https://www.google.com/books/edition/%EB%8D%B0%EC%9D%B4%ED%84%B0_%EA%B3%BC%ED%95%99%EC%9D%84_%EC%9C%84%ED%95%9C_%ED%86%B5%EA%B3%84_2%ED%8C%90/9E9qzgEACAAJ?hl=en'>Google books</a>,
@@ -72,7 +72,7 @@ Excecute the notebooks in Binder:
  <tr>
   <td><img src='/images/OReilly-polish.jpg' width=200></td>
   <td><b>Polish:</b><br>
-   Statystyka praktyczna w data science. 50 kluczowych zagadnien w jezykach R i Python
+   Statystyka praktyczna w data science. 50 kluczowych zagadnien w jezykach R i Python<br>
    2021: ISBN 9788328374270
    <br>
    <a href='https://www.google.com/books/edition/Statystyka_praktyczna_w_data_science/GyqSzgEACAAJ'>Google books</a>,
@@ -83,7 +83,7 @@ Excecute the notebooks in Binder:
  <tr>
   <td><img src='/images/OReilly-chinese.png' width=200></td>
   <td><b>Chinese:</b><br>
-   Practical Statistics for Data Scientists: 数据科学中的实用统计学（第2版）
+   Practical Statistics for Data Scientists: 数据科学中的实用统计学（第2版）<br>
    2021: ISBN 978-7-115-56902-8, Chen Guangxin (translation)
    <br>
    <!-- <a href='https://www.google.com/books/edition/'>Google books</a>, -->
@@ -94,7 +94,7 @@ Excecute the notebooks in Binder:
  <tr>
   <td><img src='/images/SPD-english.png' width=200></td>
   <td><b>English (Indian subcontinent &amp; select countries only):</b><br>
-   Practical Statistics for Data Scientists: 50+ Essential Concepts Using R And Python, Second Edition
+   Practical Statistics for Data Scientists: 50+ Essential Concepts Using R And Python, Second Edition<br>
    2021: ISBN 978-8-194-43500-6, Shroff Publishers and Distributors Pvt. Ltd.
    <br>
    <!-- <a href='https://www.google.com/books/edition/'>Google books</a>, -->
