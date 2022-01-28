@@ -91,6 +91,16 @@ Excecute the notebooks in Binder:
 
   </td>
  </tr>
+ <tr>
+  <td><img src='/images/SPD-english.png' width=200></td>
+  <td><b>English (Indian subcontinent &amp; select countries only):</b><br>
+   Practical Statistics for Data Scientists: 50+ Essential Concepts Using R And Python, Second Edition
+   2021: ISBN 978-8-194-43500-6, Shroff Publishers and Distributors Pvt. Ltd.
+   <br>
+   <!-- <a href='https://www.google.com/books/edition/'>Google books</a>, -->
+   <a href='https://www.shroffpublishers.com/books/9788194435006/'>Order here</a>
+  </td>
+ </tr>
 </table>
 
 ## See also
