@@ -102,7 +102,7 @@ Excecute the notebooks in Binder:
   </td>
  </tr>
  <tr>
-  <td><img src='/images/Oreilly-spanish.png' width=200></td>
+  <td><img src='/images/OReilly-spanish.png' width=200></td>
   <td><b>Spanish:</b><br>
    Estadística práctica para ciencia de datos con R y Python, Second Edition<br>
    2022: ISBN 978-8-426-73443-3, Marcombo S.A.
