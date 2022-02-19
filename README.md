@@ -101,6 +101,17 @@ Excecute the notebooks in Binder:
    <a href='https://www.shroffpublishers.com/books/9788194435006/'>Order here</a>
   </td>
  </tr>
+ <tr>
+  <td><img src='/images/OReilly-spanish.png' width=200></td>
+  <td><b>Spanish:</b><br>
+   Estadística práctica para ciencia de datos con R y Python, Second Edition<br>
+   2022: ISBN 978-8-426-73443-3, Marcombo S.A.
+   <br>
+   <a href='https://books.google.com/books?id=IZxeEAAAQBAJ'>Google books</a>,
+   <a href='https://www.amazon.com/Estad%C3%ADstica-pr%C3%A1ctica-ciencia-datos-Python/dp/842673443X/'>Amazon</a>,
+   <a href='https://www.marcombo.com/estadistica-practica-para-ciencia-de-datos-con-r-y-python-9788426734433/'>Order here</a>
+  </td>
+ </tr>
 </table>
 
 ## See also
