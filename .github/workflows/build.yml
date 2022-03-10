@@ -18,6 +18,7 @@ jobs:
           python-version: ${{ matrix.python-version }}
       - run: pip install --upgrade pip matplotlib pandas scikit-learn scipy statsmodels \
                 wquantiles seaborn pygam dmba pydotplus
+      - run: ls
       # - run: pytest -rP -p no:cacheprovider
 
   # pylint:
