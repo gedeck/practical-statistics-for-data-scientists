@@ -1,0 +1,33 @@
+name: build
+concurrency:
+  group: build-${{ github.ref }}
+  cancel-in-progress: true
+on: [push, workflow_dispatch]
+jobs:
+  build-python:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.7', '3.8', '3.9', '3.10']
+    name: Python ${{ matrix.python-version }}
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: ${{ matrix.python-version }}
+      - run: pip install --upgrade pip matplotlib pandas scikit-learn scipy statsmodels \
+                wquantiles seaborn pygam dmba pydotplus
+      # - run: pytest -rP -p no:cacheprovider
+
+  # pylint:
+  #   runs-on: ubuntu-latest
+  #   name: Pylint
+  #   steps:
+  #     - uses: actions/checkout@v2
+  #     - name: Set up Python
+  #       uses: actions/setup-python@v2
+  #       with:
+  #         python-version: '3.10'
+  #     - run: pip install --upgrade pip pylint matplotlib pandas scikit-learn pytest
+  #     - run: cd src; pylint dmba
