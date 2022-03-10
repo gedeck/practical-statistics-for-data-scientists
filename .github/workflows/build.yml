@@ -16,8 +16,7 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: ${{ matrix.python-version }}
-      - run: pip install --upgrade pip matplotlib pandas scikit-learn scipy statsmodels \
-                wquantiles seaborn pygam dmba pydotplus imblearn xgboost
+      - run: pip install --upgrade pip -f requirements.txt
       - run: cd python/code; python "Chapter 1 - Exploratory Data Analysis.py"
       - run: cd python/code; python "Chapter 2 - Data and sampling distributions.py"
       - run: cd python/code; python "Chapter 3 - Statistical Experiments and Significance Testing.py"
