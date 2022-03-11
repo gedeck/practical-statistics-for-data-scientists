@@ -1,3 +1,5 @@
+![Python](https://github.com/gedeck/dmba/actions/workflows/build.yml/badge.svg)
+
 # Code repository
 <table width='100%'>
  <tr>

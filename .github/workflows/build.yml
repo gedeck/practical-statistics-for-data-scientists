@@ -1,0 +1,38 @@
+name: build
+concurrency:
+  group: build-${{ github.ref }}
+  cancel-in-progress: true
+on: [push, workflow_dispatch]
+jobs:
+  build-python:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.7', '3.8', '3.9', '3.10']
+    name: Python ${{ matrix.python-version }}
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: ${{ matrix.python-version }}
+      - run: pip install --requirement requirements.txt
+      - run: cd python/code; python "Chapter 1 - Exploratory Data Analysis.py"
+      - run: cd python/code; python "Chapter 2 - Data and sampling distributions.py"
+      - run: cd python/code; python "Chapter 3 - Statistical Experiments and Significance Testing.py"
+      - run: cd python/code; python "Chapter 4 - Regression and Prediction.py"
+      - run: cd python/code; python "Chapter 5 - Classification.py"
+      - run: cd python/code; python "Chapter 6 - Statistical Machine Learning.py"
+      - run: cd python/code; python "Chapter 7 - Unsupervised Learning.py"
+
+  # pylint:
+  #   runs-on: ubuntu-latest
+  #   name: Pylint
+  #   steps:
+  #     - uses: actions/checkout@v2
+  #     - name: Set up Python
+  #       uses: actions/setup-python@v2
+  #       with:
+  #         python-version: '3.10'
+  #     - run: pip install --upgrade pip pylint matplotlib pandas scikit-learn pytest
+  #     - run: cd src; pylint dmba
