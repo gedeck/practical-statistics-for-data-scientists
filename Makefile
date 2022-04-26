@@ -1,24 +1,16 @@
-SRC=src
+PSFDS_IMAGE=psfds
+JUPYTER_IMAGE=psfds_jupyter
 
-# Django server
-IMAGE=psfds
-RUN=docker run -it --rm -v $(PWD):/code
-RUN_IMAGE=$(RUN) $(IMAGE)
-
-jupyter: docker/image.$(IMAGE)
-	@ $(RUN) -p 8893:8893 $(IMAGE) jupyter notebook --allow-root --port=8893
+jupyter:
+	docker run --rm -v $(PWD):/src -p 8893:8893 $(JUPYTER_IMAGE) jupyter notebook --allow-root --port=8893 --ip 0.0.0.0 --no-browser
 
 bash:
-	@ $(RUN_IMAGE) bash
+	docker run -it --rm -v $(PWD):/src $(PSFDS_IMAGE) bash
 
+bash-jupyter:
+	docker run -it --rm -v $(PWD):/src $(JUPYTER_IMAGE) bash
 
-# Docker container
-build: touch-docker docker/image.$(IMAGE)
-
-touch-docker:
-	touch docker/Dockerfile.$(IMAGE)
-
-docker/image.$(IMAGE): docker/Dockerfile.$(IMAGE)
-	docker build -t $(IMAGE) -f docker/Dockerfile.$(IMAGE) .
-	@ touch $@
+build: 
+	docker build -t $(PSFDS_IMAGE) -f docker/Dockerfile.psfds .
+	docker build -t $(JUPYTER_IMAGE) -f docker/Dockerfile.jupyter .
 
