@@ -48,7 +48,7 @@ plt.show()
 
 ## Sampling Distribution of a Statistic
 
-loans_income = pd.read_csv(LOANS_INCOME_CSV, squeeze=True)
+loans_income = pd.read_csv(LOANS_INCOME_CSV).squeeze('columns')
 
 sample_data = pd.DataFrame({
     'income': loans_income.sample(1000),

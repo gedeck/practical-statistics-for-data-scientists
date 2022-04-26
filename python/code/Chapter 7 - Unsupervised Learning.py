@@ -86,7 +86,7 @@ loadings = pd.DataFrame(sp_pca.components_[0:5, :],
                         columns=top_sp.columns)
 print(loadings)
 
-maxPC = 1.01 * np.max(np.max(np.abs(loadings.loc[0:5, :])))
+maxPC = 1.01 * loadings.loc[0:5, :].abs().to_numpy().max()
 
 f, axes = plt.subplots(5, 1, figsize=(5, 5), sharex=True)
 

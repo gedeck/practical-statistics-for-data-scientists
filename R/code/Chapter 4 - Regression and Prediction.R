@@ -20,12 +20,6 @@ PSDS_PATH <- file.path(dirname(dirname(getwd())))
 lung <- read.csv(file.path(PSDS_PATH, 'data', 'LungDisease.csv'))
 house <- read.csv(file.path(PSDS_PATH, 'data', 'house_sales.csv'), sep='\t')
 
-# zhvi <- read.csv(file.path(PSDS_PATH, 'data', 'County_Zhvi_AllHomes.csv'))
-# zhvi <- unlist(zhvi[13,-(1:5)])
-# dates <- parse_date_time(paste(substr(names(zhvi), start=2, stop=8), "01", sep="."), "Ymd")
-# zhvi <- data.frame(ym=dates, zhvi_px=zhvi, row.names = NULL) %>%
-#   mutate(zhvi_idx=zhvi/last(zhvi))
-
 ## Simple Linear Regression
 ### The Regression Equation
 
@@ -56,7 +50,8 @@ lung1 <- lung %>%
   group_by(Exposure, positive) %>%
   summarize(PEFR_max = max(PEFR), 
             PEFR_min = min(PEFR),
-            Fitted = first(Fitted)) %>%
+            Fitted = first(Fitted), 
+            .groups='keep') %>%
   ungroup() %>%
   mutate(PEFR = ifelse(positive, PEFR_max, PEFR_min)) %>%
   arrange(Exposure)
@@ -210,7 +205,7 @@ df <- data.frame(
 
 graph <- ggplot(df, aes(pred, abs(resid))) +
   geom_point() +
-  geom_smooth() +
+  geom_smooth(formula=y~x, method='loess') +
   scale_x_continuous(labels = function(x) format(x, scientific = FALSE)) +
   theme_bw()
 graph
@@ -227,7 +222,7 @@ df <- data.frame(SqFtTotLiving = house_98105[, 'SqFtTotLiving'],
                  PartialResid = partial_resid[, 'SqFtTotLiving'])
 graph <- ggplot(df, aes(SqFtTotLiving, PartialResid)) +
   geom_point(shape=1) + scale_shape(solid = FALSE) +
-  geom_smooth(linetype=2) + 
+  geom_smooth(linetype=2, formula=y~x, method='loess') + 
   geom_line(aes(SqFtTotLiving, Terms)) + 
   scale_y_continuous(labels = function(x) format(x, scientific = FALSE))
 graph
@@ -246,7 +241,7 @@ df <- data.frame(SqFtTotLiving = house_98105[, 'SqFtTotLiving'],
                  PartialResid = partial_resid[, 1])
 graph <- ggplot(df, aes(SqFtTotLiving, PartialResid)) +
   geom_point(shape=1) + scale_shape(solid = FALSE) +
-  geom_smooth(linetype=2) + 
+  geom_smooth(linetype=2, formula=y~x, method='loess') + 
   geom_line(aes(SqFtTotLiving, Terms)) +
   scale_y_continuous(labels = function(x) format(x, scientific = FALSE))
 graph
@@ -267,7 +262,7 @@ df1 <- data.frame(SqFtTotLiving = house_98105[, 'SqFtTotLiving'],
 
 graph <- ggplot(df1, aes(SqFtTotLiving, PartialResid)) +
   geom_point(shape=1) + scale_shape(solid = FALSE) +
-  geom_smooth(linetype=2) + 
+  geom_smooth(linetype=2, formula=y~x, method='loess') + 
   geom_line(aes(SqFtTotLiving, Terms)) +
   scale_y_continuous(labels = function(x) format(x, scientific = FALSE))
 graph
@@ -286,7 +281,7 @@ df <- data.frame(SqFtTotLiving = house_98105[, 'SqFtTotLiving'],
                  PartialResid = partial_resid[, 5])
 graph <- ggplot(df, aes(SqFtTotLiving, PartialResid)) +
   geom_point(shape=1) + scale_shape(solid = FALSE) +
-  geom_smooth(linetype=2) + 
+  geom_smooth(linetype=2, formula=y~x, method='loess') + 
   geom_line(aes(SqFtTotLiving, Terms)) +
   scale_y_continuous(labels = function(x) format(x, scientific = FALSE))
 graph
