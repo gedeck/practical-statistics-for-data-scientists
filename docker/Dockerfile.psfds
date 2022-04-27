@@ -1,35 +1,11 @@
-ARG BASE_CONTAINER=jupyter/base-notebook
-FROM $BASE_CONTAINER
+FROM python:3.10-slim
+RUN apt-get update && \
+    apt upgrade -y && \
+    apt -y install build-essential vim && \
+    pip3 install --upgrade pip && \
+    mkdir /src
+RUN echo ttf-mscorefonts-installer msttcorefonts/accepted-mscorefonts-eula select true | debconf-set-selections
+RUN apt install -y curl font-manager git
 
-USER root
-
-# Install all OS dependencies for fully functional notebook server
-RUN apt-get update && apt-get install -yq --no-install-recommends \
-    build-essential \
-    emacs-nox \
-    vim-tiny \
-    git \
-    inkscape \
-    jed \
-    libsm6 \
-    libxext-dev \
-    libxrender1 \
-    lmodern \
-    netcat \
-    # ---- nbconvert dependencies ----
-    texlive-xetex \
-    texlive-fonts-recommended \
-    texlive-plain-generic \
-    # ----
-    tzdata \
-    unzip \
-    nano-tiny \
-    && apt-get clean && rm -rf /var/lib/apt/lists/*
-
-# Create alternative for nano -> nano-tiny
-RUN update-alternatives --install /usr/bin/nano nano /bin/nano-tiny 10
-
-COPY ./environment.yml /tmp/environment.yml
-RUN conda env update -n base -f /tmp/environment.yml
-
-WORKDIR /code
+COPY ./requirements.txt /requirements.txt
+RUN pip install --requirement /requirements.txt

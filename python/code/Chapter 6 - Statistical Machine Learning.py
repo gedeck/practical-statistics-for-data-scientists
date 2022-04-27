@@ -259,6 +259,7 @@ pd.DataFrame({
     'n': n_estimator, 
     'oobScore': oobScores
 }).plot(x='n', y='oobScore')
+plt.show()
 
 predictions = X.copy()
 predictions['prediction'] = rf.predict(X)
@@ -416,10 +417,11 @@ print('penalty: ', np.mean(error_penalty))
 
 results = []
 for ntree_limit in range(1, 250):
-    train_default = xgb_default.predict_proba(train_X, ntree_limit=ntree_limit)[:, 1]
-    train_penalty = xgb_penalty.predict_proba(train_X, ntree_limit=ntree_limit)[:, 1]
-    pred_default = xgb_default.predict_proba(valid_X, ntree_limit=ntree_limit)[:, 1]
-    pred_penalty = xgb_penalty.predict_proba(valid_X, ntree_limit=ntree_limit)[:, 1]
+    iteration_range = [1, ntree_limit + 1]
+    train_default = xgb_default.predict_proba(train_X, iteration_range=iteration_range)[:, 1]
+    train_penalty = xgb_penalty.predict_proba(train_X, iteration_range=iteration_range)[:, 1]
+    pred_default = xgb_default.predict_proba(valid_X, iteration_range=iteration_range)[:, 1]
+    pred_penalty = xgb_penalty.predict_proba(valid_X, iteration_range=iteration_range)[:, 1]
     results.append({
         'iterations': ntree_limit,
         'default train': np.mean(abs(train_y - train_default) > 0.5),

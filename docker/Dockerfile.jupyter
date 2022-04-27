@@ -1,0 +1,6 @@
+FROM psfds
+RUN pip install jupyter
+
+WORKDIR /src
+
+EXPOSE 8893

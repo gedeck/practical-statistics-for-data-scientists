@@ -141,8 +141,7 @@ summary(prob)
 graph <- ggplot(data=df, aes(x=logit, y=odds)) +
   geom_line() +
   labs(x='log(odds ratio)', y='odds ratio') +
-  ylim(1, 100) +
-  xlim(0, 5) +
+  coord_cartesian(xlim=c(0, 5), ylim=c(1, 100)) +
   theme_bw()
 graph
 
@@ -166,7 +165,7 @@ graph <- ggplot(df, aes(x=payment_inc_ratio, y=partial_resid, solid = FALSE)) +
   geom_line(aes(x=payment_inc_ratio, y=terms), 
             color='red', alpha=0.5, size=1.5) +
   labs(y='Partial Residual') +
-  xlim(0, 25) +
+  coord_cartesian(xlim=c(0, 25)) +
   theme_bw()
 graph
 
@@ -179,7 +178,7 @@ graph <- ggplot(df, aes(x=payment_inc_ratio, y=partial_resid, solid = FALSE)) +
   geom_line(aes(x=payment_inc_ratio, y=terms), 
             color='red', alpha=0.5, size=1.5) +
   labs(y='Partial Residual') +
-  xlim(0, 25) +
+  coord_cartesian(xlim=c(0, 25)) +
   theme_bw()
 graph
 

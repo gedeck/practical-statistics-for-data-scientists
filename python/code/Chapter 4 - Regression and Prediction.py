@@ -62,10 +62,10 @@ ax.set_xlim(0, 23)
 ax.set_ylim(295, 450)
 ax.set_xlabel('Exposure')
 ax.set_ylabel('PEFR')
-ax.plot((0, 23), model.predict([[0], [23]]))
+ax.plot((0, 23), model.predict(pd.DataFrame({'Exposure': [0, 23]})))
 ax.text(0.4, model.intercept_, r'$b_0$', size='larger')
 
-x = [[7.5], [17.5]]
+x = pd.DataFrame({'Exposure': [7.5,17.5]})
 y = model.predict(x)
 ax.plot((7.5, 7.5, 17.5), (y[0], y[1], y[1]), '--')
 ax.text(5, np.mean(y), r'$\Delta Y$', size='larger')
@@ -176,15 +176,19 @@ outcome = 'AdjSalePrice'
 
 house_wt = LinearRegression()
 house_wt.fit(house[predictors], house[outcome], sample_weight=house.Weight)
-pd.DataFrame({
-    'predictor': predictors,
-    'house_lm': house_lm.coef_,
-    'house_wt': house_wt.coef_,
-}).append({
-    'predictor': 'intercept', 
-    'house_lm': house_lm.intercept_,
-    'house_wt': house_wt.intercept_,
-}, ignore_index=True)
+
+pd.concat([
+    pd.DataFrame({
+        'predictor': predictors,
+        'house_lm': house_lm.coef_,
+        'house_wt': house_wt.coef_,    
+    }),
+    pd.DataFrame({
+        'predictor': ['intercept'],
+        'house_lm': house_lm.intercept_,
+        'house_wt': house_wt.intercept_,    
+    })
+])
 
 residuals = pd.DataFrame({
     'abs_residual_lm': np.abs(house_lm.predict(house[predictors]) - house[outcome]),

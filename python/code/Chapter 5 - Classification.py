@@ -57,7 +57,7 @@ X = pd.get_dummies(loan_data[predictors], prefix='', prefix_sep='')
 y = loan_data[outcome]
 
 naive_model = MultinomialNB(alpha=0.01, fit_prior=True)
-naive_model = MultinomialNB(alpha=0, fit_prior=False)
+naive_model = MultinomialNB(alpha=1e-10, fit_prior=False)
 naive_model.fit(X, y)
 
 new_loan = X.loc[146:146, :]
@@ -446,7 +446,10 @@ fig, axes = plt.subplots(nrows=2, ncols=2, figsize=(5, 5))
 xvalues = np.arange(0.25, 0.73, 0.005)
 yvalues = np.arange(-0.1, 20.1, 0.1)
 xx, yy = np.meshgrid(xvalues, yvalues)
-X = np.c_[xx.ravel(), yy.ravel()]
+X = pd.DataFrame({
+    'borrower_score': xx.ravel(),
+    'payment_inc_ratio': yy.ravel(),
+})
 
 boundary = {}
 

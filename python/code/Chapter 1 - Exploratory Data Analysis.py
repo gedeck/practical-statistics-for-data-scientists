@@ -213,10 +213,10 @@ def plot_corr_ellipses(data, figsize=None, **kwargs):
         ax.set_yticks(np.arange(M.shape[0]))
         ax.set_yticklabels(data.index)
 
-    return ec
+    return ec, ax
 
-m = plot_corr_ellipses(etfs.corr(), figsize=(5, 4), cmap='bwr_r')
-cb = fig.colorbar(m)
+m, ax = plot_corr_ellipses(etfs.corr(), figsize=(5, 4), cmap='bwr_r')
+cb = fig.colorbar(m, ax=ax)
 cb.set_label('Correlation coefficient')
 
 plt.tight_layout()

@@ -55,7 +55,7 @@ def perm_fun(x, nA, nB):
     n = nA + nB
     idx_B = set(random.sample(range(n), nB))
     idx_A = set(range(n)) - idx_B
-    return x.loc[idx_B].mean() - x.loc[idx_A].mean()
+    return x.loc[list(idx_B)].mean() - x.loc[list(idx_A)].mean()
     
 nA = session_times[session_times.Page == 'Page A'].shape[0]
 nB = session_times[session_times.Page == 'Page B'].shape[0]
@@ -74,6 +74,8 @@ ax.set_ylabel('Frequency')
 plt.tight_layout()
 plt.show()
 
+# convert perm_diffs to numpy array to avoid problems with some Python installations
+perm_diffs = np.array(perm_diffs)
 print(np.mean(perm_diffs > mean_b - mean_a))
 
 ## Statistical Significance and P-Values

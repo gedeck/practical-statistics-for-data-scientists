@@ -37,8 +37,9 @@ graph <- ggplot(data=oil_px, aes(x=CVX, y=XOM)) +
   stat_ellipse(type='norm', level=.99, color='grey25') +
   geom_abline(intercept = 0, slope = loadings[2,1]/loadings[1,1], color='grey25', linetype=2) +
   geom_abline(intercept = 0, slope = loadings[2,2]/loadings[1,2],  color='grey25', linetype=2) +
-  scale_x_continuous(expand=c(0,0), lim=c(-3, 3)) + 
-  scale_y_continuous(expand=c(0,0), lim=c(-3, 3)) +
+  scale_x_continuous(expand=c(0,0)) + 
+  scale_y_continuous(expand=c(0,0)) +
+  coord_cartesian(xlim=c(-3, 3), ylim=c(-3, 3)) +
   theme_bw()
 graph
 
@@ -60,7 +61,7 @@ loadings$Color = loadings$Weight > 0
 graph <- ggplot(loadings, aes(x=Symbol, y=Weight, fill=Color)) +
   geom_bar(stat='identity', position='identity', width=.75) + 
   facet_grid(Component ~ ., scales='free_y') +
-  guides(fill=FALSE)  +
+  guides(fill='none') +
   ylab('Component Loading') +
   theme_bw() +
   theme(axis.title.x=element_blank(),
@@ -121,8 +122,10 @@ graph <- ggplot(data=df, aes(x=XOM, y=CVX, color=cluster, shape=cluster)) +
                      guide = guide_legend(override.aes=aes(size=1))) + 
   geom_point(data=centers,  aes(x=XOM, y=CVX), size=2, stroke=2, color='black')  +
   theme_bw() +
-  scale_x_continuous(expand=c(0,0), lim=c(-2, 2)) + 
-  scale_y_continuous(expand=c(0,0), lim=c(-2.5, 2.5)) 
+  scale_x_continuous(expand=c(0,0)) + 
+  scale_y_continuous(expand=c(0,0)) +
+  coord_cartesian(xlim=c(-2, 2), ylim=c(-2.5, 2.5))
+
 graph
 
 ### K-Means Algorithm
@@ -148,7 +151,7 @@ centers$Color = centers$Mean > 0
 graph <- ggplot(centers, aes(x=Symbol, y=Mean, fill=Color)) +
   geom_bar(stat='identity', position='identity', width=.75) + 
   facet_grid(Cluster ~ ., scales='free_y') +
-  guides(fill=FALSE)  +
+  guides(fill='none')  +
   ylab('Component Loading') +
   theme_bw() +
   theme(axis.title.x=element_blank(),
@@ -295,18 +298,17 @@ screeplot(sp_pca1, main='')
 round(sp_pca1$loadings[,1:2], 3)
 
 ### Categorical Data and Gower's Distance
-# > Currently not available in any of the standard packages. However work in progress to add it to scikit-learn and it should be close to be finished
-# 
-# https://github.com/scikit-learn/scikit-learn/pull/9555/
 
-x <- loan_data[1:5, c('dti', 'payment_inc_ratio', 'home_', 'purpose_')]
+x <- loan_data[1:5, c('dti', 'payment_inc_ratio', 'home_', 'purpose_')] %>%
+  mutate(home_=as.factor(home_), purpose_=as.factor(purpose_))
 x
 
 daisy(x, metric='gower')
 
 set.seed(301)
 df <- loan_data[sample(nrow(loan_data), 250),
-                c('dti', 'payment_inc_ratio', 'home_', 'purpose_')]
+                c('dti', 'payment_inc_ratio', 'home_', 'purpose_')] %>%
+  mutate(home_=as.factor(home_), purpose_=as.factor(purpose_))
 d = daisy(df, metric='gower')
 hcl <- hclust(d)
 dnd <- as.dendrogram(hcl)

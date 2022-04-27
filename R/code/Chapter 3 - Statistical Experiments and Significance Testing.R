@@ -47,6 +47,7 @@ perm_fun <- function(x, nA, nB)
   return(mean_diff)
 }
 
+set.seed(1)
 perm_diffs <- rep(0, 1000)
 for (i in 1:1000) {
   perm_diffs[i] = perm_fun(session_times[, 'Time'], 21, 15)

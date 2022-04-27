@@ -66,8 +66,7 @@ graph <- ggplot(data=loan200_df, aes(x=payment_inc_ratio, y=dti, color=outcome))
   scale_shape_manual(values=c(15, 16, 4)) +
   scale_color_manual(values = c("paid off"="#1b9e77", "default"="#d95f02", "newloan"='black')) +
   geom_path(data=circle_df, aes(x=x, y=y), color='black') +
-  xlim(3, 15) + 
-  ylim(17, 29) +
+  coord_cartesian(xlim=c(3, 15), ylim=c(17, 29)) +
   theme_bw() 
 graph
 
@@ -153,7 +152,8 @@ graph <- ggplot(data=loan3000, aes(x=borrower_score, y=payment_inc_ratio)) +
   guides(color = guide_legend(override.aes = list(size=1.5)),
          linetype = guide_legend(keywidth=3, override.aes = list(size=1))) +
   scale_x_continuous(expand=c(0,0)) + 
-  scale_y_continuous(expand=c(0,0), limits=c(0, 25)) + 
+  scale_y_continuous(expand=c(0,0)) + 
+  coord_cartesian(ylim=c(0, 25)) +
   geom_label(data=labs, aes(x=x, y=y, label=decision)) +
   #theme(legend.position='bottom') +
   theme_bw()
@@ -168,7 +168,8 @@ graph <- ggplot(data=loan3000, aes(x=borrower_score, y=payment_inc_ratio)) +
   guides(color = guide_legend(override.aes = list(size=1.5)),
          linetype = guide_legend(keywidth=3, override.aes = list(size=1))) +
   scale_x_continuous(expand=c(0,0)) + 
-  scale_y_continuous(expand=c(0,0), limits=c(0, 25)) + 
+  scale_y_continuous(expand=c(0,0)) + 
+  coord_cartesian(ylim=c(0, 25)) +
   geom_label(data=labs, aes(x=x, y=y, label=decision)) +
   geom_label(data=rules, aes(x=x, y=y, label=rule_number), 
              size=2.5,
@@ -232,7 +233,8 @@ graph <- ggplot(data=rf_df, aes(x=borrower_score, y=payment_inc_ratio,
   scale_size_manual(values = c('paid off'=0.5, 'default'=2)) +
 
   scale_x_continuous(expand=c(0,0)) + 
-  scale_y_continuous(expand=c(0,0), lim=c(0, 20)) + 
+  scale_y_continuous(expand=c(0,0)) + 
+  coord_cartesian(ylim=c(0, 20)) +
   guides(color = guide_legend(override.aes = list(size=2))) +
   theme_bw()
 graph
@@ -309,7 +311,8 @@ graph <- ggplot(data=xgb_df, aes(x=borrower_score, y=payment_inc_ratio,
   geom_point(alpha=0.6, size=2) +
   scale_shape_manual( values=c(46, 4)) +
   scale_x_continuous(expand=c(0.03, 0)) + 
-  scale_y_continuous(expand=c(0, 0), lim=c(0, 20)) + 
+  scale_y_continuous(expand=c(0, 0)) + 
+  coord_cartesian(ylim=c(0, 20)) +
   theme_bw()
 graph
 
@@ -321,7 +324,8 @@ graph <- ggplot(data=xgb_df, aes(x=borrower_score, y=payment_inc_ratio,
   scale_size_manual(values = c('FALSE'=0.5, 'TRUE'=2)) +
 
   scale_x_continuous(expand=c(0.03, 0)) + 
-  scale_y_continuous(expand=c(0, 0), lim=c(0, 20)) + 
+  scale_y_continuous(expand=c(0, 0)) + 
+  coord_cartesian(ylim=c(0, 20)) +
   guides(color = guide_legend(override.aes = list(size=2))) +
   theme_bw()
 graph
@@ -353,9 +357,9 @@ mean(error_penalty)
 error_default <- rep(0, 250)
 error_penalty <- rep(0, 250)
 for(i in 1:250) {
-  pred_default <- predict(xgb_default, predictors[test_idx,], ntreelimit=i)
+  pred_default <- predict(xgb_default, predictors[test_idx,], iterationrange=c(1, i))
   error_default[i] <- mean(abs(label[test_idx] - pred_default) > 0.5)
-  pred_penalty <- predict(xgb_penalty, predictors[test_idx,], ntreelimit=i)
+  pred_penalty <- predict(xgb_penalty, predictors[test_idx,], iterationrange=c(1, i))
   error_penalty[i] <- mean(abs(label[test_idx] - pred_penalty) > 0.5)
 }
 
