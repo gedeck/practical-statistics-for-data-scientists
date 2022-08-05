@@ -2,7 +2,11 @@ name: build
 concurrency:
   group: build-${{ github.ref }}
   cancel-in-progress: true
-on: [push, workflow_dispatch]
+on: 
+  push:
+    paths-ignore:
+      - '**/*.md'
+  workflow_dispatch:
 jobs:
   build-python:
     runs-on: ubuntu-latest
