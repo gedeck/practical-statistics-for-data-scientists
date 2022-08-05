@@ -1,3 +1,4 @@
+<style> table { border: 0px; } td { border: 0px; vertical-align: top; } .inner { max-width: 800px; } </style>
 ![Python](https://github.com/gedeck/dmba/actions/workflows/build.yml/badge.svg)
 
 # Code repository
