@@ -1,4 +1,4 @@
-<style> table { border: 0px; } td { border: 0px; vertical-align: top; } .inner { max-width: 800px; } </style>
+<style> table { border: 0px; } td { border: 0px; vertical-align: top; } .inner { max-width: 800px; } b { font-weight: bold; }</style>
 ![Python](https://github.com/gedeck/dmba/actions/workflows/build.yml/badge.svg)
 
 # Code repository
@@ -6,16 +6,17 @@
  <tr>
   <td><img src='images/OReilly-english.jpg' width=300></td>
   <td>
-   <b>Practical Statistics for Data Scientists:</b>
+   <p><b>Practical Statistics for Data Scientists:</b></p>
 
-50+ Essential Concepts Using R and Python
+   <p>50+ Essential Concepts Using R and Python<br>
+by Peter Bruce, Andrew Bruce, and <a href="https://www.amazon.com/Peter-Gedeck/e/B082BJZJKX/">Peter Gedeck</a></p>
 
-by Peter Bruce, Andrew Bruce, and [Peter Gedeck](https://www.amazon.com/Peter-Gedeck/e/B082BJZJKX/)
-
-- Publisher: [O'Reilly Media](https://oreil.ly/practicalStats_dataSci_2e); 2 edition (June 9, 2020)
-- ISBN-13: 978-1492072942
-- Buy on [Amazon](https://www.amazon.com/Practical-Statistics-Data-Scientists-Essential/dp/149207294X)
-- Errata: http://oreilly.com/catalog/errata.csp?isbn=9781492072942
+   <ul>
+   <li>Publisher: [O'Reilly Media](https://oreil.ly/practicalStats_dataSci_2e); 2 edition (June 9, 2020)</li>
+   <li>ISBN-13: 978-1492072942</li>
+   <li>Buy on [Amazon](https://www.amazon.com/Practical-Statistics-Data-Scientists-Essential/dp/149207294X)</li>
+   <li>Errata: http://oreilly.com/catalog/errata.csp?isbn=9781492072942</li>
+   </ul>
     </td>
   </tr>
 </table>
