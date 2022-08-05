@@ -12,10 +12,10 @@
 by Peter Bruce, Andrew Bruce, and <a href="https://www.amazon.com/Peter-Gedeck/e/B082BJZJKX/">Peter Gedeck</a></p>
 
    <ul>
-   <li>Publisher: [O'Reilly Media](https://oreil.ly/practicalStats_dataSci_2e); 2 edition (June 9, 2020)</li>
+    <li>Publisher: <a href="https://oreil.ly/practicalStats_dataSci_2e">O'Reilly Media</a>; 2nd edition (June 9, 2020)</li>
    <li>ISBN-13: 978-1492072942</li>
-   <li>Buy on [Amazon](https://www.amazon.com/Practical-Statistics-Data-Scientists-Essential/dp/149207294X)</li>
-   <li>Errata: http://oreilly.com/catalog/errata.csp?isbn=9781492072942</li>
+    <li>Buy on <a href="https://www.amazon.com/Practical-Statistics-Data-Scientists-Essential/dp/149207294X)">Amazon</a></li>
+   <li>Errata: <a href="http://oreilly.com/catalog/errata.csp?isbn=9781492072942">http://oreilly.com/catalog/errata.csp?isbn=9781492072942</a></li>
    </ul>
     </td>
   </tr>
