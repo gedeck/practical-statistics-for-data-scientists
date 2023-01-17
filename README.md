@@ -153,7 +153,7 @@ Excecute the notebooks in Binder:
 
 We recommend to use a conda environment to run the Python and R code.
 ```
-conda create -n sfds python
+conda create -n sfds python r-essentials r-base
 conda activate sfds
 conda env update -n sfds -f environment.yml
 ```
