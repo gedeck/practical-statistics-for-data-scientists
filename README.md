@@ -158,3 +158,38 @@ conda activate sfds #Activate the environment we created.
 conda env update -n sfds -f environment.yml #Update the depencies of the environment from environment.yml 
 ```
 
+The full list of Python and R dependencies from the environment.yml file:
+
+```
+python
+jupyter
+pandas
+matplotlib
+scipy
+statsmodels
+wquantiles
+seaborn
+scikit-learn
+pygam
+dmba
+pydotplus
+imbalanced-learn
+prince
+xgboost
+graphviz
+r-essentials
+r-base
+r-vioplot
+r-corrplot
+r-gmodels
+r-matrixstats
+r-lmperm
+r-pwr
+r-fnn
+r-klar
+r-dmwr
+r-xgboost
+r-ellipse
+r-mclust
+r-ca
+```
