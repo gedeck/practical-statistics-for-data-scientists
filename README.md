@@ -158,7 +158,7 @@ conda activate sfds #Activate the environment we created.
 conda env update -n sfds -f environment.yml #Update the depencies of the environment from environment.yml 
 ```
 
-The full list of Python and R dependencies from the environment.yml file:
+The full list of Python and R dependencies from the [environment.yml](environment.yml) file:
 
 ```
 python
