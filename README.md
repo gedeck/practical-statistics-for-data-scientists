@@ -1,4 +1,3 @@
-<style> table { border: 0px; } td { border: 0px; vertical-align: top; } .inner { max-width: 800px; } b { font-weight: bold; }</style>
 ![Python](https://github.com/gedeck/dmba/actions/workflows/build.yml/badge.svg)
 
 # Code repository
@@ -149,11 +148,13 @@ Excecute the notebooks in Binder:
 - The code repository for the first edition is at: <a href="https://github.com/andrewgbruce/statistics-for-data-scientists">https://github.com/andrewgbruce/statistics-for-data-scientists</a>
 
 
-# Setup R and Python environments
+# Setup of R and Python environments
 
-We recommend to use a conda environment to run the Python and R code.
+We recommend using a conda environment to run the Python and R code.
+
 ```
-conda create -n sfds
-conda activate sfds
-conda env update -n sfds -f environment.yml
+conda create -n sfds #Creates the conda environment named sfds.
+conda activate sfds #Activates the environment we created.
+conda env update -n sfds -f environment.yml #Updates the depencies of the environment using the information from the environment.yml file.
 ```
+
