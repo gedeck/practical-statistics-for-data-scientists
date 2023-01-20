@@ -177,6 +177,7 @@ imbalanced-learn
 prince
 xgboost
 graphviz
+numpy
 r-essentials
 r-base
 r-vioplot
