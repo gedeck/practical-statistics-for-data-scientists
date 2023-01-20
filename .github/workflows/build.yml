@@ -3,6 +3,9 @@ concurrency:
   group: build-${{ github.ref }}
   cancel-in-progress: true
 on: 
+  pull_request: 
+    paths-ignore:
+      - '**/*.md'
   push:
     paths-ignore:
       - '**/*.md'
@@ -12,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: ['3.7', '3.8', '3.9', '3.10']
+        python-version: ['3.8', '3.9', '3.10']
     name: Python ${{ matrix.python-version }}
     steps:
       - uses: actions/checkout@v2
