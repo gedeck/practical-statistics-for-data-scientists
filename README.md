@@ -1,4 +1,3 @@
-<style> table { border: 0px; } td { border: 0px; vertical-align: top; } .inner { max-width: 800px; } b { font-weight: bold; }</style>
 ![Python](https://github.com/gedeck/dmba/actions/workflows/build.yml/badge.svg)
 
 # Code repository
@@ -149,33 +148,48 @@ Excecute the notebooks in Binder:
 - The code repository for the first edition is at: <a href="https://github.com/andrewgbruce/statistics-for-data-scientists">https://github.com/andrewgbruce/statistics-for-data-scientists</a>
 
 
-# Setup R and Python environments
-## R
-Run the following commands in R to install all required packages
+# Setup of R and Python environments
+
+We recommend using a conda environment to run the Python and R code.
+
 ```
-if (!require(vioplot)) install.packages('vioplot')
-if (!require(corrplot)) install.packages('corrplot')
-if (!require(gmodels)) install.packages('gmodels')
-if (!require(matrixStats)) install.packages('matrixStats')
-
-if (!require(lmPerm)) install.packages('lmPerm')
-if (!require(pwr)) install.packages('pwr')
-
-if (!require(FNN)) install.packages('FNN')
-if (!require(klaR)) install.packages('klaR')
-if (!require(DMwR)) install.packages('DMwR')
-
-if (!require(xgboost)) install.packages('xgboost')
-
-if (!require(ellipse)) install.packages('ellipse')
-if (!require(mclust)) install.packages('mclust')
-if (!require(ca)) install.packages('ca')
+conda create -n sfds #Create the conda environment named sfds.
+conda activate sfds #Activate the environment we created.
+conda env update -n sfds -f environment.yml #Update the depencies of the environment from environment.yml 
 ```
 
-## Python
-We recommend to use a conda environment to run the Python code.
+The full list of Python and R dependencies from the [environment.yml](environment.yml) file:
+
 ```
-conda create -n sfds python
-conda activate sfds
-conda env update -n sfds -f environment.yml
+python
+jupyter
+pandas
+matplotlib
+scipy
+statsmodels
+wquantiles
+seaborn
+scikit-learn
+pygam
+dmba
+pydotplus
+imbalanced-learn
+prince
+xgboost
+graphviz
+r-essentials
+r-base
+r-vioplot
+r-corrplot
+r-gmodels
+r-matrixstats
+r-lmperm
+r-pwr
+r-fnn
+r-klar
+r-dmwr
+r-xgboost
+r-ellipse
+r-mclust
+r-ca
 ```
