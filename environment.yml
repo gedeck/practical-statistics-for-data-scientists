@@ -34,3 +34,5 @@ dependencies:
 - r-ellipse
 - r-mclust
 - r-ca
+- r-ggplot2
+- r-irkernel
