@@ -16,3 +16,5 @@
   * Incorrect variable referenced (Issue #20)
 * Gabriel Simmonds (April 2021, R)
   * Correct code for Figure 4.12 
+* Gregory Power (https://github.com/gregorywaynepower, January 2023, R, Python):
+  *  Include R dependencies in `environment.yml`
