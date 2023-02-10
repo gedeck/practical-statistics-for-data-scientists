@@ -1,6 +1,18 @@
+name: build-R
+concurrency:
+  group: build-${{ github.ref }}
+  cancel-in-progress: true
+on: 
+  pull_request: 
+    paths-ignore:
+      - '**/*.md'
+  push:
+    paths-ignore:
+      - '**/*.md'
+  workflow_dispatch:
 jobs:
-  example-3:
-    name: Ex3 Linux
+  build-R:
+    name: Run R tests
     runs-on: "ubuntu-latest"
     defaults:
       run:
