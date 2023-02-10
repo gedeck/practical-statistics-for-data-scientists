@@ -195,4 +195,6 @@ r-mclust
 r-ca
 r-ggplot2
 r-irkernel
+r-boot
+r-randomforest
 ```
