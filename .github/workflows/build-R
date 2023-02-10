@@ -1,6 +1,6 @@
 name: build-R
 concurrency:
-  group: build-${{ github.ref }}
+  group: build-R-${{ github.ref }}
   cancel-in-progress: true
 on: 
   pull_request: 
