@@ -25,9 +25,8 @@ jobs:
           use-only-tar-bz2: true  # IMPORTANT: This needs to be set for caching to work properly!
           auto-update-conda: true
           auto-activate-base: true      
-      - run: |
-          conda create -n sfds # Create the conda environment named sfds.
-          conda activate sfds # Activate the environment we created.
-          conda env update -n sfds -f environment.yml # Update the depencies of the environment from environment.yml 
-          conda list
+      - run: conda create -n sfds # Create the conda environment named sfds.
+      - run: conda activate sfds # Activate the environment we created.
+      - run: conda env update -n sfds -f environment.yml # Update the depencies of the environment from environment.yml 
+      - run: conda list
           
