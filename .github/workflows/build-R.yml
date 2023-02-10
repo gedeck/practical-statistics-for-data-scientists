@@ -3,9 +3,9 @@ concurrency:
   group: build-R-${{ github.ref }}
   cancel-in-progress: true
 on: 
-  pull_request: 
-    paths-ignore:
-      - '**/*.md'
+#   pull_request: 
+#     paths-ignore:
+#       - '**/*.md'
   push:
     paths-ignore:
       - '**/*.md'
