@@ -177,7 +177,7 @@ imbalanced-learn
 prince
 xgboost
 graphviz
-numpy
+numpy==1.23.5
 r-essentials
 r-base
 r-vioplot
@@ -193,4 +193,8 @@ r-xgboost
 r-ellipse
 r-mclust
 r-ca
+r-ggplot2
+r-irkernel
+r-boot
+r-randomforest
 ```
