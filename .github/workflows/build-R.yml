@@ -25,13 +25,9 @@ jobs:
           use-only-tar-bz2: true  # IMPORTANT: This needs to be set for caching to work properly!
           auto-update-conda: true
           auto-activate-base: true      
-#       - uses: conda-incubator/setup-miniconda@v2
-#         with:
-#           activate-environment: anaconda-client-env
-#           environment-file: environment.yml
-#           python-version: 3.10
-#           # condarc-file: etc/example-condarc.yml
-#           auto-activate-base: false
       - run: |
-          conda info
+          conda create -n sfds # Create the conda environment named sfds.
+          conda activate sfds # Activate the environment we created.
+          conda env update -n sfds -f environment.yml # Update the depencies of the environment from environment.yml 
           conda list
+          
