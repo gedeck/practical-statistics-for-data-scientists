@@ -28,6 +28,6 @@ jobs:
           channels: conda-forge
 #      - run: conda create -n sfds # Create the conda environment named sfds.
 #      - run: conda activate sfds # Activate the environment we created.
-      - run: conda update --file environment.yml # Update the depencies of the environment from environment.yml 
+      - run: conda env --file environment.yml # Update the depencies of the environment from environment.yml 
       - run: conda list
           
