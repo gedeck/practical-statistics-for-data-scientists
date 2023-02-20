@@ -28,6 +28,7 @@ jobs:
           channels: conda-forge
       - run: conda install -c conda-forge mamba
       - run: mamba env update --file environment.yml -n test # Update the depencies of the environment from environment.yml 
+      - run: mamba activate test
       - run: mamba info --envs
       - run: mamba list
           
