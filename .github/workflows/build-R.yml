@@ -26,7 +26,8 @@ jobs:
           auto-update-conda: true
           auto-activate-base: true
           channels: conda-forge
-      - run: conda env create --file environment.yml -n sfds # Create the conda environment named sfds.
+      - run: conda install -c conda-forge mamba
+      - run: mamba env create --file environment.yml -n sfds # Create the conda environment named sfds.
       - run: conda activate sfds # Activate the environment we created.
 #       - run: conda env update --file environment.yml -n sfds # Update the depencies of the environment from environment.yml 
       - run: conda list
