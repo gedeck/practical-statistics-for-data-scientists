@@ -24,7 +24,8 @@ jobs:
           miniconda-version: "latest"
           use-only-tar-bz2: true  # IMPORTANT: This needs to be set for caching to work properly!
           auto-update-conda: true
-          auto-activate-base: true      
+          auto-activate-base: true
+          channels: conda-forge
 #      - run: conda create -n sfds # Create the conda environment named sfds.
 #      - run: conda activate sfds # Activate the environment we created.
       - run: conda update --file environment.yml # Update the depencies of the environment from environment.yml 
