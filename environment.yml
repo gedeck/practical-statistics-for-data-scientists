@@ -1,3 +1,5 @@
+channels:
+  - bioconda
 dependencies:
   - python
   - jupyter
