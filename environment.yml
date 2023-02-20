@@ -1,37 +1,37 @@
 dependencies:
-- python
-- jupyter
-- pandas
-- matplotlib
-- scipy
-- statsmodels
-- wquantiles
-- seaborn
-- scikit-learn
-- pygam
-- dmba
-- pydotplus
-- imbalanced-learn
-- prince
-- xgboost
-- graphviz
-- numpy==1.23.5
-- r-essentials
-- r-base
-- r-vioplot
-- r-corrplot
-- r-gmodels
-- r-matrixstats
-- r-lmperm
-- r-pwr
-- r-fnn
-- r-klar
-- r-dmwr
-- r-xgboost
-- r-ellipse
-- r-mclust
-- r-ca
-- r-ggplot2
-- r-irkernel
-- r-boot
-- r-randomforest
+  - python
+  - jupyter
+  - pandas
+  - matplotlib
+  - scipy
+  - statsmodels
+  - wquantiles
+  - seaborn
+  - scikit-learn
+  - pygam
+  - dmba
+  - pydotplus
+  - imbalanced-learn
+  - prince
+  - xgboost
+  - graphviz
+  - numpy==1.23.5
+  - r-essentials
+  - r-base
+  - r-vioplot
+  - r-corrplot
+  - r-gmodels
+  - r-matrixstats
+  - r-lmperm
+  - r-pwr
+  - r-fnn
+  - r-klar
+  - r-dmwr
+  - r-xgboost
+  - r-ellipse
+  - r-mclust
+  - r-ca
+  - r-ggplot2
+  - r-irkernel
+  - r-boot
+  - r-randomforest
