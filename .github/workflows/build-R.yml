@@ -1,0 +1,38 @@
+name: build-R
+concurrency:
+  group: build-R-${{ github.ref }}
+  cancel-in-progress: true
+on: 
+#   pull_request: 
+#     paths-ignore:
+#       - '**/*.md'
+  push:
+    paths-ignore:
+      - '**/*.md'
+  workflow_dispatch:
+jobs:
+  build-R:
+    name: Run R tests
+    runs-on: "ubuntu-latest"
+    defaults:
+      run:
+        shell: bash -el {0}
+    steps:
+      - uses: actions/checkout@v2
+      - uses: conda-incubator/setup-miniconda@v2
+        with:
+          miniconda-version: "latest"
+          use-only-tar-bz2: true  # IMPORTANT: This needs to be set for caching to work properly!
+          auto-update-conda: true
+          auto-activate-base: true
+          channels: conda-forge
+      - run: conda deactivate
+      - run: conda info --envs
+      - run: conda activate base
+      - run: conda info --envs
+      # - run: conda install -c conda-forge mamba
+      - run: conda env update --file environment.yml -n test # Update the depencies of the environment from environment.yml 
+      - run: conda info --envs
+      - run: conda activate test
+      - run: conda list
+          
