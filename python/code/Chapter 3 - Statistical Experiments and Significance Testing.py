@@ -217,13 +217,14 @@ def chi2(observed, expected):
 
 expected_clicks = 34 / 3
 expected_noclicks = 1000 - expected_clicks
-expected = [34 / 3, 1000 - 34 / 3]
+expected = [expected_clicks, expected_noclicks]
 chi2observed = chi2(clicks.values, expected)
 
 def perm_fun(box):
-    sample_clicks = [sum(random.sample(box, 1000)),
-                     sum(random.sample(box, 1000)),
-                     sum(random.sample(box, 1000))]
+    random.shuffle(box)
+    sample_clicks = [sum(box[0:1000]),
+                     sum(box[1000:2000]),
+                     sum(box[2000:3000])]
     sample_noclicks = [1000 - n for n in sample_clicks]
     return chi2([sample_clicks, sample_noclicks], expected)
 
@@ -236,6 +237,21 @@ print(f'Resampled p-value: {resampled_p_value:.4f}')
 chisq, pvalue, df, expected = stats.chi2_contingency(clicks)
 print(f'Observed chi2: {chisq:.4f}')
 print(f'p-value: {pvalue:.4f}')
+
+# alternative approach using sampling with replacement
+expected = [expected_clicks, expected_noclicks]
+def sample_with_replacement(box):
+    sample_clicks = [sum(random.sample(box, 1000)),
+                     sum(random.sample(box, 1000)),
+                     sum(random.sample(box, 1000))]
+    sample_noclicks = [1000 - n for n in sample_clicks]
+    return chi2([sample_clicks, sample_noclicks], expected)
+
+perm_chi2 = [sample_with_replacement(box) for _ in range(2000)]
+
+resampled_p_value = sum(perm_chi2 > chi2observed) / len(perm_chi2)
+print(f'Observed chi2: {chi2observed:.4f}')
+print(f'Resampled p-value: {resampled_p_value:.4f}')
 
 ### Figure chi-sq distribution
 
