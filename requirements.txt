@@ -12,3 +12,4 @@ imblearn
 xgboost
 prince
 numpy
+adjustText

@@ -5,7 +5,7 @@ RUN apt-get update && \
     pip3 install --upgrade pip && \
     mkdir /src
 RUN echo ttf-mscorefonts-installer msttcorefonts/accepted-mscorefonts-eula select true | debconf-set-selections
-RUN apt install -y curl font-manager git
+RUN apt install -y curl graphviz font-manager git
 
 COPY ./requirements.txt /requirements.txt
 RUN pip install --requirement /requirements.txt

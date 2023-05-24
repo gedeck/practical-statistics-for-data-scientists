@@ -20,6 +20,8 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: ${{ matrix.python-version }}
+      - name: Install graphviz
+        run: sudo apt install -y graphviz
       - run: pip install --requirement requirements.txt
       - run: cd python/code; python "Chapter 1 - Exploratory Data Analysis.py"
       - run: cd python/code; python "Chapter 2 - Data and sampling distributions.py"
