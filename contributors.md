@@ -18,3 +18,5 @@
   * Correct code for Figure 4.12 
 * Gregory Power (https://github.com/gregorywaynepower, January 2023, R, Python):
   *  Include R dependencies in `environment.yml`
+* ribaptista (https://github.com/ribaptista, May 2023, Python):
+  * Resampling in chi square test (Issue #51)

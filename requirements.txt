@@ -11,4 +11,5 @@ pydotplus
 imblearn
 xgboost
 prince
-numpy==1.23.5
+numpy
+adjustText

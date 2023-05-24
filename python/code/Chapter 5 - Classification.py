@@ -53,7 +53,7 @@ loan_data.emp_len_ = loan_data.emp_len_.astype('category')
 
 predictors = ['purpose_', 'home_', 'emp_len_']
 outcome = 'outcome'
-X = pd.get_dummies(loan_data[predictors], prefix='', prefix_sep='')
+X = pd.get_dummies(loan_data[predictors], prefix='', prefix_sep='', dtype=int)
 y = loan_data[outcome]
 
 naive_model = MultinomialNB(alpha=0.01, fit_prior=True)
@@ -164,7 +164,7 @@ predictors = ['payment_inc_ratio', 'purpose_', 'home_', 'emp_len_',
               'borrower_score']
 outcome = 'outcome'
 X = pd.get_dummies(loan_data[predictors], prefix='', prefix_sep='', 
-                   drop_first=True)
+                   drop_first=True, dtype=int)
 y = loan_data[outcome] # .cat.categories
 
 logit_reg = LogisticRegression(penalty='l2', C=1e42, solver='liblinear')
@@ -366,7 +366,7 @@ predictors = ['payment_inc_ratio', 'purpose_', 'home_', 'emp_len_',
               'dti', 'revol_bal', 'revol_util']
 outcome = 'outcome'
 X = pd.get_dummies(full_train_set[predictors], prefix='', prefix_sep='', 
-                   drop_first=True)
+                   drop_first=True, dtype=int)
 y = full_train_set[outcome]
 
 full_model = LogisticRegression(penalty='l2', C=1e42, solver='liblinear')

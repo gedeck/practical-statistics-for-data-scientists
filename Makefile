@@ -10,7 +10,8 @@ bash:
 bash-jupyter:
 	docker run -it --rm -v $(PWD):/src $(JUPYTER_IMAGE) bash
 
-build: 
+.PHONY: images
+images: 
 	docker build -t $(PSFDS_IMAGE) -f docker/Dockerfile.psfds .
 	docker build -t $(JUPYTER_IMAGE) -f docker/Dockerfile.jupyter .
 

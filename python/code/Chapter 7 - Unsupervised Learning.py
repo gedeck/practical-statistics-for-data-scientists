@@ -103,12 +103,21 @@ plt.show()
 
 ### Correspondence analysis
 
+from adjustText import adjust_text
+
 housetasks = pd.read_csv(HOUSE_TASKS_CSV, index_col=0)
 
 ca = prince.CA(n_components=2)
 ca = ca.fit(housetasks)
 
-ca.plot_coordinates(housetasks, figsize=(6, 6))
+ax = ca.row_coordinates(housetasks).plot.scatter(x=0, y=1, figsize=(6,6))
+ca.column_coordinates(housetasks).plot.scatter(x=0, y=1, ax=ax, c='C1')
+texts = []
+for idx, row in ca.row_coordinates(housetasks).iterrows():
+    texts.append(plt.text(row[0], row[1], idx))
+for idx, row in ca.column_coordinates(housetasks).iterrows():
+    texts.append(plt.text(row[0], row[1], idx, color='C1'))
+adjust_text(texts, only_move={'points':'y', 'texts':'y'}) 
 plt.tight_layout()
 plt.show()
 
@@ -116,7 +125,7 @@ plt.show()
 ### A Simple Example
 
 df = sp500_px.loc[sp500_px.index >= '2011-01-01', ['XOM', 'CVX']]
-kmeans = KMeans(n_clusters=4).fit(df)
+kmeans = KMeans(n_clusters=4, n_init='auto').fit(df)
 df['cluster'] = kmeans.labels_
 print(df.head())
 
@@ -139,7 +148,7 @@ plt.show()
 syms = sorted(['AAPL', 'MSFT', 'CSCO', 'INTC', 'CVX', 'XOM', 'SLB', 'COP', 
                'JPM', 'WFC', 'USB', 'AXP', 'WMT', 'TGT', 'HD', 'COST'])
 top_sp = sp500_px.loc[sp500_px.index >= '2011-01-01', syms]
-kmeans = KMeans(n_clusters=5).fit(top_sp)
+kmeans = KMeans(n_clusters=5, n_init='auto').fit(top_sp)
 
 ### Interpreting the Clusters
 
@@ -165,7 +174,7 @@ plt.show()
 
 inertia = []
 for n_clusters in range(2, 15):
-    kmeans = KMeans(n_clusters=n_clusters, random_state=0).fit(top_sp)
+    kmeans = KMeans(n_clusters=n_clusters, random_state=0, n_init='auto').fit(top_sp)
     inertia.append(kmeans.inertia_ / n_clusters)
 inertias = pd.DataFrame({'n_clusters': range(2, 15), 'inertia': inertia})
 ax = inertias.plot(x='n_clusters', y='inertia')
@@ -310,7 +319,7 @@ columns = ['loan_amnt', 'annual_inc', 'revol_bal', 'open_acc',
            'dti', 'revol_util']
 
 df = defaults[columns]
-kmeans = KMeans(n_clusters=4, random_state=1).fit(df)
+kmeans = KMeans(n_clusters=4, random_state=1, n_init='auto').fit(df)
 counts = Counter(kmeans.labels_)
 
 centers = pd.DataFrame(kmeans.cluster_centers_, columns=columns)
@@ -320,7 +329,7 @@ print(centers)
 scaler = preprocessing.StandardScaler()
 df0 = scaler.fit_transform(df * 1.0)
 
-kmeans = KMeans(n_clusters=4, random_state=1).fit(df0)
+kmeans = KMeans(n_clusters=4, random_state=1, n_init='auto').fit(df0)
 counts = Counter(kmeans.labels_)
 
 centers = pd.DataFrame(scaler.inverse_transform(kmeans.cluster_centers_), 
@@ -393,12 +402,12 @@ print(x)
 ### Problems with Clustering Mixed Data
 
 columns = ['dti', 'payment_inc_ratio', 'home_', 'pub_rec_zero']
-df = pd.get_dummies(defaults[columns])
+df = pd.get_dummies(defaults[columns], dtype=int)
 
 scaler = preprocessing.StandardScaler()
 
 df0 = scaler.fit_transform(df * 1.0)
-kmeans = KMeans(n_clusters=4, random_state=1).fit(df0)
+kmeans = KMeans(n_clusters=4, random_state=1, n_init='auto').fit(df0)
 centers = pd.DataFrame(scaler.inverse_transform(kmeans.cluster_centers_), 
                        columns=df.columns)
 print(centers)

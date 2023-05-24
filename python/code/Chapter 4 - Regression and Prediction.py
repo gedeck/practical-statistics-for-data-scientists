@@ -131,7 +131,7 @@ predictors = ['SqFtTotLiving', 'SqFtLot', 'Bathrooms', 'Bedrooms',
               'SqFtFinBasement', 'YrBuilt', 'YrRenovated', 
               'NewConstruction']
 
-X = pd.get_dummies(house[predictors], drop_first=True)
+X = pd.get_dummies(house[predictors], drop_first=True, dtype=int)
 X['NewConstruction'] = [1 if nc else 0 for nc in X['NewConstruction']]
 
 house_full = sm.OLS(house[outcome], X.assign(const=1))
@@ -210,14 +210,14 @@ pd.DataFrame(([year, np.mean(group['abs_residual_lm']), np.mean(group['abs_resid
 
 print(house.PropertyType.head())
 
-print(pd.get_dummies(house['PropertyType']).head(6))
+print(pd.get_dummies(house['PropertyType'], dtype=int).head(6))
 
-print(pd.get_dummies(house['PropertyType'], drop_first=True).head(6))
+print(pd.get_dummies(house['PropertyType'], drop_first=True, dtype=int).head(6))
 
 predictors = ['SqFtTotLiving', 'SqFtLot', 'Bathrooms', 'Bedrooms',
               'BldgGrade', 'PropertyType']
 
-X = pd.get_dummies(house[predictors], drop_first=True)
+X = pd.get_dummies(house[predictors], drop_first=True, dtype=int)
 
 house_lm_factor = LinearRegression()
 house_lm_factor.fit(X, house[outcome])
@@ -275,7 +275,7 @@ for name, coef in zip(best_variables, best_model.coef_):
 predictors = ['Bedrooms', 'BldgGrade', 'PropertyType', 'YrBuilt']
 outcome = 'AdjSalePrice'
 
-X = pd.get_dummies(house[predictors], drop_first=True)
+X = pd.get_dummies(house[predictors], drop_first=True, dtype=int)
 
 reduced_lm = LinearRegression()
 reduced_lm.fit(X, house[outcome])
@@ -292,7 +292,7 @@ predictors = ['SqFtTotLiving', 'SqFtLot', 'Bathrooms', 'Bedrooms',
               'BldgGrade', 'PropertyType', 'ZipGroup']
 outcome = 'AdjSalePrice'
 
-X = pd.get_dummies(house[predictors], drop_first=True)
+X = pd.get_dummies(house[predictors], drop_first=True, dtype=int)
 
 confounding_lm = LinearRegression()
 confounding_lm.fit(X, house[outcome])
