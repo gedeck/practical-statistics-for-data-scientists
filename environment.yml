@@ -1,5 +1,7 @@
 channels:
+  - default
   - bioconda
+  - conda-forge
 dependencies:
   - python
   - jupyter
