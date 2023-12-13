@@ -1,0 +1,16 @@
+---
+---
+@import "{{ site.theme }}";
+
+table {
+    border: 0px;
+}
+
+td {
+    border: 0px;
+    vertical-align: top;
+}
+
+.inner {
+    max-width: 800px;
+}
