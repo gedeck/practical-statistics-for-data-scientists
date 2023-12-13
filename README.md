@@ -8,12 +8,13 @@
    <p><b>Practical Statistics for Data Scientists:</b></p>
 
    <p>50+ Essential Concepts Using R and Python<br>
-by Peter Bruce, Andrew Bruce, and <a href="https://www.amazon.com/Peter-Gedeck/e/B082BJZJKX/">Peter Gedeck</a></p>
+by Peter Bruce, Andrew Bruce, and <a href="https://www.amazon.com/Peter-Gedeck/e/B082BJZJKX/?&_encoding=UTF8&tag=petergedeck-20&linkCode=ur2&linkId=089cd2d466348aa1e598aab0a42aa207&camp=1789&creative=9325">Peter Gedeck</a></p>
 
    <ul>
     <li>Publisher: <a href="https://oreil.ly/practicalStats_dataSci_2e">O'Reilly Media</a>; 2nd edition (June 9, 2020)</li>
    <li>ISBN-13: 978-1492072942</li>
-    <li>Buy on <a href="https://www.amazon.com/Practical-Statistics-Data-Scientists-Essential/dp/149207294X">Amazon</a></li>
+    <li>Buy on 
+     <a href="https://www.amazon.com/Practical-Statistics-Data-Scientists-Essential/dp/149207294X?&_encoding=UTF8&tag=petergedeck-20&linkCode=ur2&linkId=71ac36e6b2d734c5dc9d7d432a1a860c&camp=1789&creative=9325">Amazon</a></li>
    <li>Errata: <a href="http://oreilly.com/catalog/errata.csp?isbn=9781492072942">http://oreilly.com/catalog/errata.csp?isbn=9781492072942</a></li>
    </ul>
     </td>
@@ -38,7 +39,7 @@ Excecute the notebooks in Binder:
      Practical Statistics for Data Scientists: 50+ Essential Concepts Using R and Python<br>
      2020: ISBN 149207294X<br>
      <a href='https://www.google.com/books/edition/Practical_Statistics_for_Data_Scientists/F2bcDwAAQBAJ?hl=en'>Google books</a>,
-     <a href='https://www.amazon.com/Practical-Statistics-Data-Scientists-Essential/dp/149207294X'>Amazon</a>
+     <a href="https://www.amazon.com/Practical-Statistics-Data-Scientists-Essential/dp/149207294X?&_encoding=UTF8&tag=petergedeck-20&linkCode=ur2&linkId=01266bb457a44268bc7efdb80d6c7312&camp=1789&creative=9325">Amazon</a>
     </td>
   </tr>
 
@@ -83,7 +84,7 @@ Excecute the notebooks in Binder:
      2021: ISBN 978-8-328-37427-0, Helion
      <br>
      <a href='https://www.google.com/books/edition/Statystyka_praktyczna_w_data_science/GyqSzgEACAAJ'>Google books</a>,
-     <a href='https://www.amazon.com/Statystyka-praktyczna-science-kluczowych-zagadnien/dp/8328374277/'>Amazon</a>,
+     <a href="https://www.amazon.com/Statystyka-praktyczna-science-kluczowych-zagadnien/dp/8328374277/?&_encoding=UTF8&tag=petergedeck-20&linkCode=ur2&linkId=9cccbcaa580dac9d36976d8b69b66f7a&camp=1789&creative=9325">Amazon</a>,
      <a href='https://helion.pl/ksiazki/statystyka-praktyczna-w-data-science-50-kluczowych-zagadnien-w-jezykach-r-i-python-wydanie-ii-peter-bruce-andrew-bruce-peter-gedeck,stpra2.htm'>Order here</a>
     </td>
   </tr>
@@ -137,7 +138,7 @@ Excecute the notebooks in Binder:
      2022: ISBN 978-8-426-73443-3, Marcombo S.A.
      <br>
      <a href='https://books.google.com/books?id=IZxeEAAAQBAJ'>Google books</a>,
-     <a href='https://www.amazon.com/Estad%C3%ADstica-pr%C3%A1ctica-ciencia-datos-Python/dp/842673443X/'>Amazon</a>,
+     <a href="https://www.amazon.com/Estad%25C3%25ADstica-pr%25C3%25A1ctica-ciencia-datos-Python/dp/842673443X/?&_encoding=UTF8&tag=petergedeck-20&linkCode=ur2&linkId=6946ee487a7aeee619508c0ca6aa25f4&camp=1789&creative=9325">Amazon</a>,
      <a href='https://www.marcombo.com/estadistica-practica-para-ciencia-de-datos-con-r-y-python-9788426734433/'>Order here</a>
     </td>
   </tr>
