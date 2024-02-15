@@ -1,0 +1,3001 @@
+"","outcome","purpose_","dti","borrower_score","payment_inc_ratio"
+"32109","paid off","debt_consolidation",21.23,0.4,5.11135
+"16982","default","credit_card",15.49,0.4,5.43165
+"25335","paid off","debt_consolidation",27.3,0.7,9.23003
+"34580","paid off","major_purchase",21.11,0.4,2.33482
+"14424","default","debt_consolidation",16.46,0.45,12.1032
+"35621","paid off","debt_consolidation",12.12,0.5,3.89391
+"9920","default","debt_consolidation",29.79,0.4,7.0039
+"42095","paid off","debt_consolidation",7.94,0.4,10.0407
+"25219","paid off","debt_consolidation",10.81,0.55,3.54972
+"26196","paid off","debt_consolidation",16.37,0.45,7.50984
+"19798","default","other",11.42,0.4,1.82061
+"35333","paid off","debt_consolidation",7.22,0.6,11.1794
+"33036","paid off","debt_consolidation",12.95,0.45,3.16523
+"6729","default","credit_card",14.79,0.5,2.42371
+"40734","paid off","home_improvement",16.75,0.75,3.904
+"33148","paid off","debt_consolidation",25.71,0.75,9.10638
+"6707","default","debt_consolidation",22.37,0.3,8.25
+"44331","paid off","debt_consolidation",17.73,0.65,7.08316
+"29681","paid off","debt_consolidation",21.78,0.45,8.94878
+"9141","default","credit_card",8.18,0.7,8.39775
+"18112","default","home_improvement",11.52,0.6,11.4713
+"18492","default","debt_consolidation",21.7,0.45,9.32833
+"38079","paid off","other",18.67,0.6,2.40435
+"22712","default","debt_consolidation",33.32,0.25,15.5251
+"9911","default","home_improvement",23.37,0.45,9.09314
+"5042","default","debt_consolidation",21.63,0.55,10.2228
+"5968","default","debt_consolidation",25,0.35,12.835
+"4550","default","home_improvement",16.57,0.4,3.82205
+"30075","paid off","debt_consolidation",18.62,0.55,10.7362
+"42738","paid off","debt_consolidation",14.25,0.4,8.2005
+"17209","default","credit_card",25.74,0.55,13.8554
+"17292","default","debt_consolidation",21.16,0.4,10.4125
+"6062","default","other",10,0.5,3.59956
+"457","default","small_business",14.19,0.6,6.82133
+"1461","default","other",15.4,0.45,8.22563
+"7195","default","debt_consolidation",13.76,0.5,9.88155
+"42207","paid off","credit_card",14.76,0.65,2.84045
+"953","default","debt_consolidation",18.62,0.5,7.03965
+"11388","default","credit_card",6.82,0.4,10.6259
+"14956","default","credit_card",13.74,0.65,5.15085
+"34666","paid off","debt_consolidation",8.52,0.45,10.1452
+"35707","paid off","debt_consolidation",10.91,0.55,8.15486
+"17656","default","debt_consolidation",15.42,0.3,10.3016
+"14227","default","debt_consolidation",20.62,0.45,4.5407
+"41294","paid off","debt_consolidation",12.74,0.3,5.83543
+"30323","paid off","home_improvement",7.41,0.55,5.45952
+"39802","paid off","debt_consolidation",4.8,0.2,5.08357
+"27950","paid off","other",11.47,0.25,3.94074
+"38596","paid off","debt_consolidation",10.43,0.8,3.46604
+"22035","default","home_improvement",13.38,0.45,8.50271
+"17634","default","other",19.35,0.3,2.98882
+"3441","default","other",10.1,0.4,6.69395
+"4647","default","other",20.37,0.35,3.37517
+"1263","default","debt_consolidation",16.94,0.35,6.67834
+"37283","paid off","small_business",4.9,0.55,2.54547
+"20048","default","debt_consolidation",12.71,0.5,5.19924
+"31673","paid off","home_improvement",0.62,0.65,4.12045
+"31412","paid off","small_business",13.15,0.55,5.72613
+"37980","paid off","credit_card",14.92,0.45,5.0533
+"3629","default","debt_consolidation",22.71,0.45,7.848
+"582","default","debt_consolidation",12.9,0.45,4.26716
+"44344","paid off","debt_consolidation",4,0.65,3.0785
+"21662","default","debt_consolidation",32.4,0.6,11.2352
+"27179","paid off","debt_consolidation",12.78,0.5,3.7549
+"11060","default","debt_consolidation",17.12,0.35,14.3483
+"22210","default","other",16.06,0.7,4.0812
+"4095","default","credit_card",19.72,0.4,17.9856
+"30270","paid off","debt_consolidation",15.17,0.4,7.3297
+"44976","paid off","debt_consolidation",15.94,0.5,6.84339
+"6117","default","credit_card",14.28,0.55,6.34571
+"24695","paid off","credit_card",14.64,0.75,5.21777
+"36045","paid off","debt_consolidation",8.45,0.4,5.36139
+"30548","paid off","debt_consolidation",20.79,0.7,6.69905
+"20962","default","debt_consolidation",7.14,0.55,9.426
+"7127","default","debt_consolidation",22.17,0.55,5.49931
+"34943","paid off","credit_card",10.19,0.45,2.3468
+"33042","paid off","home_improvement",17.18,0.6,3.914
+"29231","paid off","other",18.6,0.6,7.76373
+"42989","paid off","debt_consolidation",20.89,0.55,6.32734
+"32224","paid off","debt_consolidation",12.89,0.55,8.856
+"40177","paid off","credit_card",15.95,0.55,9.87171
+"4402","default","other",1.77,0.35,0.221906
+"23386","paid off","debt_consolidation",17,0.55,6.43735
+"27429","paid off","other",13.06,0.5,9.72069
+"36110","paid off","debt_consolidation",25.38,0.3,7.80829
+"11471","default","debt_consolidation",22.83,0.5,17.8067
+"5786","default","debt_consolidation",22.47,0.65,1.56019
+"8501","default","credit_card",11.64,0.6,13.6776
+"32345","paid off","home_improvement",13.91,0.7,2.32229
+"40814","paid off","debt_consolidation",29.97,0.55,14.73
+"31506","paid off","credit_card",25.42,0.75,5.77415
+"22071","default","debt_consolidation",27.5,0.6,14.7003
+"8760","default","debt_consolidation",18.72,0.5,6.8932
+"9467","default","home_improvement",15.41,0.5,12.804
+"36089","paid off","debt_consolidation",20.96,0.7,9.01168
+"8824","default","credit_card",29.07,0.3,15.0219
+"36871","paid off","debt_consolidation",14.92,0.7,3.31182
+"15016","default","debt_consolidation",15.33,0.65,10.9084
+"27811","paid off","other",15.69,0.4,1.64076
+"31477","paid off","major_purchase",0.6,0.6,5.9967
+"16443","default","debt_consolidation",8.95,0.55,5.82789
+"27974","paid off","credit_card",5.61,0.6,3.56895
+"32565","paid off","debt_consolidation",25.41,0.6,13.3063
+"5276","default","small_business",1.57,0.35,9.58608
+"9853","default","major_purchase",19.11,0.45,2.3757
+"9597","default","other",30.6,0.45,15.6752
+"29012","paid off","other",12.53,0.6,2.07563
+"7993","default","small_business",25.23,0.75,12.9764
+"14378","default","debt_consolidation",24.82,0.35,10.5487
+"22808","default","debt_consolidation",21.91,0.5,5.06023
+"22378","default","debt_consolidation",13.03,0.6,11.1843
+"700","default","debt_consolidation",13.65,0.55,14.8086
+"9022","default","debt_consolidation",7.75,0.7,9.5474
+"32061","paid off","other",8.02,0.7,8.983
+"17635","default","debt_consolidation",16.71,0.5,8.64794
+"2782","default","debt_consolidation",15.14,0.35,12.765
+"35404","paid off","debt_consolidation",4.86,0.7,1.86972
+"41582","paid off","credit_card",30.18,0.5,8.74125
+"45473","paid off","debt_consolidation",15.51,0.55,1.40852
+"28218","paid off","major_purchase",23.25,0.45,2.89577
+"32473","paid off","debt_consolidation",8.42,0.35,5.36218
+"44026","paid off","debt_consolidation",9.06,0.4,16.3538
+"6893","default","debt_consolidation",26.13,0.35,9.93493
+"31532","paid off","debt_consolidation",18.08,0.5,5.12226
+"45242","paid off","debt_consolidation",22.42,0.45,4.42144
+"44608","paid off","small_business",1.53,0.85,9.12639
+"46149","paid off","debt_consolidation",10.34,0.55,9.59132
+"41086","paid off","other",3.27,0.7,2.3808
+"38554","paid off","debt_consolidation",8.36,0.75,10.5946
+"22948","default","small_business",9.36,0.55,12.842
+"23380","paid off","major_purchase",4.8,0.65,2.64634
+"35870","paid off","other",15.62,0.6,2.74391
+"25168","paid off","other",19.82,0.4,1.1994
+"33438","paid off","credit_card",12.85,0.5,5.19513
+"118","default","other",20.25,0.35,9.52015
+"23072","default","debt_consolidation",18.89,0.7,10.4786
+"11667","default","home_improvement",11.42,0.4,5.8448
+"24474","paid off","debt_consolidation",26.7,0.5,4.05608
+"7052","default","debt_consolidation",30.49,0.5,15.2105
+"7909","default","debt_consolidation",28.54,0.55,12.249
+"23968","paid off","debt_consolidation",17.28,0.45,9.73952
+"23970","paid off","credit_card",20.95,0.55,6.92815
+"45544","paid off","debt_consolidation",14.84,0.45,10.498
+"5155","default","debt_consolidation",6.6,0.65,2.34771
+"2403","default","credit_card",20.35,0.3,7.00434
+"24451","paid off","credit_card",16.44,0.4,5.8395
+"17843","default","debt_consolidation",24.53,0.65,8.23981
+"20308","default","home_improvement",5.31,0.65,13.8591
+"46046","paid off","debt_consolidation",22.25,0.45,15.3531
+"13194","default","credit_card",32.47,0.55,14.1573
+"7193","default","debt_consolidation",20.4,0.4,13.4863
+"45182","paid off","major_purchase",4.17,0.5,11.8167
+"29329","paid off","debt_consolidation",15.4,0.45,9.38945
+"31861","paid off","debt_consolidation",21.26,0.55,6.32148
+"34326","paid off","home_improvement",11.96,0.8,5.7156
+"33876","paid off","debt_consolidation",10.26,0.35,8.6841
+"4688","default","home_improvement",18.07,0.45,13.7863
+"39274","paid off","debt_consolidation",34.22,0.45,6.18238
+"30852","paid off","debt_consolidation",20.78,0.45,12.8735
+"35749","paid off","major_purchase",9.95,0.65,4.93873
+"6168","default","debt_consolidation",31.44,0.3,8.7597
+"16500","default","debt_consolidation",14.19,0.35,14.2467
+"32488","paid off","major_purchase",5.8,0.6,13.9073
+"33946","paid off","credit_card",27.03,0.35,13.0978
+"39607","paid off","debt_consolidation",26.94,0.35,9.44329
+"22499","default","credit_card",24.53,0.45,9.324
+"3577","default","debt_consolidation",16.62,0.55,1.02219
+"1272","default","debt_consolidation",18.23,0.35,9.34686
+"29795","paid off","major_purchase",8.48,0.65,13.5378
+"15342","default","credit_card",31.47,0.25,5.7633
+"10198","default","debt_consolidation",30.21,0.55,14.9661
+"9339","default","other",13.05,0.45,2.98871
+"19368","default","credit_card",25.68,0.6,5.5959
+"7316","default","debt_consolidation",20.08,0.4,11.7156
+"13922","default","debt_consolidation",9.41,0.45,18.7111
+"6124","default","debt_consolidation",20.18,0.35,5.37207
+"42829","paid off","debt_consolidation",25.11,0.65,3.55103
+"36381","paid off","debt_consolidation",17.88,0.7,8.256
+"30059","paid off","credit_card",28.68,0.6,10.8857
+"42055","paid off","debt_consolidation",19.9,0.6,8.35773
+"43478","paid off","debt_consolidation",15.43,0.35,12.2883
+"21930","default","debt_consolidation",28.05,0.25,11.1024
+"29639","paid off","debt_consolidation",12.58,0.4,7.26547
+"7401","default","debt_consolidation",18.9,0.5,12.2311
+"35008","paid off","credit_card",19.14,0.75,11.6989
+"44131","paid off","credit_card",17.11,0.6,3.7334
+"42057","paid off","credit_card",16.2,0.45,6.85706
+"13379","default","credit_card",18.64,0.5,6.54497
+"14034","default","debt_consolidation",11.76,0.35,13.6452
+"4660","default","small_business",9.01,0.55,10.392
+"1495","default","small_business",3.34,0.4,4.38495
+"27999","paid off","debt_consolidation",12.11,0.6,1.73435
+"14083","default","debt_consolidation",24.07,0.55,5.28554
+"23868","paid off","debt_consolidation",1.78,0.8,2.93568
+"18094","default","debt_consolidation",28.24,0.55,14.7165
+"25121","paid off","debt_consolidation",20.5,0.45,7.83609
+"33348","paid off","debt_consolidation",18.42,0.6,6.4902
+"31284","paid off","other",4.46,0.65,3.64344
+"692","default","major_purchase",13.12,0.6,2.9444
+"3693","default","debt_consolidation",11.56,0.35,7.419
+"20687","default","other",8.81,0.6,5.4984
+"11580","default","credit_card",22.02,0.55,12.3024
+"18913","default","debt_consolidation",21.51,0.45,6.17376
+"44083","paid off","debt_consolidation",21.28,0.5,13.9751
+"19315","default","debt_consolidation",8.96,0.65,9.92129
+"24417","paid off","debt_consolidation",13.46,0.4,10.738
+"32660","paid off","debt_consolidation",9.74,0.65,8.6754
+"27439","paid off","other",12.86,0.5,4.01918
+"35397","paid off","credit_card",12.73,0.5,5.5112
+"13890","default","debt_consolidation",14.62,0.25,7.05826
+"7668","default","debt_consolidation",20.98,0.5,6.12592
+"45810","paid off","small_business",8.25,0.6,18.0194
+"45096","paid off","medical",12.68,0.6,4.6159
+"39052","paid off","debt_consolidation",19.05,0.5,11.3316
+"45131","paid off","debt_consolidation",3.09,0.6,13.4129
+"11834","default","debt_consolidation",23.95,0.6,10.3743
+"15286","default","other",18.84,0.45,11.4735
+"30660","paid off","debt_consolidation",12.9,0.55,5.61375
+"17163","default","credit_card",30.62,0.35,17.148
+"24977","paid off","major_purchase",1.6,0.6,3.65013
+"25929","paid off","debt_consolidation",14.96,0.45,4.89453
+"34754","paid off","small_business",26.32,0.7,10.4992
+"9702","default","debt_consolidation",7.08,0.65,7.9152
+"7887","default","major_purchase",18.94,0.6,1.61712
+"32510","paid off","debt_consolidation",24.08,0.25,10.5838
+"27404","paid off","credit_card",14.42,0.55,11.8053
+"44252","paid off","debt_consolidation",15.36,0.55,9.9629
+"44743","paid off","credit_card",13.38,0.65,4.32488
+"10906","default","debt_consolidation",22.4,0.3,10.292
+"42977","paid off","credit_card",20.1,0.65,8.95638
+"40778","paid off","debt_consolidation",2.4,0.5,12.5697
+"41047","paid off","debt_consolidation",14.56,0.5,3.67249
+"6404","default","credit_card",28.5,0.45,13.684
+"1782","default","other",19.27,0.5,8.25303
+"13152","default","credit_card",10.39,0.5,14.7803
+"4822","default","small_business",18.53,0.55,13.2622
+"22108","default","credit_card",13.59,0.55,6.21969
+"3808","default","debt_consolidation",20.42,0.35,2.92173
+"11483","default","major_purchase",31.38,0.4,9.87241
+"10805","default","debt_consolidation",1.9,0.6,9.31464
+"14196","default","debt_consolidation",20.74,0.5,15.9866
+"15071","default","home_improvement",7.97,0.35,2.812
+"45653","paid off","debt_consolidation",10.32,0.7,7.28686
+"45452","paid off","other",8.73,0.5,4.05845
+"5486","default","credit_card",22.95,0.5,5.85316
+"139","default","credit_card",5.06,0.65,5.79371
+"35359","paid off","other",16.03,0.6,1.59227
+"13028","default","debt_consolidation",15.65,0.5,13.6269
+"27878","paid off","debt_consolidation",3.61,0.55,6.66802
+"19075","default","debt_consolidation",15.48,0.55,7.80207
+"19541","default","home_improvement",12.5,0.3,7.85243
+"326","default","debt_consolidation",15.21,0.35,7.5477
+"36064","paid off","home_improvement",27,0.55,3.2804
+"27536","paid off","debt_consolidation",6.91,0.6,5.34156
+"32802","paid off","debt_consolidation",23.47,0.3,9.01915
+"7248","default","debt_consolidation",20.7,0.4,10.2752
+"14216","default","debt_consolidation",14.5,0.55,9.73937
+"3846","default","credit_card",20.16,0.55,7.54292
+"44501","paid off","debt_consolidation",7.66,0.5,6.27684
+"43014","paid off","credit_card",17.64,0.5,6.29513
+"15217","default","debt_consolidation",29.1,0.45,4.9742
+"39629","paid off","debt_consolidation",26.65,0.6,7.10312
+"6819","default","debt_consolidation",15.22,0.45,2.96174
+"26096","paid off","credit_card",27.2,0.45,10.647
+"23329","paid off","debt_consolidation",12.44,0.4,7.3812
+"25116","paid off","credit_card",18.48,0.35,8.2386
+"27468","paid off","debt_consolidation",14.6,0.5,4.75458
+"20522","default","debt_consolidation",18.67,0.5,8.4345
+"17686","default","other",26.19,0.4,8.76715
+"8953","default","credit_card",25.56,0.55,13.0568
+"31540","paid off","debt_consolidation",19.8,0.35,14.2904
+"34977","paid off","credit_card",14.47,0.7,5.004
+"15600","default","medical",12.32,0.6,2.4496
+"11252","default","debt_consolidation",3.69,0.55,10.5177
+"20510","default","debt_consolidation",15.38,0.5,13.6751
+"1232","default","major_purchase",17.78,0.35,11.6987
+"1051","default","debt_consolidation",10.99,0.55,15.4858
+"26945","paid off","other",18.85,0.5,2.65774
+"31213","paid off","other",8.04,0.6,1.22181
+"41380","paid off","debt_consolidation",7.25,0.55,1.39167
+"37395","paid off","home_improvement",15.18,0.4,8.57051
+"30491","paid off","debt_consolidation",18.55,0.5,2.56693
+"3899","default","other",11.29,0.45,1.15662
+"6354","default","debt_consolidation",8.4,0.45,6.83489
+"37646","paid off","credit_card",17.85,0.75,3.67865
+"30409","paid off","credit_card",6.77,0.7,2.5472
+"1369","default","other",23.07,0.25,10.5348
+"45312","paid off","credit_card",10.5,0.6,6.63397
+"11301","default","credit_card",4.92,0.25,6.9228
+"3797","default","debt_consolidation",15.84,0.35,6.301
+"4314","default","credit_card",6.85,0.4,11.2825
+"34054","paid off","small_business",4.29,0.75,6.7236
+"8548","default","debt_consolidation",9.04,0.65,7.92
+"24126","paid off","debt_consolidation",21.28,0.4,8.73943
+"16438","default","debt_consolidation",22.92,0.45,15.6826
+"23901","paid off","credit_card",16.86,0.45,7.02786
+"6476","default","debt_consolidation",21.64,0.35,9.05709
+"38517","paid off","debt_consolidation",19.57,0.45,1.81311
+"1832","default","debt_consolidation",15.31,0.55,4.1162
+"4117","default","other",21.05,0.3,10.7214
+"1064","default","debt_consolidation",14.9,0.65,9.37479
+"17472","default","home_improvement",21.02,0.6,1.54555
+"18899","default","debt_consolidation",19.1,0.5,9.68263
+"34882","paid off","debt_consolidation",21.29,0.55,12.9909
+"14564","default","debt_consolidation",26.88,0.55,6.95778
+"20790","default","debt_consolidation",23.31,0.25,11.0486
+"41818","paid off","debt_consolidation",11.28,0.5,6.33615
+"32890","paid off","debt_consolidation",19.79,0.4,13.7794
+"34110","paid off","debt_consolidation",27.35,0.5,15.6204
+"33798","paid off","debt_consolidation",9.8,0.65,10.7096
+"4763","default","debt_consolidation",11.76,0.45,7.11028
+"10115","default","debt_consolidation",25.72,0.55,6.5518
+"10060","default","debt_consolidation",16.9,0.4,7.20789
+"37428","paid off","debt_consolidation",12.87,0.55,6.84488
+"15260","default","debt_consolidation",22.75,0.45,15.6242
+"36404","paid off","debt_consolidation",20.82,0.3,5.78931
+"7524","default","credit_card",31.37,0.3,13.7596
+"9653","default","credit_card",18.96,0.6,11.2556
+"41787","paid off","debt_consolidation",4.34,0.6,15.6288
+"17910","default","debt_consolidation",19.05,0.6,11.7108
+"46262","paid off","other",9.3,0.5,5.97877
+"16634","default","debt_consolidation",18.83,0.3,15.3997
+"5569","default","other",23.54,0.6,6.11705
+"32585","paid off","credit_card",11.35,0.6,10.1808
+"40796","paid off","debt_consolidation",12.06,0.4,9.71347
+"38428","paid off","debt_consolidation",7.61,0.55,6.93212
+"19090","default","debt_consolidation",17.37,0.35,11.8301
+"2978","default","credit_card",23.57,0.25,9.76664
+"14352","default","other",22.59,0.3,8.60563
+"20255","default","credit_card",13.99,0.6,7.23671
+"15650","default","debt_consolidation",18.14,0.55,6.00792
+"11240","default","small_business",16.25,0.55,13.8282
+"31525","paid off","major_purchase",11.62,0.45,11.7425
+"34959","paid off","debt_consolidation",13.27,0.2,10.0546
+"27623","paid off","debt_consolidation",12.86,0.5,2.98576
+"44275","paid off","debt_consolidation",3.01,0.8,2.59615
+"11593","default","credit_card",11.64,0.4,11.4516
+"20432","default","credit_card",5.22,0.5,5.4784
+"17893","default","other",13.62,0.35,4.98068
+"23296","paid off","debt_consolidation",12.51,0.55,2.86044
+"39162","paid off","major_purchase",2.67,0.75,3.15823
+"22701","default","debt_consolidation",7.65,0.55,12.2145
+"31453","paid off","debt_consolidation",17.13,0.55,6.0009
+"4338","default","small_business",18.05,0.3,14.5118
+"1913","default","debt_consolidation",22.26,0.5,12.3945
+"9458","default","credit_card",10.11,0.6,7.72683
+"389","default","debt_consolidation",9.26,0.3,6.00706
+"17975","default","debt_consolidation",24.47,0.2,13.2092
+"27553","paid off","debt_consolidation",12.8,0.65,11.4377
+"28814","paid off","other",17.41,0.65,5.62189
+"9751","default","debt_consolidation",18.08,0.35,9.01318
+"17972","default","debt_consolidation",27.94,0.5,2.94343
+"36507","paid off","debt_consolidation",10.43,0.35,12.1267
+"37594","paid off","major_purchase",4.7,0.4,10.315
+"23263","paid off","debt_consolidation",6.44,0.5,10.3219
+"22667","default","debt_consolidation",17.84,0.4,11.5579
+"40193","paid off","debt_consolidation",17.24,0.55,2.67084
+"2570","default","small_business",1.74,0.5,3.162
+"11864","default","credit_card",24.54,0.6,9.927
+"36992","paid off","credit_card",14.23,0.6,3.96991
+"19059","default","credit_card",24.94,0.4,5.03481
+"1560","default","debt_consolidation",21.11,0.65,14.2437
+"10979","default","debt_consolidation",20.83,0.5,12.9859
+"12045","default","debt_consolidation",8,0.35,4.13987
+"44095","paid off","home_improvement",3.93,0.5,17.4627
+"27792","paid off","debt_consolidation",15.68,0.4,10.1611
+"44239","paid off","home_improvement",10.1,0.65,4.3732
+"44855","paid off","debt_consolidation",6.17,0.75,9.16837
+"27838","paid off","credit_card",15.95,0.6,6.33946
+"17329","default","debt_consolidation",27.86,0.2,12.9418
+"20150","default","medical",25.16,0.55,3.83926
+"32865","paid off","debt_consolidation",7.88,0.6,7.98258
+"39626","paid off","debt_consolidation",13.7,0.3,22.6191
+"320","default","debt_consolidation",10.45,0.45,7.06985
+"3263","default","debt_consolidation",11.55,0.65,7.52902
+"8109","default","credit_card",18.24,0.7,6.8164
+"29319","paid off","home_improvement",23.81,0.45,12.2553
+"44888","paid off","debt_consolidation",13.4,0.65,7.24258
+"39746","paid off","debt_consolidation",7.44,0.6,5.42753
+"19564","default","debt_consolidation",20.79,0.55,22.115
+"27783","paid off","debt_consolidation",22.79,0.25,5.16229
+"26303","paid off","debt_consolidation",12.55,0.4,12.598
+"14559","default","debt_consolidation",15.89,0.25,6.8892
+"41113","paid off","other",6.68,0.65,7.7102
+"41668","paid off","debt_consolidation",8.86,0.5,10.3917
+"41374","paid off","debt_consolidation",9.65,0.4,12.7766
+"23438","paid off","major_purchase",11.69,0.6,4.93108
+"13706","default","debt_consolidation",16.71,0.3,7.14653
+"37868","paid off","credit_card",9.19,0.4,9.05727
+"26245","paid off","other",19,0.5,2.83967
+"19745","default","other",1.81,0.45,3.58221
+"4581","default","debt_consolidation",16.46,0.6,19.8697
+"33236","paid off","debt_consolidation",16.9,0.5,12.5162
+"41714","paid off","debt_consolidation",20.92,0.45,16.1361
+"8070","default","debt_consolidation",17.64,0.15,4.56918
+"1157","default","other",20.6,0.55,2.492
+"39431","paid off","debt_consolidation",4.57,0.65,12.8105
+"19227","default","debt_consolidation",9.51,0.45,6.50486
+"29249","paid off","debt_consolidation",4.88,0.4,14.6031
+"10795","default","credit_card",9.07,0.35,8.68467
+"1142","default","other",10.06,0.45,6.48754
+"993","default","debt_consolidation",21.07,0.45,13.4654
+"27494","paid off","debt_consolidation",9.9,0.65,7.45761
+"4167","default","debt_consolidation",4.32,0.3,19.3852
+"12112","default","debt_consolidation",14.68,0.35,5.46918
+"27618","paid off","debt_consolidation",17.82,0.6,14.654
+"21997","default","debt_consolidation",2,0.55,3.72225
+"38383","paid off","debt_consolidation",16.8,0.45,15.1014
+"12673","default","debt_consolidation",15.83,0.5,18.7884
+"7911","default","debt_consolidation",22.91,0.6,2.96168
+"22440","default","debt_consolidation",16.11,0.55,8.29323
+"27434","paid off","debt_consolidation",21.27,0.6,11.794
+"26268","paid off","small_business",19.28,0.45,3.31511
+"24745","paid off","debt_consolidation",27.5,0.5,15.6117
+"36080","paid off","other",1.22,0.6,9.04786
+"27065","paid off","credit_card",7.58,0.55,3.31895
+"38379","paid off","debt_consolidation",15.7,0.45,4.0378
+"29021","paid off","debt_consolidation",27.36,0.5,10.6959
+"41079","paid off","small_business",11.91,0.6,8.5536
+"15656","default","debt_consolidation",34.42,0.25,14.2227
+"30248","paid off","major_purchase",3.73,0.75,1.82505
+"16157","default","credit_card",21.74,0.35,16.7124
+"34954","paid off","home_improvement",4.61,0.75,3.40907
+"42578","paid off","debt_consolidation",8.42,0.5,1.43438
+"45092","paid off","credit_card",17.8,0.6,7.9847
+"4765","default","other",7.8,0.65,26.3774
+"39193","paid off","debt_consolidation",20.43,0.5,0.620435
+"19345","default","debt_consolidation",15.72,0.55,5.67686
+"44579","paid off","debt_consolidation",14.54,0.55,4.95716
+"629","default","debt_consolidation",22.66,0.4,11.9713
+"15118","default","debt_consolidation",28.83,0.35,15.8037
+"28297","paid off","home_improvement",1.4,0.75,6.32283
+"10153","default","debt_consolidation",34.8,0.4,4.979
+"35831","paid off","debt_consolidation",19.31,0.65,3.50976
+"32158","paid off","credit_card",23.89,0.35,14.4332
+"33640","paid off","credit_card",11.24,0.45,2.63793
+"37830","paid off","debt_consolidation",17.33,0.6,4.57867
+"5628","default","small_business",20.82,0.4,7.02986
+"4865","default","other",14.46,0.6,13.5671
+"27649","paid off","credit_card",31.97,0.65,12.7082
+"27863","paid off","debt_consolidation",7.37,0.7,3.39382
+"11507","default","credit_card",22.77,0.45,10.4489
+"41403","paid off","credit_card",4.08,0.35,12.7198
+"40296","paid off","debt_consolidation",34.5,0.6,17.1074
+"2269","default","debt_consolidation",3.71,0.7,17.6285
+"493","default","home_improvement",23.16,0.4,16.7333
+"40146","paid off","debt_consolidation",31.46,0.55,6.02089
+"5290","default","small_business",3.83,0.7,1.54892
+"27603","paid off","debt_consolidation",23.75,0.5,11.1064
+"28927","paid off","credit_card",28.84,0.55,15.2285
+"33497","paid off","small_business",9.75,0.6,9.1833
+"18841","default","debt_consolidation",17.73,0.4,11.9376
+"34926","paid off","debt_consolidation",26.04,0.5,2.6748
+"19583","default","debt_consolidation",29.74,0.7,13.5303
+"14273","default","debt_consolidation",24.87,0.35,11.0149
+"5502","default","other",15.82,0.6,5.84483
+"6976","default","debt_consolidation",28.35,0.55,14.4017
+"24286","paid off","small_business",3.55,0.55,6.27051
+"14117","default","debt_consolidation",16.06,0.55,9.8388
+"11029","default","credit_card",9.56,0.6,15.0589
+"11003","default","credit_card",7.61,0.35,13.4329
+"20424","default","debt_consolidation",13.59,0.4,6.8579
+"26142","paid off","credit_card",26.27,0.65,6.85872
+"45466","paid off","home_improvement",5.72,0.4,4.2945
+"29768","paid off","debt_consolidation",17.19,0.5,8.53174
+"1749","default","debt_consolidation",13.16,0.65,18.3491
+"43574","paid off","debt_consolidation",13.23,0.55,11.638
+"26467","paid off","debt_consolidation",18.03,0.4,8.89998
+"6730","default","major_purchase",13.29,0.6,9.68083
+"38474","paid off","debt_consolidation",27.59,0.35,13.4203
+"5541","default","other",24.55,0.4,10.6685
+"13459","default","debt_consolidation",15.37,0.65,15.6452
+"9284","default","debt_consolidation",26.71,0.55,5.014
+"4194","default","debt_consolidation",20.63,0.45,5.455
+"31450","paid off","debt_consolidation",10.8,0.5,8.2476
+"37956","paid off","credit_card",13.11,0.7,8.3316
+"45110","paid off","other",23.04,0.45,2.40163
+"32929","paid off","debt_consolidation",9.29,0.35,6.38013
+"14373","default","debt_consolidation",16.28,0.6,11.8099
+"31643","paid off","debt_consolidation",33.23,0.4,5.65539
+"11290","default","debt_consolidation",7.02,0.5,7.96064
+"14741","default","debt_consolidation",32.65,0.45,14.047
+"39443","paid off","other",19.21,0.5,4.016
+"34126","paid off","other",16.29,0.5,4.97984
+"8842","default","debt_consolidation",20.28,0.45,10.3618
+"10410","default","debt_consolidation",21.74,0.55,5.82531
+"23499","paid off","debt_consolidation",20.15,0.45,7.90636
+"22809","default","debt_consolidation",10.62,0.4,11.5608
+"10218","default","debt_consolidation",24.94,0.5,5.96382
+"42581","paid off","debt_consolidation",8.74,0.65,4.58914
+"40772","paid off","debt_consolidation",16.53,0.45,13.1003
+"36798","paid off","home_improvement",20.46,0.45,15.525
+"41018","paid off","other",23.65,0.45,5.80435
+"3666","default","debt_consolidation",14.5,0.6,3.187
+"59","default","credit_card",21.83,0.5,12.4035
+"26427","paid off","debt_consolidation",19.15,0.65,1.34023
+"24184","paid off","debt_consolidation",13.73,0.35,12.6484
+"22504","default","home_improvement",17.43,0.35,8.1165
+"19981","default","debt_consolidation",16.3,0.5,10.9215
+"30471","paid off","debt_consolidation",19.3,0.55,16.7572
+"27737","paid off","debt_consolidation",21.34,0.5,10.3997
+"39988","paid off","debt_consolidation",34.13,0.25,18.4214
+"38195","paid off","credit_card",14.82,0.25,7.82267
+"24915","paid off","debt_consolidation",13.77,0.65,6.80795
+"42037","paid off","credit_card",3.94,0.5,8.0856
+"45341","paid off","credit_card",16.45,0.55,2.14863
+"21850","default","credit_card",24.7,0.55,6.32418
+"14903","default","debt_consolidation",10.13,0.55,9.01509
+"9707","default","debt_consolidation",26.91,0.75,13.2818
+"30621","paid off","debt_consolidation",16.49,0.75,14.2334
+"11442","default","debt_consolidation",29.04,0.3,8.44104
+"2591","default","other",18.9,0.45,5.068
+"26799","paid off","debt_consolidation",9.86,0.45,9.38712
+"22084","default","debt_consolidation",26.79,0.5,3.97914
+"18971","default","debt_consolidation",21.69,0.4,8.35957
+"8777","default","debt_consolidation",20.72,0.3,14.2325
+"18115","default","debt_consolidation",24.55,0.45,15.0464
+"33954","paid off","home_improvement",18.61,0.7,7.4994
+"30521","paid off","small_business",2.76,0.6,16.0556
+"19122","default","credit_card",22.96,0.3,4.435
+"42444","paid off","credit_card",11.19,0.55,7.47885
+"28657","paid off","debt_consolidation",14.79,0.45,3.85957
+"20985","default","debt_consolidation",16.91,0.4,9.94594
+"42932","paid off","credit_card",25.14,0.4,3.34782
+"15132","default","debt_consolidation",23.86,0.8,11.5867
+"40461","paid off","major_purchase",12.25,0.65,2.4128
+"23281","paid off","debt_consolidation",13.61,0.65,11.6345
+"825","default","other",0.22,0.45,9.70171
+"24032","paid off","other",20.33,0.5,8.33064
+"1442","default","debt_consolidation",15,0.45,7.8366
+"40173","paid off","other",4.24,0.65,12.0472
+"3316","default","credit_card",9.16,0.7,5.43183
+"22672","default","debt_consolidation",21.58,0.45,8.80175
+"9337","default","debt_consolidation",20.28,0.35,13.6681
+"7497","default","home_improvement",13.33,0.6,15.2208
+"43939","paid off","debt_consolidation",29.57,0.7,4.41514
+"43984","paid off","home_improvement",7.41,0.6,4.8274
+"9808","default","debt_consolidation",31.52,0.25,14.9893
+"22030","default","debt_consolidation",3.95,0.35,8.41493
+"10802","default","debt_consolidation",29.65,0.5,12.7859
+"1623","default","home_improvement",16.22,0.4,6.26416
+"6384","default","debt_consolidation",22.94,0.45,11.8157
+"45256","paid off","debt_consolidation",12.11,0.6,1.79208
+"42343","paid off","debt_consolidation",10.55,0.55,4.93975
+"1182","default","major_purchase",14.98,0.7,2.8408
+"44005","paid off","debt_consolidation",11.16,0.45,6.88157
+"512","default","debt_consolidation",10.93,0.25,6.17568
+"40319","paid off","debt_consolidation",17.85,0.65,4.14344
+"25641","paid off","home_improvement",18.46,0.65,8.3552
+"44213","paid off","other",21.65,0.7,3.41769
+"15519","default","debt_consolidation",14.12,0.4,7.46681
+"5125","default","other",6.9,0.45,3.23067
+"18488","default","small_business",8.5,0.3,6.66822
+"22974","default","other",15.14,0.4,6.81315
+"24318","paid off","credit_card",21.74,0.4,12.8332
+"1608","default","debt_consolidation",21.83,0.4,3.45117
+"6310","default","credit_card",17.04,0.55,18.252
+"31902","paid off","debt_consolidation",12.28,0.45,7.51214
+"39462","paid off","debt_consolidation",11.05,0.45,3.56463
+"33688","paid off","debt_consolidation",20.49,0.6,9.52044
+"25512","paid off","debt_consolidation",6.3,0.8,2.93329
+"31364","paid off","credit_card",11.43,0.4,3.91871
+"7313","default","debt_consolidation",10.52,0.3,11.3684
+"32748","paid off","other",17.16,0.65,2.22768
+"23426","paid off","debt_consolidation",15.44,0.35,11.052
+"14946","default","debt_consolidation",27.47,0.45,8.54583
+"18091","default","debt_consolidation",6.85,0.65,10.6469
+"6528","default","debt_consolidation",21.8,0.7,7.89548
+"18702","default","debt_consolidation",20.96,0.6,15.2179
+"33296","paid off","debt_consolidation",22.22,0.7,1.8262
+"3601","default","debt_consolidation",7.86,0.45,10.5562
+"32682","paid off","debt_consolidation",17.34,0.45,9.39172
+"28425","paid off","debt_consolidation",21.9,0.55,2.35527
+"26565","paid off","debt_consolidation",6.18,0.6,3.42268
+"9564","default","debt_consolidation",14.25,0.35,5.1689
+"23138","paid off","credit_card",20,0.55,6.5328
+"12119","default","credit_card",8.61,0.55,5.8128
+"44995","paid off","debt_consolidation",21.65,0.4,10.8477
+"16413","default","debt_consolidation",18.02,0.35,14.4902
+"1694","default","debt_consolidation",11.63,0.45,4.01591
+"4267","default","debt_consolidation",19.62,0.4,13.1492
+"9027","default","debt_consolidation",7.2,0.65,4.0832
+"6952","default","credit_card",13.5,0.45,9.46525
+"8028","default","debt_consolidation",17.37,0.45,8.74548
+"9725","default","home_improvement",22.63,0.5,11.0157
+"40322","paid off","debt_consolidation",15.92,0.55,4.3864
+"13767","default","credit_card",20.81,0.45,1.86859
+"26774","paid off","credit_card",16.91,0.5,14.5938
+"42784","paid off","debt_consolidation",20.33,0.4,2.31257
+"34119","paid off","debt_consolidation",22.81,0.7,7.86265
+"13039","default","debt_consolidation",14.9,0.55,10.4258
+"37858","paid off","debt_consolidation",19.73,0.45,6.69671
+"7766","default","debt_consolidation",3.26,0.55,4.9814
+"21887","default","debt_consolidation",27.44,0.35,6.884
+"38575","paid off","debt_consolidation",29.92,0.8,3.10272
+"38270","paid off","major_purchase",18.53,0.4,1.74975
+"26562","paid off","home_improvement",13.51,0.8,1.26846
+"19338","default","credit_card",21.08,0.6,18.7267
+"4887","default","small_business",4.25,0.65,7.11404
+"4399","default","debt_consolidation",8.49,0.55,3.70653
+"22998","default","credit_card",11.09,0.4,11.0899
+"38004","paid off","debt_consolidation",10.03,0.3,6.86583
+"2393","default","home_improvement",25.5,0.35,2.32625
+"32360","paid off","credit_card",19.6,0.4,14.723
+"5969","default","debt_consolidation",12.27,0.55,13.6237
+"11951","default","debt_consolidation",19.82,0.4,2.22711
+"15791","default","debt_consolidation",22.32,0.55,8.3847
+"13607","default","debt_consolidation",33.63,0.4,18.9266
+"5558","default","home_improvement",14.2,0.3,2.19975
+"26019","paid off","credit_card",10.12,0.4,3.50452
+"3331","default","credit_card",15.69,0.45,3.1193
+"44670","paid off","other",9.07,0.8,12.4181
+"25599","paid off","debt_consolidation",15,0.55,14.7456
+"19776","default","other",18.46,0.3,5.03748
+"9454","default","credit_card",17.27,0.4,12.1857
+"32654","paid off","credit_card",15.74,0.6,3.321
+"36616","paid off","debt_consolidation",12.91,0.5,11.5172
+"30369","paid off","debt_consolidation",20.7,0.45,4.74356
+"6643","default","debt_consolidation",27.56,0.3,6.8036
+"15513","default","credit_card",20.31,0.45,10.1241
+"14662","default","debt_consolidation",22.96,0.6,7.19192
+"8575","default","home_improvement",3.26,0.5,1.01851
+"6724","default","debt_consolidation",24.99,0.35,10.2
+"24403","paid off","small_business",14.96,0.4,1.35106
+"20710","default","credit_card",14.37,0.2,13.3586
+"31756","paid off","credit_card",10.77,0.5,10.1669
+"45506","paid off","debt_consolidation",13.68,0.4,7.8722
+"41398","paid off","debt_consolidation",2,0.6,3.60836
+"36893","paid off","debt_consolidation",21.65,0.55,9.02328
+"32089","paid off","credit_card",13.76,0.7,11.7677
+"29575","paid off","credit_card",23.1,0.35,17.1497
+"14714","default","credit_card",19.58,0.45,12.2528
+"38198","paid off","debt_consolidation",24.4,0.4,4.3794
+"32826","paid off","debt_consolidation",22.09,0.6,7.72842
+"30663","paid off","debt_consolidation",31.14,0.55,9.29468
+"30325","paid off","debt_consolidation",25.38,0.3,12.1161
+"5523","default","debt_consolidation",13.36,0.6,6.15938
+"33812","paid off","other",3.3,0.65,4.8146
+"19895","default","other",16.41,0.5,2.39527
+"27743","paid off","debt_consolidation",13.33,0.55,5.4589
+"19795","default","major_purchase",11.63,0.5,1.85257
+"24076","paid off","other",23.38,0.55,4.01974
+"5986","default","small_business",25.03,0.5,4.05024
+"6308","default","debt_consolidation",16.67,0.55,11.9562
+"44369","paid off","debt_consolidation",23.64,0.4,11.4246
+"25400","paid off","debt_consolidation",12.4,0.65,4.633
+"44535","paid off","debt_consolidation",24.17,0.6,6.48681
+"42230","paid off","other",20.83,0.3,6.2946
+"42334","paid off","debt_consolidation",17.16,0.55,9.61636
+"35940","paid off","debt_consolidation",12,0.35,11.1455
+"42842","paid off","debt_consolidation",6,0.6,5.84107
+"21722","default","debt_consolidation",16.9,0.65,5.21957
+"42960","paid off","credit_card",20.69,0.55,2.96373
+"37107","paid off","major_purchase",16.64,0.45,7.91089
+"21129","default","debt_consolidation",26.72,0.35,8.20461
+"25279","paid off","credit_card",11.3,0.45,7.12901
+"34535","paid off","credit_card",14.84,0.6,2.34424
+"14821","default","major_purchase",5.72,0.35,18.4406
+"15317","default","debt_consolidation",11.8,0.35,5.13325
+"35079","paid off","debt_consolidation",15.74,0.45,3.35863
+"41331","paid off","debt_consolidation",30.32,0.6,7.0848
+"8749","default","medical",4.4,0.6,2.728
+"24515","paid off","debt_consolidation",32.95,0.6,10.4492
+"32648","paid off","debt_consolidation",11.33,0.25,4.8756
+"8187","default","debt_consolidation",29.56,0.4,11.4334
+"24929","paid off","debt_consolidation",24.28,0.7,11.294
+"11167","default","debt_consolidation",2.79,0.6,6.99231
+"24070","paid off","debt_consolidation",13.4,0.5,13.4886
+"15877","default","debt_consolidation",27.56,0.4,3.85686
+"37751","paid off","debt_consolidation",20.56,0.6,7.48667
+"14616","default","credit_card",32.32,0.65,8.05246
+"13588","default","other",21.24,0.4,1.97104
+"38137","paid off","credit_card",2.51,0.45,5.06205
+"7809","default","small_business",7.3,0.5,3.02107
+"21200","default","credit_card",13.04,0.55,4.94912
+"36236","paid off","debt_consolidation",25.62,0.55,6.43826
+"23712","paid off","debt_consolidation",19.99,0.5,4.62795
+"5161","default","other",7.31,0.5,3.97765
+"35235","paid off","debt_consolidation",18.21,0.65,7.71173
+"5194","default","other",8.79,0.45,15.5629
+"32892","paid off","debt_consolidation",26.44,0.55,5.02311
+"20490","default","debt_consolidation",11.24,0.5,8.68167
+"13854","default","debt_consolidation",15.39,0.45,13.8847
+"39569","paid off","debt_consolidation",23.64,0.65,5.57578
+"398","default","credit_card",20.62,0.65,10.0385
+"46040","paid off","other",8.36,0.45,8.09928
+"20930","default","major_purchase",16.23,0.45,4.65343
+"8905","default","debt_consolidation",21.15,0.4,6.9732
+"42381","paid off","home_improvement",21.81,0.2,4.27535
+"34585","paid off","credit_card",5.48,0.5,7.24706
+"40076","paid off","debt_consolidation",14.55,0.25,19.1007
+"37124","paid off","credit_card",12.8,0.5,9.44192
+"14927","default","credit_card",9.48,0.45,5.2647
+"27362","paid off","home_improvement",6.34,0.6,5.9944
+"31595","paid off","debt_consolidation",3.8,0.7,3.68445
+"15593","default","debt_consolidation",16.67,0.55,13.499
+"3822","default","debt_consolidation",7.66,0.45,7.34477
+"635","default","debt_consolidation",8.86,0.45,5.8584
+"27062","paid off","small_business",5.98,0.7,3.03273
+"1153","default","other",16.95,0.4,4.75025
+"36328","paid off","debt_consolidation",11.65,0.45,6.47904
+"23576","paid off","major_purchase",4.34,0.5,12.6034
+"7250","default","debt_consolidation",24.43,0.6,12.8755
+"27581","paid off","debt_consolidation",18.67,0.55,7.68804
+"14904","default","credit_card",21.07,0.5,7.32976
+"14576","default","debt_consolidation",17.66,0.45,10.1666
+"21258","default","debt_consolidation",18.28,0.3,12.5124
+"16411","default","debt_consolidation",18.37,0.5,12.048
+"14987","default","other",17.98,0.4,5.1534
+"14651","default","debt_consolidation",18.98,0.35,1.01111
+"29709","paid off","debt_consolidation",11.5,0.5,8.94425
+"25877","paid off","debt_consolidation",9.34,0.45,4.41497
+"23675","paid off","debt_consolidation",16.53,0.45,3.17662
+"30841","paid off","credit_card",14.4,0.6,12.5889
+"38815","paid off","credit_card",10.32,0.65,2.94086
+"35051","paid off","debt_consolidation",8.58,0.3,5.52232
+"7877","default","home_improvement",15.08,0.25,7.52931
+"15250","default","debt_consolidation",22.14,0.3,3.82291
+"22945","default","debt_consolidation",17.87,0.6,12.5692
+"4138","default","debt_consolidation",11.59,0.45,7.95346
+"36948","paid off","debt_consolidation",17.59,0.6,8.64912
+"42830","paid off","credit_card",20.64,0.45,5.08368
+"12876","default","debt_consolidation",24.41,0.55,4.19376
+"4187","default","other",17.57,0.35,4.93924
+"24249","paid off","credit_card",28.06,0.45,9.65945
+"7290","default","credit_card",30.02,0.35,1.53862
+"45857","paid off","home_improvement",18.74,0.5,5.59229
+"16646","default","debt_consolidation",16.18,0.55,7.306
+"16747","default","other",3.4,0.65,13.3088
+"37753","paid off","debt_consolidation",17.29,0.5,3.47963
+"19969","default","debt_consolidation",13.3,0.6,12.5246
+"34963","paid off","home_improvement",5.61,0.65,2.0586
+"41517","paid off","debt_consolidation",2.24,0.45,3.54657
+"6552","default","debt_consolidation",28.06,0.3,7.59699
+"14279","default","debt_consolidation",12.79,0.45,9.82954
+"27125","paid off","debt_consolidation",14.09,0.7,3.12906
+"30457","paid off","major_purchase",9.84,0.6,19.6195
+"5905","default","credit_card",22.13,0.55,2.50007
+"44112","paid off","debt_consolidation",13.36,0.6,13.7
+"17777","default","debt_consolidation",29.82,0.5,7.5936
+"1586","default","debt_consolidation",13.58,0.6,7.57512
+"39603","paid off","debt_consolidation",19.37,0.55,7.06414
+"5022","default","debt_consolidation",17.24,0.5,5.3064
+"26382","paid off","debt_consolidation",16.2,0.4,11.0945
+"8827","default","debt_consolidation",19.8,0.5,6.10111
+"2613","default","small_business",2.69,0.55,12.8317
+"12072","default","debt_consolidation",32.53,0.15,11.2923
+"13359","default","debt_consolidation",21.12,0.3,9.23308
+"25456","paid off","other",5.67,0.65,1.56211
+"32997","paid off","debt_consolidation",7.72,0.45,14.5008
+"24171","paid off","credit_card",15.05,0.65,18.1467
+"7717","default","debt_consolidation",7.28,0.65,6.98366
+"7394","default","medical",18.79,0.5,7.4264
+"38891","paid off","credit_card",23.3,0.5,5.02315
+"35620","paid off","debt_consolidation",20.21,0.55,5.85825
+"24235","paid off","credit_card",8.35,0.55,4.1526
+"29373","paid off","debt_consolidation",5.08,0.35,7.83038
+"44605","paid off","debt_consolidation",28.22,0.6,8.52015
+"11652","default","small_business",3.88,0.45,10.1974
+"34156","paid off","debt_consolidation",13.17,0.5,4.49806
+"43639","paid off","debt_consolidation",14.04,0.55,0.815313
+"32161","paid off","credit_card",18.56,0.55,11.8985
+"18733","default","small_business",11.36,0.65,15.6102
+"30036","paid off","debt_consolidation",22.57,0.65,3.17802
+"25581","paid off","debt_consolidation",14.19,0.65,3.17727
+"33232","paid off","debt_consolidation",19.79,0.4,12.9468
+"15721","default","credit_card",9.51,0.5,13.9478
+"21900","default","debt_consolidation",19.53,0.5,10.6428
+"28019","paid off","debt_consolidation",9.39,0.5,6.97733
+"20856","default","debt_consolidation",10.73,0.4,10.336
+"45246","paid off","debt_consolidation",20.81,0.8,4.83918
+"43077","paid off","debt_consolidation",20.49,0.45,21.0594
+"39961","paid off","debt_consolidation",23.66,0.35,11.0606
+"38480","paid off","debt_consolidation",16.63,0.6,14.4174
+"12955","default","debt_consolidation",10.97,0.55,6.2385
+"1466","default","major_purchase",17.27,0.55,5.995
+"15384","default","debt_consolidation",29.97,0.6,13.1806
+"3312","default","debt_consolidation",19.61,0.55,5.86192
+"46252","paid off","debt_consolidation",16.73,0.5,14.9765
+"21055","default","debt_consolidation",13.36,0.45,8.87572
+"33083","paid off","credit_card",19.01,0.75,8.43347
+"21428","default","home_improvement",4.24,0.4,3.67061
+"20241","default","debt_consolidation",9.82,0.5,5.31147
+"16673","default","other",8.18,0.65,11.7377
+"14417","default","debt_consolidation",4.11,0.65,14.8171
+"14066","default","debt_consolidation",16.86,0.6,18.7648
+"34087","paid off","other",0.43,0.45,2.83
+"34337","paid off","debt_consolidation",34.9,0.45,6.94416
+"4589","default","debt_consolidation",7.83,0.35,5.68958
+"12840","default","other",33.93,0.4,15.1934
+"41228","paid off","credit_card",22.14,0.7,4.71376
+"21331","default","debt_consolidation",13.39,0.5,12.4348
+"6601","default","other",25.36,0.2,4.06295
+"2732","default","debt_consolidation",7.62,0.55,1.35981
+"42266","paid off","credit_card",27.93,0.5,7.39324
+"6555","default","debt_consolidation",17.9,0.55,10.4232
+"16522","default","small_business",25.6,0.35,10.5906
+"17631","default","debt_consolidation",17.16,0.4,14.1738
+"41935","paid off","other",11.41,0.35,2.36185
+"26100","paid off","credit_card",23.5,0.55,4.94264
+"37166","paid off","debt_consolidation",26.23,0.55,11.7443
+"33920","paid off","debt_consolidation",19.27,0.5,6.40371
+"6407","default","other",18.09,0.45,6.96762
+"38574","paid off","other",15.93,0.65,3.07135
+"34471","paid off","credit_card",6.35,0.35,9.56626
+"20793","default","debt_consolidation",5.96,0.3,11.5796
+"12323","default","debt_consolidation",17.55,0.6,8.00924
+"11687","default","debt_consolidation",29.25,0.3,9.01509
+"44163","paid off","debt_consolidation",12.74,0.65,3.36576
+"45553","paid off","other",21.54,0.55,11.0864
+"10668","default","debt_consolidation",7.39,0.55,10.6623
+"31026","paid off","debt_consolidation",29.4,0.4,4.31571
+"42585","paid off","credit_card",24.16,0.45,3.4123
+"11656","default","debt_consolidation",20.58,0.3,2.92391
+"39599","paid off","credit_card",9.12,0.55,6.1656
+"35181","paid off","debt_consolidation",12.95,0.6,5.30253
+"10742","default","debt_consolidation",4.88,0.6,3.66281
+"44641","paid off","other",13.55,0.65,2.48813
+"26110","paid off","debt_consolidation",19.05,0.4,17.1908
+"25967","paid off","debt_consolidation",11.06,0.65,13.9333
+"25377","paid off","debt_consolidation",23.06,0.5,6.86716
+"27443","paid off","debt_consolidation",20.14,0.4,9.49544
+"24268","paid off","other",21.66,0.55,15.4537
+"25345","paid off","debt_consolidation",10.87,0.5,3.3635
+"43613","paid off","small_business",9.81,0.7,13.2478
+"20734","default","debt_consolidation",20.27,0.4,11.4551
+"13237","default","credit_card",14.92,0.2,14.7162
+"27769","paid off","home_improvement",5.1,0.5,2.94542
+"23882","paid off","debt_consolidation",24.59,0.5,13.1036
+"26634","paid off","medical",0,0.6,15.192
+"39714","paid off","debt_consolidation",18.96,0.65,9.60468
+"2369","default","home_improvement",10.55,0.65,7.37436
+"33450","paid off","debt_consolidation",12.79,0.6,10.5392
+"24527","paid off","medical",12.6,0.55,5.91257
+"16800","default","debt_consolidation",21.85,0.5,6.99855
+"17762","default","other",33.73,0.4,5.03486
+"12713","default","credit_card",25.41,0.35,5.52539
+"13106","default","credit_card",19.68,0.4,10.5804
+"31168","paid off","debt_consolidation",15.73,0.6,3.93813
+"5109","default","debt_consolidation",14.33,0.7,4.93559
+"15915","default","debt_consolidation",18.38,0.35,11.7734
+"38095","paid off","credit_card",29.69,0.35,8.57195
+"30076","paid off","home_improvement",18.3,0.7,4.39349
+"4218","default","other",0.46,0.45,2.94
+"44707","paid off","other",21.75,0.35,2.90444
+"15245","default","debt_consolidation",2.83,0.35,3.11625
+"38776","paid off","debt_consolidation",11.67,0.5,7.39186
+"23298","paid off","debt_consolidation",8.85,0.6,9.41777
+"30712","paid off","other",0.96,0.8,1.54864
+"33551","paid off","debt_consolidation",10.28,0.55,7.86277
+"16059","default","home_improvement",23.82,0.5,6.17567
+"19268","default","debt_consolidation",18.62,0.45,6.73104
+"9270","default","debt_consolidation",8.93,0.5,10.0146
+"42353","paid off","debt_consolidation",11.47,0.6,11.8547
+"33999","paid off","credit_card",14.29,0.35,4.21329
+"15229","default","debt_consolidation",18.13,0.5,4.78286
+"17342","default","credit_card",21.26,0.6,3.26606
+"27396","paid off","debt_consolidation",18.81,0.55,3.36135
+"37819","paid off","credit_card",8.47,0.5,5.08885
+"45266","paid off","other",15.46,0.5,11.2952
+"7757","default","major_purchase",21,0.6,2.86448
+"811","default","small_business",18.53,0.4,10.6262
+"40248","paid off","debt_consolidation",15.3,0.65,15.7948
+"6587","default","other",18.87,0.6,11.9808
+"44801","paid off","major_purchase",11.96,0.6,13.5712
+"20237","default","debt_consolidation",17.72,0.6,11.7831
+"39758","paid off","debt_consolidation",24.8,0.45,10.0146
+"42449","paid off","debt_consolidation",27.72,0.55,5.39952
+"36431","paid off","home_improvement",15.09,0.4,5.23664
+"43699","paid off","home_improvement",6.71,0.45,1.27038
+"12874","default","debt_consolidation",15.04,0.5,6.98585
+"36243","paid off","credit_card",20.64,0.5,6.642
+"21949","default","home_improvement",15.16,0.45,9.50826
+"31392","paid off","debt_consolidation",23.64,0.7,8.5864
+"37755","paid off","debt_consolidation",29.69,0.45,7.02502
+"23299","paid off","small_business",24.83,0.5,7.24727
+"31975","paid off","debt_consolidation",16.2,0.55,4.42152
+"34154","paid off","major_purchase",17.6,0.45,12.4159
+"35523","paid off","credit_card",7.36,0.4,6.9888
+"23398","paid off","credit_card",29.44,0.4,6.30496
+"21784","default","debt_consolidation",20.6,0.55,12.6509
+"26007","paid off","debt_consolidation",25.6,0.5,6.4525
+"6517","default","credit_card",24.65,0.4,15.7941
+"41864","paid off","debt_consolidation",10.78,0.35,5.30009
+"40326","paid off","debt_consolidation",2.71,0.75,9.55981
+"36025","paid off","debt_consolidation",26.14,0.4,4.74
+"2476","default","other",16.2,0.45,2.24496
+"4242","default","other",23.84,0.45,10.339
+"13179","default","other",1.7,0.5,4.891
+"20353","default","debt_consolidation",9.67,0.45,5.0123
+"11773","default","debt_consolidation",6.58,0.6,12.7507
+"21589","default","other",13.72,0.35,2.17375
+"7300","default","credit_card",31.31,0.3,14.4499
+"18816","default","credit_card",17.33,0.3,4.44655
+"33417","paid off","credit_card",3.42,0.35,2.8068
+"24749","paid off","debt_consolidation",15.15,0.45,15.2893
+"25045","paid off","debt_consolidation",6.57,0.75,10.9235
+"6305","default","debt_consolidation",19.73,0.6,11.8681
+"43366","paid off","credit_card",31.29,0.5,13.0549
+"31245","paid off","credit_card",8.01,0.75,2.07424
+"28402","paid off","other",19.11,0.15,7.77401
+"34163","paid off","debt_consolidation",9.91,0.65,3.54422
+"3288","default","debt_consolidation",5.41,0.35,19.5908
+"38080","paid off","debt_consolidation",7.8,0.45,5.32461
+"13560","default","credit_card",31.29,0.55,11.9778
+"20838","default","debt_consolidation",14.61,0.55,18.2411
+"35855","paid off","credit_card",12.2,0.6,7.51485
+"37439","paid off","small_business",24.04,0.75,5.976
+"25491","paid off","debt_consolidation",9.25,0.5,3.39154
+"5960","default","home_improvement",17.64,0.6,3.09278
+"4637","default","other",21.02,0.25,15.5122
+"2552","default","other",0,0.25,6.74467
+"36130","paid off","credit_card",19.62,0.7,7.23232
+"30320","paid off","debt_consolidation",10.26,0.4,6.504
+"13956","default","debt_consolidation",9.17,0.45,7.26972
+"38123","paid off","debt_consolidation",15.17,0.45,6.61354
+"41594","paid off","debt_consolidation",13.11,0.7,11.339
+"8199","default","debt_consolidation",14.92,0.55,18.3567
+"25697","paid off","home_improvement",3.98,0.55,2.1209
+"992","default","debt_consolidation",21.2,0.55,6.70725
+"44048","paid off","debt_consolidation",5.16,0.45,7.582
+"27110","paid off","home_improvement",3.03,0.5,8.039
+"26839","paid off","debt_consolidation",8.7,0.65,7.00133
+"44367","paid off","debt_consolidation",6.84,0.6,8.5661
+"30417","paid off","credit_card",13.93,0.45,4.16171
+"32885","paid off","home_improvement",7.33,0.7,2.58426
+"40573","paid off","home_improvement",5,0.65,4.32851
+"5398","default","major_purchase",15.99,0.45,7.13878
+"17043","default","debt_consolidation",11.92,0.3,10.5275
+"15259","default","credit_card",27.35,0.4,13.523
+"27703","paid off","credit_card",7.07,0.45,5.19905
+"10090","default","debt_consolidation",23.87,0.3,14.1551
+"40864","paid off","credit_card",28.44,0.6,8.03966
+"39420","paid off","home_improvement",25.42,0.55,6.93962
+"35237","paid off","debt_consolidation",27.96,0.65,10.1268
+"36495","paid off","credit_card",9.17,0.6,3.52151
+"19441","default","debt_consolidation",7.1,0.35,4.94479
+"17519","default","debt_consolidation",17.33,0.6,3.04848
+"8629","default","other",4.37,0.4,7.29312
+"27802","paid off","debt_consolidation",28.11,0.6,8.17714
+"42637","paid off","debt_consolidation",3.17,0.6,3.6504
+"12811","default","debt_consolidation",25.63,0.2,15.1926
+"11313","default","other",18.43,0.4,9.52213
+"27436","paid off","debt_consolidation",26.09,0.45,3.19655
+"14022","default","debt_consolidation",21.16,0.5,17.772
+"12716","default","debt_consolidation",9.47,0.5,14.4162
+"27815","paid off","other",21.45,0.5,6.40194
+"39439","paid off","credit_card",4.03,0.7,3.26875
+"1221","default","credit_card",14.73,0.45,2.66569
+"43048","paid off","credit_card",11.31,0.45,9.5664
+"23255","paid off","debt_consolidation",18.19,0.45,7.7754
+"16584","default","debt_consolidation",2.42,0.5,7.02867
+"40478","paid off","debt_consolidation",10.31,0.3,8.93077
+"16968","default","credit_card",3.34,0.55,3.08528
+"4179","default","debt_consolidation",22.58,0.4,9.03776
+"17110","default","other",15.46,0.3,9.37884
+"27075","paid off","debt_consolidation",29.83,0.45,7.76883
+"14873","default","debt_consolidation",23.01,0.6,13.8504
+"38560","paid off","debt_consolidation",23.04,0.6,0.78296
+"19217","default","debt_consolidation",20.76,0.5,7.7856
+"42172","paid off","debt_consolidation",13.75,0.55,3.55783
+"40496","paid off","credit_card",15.73,0.4,7.40681
+"33879","paid off","medical",14.59,0.65,1.7532
+"11479","default","other",14.03,0.55,11.128
+"30895","paid off","debt_consolidation",17.17,0.55,13.7174
+"33895","paid off","debt_consolidation",21.32,0.65,7.0118
+"10711","default","debt_consolidation",32.82,0.3,15.1377
+"34231","paid off","debt_consolidation",15.32,0.55,5.72492
+"7004","default","medical",14.9,0.45,4.4305
+"38310","paid off","debt_consolidation",14.61,0.3,8.22615
+"12979","default","credit_card",16.83,0.45,7.59063
+"20119","default","debt_consolidation",4.99,0.6,3.4018
+"5943","default","home_improvement",5.61,0.65,0.989824
+"31415","paid off","debt_consolidation",17.76,0.4,7.87657
+"26295","paid off","credit_card",22.56,0.45,10.2585
+"10061","default","credit_card",20.75,0.55,7.3008
+"9005","default","home_improvement",25.9,0.25,7.5466
+"34366","paid off","debt_consolidation",14.64,0.35,15.2327
+"17669","default","debt_consolidation",28.42,0.3,13.3317
+"4156","default","small_business",7.54,0.45,1.60149
+"39235","paid off","major_purchase",2.82,0.55,15.3822
+"3196","default","major_purchase",7.4,0.6,7.7829
+"2428","default","small_business",14.16,0.75,5.79288
+"30023","paid off","debt_consolidation",12.21,0.5,12.372
+"17003","default","debt_consolidation",15.96,0.4,4.8516
+"12437","default","credit_card",17.56,0.65,12.4749
+"10539","default","credit_card",18.98,0.55,12.239
+"38976","paid off","credit_card",26.96,0.7,10.8892
+"22212","default","credit_card",2.57,0.5,7.90869
+"21525","default","debt_consolidation",12.19,0.6,6.5424
+"15348","default","debt_consolidation",21.59,0.55,14.0686
+"30711","paid off","home_improvement",6.4,0.7,5.4744
+"8666","default","small_business",27.68,0.6,8.9165
+"25324","paid off","other",5.27,0.15,1.96645
+"5150","default","home_improvement",13.3,0.7,2.976
+"3925","default","credit_card",18.72,0.5,3.32769
+"41526","paid off","debt_consolidation",12.09,0.75,4.67727
+"23279","paid off","debt_consolidation",29.49,0.35,9.7377
+"17560","default","other",28.18,0.4,12.959
+"32594","paid off","debt_consolidation",21.18,0.5,11.7431
+"33364","paid off","debt_consolidation",19.98,0.5,5.41725
+"28296","paid off","debt_consolidation",22.73,0.6,5.7734
+"30316","paid off","medical",1.54,0.75,4.53408
+"14423","default","other",14.91,0.55,2.6412
+"9064","default","debt_consolidation",18.42,0.3,3.36944
+"21645","default","credit_card",25.3,0.35,11.3407
+"46185","paid off","debt_consolidation",20.26,0.5,7.37095
+"27275","paid off","debt_consolidation",5.44,0.65,8.26695
+"35972","paid off","credit_card",8.76,0.65,7.3786
+"4815","default","other",12.69,0.65,3.83265
+"1000","default","major_purchase",2.6,0.65,4.682
+"23847","paid off","credit_card",10.98,0.35,7.74584
+"5732","default","credit_card",21.82,0.6,4.047
+"43906","paid off","credit_card",11.87,0.55,12.2147
+"46041","paid off","credit_card",3.89,0.65,2.8851
+"7983","default","debt_consolidation",15.72,0.55,8.73831
+"39267","paid off","debt_consolidation",26.39,0.55,13.1814
+"11079","default","credit_card",31.74,0.25,12.6508
+"36699","paid off","home_improvement",4.35,0.65,2.76691
+"40364","paid off","debt_consolidation",0.61,0.6,1.91927
+"40257","paid off","credit_card",16.49,0.65,7.28723
+"6316","default","other",16.88,0.45,4.66535
+"44648","paid off","credit_card",17.7,0.5,8.83794
+"45241","paid off","other",9.8,0.65,2.4075
+"22728","default","credit_card",27.51,0.55,7.5696
+"20168","default","credit_card",7.13,0.65,11.764
+"1026","default","small_business",7.05,0.65,9.2112
+"23500","paid off","debt_consolidation",2.66,0.55,2.99372
+"3665","default","debt_consolidation",1.11,0.35,6.89291
+"32541","paid off","debt_consolidation",2.37,0.55,3.1492
+"11510","default","debt_consolidation",22.71,0.4,6.75212
+"40199","paid off","debt_consolidation",18.83,0.5,3.48608
+"30958","paid off","debt_consolidation",20.9,0.55,6.526
+"33838","paid off","debt_consolidation",23.47,0.45,14.2176
+"11977","default","debt_consolidation",12.4,0.4,10.9884
+"26524","paid off","debt_consolidation",18.35,0.55,4.93128
+"8504","default","debt_consolidation",13.29,0.4,5.6448
+"27231","paid off","debt_consolidation",13.8,0.55,9.46717
+"214","default","credit_card",11.76,0.4,4.64592
+"28612","paid off","debt_consolidation",13.27,0.6,5.64823
+"21889","default","debt_consolidation",28.47,0.4,14.6723
+"44838","paid off","credit_card",7.49,0.5,3.07214
+"33967","paid off","credit_card",11.7,0.55,7.46143
+"29923","paid off","debt_consolidation",10.22,0.55,3.32089
+"35366","paid off","credit_card",9.73,0.75,5.00667
+"12960","default","debt_consolidation",6.44,0.5,7.03044
+"35285","paid off","debt_consolidation",4.96,0.55,11.1808
+"24493","paid off","other",8.18,0.6,4.7521
+"23849","paid off","debt_consolidation",14.88,0.55,5.16
+"36494","paid off","debt_consolidation",24.5,0.55,12.2121
+"11776","default","debt_consolidation",13.7,0.55,10.8142
+"30969","paid off","credit_card",15.92,0.5,8.28579
+"31428","paid off","debt_consolidation",27.3,0.65,5.1014
+"8588","default","debt_consolidation",8.99,0.6,6.61458
+"4441","default","home_improvement",8.56,0.65,3.25412
+"29691","paid off","debt_consolidation",24.75,0.6,8.88075
+"44427","paid off","debt_consolidation",10.74,0.5,7.43777
+"950","default","debt_consolidation",17.19,0.65,9.5665
+"19821","default","credit_card",18.67,0.55,9.99823
+"39258","paid off","major_purchase",2,0.6,6.95156
+"36093","paid off","home_improvement",15.33,0.55,3.37138
+"17337","default","debt_consolidation",9.82,0.6,13.4991
+"44142","paid off","debt_consolidation",10.34,0.6,9.7322
+"707","default","debt_consolidation",3.88,0.45,5.35946
+"26558","paid off","debt_consolidation",15.97,0.65,3.09233
+"14824","default","debt_consolidation",16.27,0.4,10.6469
+"10930","default","debt_consolidation",25.17,0.4,6.94073
+"39815","paid off","home_improvement",15.8,0.7,4.30813
+"11383","default","debt_consolidation",27.35,0.3,14.9549
+"37706","paid off","medical",12.2,0.6,2.35244
+"6783","default","debt_consolidation",28.96,0.25,11.6576
+"5620","default","other",13.58,0.4,7.96579
+"37697","paid off","other",15.99,0.4,13.0851
+"11031","default","debt_consolidation",28.86,0.4,7.50885
+"12047","default","debt_consolidation",20.18,0.35,7.33633
+"12793","default","debt_consolidation",25.85,0.35,15.2219
+"18012","default","debt_consolidation",14.82,0.4,8.5044
+"29866","paid off","debt_consolidation",9.57,0.45,8.68005
+"8114","default","debt_consolidation",28.82,0.5,9.56331
+"27842","paid off","debt_consolidation",16.8,0.5,11.3013
+"12516","default","debt_consolidation",27.87,0.6,15.0309
+"36988","paid off","home_improvement",16.24,0.6,4.38012
+"8051","default","debt_consolidation",26.4,0.4,5.49391
+"30592","paid off","debt_consolidation",13.56,0.7,9.55269
+"30795","paid off","other",3.9,0.4,1.5516
+"25350","paid off","debt_consolidation",14.35,0.7,7.88431
+"28074","paid off","other",4.84,0.55,9.11325
+"10466","default","debt_consolidation",15.66,0.4,4.43084
+"3044","default","debt_consolidation",11.76,0.5,3.39105
+"3140","default","small_business",17.97,0.45,10.6651
+"44723","paid off","debt_consolidation",20.78,0.45,5.14283
+"37205","paid off","credit_card",22.44,0.6,9.93891
+"9836","default","debt_consolidation",21.9,0.6,8.62457
+"43054","paid off","credit_card",11.42,0.5,10.466
+"40297","paid off","credit_card",6.95,0.5,4.06708
+"12131","default","debt_consolidation",26.98,0.35,10.1467
+"37689","paid off","debt_consolidation",11.9,0.4,5.80514
+"37659","paid off","debt_consolidation",2.04,0.9,6.3882
+"8877","default","debt_consolidation",2.26,0.3,3.41745
+"16873","default","debt_consolidation",17.33,0.4,4.85906
+"43498","paid off","credit_card",19.55,0.4,12.2752
+"17462","default","debt_consolidation",31.88,0.55,13.8533
+"36546","paid off","credit_card",18.44,0.7,13.5314
+"19502","default","debt_consolidation",24.87,0.35,15.4262
+"17690","default","debt_consolidation",29.66,0.45,14.3145
+"32162","paid off","debt_consolidation",11.62,0.55,3.98283
+"184","default","other",12.94,0.4,3.72511
+"37856","paid off","home_improvement",0.29,0.35,7.78549
+"13311","default","debt_consolidation",21.13,0.4,18.6978
+"26930","paid off","credit_card",19.65,0.8,6.04042
+"14989","default","small_business",14.76,0.3,6.8444
+"3152","default","debt_consolidation",6.68,0.5,3.11896
+"20561","default","debt_consolidation",20.38,0.3,15.8146
+"40699","paid off","home_improvement",2.92,0.75,5.382
+"20089","default","major_purchase",21.91,0.6,11.58
+"33997","paid off","debt_consolidation",7.6,0.7,3.82042
+"19195","default","debt_consolidation",15.37,0.6,20.042
+"25569","paid off","debt_consolidation",10.57,0.3,7.36937
+"13187","default","credit_card",6.36,0.55,9.92338
+"41995","paid off","debt_consolidation",22.24,0.35,14.1165
+"38030","paid off","debt_consolidation",7.85,0.55,11.233
+"42984","paid off","credit_card",21.08,0.45,7.80817
+"11806","default","debt_consolidation",28.9,0.5,2.6115
+"40178","paid off","debt_consolidation",10.11,0.6,6.91787
+"23600","paid off","other",23.25,0.5,3.41153
+"45036","paid off","debt_consolidation",0.7,0.8,6.36176
+"26579","paid off","debt_consolidation",13.62,0.5,15.1092
+"11868","default","debt_consolidation",24.69,0.4,9.46571
+"27940","paid off","debt_consolidation",6.92,0.4,7.80621
+"20888","default","credit_card",17.58,0.4,12.9233
+"7409","default","home_improvement",12,0.35,6.45082
+"36222","paid off","debt_consolidation",9.64,0.4,2.94936
+"16639","default","major_purchase",19.39,0.45,5.259
+"26323","paid off","other",9.73,0.5,3.53889
+"43638","paid off","debt_consolidation",15.82,0.75,5.97792
+"5218","default","home_improvement",5.77,0.55,22.2609
+"43257","paid off","debt_consolidation",12.18,0.45,3.29326
+"38758","paid off","debt_consolidation",17.9,0.45,15.9782
+"23698","paid off","credit_card",7.16,0.55,8.55557
+"27882","paid off","credit_card",34.01,0.2,6.87472
+"43943","paid off","debt_consolidation",11.49,0.7,9.17767
+"44665","paid off","credit_card",19.25,0.4,5.30776
+"11045","default","debt_consolidation",18.33,0.5,9.23003
+"15796","default","major_purchase",14.85,0.55,0.984105
+"17446","default","debt_consolidation",28.37,0.2,17.088
+"9202","default","debt_consolidation",12.87,0.5,4.36496
+"37990","paid off","other",11.74,0.25,6.68854
+"16970","default","credit_card",6.96,0.55,3.47126
+"30863","paid off","major_purchase",25.96,0.3,4.83074
+"6194","default","debt_consolidation",14.49,0.55,16.9698
+"16707","default","debt_consolidation",29.53,0.5,10.6535
+"5247","default","credit_card",13.12,0.65,5.92606
+"23790","paid off","debt_consolidation",8.76,0.35,6.51657
+"15831","default","credit_card",14.88,0.5,11.606
+"37779","paid off","debt_consolidation",27.75,0.55,7.788
+"32664","paid off","debt_consolidation",22.12,0.5,5.95553
+"25305","paid off","credit_card",14.85,0.6,1.0281
+"19640","default","debt_consolidation",20.53,0.4,7.29089
+"14481","default","other",17.52,0.4,12.6971
+"10839","default","debt_consolidation",22.36,0.25,15.5245
+"29389","paid off","debt_consolidation",25.45,0.5,14.4074
+"384","default","other",17.66,0.3,2.89872
+"10437","default","debt_consolidation",10.84,0.35,5.99527
+"18132","default","credit_card",12.14,0.65,10.8869
+"29875","paid off","credit_card",23.9,0.6,18.4283
+"42314","paid off","home_improvement",13.94,0.5,3.36694
+"11220","default","debt_consolidation",17.72,0.45,13.052
+"26176","paid off","debt_consolidation",17.34,0.6,16.3259
+"31979","paid off","credit_card",7.35,0.65,5.03539
+"15268","default","debt_consolidation",8.88,0.6,10.1383
+"26957","paid off","home_improvement",12.93,0.7,9.62411
+"31862","paid off","major_purchase",1.88,0.9,1.35535
+"14511","default","other",15.6,0.45,7.8024
+"39297","paid off","debt_consolidation",9.3,0.35,5.59415
+"30283","paid off","credit_card",25.54,0.45,18.4883
+"5012","default","credit_card",6.6,0.45,2.13
+"8611","default","debt_consolidation",13.11,0.4,15.8209
+"14032","default","debt_consolidation",21.94,0.35,11.5313
+"25879","paid off","debt_consolidation",4.12,0.6,2.8519
+"36410","paid off","debt_consolidation",9.05,0.35,13.094
+"33603","paid off","debt_consolidation",13.24,0.4,2.5986
+"7453","default","other",21.68,0.5,14.8076
+"34338","paid off","debt_consolidation",3.56,0.5,5.67915
+"6314","default","debt_consolidation",23.74,0.5,7.81432
+"11013","default","debt_consolidation",23.48,0.65,13.1451
+"8483","default","debt_consolidation",34.79,0.35,13.7132
+"3276","default","home_improvement",18,0.3,1.02881
+"17394","default","other",28.59,0.55,9.15707
+"11328","default","debt_consolidation",14.11,0.5,9.35282
+"43342","paid off","debt_consolidation",7.24,0.55,2.51321
+"588","default","debt_consolidation",18.99,0.65,11.0613
+"9228","default","credit_card",13.96,0.7,16.0234
+"40601","paid off","home_improvement",11.52,0.45,6.63387
+"21163","default","debt_consolidation",21.59,0.45,9.66923
+"37215","paid off","debt_consolidation",20.83,0.6,11.853
+"35602","paid off","debt_consolidation",14.08,0.6,13.1371
+"15602","default","credit_card",21.29,0.2,8.15894
+"11236","default","debt_consolidation",24.6,0.35,13.5631
+"2322","default","small_business",15.47,0.4,5.83104
+"21149","default","major_purchase",9.97,0.3,9.50633
+"33082","paid off","debt_consolidation",14.66,0.4,6.75859
+"6578","default","major_purchase",31.4,0.4,9.06137
+"35637","paid off","credit_card",12.93,0.7,9.6339
+"5920","default","debt_consolidation",24.36,0.35,3.77486
+"10472","default","debt_consolidation",18.12,0.5,3.82458
+"35383","paid off","debt_consolidation",14.88,0.55,11.929
+"31607","paid off","small_business",10.69,0.6,9.4492
+"2900","default","other",14.95,0.4,12.5007
+"29269","paid off","credit_card",10.17,0.4,6.02608
+"36774","paid off","debt_consolidation",13.66,0.25,12.8336
+"1863","default","debt_consolidation",12.31,0.55,8.2716
+"16069","default","debt_consolidation",13.52,0.5,7.43117
+"40931","paid off","debt_consolidation",11.89,0.75,1.73612
+"15627","default","debt_consolidation",22.69,0.4,4.73439
+"2654","default","debt_consolidation",1.24,0.55,3.9148
+"36867","paid off","debt_consolidation",3.35,0.65,3.91916
+"6370","default","credit_card",30.66,0.65,11.5865
+"8537","default","debt_consolidation",30.65,0.5,12.0676
+"2447","default","debt_consolidation",16.94,0.55,5.93836
+"36393","paid off","debt_consolidation",25.5,0.45,9.3855
+"33444","paid off","debt_consolidation",3.3,0.55,5.01187
+"34843","paid off","debt_consolidation",13.76,0.5,5.86463
+"20110","default","debt_consolidation",8.78,0.25,4.82
+"30844","paid off","major_purchase",11.41,0.4,10.3851
+"3496","default","debt_consolidation",23.96,0.3,4.1004
+"40096","paid off","credit_card",22.41,0.35,7.59665
+"21480","default","debt_consolidation",20.55,0.45,4.99528
+"18651","default","debt_consolidation",30.52,0.5,10.7362
+"30996","paid off","debt_consolidation",21.26,0.5,9.0948
+"15017","default","debt_consolidation",29.4,0.35,12.2627
+"42424","paid off","credit_card",16.68,0.35,4.896
+"20590","default","other",17.59,0.55,1.57045
+"12844","default","debt_consolidation",28.2,0.55,12.0279
+"38375","paid off","credit_card",16.63,0.35,8.318
+"591","default","debt_consolidation",16.42,0.3,16.5284
+"36562","paid off","debt_consolidation",11.3,0.6,10.3612
+"26465","paid off","other",2.05,0.7,6.00937
+"15785","default","debt_consolidation",6.43,0.8,4.02907
+"21544","default","credit_card",20.91,0.45,16.4306
+"43380","paid off","other",10.95,0.6,6.85224
+"8503","default","debt_consolidation",9.62,0.5,10.8982
+"26566","paid off","debt_consolidation",9.66,0.5,7.5186
+"41477","paid off","home_improvement",10.95,0.5,4.49542
+"31712","paid off","home_improvement",6.71,0.65,2.29556
+"19136","default","debt_consolidation",16.42,0.4,10.1344
+"32255","paid off","credit_card",8.38,0.5,4.80126
+"44421","paid off","major_purchase",7.08,0.75,2.43493
+"16478","default","debt_consolidation",32.7,0.45,6.5364
+"15125","default","debt_consolidation",13.4,0.4,7.6344
+"3868","default","other",1.87,0.65,4.11961
+"14984","default","debt_consolidation",32.78,0.2,14.4515
+"19782","default","debt_consolidation",17.27,0.6,15.9704
+"17581","default","debt_consolidation",15.8,0.45,11.532
+"9711","default","debt_consolidation",11.32,0.4,4.87017
+"22858","default","debt_consolidation",26.06,0.35,4.76187
+"28454","paid off","debt_consolidation",23.02,0.55,13.0111
+"4739","default","debt_consolidation",20.04,0.45,5.23953
+"11243","default","debt_consolidation",22.94,0.45,11.3066
+"24981","paid off","debt_consolidation",30.96,0.6,12.5148
+"7730","default","debt_consolidation",16.39,0.6,9.87042
+"18260","default","debt_consolidation",14.28,0.5,5.4566
+"44354","paid off","debt_consolidation",32.62,0.7,13.4966
+"6332","default","debt_consolidation",27.36,0.4,5.61429
+"24748","paid off","debt_consolidation",10.51,0.55,4.91676
+"28072","paid off","debt_consolidation",21.71,0.5,12.9136
+"34516","paid off","medical",11.35,0.7,4.41565
+"9738","default","debt_consolidation",27.18,0.45,7.40174
+"2667","default","home_improvement",2.16,0.45,2.56753
+"35166","paid off","debt_consolidation",26.4,0.3,12.1311
+"6342","default","debt_consolidation",19.15,0.35,6.771
+"28692","paid off","debt_consolidation",25.94,0.5,4.12058
+"31551","paid off","debt_consolidation",12.66,0.5,15.3879
+"21235","default","debt_consolidation",14.88,0.5,8.3664
+"10615","default","debt_consolidation",16.68,0.55,16.5639
+"35721","paid off","credit_card",9.98,0.5,12.2032
+"3352","default","debt_consolidation",14.54,0.5,6.6756
+"18843","default","other",19.03,0.3,1.75966
+"8309","default","home_improvement",19.26,0.6,13.3118
+"13756","default","debt_consolidation",23.08,0.3,14.5124
+"37114","paid off","debt_consolidation",1.98,0.55,2.62062
+"939","default","other",9.17,0.35,2.20848
+"7925","default","credit_card",7.23,0.55,2.6568
+"20339","default","debt_consolidation",23.4,0.35,5.0205
+"27274","paid off","other",20.96,0.75,8.6295
+"1626","default","other",14.55,0.5,3.59887
+"7795","default","debt_consolidation",24.79,0.3,12.916
+"31096","paid off","credit_card",6.77,0.45,4.13947
+"41392","paid off","debt_consolidation",12.99,0.4,5.70377
+"6659","default","debt_consolidation",16.14,0.5,3.47255
+"13025","default","credit_card",25.01,0.45,5.15187
+"10591","default","debt_consolidation",17.02,0.55,13.8855
+"40994","paid off","credit_card",4.34,0.7,14.1635
+"19055","default","debt_consolidation",6.67,0.45,11.7306
+"44921","paid off","other",4.08,0.4,3.40079
+"18051","default","home_improvement",21.48,0.25,2.82566
+"31271","paid off","other",16.19,0.5,7.33812
+"37264","paid off","debt_consolidation",27.58,0.5,6.60683
+"13873","default","debt_consolidation",18.19,0.25,14.8972
+"23739","paid off","other",23.28,0.4,3.15374
+"21650","default","debt_consolidation",14,0.35,6.32418
+"25353","paid off","other",9.84,0.4,2.1474
+"31066","paid off","debt_consolidation",26.14,0.75,6.88387
+"13484","default","debt_consolidation",24.38,0.4,6.31813
+"25078","paid off","debt_consolidation",20.99,0.3,8.0652
+"366","default","medical",20.03,0.35,7.14863
+"23174","paid off","debt_consolidation",5.09,0.7,5.3047
+"44181","paid off","debt_consolidation",20.5,0.4,16.4859
+"44140","paid off","debt_consolidation",27.04,0.35,5.853
+"22302","default","debt_consolidation",16.35,0.3,13.3172
+"2156","default","major_purchase",22.3,0.7,2.76312
+"23950","paid off","debt_consolidation",18.7,0.6,10.8438
+"40639","paid off","other",0.9,0.85,6.72519
+"155","default","credit_card",23.2,0.3,14.0576
+"14740","default","debt_consolidation",25.8,0.4,13.3088
+"7563","default","debt_consolidation",8.94,0.4,13.4468
+"16569","default","home_improvement",10.72,0.5,16.8103
+"23537","paid off","debt_consolidation",16.72,0.45,9.93606
+"749","default","small_business",15.63,0.55,8.41309
+"22261","default","debt_consolidation",24.34,0.5,3.79504
+"26711","paid off","debt_consolidation",23.8,0.55,11.5437
+"14372","default","debt_consolidation",20.05,0.5,18.7111
+"2648","default","credit_card",11.02,0.45,7.37784
+"39859","paid off","debt_consolidation",21.3,0.65,4.71575
+"31905","paid off","credit_card",8.52,0.7,1.34437
+"12779","default","debt_consolidation",10.45,0.6,13.892
+"30913","paid off","debt_consolidation",13.43,0.5,8.7608
+"25195","paid off","debt_consolidation",22.9,0.35,9.25646
+"22421","default","other",25.38,0.3,8.23371
+"12626","default","debt_consolidation",24.33,0.5,14.6856
+"37054","paid off","debt_consolidation",26.53,0.45,14.9401
+"13915","default","debt_consolidation",6.67,0.55,13.4778
+"16305","default","debt_consolidation",33.04,0.35,6.67547
+"41212","paid off","debt_consolidation",15.89,0.4,8.77962
+"18629","default","debt_consolidation",24.9,0.25,8.55369
+"3131","default","small_business",17.21,0.6,4.97143
+"39363","paid off","debt_consolidation",5.3,0.6,4.47336
+"44592","paid off","debt_consolidation",13.09,0.65,9.55782
+"22707","default","major_purchase",26.33,0.45,4.456
+"20586","default","debt_consolidation",18.89,0.45,10.0596
+"45511","paid off","debt_consolidation",23.19,0.55,2.46471
+"43899","paid off","debt_consolidation",10.5,0.3,8.106
+"45175","paid off","other",13.31,0.65,2.75727
+"45534","paid off","debt_consolidation",12.98,0.55,7.72848
+"34291","paid off","debt_consolidation",17.29,0.55,1.62875
+"31991","paid off","credit_card",18.02,0.55,15.0924
+"13680","default","debt_consolidation",33.17,0.3,12.1161
+"14002","default","debt_consolidation",26.77,0.45,11.2306
+"17812","default","other",8.66,0.55,7.98044
+"29759","paid off","debt_consolidation",24.65,0.45,6.53548
+"23844","paid off","debt_consolidation",20.58,0.65,11.7829
+"9701","default","debt_consolidation",23.43,0.45,13.737
+"10806","default","debt_consolidation",31.44,0.5,8.8452
+"9290","default","debt_consolidation",29.06,0.5,9.288
+"41136","paid off","small_business",8.9,0.6,7.58621
+"26787","paid off","debt_consolidation",12.14,0.45,3.29741
+"38778","paid off","other",2.8,0.65,16.738
+"965","default","debt_consolidation",13.81,0.4,3.22006
+"42941","paid off","credit_card",17.38,0.4,12.2622
+"28363","paid off","debt_consolidation",27.18,0.5,13.9594
+"11022","default","other",4.2,0.4,13.6548
+"24454","paid off","other",7.99,0.55,7.69611
+"34173","paid off","credit_card",17.93,0.45,2.58712
+"5191","default","debt_consolidation",18.78,0.5,9.42
+"7510","default","debt_consolidation",7.87,0.5,12.5702
+"40783","paid off","debt_consolidation",15.1,0.45,6.94193
+"29294","paid off","debt_consolidation",14.24,0.7,3.31516
+"6128","default","credit_card",18.28,0.45,7.1875
+"25518","paid off","debt_consolidation",2.81,0.55,7.76695
+"26272","paid off","debt_consolidation",18.22,0.55,8.30337
+"15128","default","credit_card",30.75,0.35,10.8374
+"26553","paid off","home_improvement",16.03,0.6,11.637
+"33080","paid off","credit_card",19.01,0.55,12.6914
+"40696","paid off","debt_consolidation",6.81,0.6,3.19102
+"46047","paid off","major_purchase",0.33,0.55,9.52774
+"23077","default","debt_consolidation",22.58,0.35,14.9452
+"6865","default","major_purchase",26.99,0.6,3.292
+"45846","paid off","debt_consolidation",6.16,0.75,7.8733
+"31883","paid off","other",0.4,0.65,2.70176
+"45247","paid off","debt_consolidation",6.76,0.55,3.9132
+"39525","paid off","home_improvement",7.12,0.5,16.781
+"37748","paid off","other",10.28,0.4,7.03458
+"25870","paid off","debt_consolidation",31.85,0.5,7.66584
+"26791","paid off","credit_card",13.42,0.35,6.24497
+"27350","paid off","debt_consolidation",21.39,0.4,11.2648
+"21651","default","debt_consolidation",15.57,0.4,6.12814
+"38340","paid off","major_purchase",26.36,0.6,7.54903
+"32770","paid off","small_business",9.15,0.65,6.42415
+"44087","paid off","debt_consolidation",9.01,0.5,3.14684
+"46164","paid off","debt_consolidation",20.06,0.7,7.63151
+"1100","default","debt_consolidation",9.34,0.45,16.7586
+"21266","default","debt_consolidation",22.46,0.3,14.8503
+"30264","paid off","credit_card",9.77,0.7,4.73712
+"32535","paid off","debt_consolidation",10.04,0.55,3.96269
+"22073","default","debt_consolidation",26.27,0.25,13.2382
+"27810","paid off","credit_card",7.28,0.5,8.589
+"38293","paid off","debt_consolidation",10.12,0.55,12.6448
+"11037","default","debt_consolidation",17.12,0.5,3.65353
+"31478","paid off","major_purchase",13.7,0.55,12.0684
+"39343","paid off","other",16.97,0.75,8.14516
+"32440","paid off","major_purchase",15.52,0.75,3.17593
+"30048","paid off","debt_consolidation",17.18,0.55,10.974
+"14514","default","other",26.91,0.6,0.644495
+"4400","default","debt_consolidation",10.04,0.65,20.2056
+"36386","paid off","debt_consolidation",23.07,0.45,10.0248
+"41487","paid off","debt_consolidation",18.71,0.55,14.3944
+"25196","paid off","debt_consolidation",19.3,0.35,12.7082
+"44789","paid off","debt_consolidation",26.3,0.5,9.5655
+"4192","default","debt_consolidation",19.96,0.5,11.5039
+"33650","paid off","debt_consolidation",30.8,0.65,14.5335
+"30282","paid off","debt_consolidation",21.15,0.45,3.18813
+"21984","default","other",15.54,0.5,2.33032
+"11151","default","debt_consolidation",22.67,0.5,7.56402
+"41376","paid off","debt_consolidation",13.23,0.5,6.30411
+"27768","paid off","major_purchase",2.3,0.45,3.85104
+"42744","paid off","debt_consolidation",14.44,0.55,11.9382
+"37027","paid off","debt_consolidation",12.45,0.45,3.95449
+"37592","paid off","home_improvement",11.74,0.6,1.55224
+"18654","default","debt_consolidation",28.47,0.4,20.1555
+"37241","paid off","home_improvement",10.76,0.55,3.68247
+"37522","paid off","debt_consolidation",5.67,0.35,2.68594
+"14358","default","debt_consolidation",13.58,0.55,8.4141
+"23738","paid off","other",16.59,0.5,23.1504
+"2583","default","debt_consolidation",19.84,0.3,4.14273
+"38600","paid off","debt_consolidation",9.32,0.6,7.19482
+"16755","default","debt_consolidation",5.87,0.6,5.7163
+"9509","default","credit_card",11.88,0.55,9.63899
+"28796","paid off","debt_consolidation",9.16,0.7,6.91405
+"14622","default","home_improvement",24.58,0.35,12.537
+"13788","default","credit_card",21.18,0.4,9.09638
+"4002","default","medical",11.55,0.35,3.40179
+"30903","paid off","home_improvement",3.89,0.55,3.21336
+"38159","paid off","debt_consolidation",24.63,0.4,2.83862
+"12871","default","debt_consolidation",8.77,0.35,14.7614
+"19599","default","debt_consolidation",12.72,0.5,8.41876
+"31256","paid off","credit_card",17.63,0.55,5.94432
+"4648","default","home_improvement",4.24,0.55,8.37069
+"7521","default","credit_card",33.18,0.5,14.5082
+"27532","paid off","debt_consolidation",19.73,0.6,12.0927
+"5838","default","debt_consolidation",29.2,0.2,3.42765
+"40817","paid off","debt_consolidation",4.47,0.55,13.2393
+"3668","default","debt_consolidation",6.49,0.4,5.62005
+"36072","paid off","debt_consolidation",28.46,0.65,14.2474
+"21941","default","other",17.9,0.6,6.94766
+"946","default","major_purchase",19.26,0.45,5.71386
+"5315","default","credit_card",10.15,0.45,5.6117
+"41140","paid off","debt_consolidation",9.24,0.65,5.52675
+"2341","default","debt_consolidation",19.62,0.3,9.15713
+"27412","paid off","debt_consolidation",19.48,0.45,8.15809
+"44192","paid off","debt_consolidation",19.01,0.6,6.01305
+"25161","paid off","debt_consolidation",7.93,0.6,8.19667
+"615","default","debt_consolidation",20.31,0.5,9.79547
+"39845","paid off","debt_consolidation",25.89,0.55,12.0418
+"39070","paid off","credit_card",19.05,0.5,8.3457
+"32283","paid off","other",21.74,0.75,13.9771
+"43867","paid off","debt_consolidation",3.23,0.45,5.80267
+"37469","paid off","debt_consolidation",11.23,0.5,9.08634
+"24531","paid off","small_business",4.05,0.65,20.3412
+"41648","paid off","debt_consolidation",15.57,0.65,7.374
+"9915","default","debt_consolidation",20.58,0.25,11.7444
+"26701","paid off","home_improvement",14.99,0.3,1.80388
+"43517","paid off","debt_consolidation",18.79,0.45,7.88635
+"35889","paid off","debt_consolidation",9.72,0.6,13.5472
+"8951","default","home_improvement",9.26,0.3,7.04148
+"10118","default","credit_card",18.28,0.5,13.4036
+"18597","default","debt_consolidation",17.04,0.45,8.83571
+"9330","default","home_improvement",14.43,0.35,8.08483
+"37463","paid off","credit_card",8.77,0.55,4.56029
+"556","default","debt_consolidation",22.03,0.6,4.22174
+"36009","paid off","home_improvement",6.42,0.5,1.33548
+"43146","paid off","debt_consolidation",18.17,0.35,5.27084
+"16154","default","debt_consolidation",5.64,0.45,7.9848
+"22230","default","debt_consolidation",33.96,0.55,8.85522
+"42962","paid off","credit_card",18.93,0.55,7.91253
+"36492","paid off","debt_consolidation",15.41,0.4,3.48705
+"10803","default","debt_consolidation",21.07,0.45,14.0858
+"10389","default","debt_consolidation",29.42,0.65,8.034
+"40174","paid off","debt_consolidation",26.47,0.45,12.3234
+"9205","default","debt_consolidation",10.11,0.4,5.76252
+"45189","paid off","major_purchase",11.3,0.4,4.11072
+"28581","paid off","debt_consolidation",22.14,0.45,14.0889
+"42410","paid off","home_improvement",14.93,0.5,1.40362
+"25649","paid off","debt_consolidation",18.63,0.5,11.9749
+"16358","default","debt_consolidation",11.61,0.5,16.1901
+"3490","default","debt_consolidation",15.47,0.5,12.3112
+"43868","paid off","home_improvement",8.12,0.6,7.89876
+"42871","paid off","home_improvement",19.95,0.8,2.84386
+"12737","default","debt_consolidation",4.83,0.55,8.12471
+"36439","paid off","credit_card",20.4,0.45,8.71635
+"13211","default","debt_consolidation",23.06,0.35,15.3375
+"45384","paid off","other",28.77,0.45,8.7795
+"41127","paid off","debt_consolidation",20.67,0.45,16.3683
+"877","default","debt_consolidation",18.36,0.65,13.3847
+"11009","default","debt_consolidation",27.22,0.25,13.4989
+"5369","default","home_improvement",9.1,0.45,7.406
+"10279","default","debt_consolidation",32.63,0.25,6.49175
+"35433","paid off","other",11.06,0.6,6.15889
+"36251","paid off","credit_card",16.58,0.55,9.3432
+"2314","default","major_purchase",7.82,0.5,2.74288
+"24800","paid off","debt_consolidation",3.51,0.65,6.474
+"41098","paid off","debt_consolidation",18.71,0.7,11.532
+"32259","paid off","credit_card",4.94,0.45,6.39709
+"2098","default","debt_consolidation",21.56,0.5,6.08743
+"15744","default","credit_card",22.52,0.55,6.9945
+"26501","paid off","debt_consolidation",13.08,0.45,4.02816
+"44978","paid off","debt_consolidation",21.04,0.45,10.1937
+"2921","default","debt_consolidation",21.88,0.35,12.6677
+"10810","default","credit_card",24,0.55,8.83709
+"27222","paid off","debt_consolidation",16.61,0.5,3.94682
+"27253","paid off","credit_card",16.34,0.55,9.12044
+"12331","default","debt_consolidation",22.03,0.35,18.1546
+"22346","default","other",8.91,0.65,4.2273
+"41693","paid off","debt_consolidation",18.11,0.75,5.92267
+"11512","default","debt_consolidation",14.19,0.55,11.3549
+"37976","paid off","debt_consolidation",4.18,0.5,7.46194
+"35497","paid off","debt_consolidation",8.66,0.55,2.81751
+"1220","default","debt_consolidation",9.15,0.6,3.91987
+"32310","paid off","debt_consolidation",18.66,0.7,8.55465
+"38769","paid off","debt_consolidation",21.65,0.55,9.61968
+"7616","default","debt_consolidation",18.33,0.45,12.6175
+"6955","default","credit_card",19.46,0.6,9.65921
+"8063","default","debt_consolidation",12.11,0.45,5.4436
+"3927","default","major_purchase",16.84,0.55,9.2268
+"9521","default","debt_consolidation",20.59,0.45,3.37536
+"24778","paid off","other",9.67,0.7,2.8816
+"35839","paid off","debt_consolidation",14.14,0.8,7.00187
+"23328","paid off","home_improvement",15.04,0.8,15.7932
+"1552","default","debt_consolidation",16.78,0.55,2.42591
+"39390","paid off","credit_card",23.99,0.45,10.5132
+"44361","paid off","credit_card",28.06,0.45,8.15515
+"6175","default","debt_consolidation",19.45,0.6,13.8623
+"29239","paid off","credit_card",23.57,0.45,10.0703
+"11975","default","credit_card",23.85,0.55,15.2084
+"23360","paid off","debt_consolidation",4.2,0.45,4.77422
+"9451","default","debt_consolidation",15.33,0.55,14.4763
+"12448","default","debt_consolidation",15.96,0.45,9.59928
+"44584","paid off","debt_consolidation",19.43,0.4,7.7774
+"16488","default","debt_consolidation",20.1,0.3,3.36
+"30312","paid off","credit_card",8.13,0.6,3.3053
+"18818","default","debt_consolidation",12.21,0.5,18.9654
+"37423","paid off","debt_consolidation",26.29,0.7,1.46106
+"9947","default","debt_consolidation",19.56,0.25,2.14677
+"24923","paid off","home_improvement",7.18,0.8,6.77921
+"17474","default","debt_consolidation",4.18,0.5,7.09961
+"7594","default","debt_consolidation",16.73,0.55,8.78008
+"31091","paid off","home_improvement",4.13,0.55,3.0828
+"29337","paid off","credit_card",14.1,0.65,9.0981
+"42862","paid off","other",8.49,0.4,4.81817
+"12101","default","debt_consolidation",31.09,0.55,11.0389
+"36847","paid off","debt_consolidation",19.77,0.75,1.6332
+"27173","paid off","debt_consolidation",17.5,0.5,2.21247
+"6347","default","other",18.32,0.45,5.71205
+"26708","paid off","debt_consolidation",12,0.25,16.1749
+"19862","default","debt_consolidation",22.18,0.35,12.9092
+"14628","default","credit_card",16.42,0.55,12.6352
+"41734","paid off","debt_consolidation",18.69,0.55,14.1346
+"40977","paid off","home_improvement",29.5,0.45,6.5268
+"43792","paid off","other",1.23,0.6,2.81581
+"9972","default","credit_card",13.8,0.45,12.6518
+"13254","default","debt_consolidation",16.49,0.4,8.67154
+"9802","default","medical",24.33,0.7,3.359
+"44928","paid off","debt_consolidation",13.42,0.55,1.17038
+"22395","default","credit_card",3.09,0.7,8.01336
+"34595","paid off","other",13.55,0.45,4.75707
+"34821","paid off","other",5.49,0.7,4.31409
+"20545","default","debt_consolidation",16.1,0.2,5.79972
+"2203","default","debt_consolidation",22.49,0.4,3.72212
+"26984","paid off","other",10.73,0.45,8.05275
+"12994","default","debt_consolidation",18.83,0.35,6.48395
+"4621","default","debt_consolidation",16.55,0.45,6.79318
+"28821","paid off","other",14.46,0.65,6.78692
+"31207","paid off","credit_card",9.59,0.5,2.29968
+"34993","paid off","credit_card",2.31,0.65,2.0769
+"32738","paid off","credit_card",26.25,0.65,4.28515
+"38927","paid off","debt_consolidation",16.12,0.35,6.69905
+"22908","default","debt_consolidation",31.15,0.5,15.4532
+"26438","paid off","credit_card",5.48,0.65,7.688
+"1783","default","other",21.17,0.3,1.894
+"45445","paid off","debt_consolidation",22.59,0.6,6.22827
+"10866","default","debt_consolidation",13.49,0.7,10.0565
+"24652","paid off","home_improvement",18.72,0.4,4.2319
+"34216","paid off","debt_consolidation",15.38,0.6,8.5488
+"25873","paid off","credit_card",11.85,0.6,11.1965
+"10691","default","credit_card",18.58,0.6,6.19065
+"22806","default","debt_consolidation",29.5,0.55,15.8841
+"43677","paid off","major_purchase",14.06,0.6,7.34553
+"28736","paid off","debt_consolidation",16.54,0.45,5.88535
+"42597","paid off","debt_consolidation",29.55,0.5,5.1441
+"3438","default","medical",11.26,0.4,1.6746
+"35161","paid off","debt_consolidation",15.6,0.6,4.40753
+"24649","paid off","home_improvement",5.64,0.5,1.63894
+"24050","paid off","debt_consolidation",17.54,0.4,9.246
+"35629","paid off","credit_card",7.12,0.4,9.22537
+"42396","paid off","debt_consolidation",6.98,0.65,4.29458
+"33687","paid off","credit_card",10.52,0.6,11.3073
+"31017","paid off","debt_consolidation",25.9,0.55,5.17917
+"3180","default","other",11.95,0.35,3.34467
+"32282","paid off","other",18.62,0.45,3.35607
+"12704","default","debt_consolidation",21.46,0.45,7.9015
+"30564","paid off","home_improvement",12.75,0.45,8.75682
+"9110","default","debt_consolidation",29.75,0.45,6.51706
+"4297","default","debt_consolidation",20.1,0.6,8.20603
+"32110","paid off","major_purchase",19.14,0.45,3.9697
+"37932","paid off","credit_card",18.44,0.6,5.23275
+"39874","paid off","credit_card",17.37,0.45,6.53581
+"673","default","other",26.82,0.4,1.15214
+"44496","paid off","medical",23.58,0.65,11.139
+"26732","paid off","debt_consolidation",28.43,0.5,6.39595
+"21843","default","debt_consolidation",19.05,0.5,9.62549
+"37451","paid off","debt_consolidation",18.64,0.45,7.21929
+"16325","default","debt_consolidation",10.55,0.6,10.2656
+"31550","paid off","debt_consolidation",27.29,0.5,11.0652
+"45677","paid off","credit_card",22.82,0.65,4.10076
+"24409","paid off","other",7.47,0.25,7.752
+"8552","default","debt_consolidation",15.39,0.25,2.33964
+"37963","paid off","debt_consolidation",25.72,0.45,11.1715
+"7898","default","medical",15.59,0.45,2.10046
+"19864","default","debt_consolidation",18.54,0.6,9.37423
+"42421","paid off","debt_consolidation",4.92,0.5,3.74729
+"7770","default","credit_card",21.96,0.5,7.97036
+"11909","default","debt_consolidation",26.64,0.45,10.7909
+"32751","paid off","credit_card",12.18,0.7,10.7687
+"14430","default","debt_consolidation",20.99,0.4,10.1937
+"18890","default","medical",14.29,0.4,4.7193
+"22467","default","debt_consolidation",7.25,0.5,7.27632
+"25289","paid off","debt_consolidation",12.75,0.65,5.50218
+"5201","default","debt_consolidation",9.52,0.6,3.94049
+"40688","paid off","home_improvement",1.59,0.7,7.03227
+"38444","paid off","debt_consolidation",9.43,0.45,6.16635
+"232","default","debt_consolidation",22.06,0.25,5.7156
+"43714","paid off","debt_consolidation",7.56,0.45,9.1208
+"15147","default","credit_card",0.3,0.55,15.5489
+"18368","default","debt_consolidation",11.39,0.5,6.48229
+"39200","paid off","debt_consolidation",17.45,0.6,5.96479
+"3101","default","credit_card",14.13,0.6,12.4087
+"30728","paid off","credit_card",7.12,0.75,1.60446
+"33758","paid off","debt_consolidation",15.76,0.65,10.4998
+"3976","default","debt_consolidation",21.47,0.45,9.42887
+"26493","paid off","debt_consolidation",15.14,0.4,5.52168
+"16987","default","debt_consolidation",11.71,0.45,4.49973
+"29988","paid off","debt_consolidation",20.16,0.6,7.33222
+"40259","paid off","debt_consolidation",17.38,0.6,13.8
+"11748","default","debt_consolidation",16.94,0.65,11.0955
+"26682","paid off","debt_consolidation",19.79,0.65,10.8112
+"17436","default","debt_consolidation",33.64,0.55,10.9197
+"33477","paid off","debt_consolidation",13.93,0.45,10.0466
+"40575","paid off","home_improvement",13.77,0.6,8.9548
+"76","default","small_business",21.99,0.45,5.77647
+"15010","default","credit_card",30.12,0.4,10.6308
+"28166","paid off","debt_consolidation",19.66,0.4,8.77257
+"7653","default","debt_consolidation",24.26,0.3,8.23328
+"2064","default","small_business",17.91,0.3,8.87668
+"36250","paid off","debt_consolidation",8.24,0.25,9.70862
+"22628","default","debt_consolidation",22.73,0.55,13.081
+"3295","default","debt_consolidation",14.34,0.45,6.96979
+"42328","paid off","credit_card",13.29,0.5,9.26699
+"27202","paid off","medical",5.7,0.65,4.6365
+"923","default","debt_consolidation",8,0.5,2.49527
+"38637","paid off","debt_consolidation",11.91,0.5,7.25104
+"23659","paid off","debt_consolidation",13.22,0.5,4.68808
+"26390","paid off","debt_consolidation",4.02,0.6,9.2925
+"36753","paid off","credit_card",11.25,0.45,6.09218
+"25306","paid off","debt_consolidation",21.22,0.65,7.107
+"40624","paid off","other",5.71,0.5,2.42176
+"29674","paid off","debt_consolidation",18.62,0.5,1.98864
+"44000","paid off","debt_consolidation",14.7,0.6,7.6185
+"31730","paid off","debt_consolidation",21.36,0.45,5.0904
+"20396","default","debt_consolidation",15.21,0.55,4.4456
+"45139","paid off","debt_consolidation",23.42,0.5,10.3467
+"38960","paid off","debt_consolidation",11.27,0.65,6.4573
+"17164","default","credit_card",15.36,0.3,2.73776
+"33229","paid off","other",11.02,0.5,2.5296
+"720","default","debt_consolidation",18.87,0.45,9.978
+"40974","paid off","debt_consolidation",15.45,0.3,2.22068
+"35387","paid off","debt_consolidation",12.56,0.55,11.9075
+"35467","paid off","other",21.45,0.55,20.0958
+"23232","paid off","debt_consolidation",18.17,0.55,7.67771
+"36055","paid off","debt_consolidation",19.07,0.65,3.57124
+"39651","paid off","debt_consolidation",13.63,0.5,9.14667
+"11942","default","debt_consolidation",10.86,0.4,2.87052
+"25471","paid off","debt_consolidation",5.25,0.5,11.9741
+"26675","paid off","debt_consolidation",9.47,0.65,13.7862
+"6873","default","debt_consolidation",16.43,0.45,4.8645
+"23016","default","home_improvement",4.77,0.7,9.23643
+"933","default","major_purchase",20.59,0.15,3.02632
+"29876","paid off","debt_consolidation",11.72,0.65,3.31556
+"46018","paid off","credit_card",21.68,0.45,9.95413
+"25532","paid off","debt_consolidation",17.33,0.6,15.1662
+"37337","paid off","other",2.19,0.55,7.3536
+"16988","default","other",34.92,0.45,5.5708
+"43635","paid off","debt_consolidation",19.5,0.35,4.821
+"44992","paid off","credit_card",16.78,0.3,3.56562
+"33877","paid off","credit_card",10.37,0.5,4.27182
+"32070","paid off","credit_card",18.39,0.75,17.1468
+"4790","default","home_improvement",11.35,0.5,6.99118
+"29503","paid off","debt_consolidation",9.76,0.55,3.47208
+"33196","paid off","debt_consolidation",10.91,0.55,2.24323
+"12346","default","debt_consolidation",15.98,0.4,4.05889
+"41688","paid off","debt_consolidation",22.47,0.4,16.6965
+"40876","paid off","debt_consolidation",21.03,0.55,9.88141
+"4175","default","credit_card",19.23,0.4,9.79512
+"38423","paid off","debt_consolidation",9.67,0.6,7.69995
+"1197","default","debt_consolidation",18.89,0.2,6.28527
+"16011","default","other",26.44,0.3,6.31791
+"13233","default","credit_card",20.59,0.75,8.4
+"5142","default","other",5.91,0.45,2.09875
+"19271","default","home_improvement",5.93,0.75,11.2803
+"9586","default","debt_consolidation",11.27,0.4,7.19626
+"29827","paid off","debt_consolidation",10.75,0.5,8.60911
+"16328","default","debt_consolidation",22.53,0.3,16.5819
+"25949","paid off","major_purchase",20.94,0.6,0.754103
+"27201","paid off","credit_card",24.61,0.6,5.0192
+"22051","default","debt_consolidation",11.67,0.65,10.1295
+"10405","default","credit_card",19.92,0.25,7.85123
+"45725","paid off","debt_consolidation",25.14,0.6,8.891
+"43576","paid off","debt_consolidation",25.9,0.65,4.76892
+"4090","default","debt_consolidation",24.46,0.4,11.9961
+"2762","default","debt_consolidation",22.81,0.4,9.45409
+"21197","default","debt_consolidation",19.35,0.4,11.4936
+"36402","paid off","debt_consolidation",13.22,0.7,4.69577
+"16669","default","home_improvement",7.36,0.55,14.8262
+"35832","paid off","debt_consolidation",6.83,0.5,6.2592
+"25795","paid off","debt_consolidation",22.25,0.55,10.0816
+"43352","paid off","debt_consolidation",2.24,0.7,5.0806
+"29602","paid off","debt_consolidation",8.76,0.4,5.46773
+"29650","paid off","debt_consolidation",18.76,0.7,7.07912
+"22668","default","debt_consolidation",21.2,0.5,7.9704
+"1628","default","other",12.9,0.35,2.59467
+"38265","paid off","debt_consolidation",18.13,0.5,7.36767
+"38837","paid off","other",10.19,0.45,3.24657
+"768","default","other",8.02,0.5,4.36133
+"29675","paid off","debt_consolidation",27.21,0.55,12.4265
+"26663","paid off","debt_consolidation",30.33,0.4,8.66034
+"45887","paid off","debt_consolidation",14.24,0.65,12.3872
+"45334","paid off","debt_consolidation",14.52,0.4,5.89215
+"41167","paid off","credit_card",17.53,0.3,4.72033
+"3886","default","other",16.41,0.4,11.0357
+"40381","paid off","debt_consolidation",28.1,0.5,7.4172
+"21527","default","other",18.22,0.45,13.5774
+"20910","default","debt_consolidation",22.14,0.55,4.83803
+"32352","paid off","debt_consolidation",22.99,0.5,14.1674
+"650","default","debt_consolidation",22.34,0.4,5.28104
+"17846","default","other",17.47,0.5,9.15707
+"14550","default","credit_card",19.29,0.55,12.1491
+"23733","paid off","debt_consolidation",8.75,0.55,6.23505
+"7371","default","debt_consolidation",25.43,0.5,8.41452
+"44709","paid off","credit_card",18.59,0.6,14.8939
+"10020","default","credit_card",20.84,0.3,9.05389
+"10917","default","home_improvement",13.56,0.6,10.0865
+"20984","default","other",20.19,0.4,7.20524
+"4358","default","debt_consolidation",0.57,0.55,6.5826
+"44948","paid off","credit_card",7.46,0.7,4.54507
+"10485","default","small_business",9.35,0.5,7.92831
+"44490","paid off","major_purchase",6.5,0.6,1.26557
+"12730","default","major_purchase",14.73,0.45,3.22422
+"39741","paid off","debt_consolidation",29.12,0.5,8.35413
+"17704","default","credit_card",20.19,0.55,13.6161
+"30757","paid off","debt_consolidation",11.69,0.55,5.39491
+"2574","default","credit_card",7.02,0.6,2.38701
+"9015","default","credit_card",11.46,0.6,5.93632
+"17322","default","credit_card",18.23,0.4,12.4207
+"7358","default","debt_consolidation",17.15,0.5,19.6531
+"24924","paid off","other",2.94,0.7,2.37529
+"24589","paid off","debt_consolidation",10.74,0.4,13.0015
+"13362","default","debt_consolidation",10.51,0.5,2.6208
+"39288","paid off","debt_consolidation",27.96,0.5,17.5794
+"22510","default","major_purchase",28.26,0.25,4.22686
+"31067","paid off","major_purchase",5.9,0.7,1.9802
+"27960","paid off","home_improvement",17.98,0.45,7.4172
+"37765","paid off","debt_consolidation",14.08,0.7,3.46407
+"19812","default","debt_consolidation",18.13,0.25,15.7643
+"25648","paid off","debt_consolidation",4.04,0.7,8.25111
+"5544","default","debt_consolidation",20.64,0.45,2.5209
+"2417","default","debt_consolidation",20.34,0.55,3.6144
+"45730","paid off","credit_card",12.44,0.6,9.98385
+"29312","paid off","debt_consolidation",22.76,0.45,7.3012
+"38732","paid off","major_purchase",7.78,0.75,3.2377
+"25869","paid off","debt_consolidation",15.94,0.6,8.87314
+"25757","paid off","debt_consolidation",16.74,0.45,1.01902
+"35062","paid off","debt_consolidation",15.77,0.45,5.29094
+"23491","paid off","credit_card",21.63,0.6,5.29359
+"11691","default","medical",19.29,0.35,5.12366
+"44089","paid off","credit_card",5.74,0.55,12.7526
+"6712","default","debt_consolidation",24.43,0.25,12.5909
+"10319","default","debt_consolidation",27.95,0.45,15.1057
+"1371","default","major_purchase",6.82,0.5,1.51006
+"16228","default","other",24.85,0.25,4.67215
+"2842","default","debt_consolidation",0.87,0.4,12.8088
+"1854","default","debt_consolidation",20.52,0.55,9.2973
+"26801","paid off","credit_card",18.58,0.4,12.6501
+"10599","default","debt_consolidation",16.53,0.45,11.6121
+"38041","paid off","credit_card",19.08,0.45,12.9813
+"10422","default","debt_consolidation",8.5,0.5,10.945
+"30252","paid off","debt_consolidation",16.92,0.4,7.15558
+"3242","default","small_business",21.22,0.45,2.34408
+"21644","default","small_business",24.46,0.3,5.36358
+"12125","default","debt_consolidation",11.21,0.6,4.91548
+"40246","paid off","other",17.68,0.75,7.4672
+"7138","default","debt_consolidation",34.57,0.4,11.9558
+"19956","default","credit_card",22.66,0.3,20.6968
+"21302","default","credit_card",15.7,0.45,9.2592
+"17040","default","major_purchase",8.3,0.7,4.5284
+"17931","default","debt_consolidation",17.51,0.4,13.257
+"22405","default","debt_consolidation",10.64,0.45,3.74066
+"35828","paid off","debt_consolidation",28.56,0.7,3.4544
+"34115","paid off","credit_card",20.72,0.55,12.2883
+"4366","default","small_business",9.21,0.35,5.78486
+"7823","default","debt_consolidation",22.55,0.4,13.4065
+"15826","default","debt_consolidation",9.04,0.25,3.06084
+"19313","default","small_business",8.46,0.4,4.22954
+"23364","paid off","debt_consolidation",11.67,0.6,9.58586
+"8961","default","debt_consolidation",19.74,0.4,7.8378
+"35875","paid off","debt_consolidation",16.5,0.6,6.00571
+"26517","paid off","debt_consolidation",21.34,0.65,10.621
+"22417","default","credit_card",22.71,0.5,4.10744
+"31196","paid off","other",15.75,0.5,13.6671
+"40280","paid off","debt_consolidation",24.61,0.5,14.8086
+"1993","default","major_purchase",5.03,0.45,3.39878
+"20498","default","debt_consolidation",12.75,0.55,14.658
+"9577","default","debt_consolidation",28.12,0.4,11.3952
+"35691","paid off","debt_consolidation",7.05,0.5,5.5572
+"28535","paid off","debt_consolidation",12.15,0.7,3.13063
+"4953","default","major_purchase",24.07,0.45,4.08879
+"38171","paid off","debt_consolidation",18.63,0.65,4.33004
+"6260","default","credit_card",10.82,0.5,13.1585
+"10909","default","home_improvement",7.98,0.6,10.1246
+"5823","default","major_purchase",9.13,0.75,6.14727
+"21669","default","home_improvement",5.21,0.55,5.21427
+"33833","paid off","credit_card",15.63,0.55,3.54802
+"29635","paid off","debt_consolidation",7.58,0.65,5.38191
+"28267","paid off","debt_consolidation",14.76,0.65,4.9908
+"24287","paid off","credit_card",23.84,0.45,5.58326
+"10729","default","other",15.17,0.6,5.9234
+"14938","default","debt_consolidation",16.95,0.45,8.24284
+"9443","default","debt_consolidation",20,0.5,12.8559
+"45204","paid off","debt_consolidation",3.64,0.35,1.8606
+"23128","default","debt_consolidation",18.09,0.35,14.6853
+"38868","paid off","credit_card",8.15,0.4,6.6307
+"10258","default","debt_consolidation",29.93,0.55,14.981
+"33735","paid off","debt_consolidation",29.28,0.65,6.94585
+"7804","default","debt_consolidation",8.52,0.55,6.74929
+"2325","default","debt_consolidation",7.86,0.4,11.5824
+"42574","paid off","credit_card",9.36,0.7,4.37287
+"202","default","debt_consolidation",20.75,0.6,4.35567
+"13306","default","other",19.51,0.35,12.2538
+"18268","default","debt_consolidation",15.52,0.45,7.80777
+"12703","default","debt_consolidation",8.05,0.4,14.7625
+"33995","paid off","home_improvement",1.12,0.6,3.62458
+"35152","paid off","debt_consolidation",19.58,0.6,13.8194
+"9895","default","debt_consolidation",2.61,0.4,12.7338
+"28956","paid off","debt_consolidation",21.35,0.65,11.0872
+"21107","default","debt_consolidation",23.04,0.3,9.68032
+"41368","paid off","debt_consolidation",14.32,0.5,12.2402
+"36780","paid off","debt_consolidation",17.33,0.55,5.66236
+"23764","paid off","debt_consolidation",12.28,0.5,7.82267
+"20445","default","debt_consolidation",27.2,0.4,12.5722
+"29069","paid off","home_improvement",1.74,0.65,3.4288
+"6898","default","credit_card",7.36,0.6,8.07812
+"38391","paid off","small_business",17.38,0.6,7.91596
+"31558","paid off","debt_consolidation",26.22,0.65,2.70556
+"19613","default","debt_consolidation",16.19,0.45,7.5382
+"10364","default","debt_consolidation",16.53,0.5,7.3354
+"32530","paid off","credit_card",19.6,0.35,13.112
+"26865","paid off","debt_consolidation",23.03,0.4,15.3235
+"43058","paid off","debt_consolidation",20.87,0.7,12.5027
+"23796","paid off","debt_consolidation",17.39,0.5,6.43807
+"35632","paid off","debt_consolidation",12.93,0.5,8.81718
+"25223","paid off","credit_card",12.88,0.5,9.05658
+"32616","paid off","debt_consolidation",13.9,0.55,9.10311
+"1054","default","other",13.25,0.35,5.501
+"31330","paid off","credit_card",22.72,0.45,9.3986
+"7465","default","debt_consolidation",12.89,0.3,14.8979
+"2787","default","major_purchase",26,0.3,5.42802
+"38464","paid off","home_improvement",4.34,0.6,1.78756
+"6474","default","debt_consolidation",20.53,0.5,2.30659
+"11178","default","debt_consolidation",16.51,0.35,1.358
+"18505","default","debt_consolidation",16.75,0.3,8.88293
+"35293","paid off","debt_consolidation",8.64,0.75,8.5704
+"22462","default","home_improvement",13.39,0.6,15.6576
+"26821","paid off","major_purchase",0,0.7,13.3081
+"7893","default","credit_card",33.43,0.5,18.9637
+"20762","default","credit_card",3.51,0.45,6.66134
+"45181","paid off","major_purchase",0,0.7,2.84067
+"37860","paid off","debt_consolidation",12.31,0.2,10.4351
+"15729","default","other",25.44,0.55,2.43356
+"36624","paid off","debt_consolidation",25.14,0.6,5.726
+"22082","default","credit_card",22.15,0.5,13.3537
+"12438","default","debt_consolidation",26.08,0.45,8.53735
+"43475","paid off","debt_consolidation",19.65,0.35,2.24648
+"36975","paid off","credit_card",11.13,0.7,12.4556
+"22102","default","other",31.83,0.4,14.87
+"46166","paid off","credit_card",19.14,0.55,9.95032
+"11771","default","debt_consolidation",12.62,0.35,14.1607
+"21710","default","debt_consolidation",17.13,0.65,13.4878
+"31305","paid off","debt_consolidation",23.25,0.4,13.533
+"35316","paid off","major_purchase",22.98,0.45,8.15107
+"20309","default","other",18.24,0.65,10.0394
+"13424","default","debt_consolidation",8.95,0.3,3.81326
+"1865","default","medical",9.02,0.6,11.3273
+"14552","default","debt_consolidation",6.73,0.4,5.84765
+"42470","paid off","home_improvement",1.97,0.7,2.25576
+"8536","default","debt_consolidation",10.63,0.4,12.7286
+"29949","paid off","debt_consolidation",8.93,0.55,9.8916
+"7827","default","debt_consolidation",26.05,0.45,13.845
+"44426","paid off","debt_consolidation",20,0.5,13.1036
+"1731","default","other",20.52,0.5,6.06973
+"33124","paid off","debt_consolidation",23.12,0.6,7.99247
+"16565","default","debt_consolidation",26.34,0.6,8.25032
+"44435","paid off","other",17.58,0.55,4.07708
+"20402","default","debt_consolidation",15.64,0.25,4.01
+"29464","paid off","debt_consolidation",7.7,0.85,6.38566
+"37081","paid off","debt_consolidation",12.09,0.6,8.9916
+"15536","default","debt_consolidation",31.56,0.4,10.857
+"15064","default","credit_card",32.21,0.35,14.7068
+"6271","default","debt_consolidation",14,0.6,9.19835
+"10439","default","debt_consolidation",26.31,0.3,8.42788
+"23367","paid off","credit_card",13.92,0.5,13.4874
+"14497","default","debt_consolidation",7.25,0.55,11.6058
+"28693","paid off","debt_consolidation",18.12,0.5,7.12357
+"30934","paid off","credit_card",14.65,0.6,4.48293
+"45203","paid off","debt_consolidation",21.34,0.5,15.0946
+"40652","paid off","debt_consolidation",9.43,0.5,7.12787
+"33398","paid off","major_purchase",4.26,0.35,7.18144
+"8133","default","debt_consolidation",21.91,0.45,5.18131
+"27832","paid off","debt_consolidation",6.09,0.6,11.0204
+"40328","paid off","small_business",18.04,0.6,8.56911
+"1395","default","debt_consolidation",24.71,0.4,5.30857
+"5762","default","debt_consolidation",21.32,0.45,2.19333
+"18149","default","home_improvement",20.48,0.5,10.006
+"15928","default","debt_consolidation",9.7,0.5,8.035
+"39950","paid off","credit_card",9.21,0.65,17.2991
+"715","default","debt_consolidation",8.93,0.5,4.62444
+"5536","default","medical",17.46,0.35,3.66406
+"212","default","small_business",24.27,0.45,6.61533
+"6410","default","debt_consolidation",17.69,0.4,8.80291
+"18447","default","medical",29.2,0.5,20.4267
+"19434","default","debt_consolidation",14,0.3,8.73077
+"19273","default","debt_consolidation",28.23,0.7,9.5262
+"5625","default","debt_consolidation",18.42,0.65,3.29341
+"1580","default","other",20.48,0.45,8.50816
+"7919","default","debt_consolidation",7.38,0.45,12.4959
+"4077","default","medical",7.8,0.65,8
+"27266","paid off","debt_consolidation",23.05,0.5,12.855
+"43231","paid off","debt_consolidation",23.45,0.6,16.426
+"37044","paid off","credit_card",23.69,0.6,3.53407
+"2179","default","debt_consolidation",7.09,0.4,10.643
+"35080","paid off","other",0.98,0.75,5.90352
+"5902","default","debt_consolidation",29.04,0.6,6.39156
+"16576","default","debt_consolidation",12.72,0.4,13.2974
+"17316","default","debt_consolidation",2.98,0.6,5.05886
+"11307","default","home_improvement",13.75,0.3,2.0232
+"19585","default","debt_consolidation",19.71,0.4,12.7067
+"3920","default","debt_consolidation",21.89,0.7,12.0907
+"19694","default","home_improvement",11.89,0.4,12.0084
+"16100","default","small_business",9.6,0.55,15.3777
+"44010","paid off","debt_consolidation",21.14,0.55,17.5579
+"17857","default","other",31.59,0.3,1.89844
+"42807","paid off","debt_consolidation",20.46,0.65,9.65
+"17466","default","debt_consolidation",18.39,0.3,16.5651
+"7208","default","debt_consolidation",18.49,0.4,9.218
+"6191","default","debt_consolidation",5.98,0.35,8.139
+"41937","paid off","credit_card",7.16,0.85,10.0486
+"9212","default","debt_consolidation",6.17,0.4,8.95749
+"15752","default","debt_consolidation",29.22,0.5,13.3009
+"10124","default","debt_consolidation",29.36,0.35,19.6212
+"41456","paid off","credit_card",20.57,0.55,5.6235
+"19428","default","debt_consolidation",15.61,0.6,10.9877
+"19067","default","credit_card",24.37,0.35,7.108
+"3175","default","debt_consolidation",9.5,0.5,4.2877
+"33745","paid off","other",13.74,0.4,6.1784
+"29030","paid off","credit_card",19.78,0.6,6.45402
+"23806","paid off","other",4.93,0.55,5.65533
+"7303","default","home_improvement",13.3,0.7,0.784535
+"6470","default","debt_consolidation",20.6,0.5,13.3895
+"39933","paid off","debt_consolidation",9.54,0.4,4.69369
+"22614","default","other",14.44,0.4,12.1419
+"40176","paid off","other",14.07,0.5,2.24488
+"45623","paid off","debt_consolidation",17.62,0.35,13.2326
+"11323","default","credit_card",12.42,0.4,7.16619
+"41853","paid off","credit_card",15.32,0.7,4.89
+"35913","paid off","credit_card",9.35,0.6,9.79761
+"9548","default","debt_consolidation",12.87,0.45,7.45493
+"861","default","other",22.05,0.5,11.4621
+"32028","paid off","debt_consolidation",14.22,0.35,1.03816
+"28250","paid off","other",14.76,0.4,5.2072
+"22596","default","home_improvement",22.89,0.45,7.55321
+"34052","paid off","credit_card",17.06,0.45,10.2216
+"40236","paid off","credit_card",8.57,0.4,8.31862
+"29057","paid off","debt_consolidation",34.53,0.45,14.3311
+"38102","paid off","debt_consolidation",27.84,0.4,12.5015
+"38502","paid off","debt_consolidation",8.6,0.6,4.23948
+"33319","paid off","debt_consolidation",18.04,0.65,5.86594
+"18829","default","major_purchase",15.87,0.6,4.07643
+"37352","paid off","other",5.18,0.4,4.10828
+"36848","paid off","credit_card",1.66,0.55,2.54748
+"17056","default","debt_consolidation",7.7,0.4,8.31669
+"24644","paid off","debt_consolidation",13.46,0.45,3.47365
+"44394","paid off","debt_consolidation",16.02,0.45,3.53712
+"36533","paid off","credit_card",6.85,0.6,2.8902
+"35508","paid off","home_improvement",8.37,0.5,4.76248
+"5585","default","debt_consolidation",10.52,0.5,13.1216
+"33347","paid off","other",21.26,0.45,2.99328
+"33206","paid off","other",22.14,0.55,6.70643
+"22737","default","debt_consolidation",19.35,0.45,9.1665
+"7155","default","debt_consolidation",32.63,0.25,8.66171
+"45576","paid off","credit_card",10.27,0.6,12.5587
+"13685","default","debt_consolidation",29.26,0.4,11.452
+"33069","paid off","debt_consolidation",11.98,0.25,1.64263
+"20791","default","debt_consolidation",7.35,0.45,8.98276
+"23854","paid off","debt_consolidation",17.09,0.65,5.58664
+"10700","default","debt_consolidation",12.43,0.3,6.88085
+"9812","default","debt_consolidation",11.48,0.45,11.0628
+"40550","paid off","credit_card",28.97,0.6,9.6486
+"32078","paid off","debt_consolidation",22.39,0.45,3.3904
+"7573","default","debt_consolidation",26.98,0.35,7.26861
+"20496","default","debt_consolidation",17.6,0.4,4.854
+"33141","paid off","credit_card",11.47,0.4,6.98606
+"14609","default","credit_card",19.76,0.75,10.9663
+"8944","default","debt_consolidation",15.69,0.65,13.1335
+"27493","paid off","debt_consolidation",15.03,0.35,5.28103
+"13668","default","debt_consolidation",22.66,0.5,8.23102
+"43222","paid off","debt_consolidation",18.74,0.5,7.05687
+"12327","default","debt_consolidation",19.84,0.75,4.84523
+"4128","default","major_purchase",3.64,0.6,5.46247
+"11547","default","debt_consolidation",25.77,0.5,14.9625
+"6377","default","other",24.57,0.45,0.8355
+"12612","default","credit_card",14.14,0.7,12.477
+"16292","default","debt_consolidation",21.21,0.6,9.38497
+"29608","paid off","debt_consolidation",13.77,0.6,1.37842
+"27087","paid off","debt_consolidation",17.68,0.5,10.5069
+"3414","default","debt_consolidation",12.65,0.6,16.8171
+"19642","default","debt_consolidation",20.21,0.4,15.7296
+"38723","paid off","debt_consolidation",21.95,0.45,8.96587
+"9154","default","debt_consolidation",25.08,0.4,4.06857
+"17722","default","other",29.48,0.5,11.5742
+"43623","paid off","credit_card",5.76,0.5,4.71384
+"28178","paid off","debt_consolidation",19.22,0.55,8.699
+"42376","paid off","debt_consolidation",16.36,0.55,4.04865
+"33057","paid off","debt_consolidation",17.47,0.2,8.81556
+"20062","default","debt_consolidation",17.37,0.3,3.56023
+"31008","paid off","major_purchase",16.62,0.55,7.698
+"41597","paid off","credit_card",20.25,0.55,4.39633
+"21403","default","other",27.46,0.5,5.55938
+"40774","paid off","debt_consolidation",8.22,0.65,9.61125
+"38538","paid off","debt_consolidation",30.05,0.8,7.8656
+"26858","paid off","debt_consolidation",31.13,0.5,13.0705
+"27915","paid off","debt_consolidation",4.98,0.7,2.12145
+"14301","default","debt_consolidation",22.56,0.5,10.1393
+"36340","paid off","debt_consolidation",23.64,0.45,5.6482
+"16824","default","credit_card",15.28,0.55,3.4446
+"8038","default","other",12.1,0.5,5.30554
+"26726","paid off","debt_consolidation",18.72,0.45,10.9294
+"31399","paid off","credit_card",12.94,0.4,3.101
+"14999","default","other",15.4,0.5,13.4658
+"16816","default","other",17.65,0.25,7.94132
+"16857","default","other",8.77,0.45,1.316
+"34039","paid off","debt_consolidation",14.4,0.65,7.42154
+"12267","default","credit_card",24.36,0.35,10.9352
+"20032","default","home_improvement",17.17,0.4,10.0025
+"22528","default","debt_consolidation",24.85,0.45,12.127
+"44652","paid off","debt_consolidation",26.31,0.3,16.138
+"18491","default","other",32.55,0.3,4.67438
+"13125","default","debt_consolidation",6.08,0.65,13.0424
+"23581","paid off","debt_consolidation",21.31,0.45,5.16615
+"15740","default","small_business",34.78,0.4,4.23672
+"15655","default","debt_consolidation",22.8,0.55,12.8835
+"41664","paid off","debt_consolidation",28.02,0.55,10.185
+"20796","default","debt_consolidation",12.25,0.55,21.9032
+"33832","paid off","credit_card",16.28,0.35,4.46801
+"16249","default","debt_consolidation",28.68,0.35,11.2962
+"41670","paid off","debt_consolidation",18.6,0.4,2.74891
+"5923","default","debt_consolidation",25.4,0.4,12.4293
+"4635","default","debt_consolidation",24.47,0.2,2.98144
+"10111","default","credit_card",13.65,0.65,8.43959
+"43418","paid off","other",21.1,0.5,8.71725
+"26112","paid off","home_improvement",8.72,0.4,6.19162
+"34522","paid off","debt_consolidation",11.99,0.5,11.4969
+"34482","paid off","other",13.41,0.45,5.70276
+"39163","paid off","debt_consolidation",16.91,0.3,5.6906
+"12494","default","debt_consolidation",28.5,0.55,19.3608
+"1999","default","debt_consolidation",11.6,0.3,3.499
+"3556","default","debt_consolidation",9.76,0.25,5.97328
+"746","default","debt_consolidation",5.63,0.45,6.94685
+"31046","paid off","credit_card",13.81,0.5,6.49293
+"32113","paid off","other",21.08,0.65,0.775705
+"39279","paid off","debt_consolidation",19.68,0.45,8.70034
+"7180","default","debt_consolidation",23.55,0.55,4.74686
+"31291","paid off","debt_consolidation",16.36,0.45,5.93782
+"15705","default","debt_consolidation",18.58,0.3,7.10463
+"13763","default","debt_consolidation",2.97,0.5,4.92684
+"11109","default","debt_consolidation",22.33,0.35,9.32139
+"40951","paid off","debt_consolidation",11.41,0.75,3.19356
+"25194","paid off","major_purchase",24.97,0.7,3.33667
+"24226","paid off","credit_card",14.22,0.45,4.83711
+"34538","paid off","debt_consolidation",29.18,0.65,10.5409
+"30731","paid off","debt_consolidation",22.15,0.25,14.1308
+"1666","default","debt_consolidation",24.39,0.75,10.1793
+"15757","default","debt_consolidation",32.11,0.35,12.7207
+"2310","default","debt_consolidation",5.44,0.5,1.93447
+"35340","paid off","debt_consolidation",23.96,0.55,9.11853
+"27899","paid off","debt_consolidation",3.96,0.65,0.555785
+"45421","paid off","debt_consolidation",13.68,0.5,4.54705
+"2928","default","debt_consolidation",10.89,0.45,11.3325
+"43349","paid off","debt_consolidation",10.09,0.45,11.5409
+"14142","default","credit_card",11.19,0.65,4.56979
+"4981","default","home_improvement",23.52,0.45,8.95133
+"7423","default","debt_consolidation",13.88,0.4,10.3071
+"30496","paid off","small_business",8.71,0.6,1.99824
+"287","default","debt_consolidation",6.38,0.55,10.2065
+"10190","default","debt_consolidation",8.69,0.5,14.2205
+"12311","default","credit_card",27.28,0.5,5.97196
+"23463","paid off","debt_consolidation",14.11,0.45,1.65782
+"45523","paid off","debt_consolidation",8.84,0.6,6.60946
+"19491","default","debt_consolidation",14.23,0.45,11.0121
+"2794","default","small_business",2.71,0.7,4.45348
+"1939","default","debt_consolidation",19.64,0.65,15.1552
+"43438","paid off","major_purchase",6.6,0.65,1.12182
+"24791","paid off","other",6.22,0.75,7.0276
+"35646","paid off","debt_consolidation",9.6,0.4,6.84446
+"3129","default","debt_consolidation",9.5,0.5,5.978
+"40136","paid off","debt_consolidation",27,0.5,8.56428
+"26771","paid off","credit_card",9.66,0.45,5.76699
+"23318","paid off","debt_consolidation",15.18,0.45,7.22917
+"28253","paid off","debt_consolidation",9.94,0.65,4.99485
+"6728","default","other",3.71,0.7,4.74429
+"19535","default","debt_consolidation",7.57,0.3,5.37573
+"996","default","other",7.75,0.45,3.07068
+"29977","paid off","home_improvement",18.42,0.65,4.42009
+"10921","default","other",10.95,0.5,2.6412
+"35209","paid off","credit_card",12.15,0.55,3.86157
+"1275","default","debt_consolidation",14.6,0.35,10.0102
+"43203","paid off","debt_consolidation",17.16,0.4,16.2866
+"34539","paid off","debt_consolidation",22.9,0.4,1.75097
+"35531","paid off","debt_consolidation",16.59,0.45,9.07731
+"34349","paid off","home_improvement",11.71,0.55,7.98587
+"23419","paid off","debt_consolidation",9.16,0.8,6.64194
+"10554","default","credit_card",19.28,0.45,7.78093
+"45429","paid off","debt_consolidation",5.04,0.65,6.3966
+"19763","default","debt_consolidation",16.67,0.3,10.2406
+"38593","paid off","debt_consolidation",10.47,0.45,4.18081
+"39512","paid off","credit_card",20.73,0.75,3.02589
+"45290","paid off","debt_consolidation",12.5,0.7,15.4059
+"19316","default","debt_consolidation",14.01,0.45,13.7276
+"22013","default","debt_consolidation",21.6,0.55,6.71663
+"34460","paid off","home_improvement",8.15,0.7,5.81238
+"18945","default","debt_consolidation",11.36,0.55,14.0254
+"20902","default","small_business",8.54,0.4,17.1154
+"22849","default","debt_consolidation",25.54,0.55,12.765
+"25845","paid off","major_purchase",13.14,0.55,1.49431
+"12545","default","small_business",26.76,0.4,15.1456
+"25007","paid off","debt_consolidation",23.31,0.45,7.7622
+"13156","default","credit_card",20.51,0.3,11.0939
+"31810","paid off","debt_consolidation",20.32,0.35,8.22909
+"20752","default","credit_card",5.84,0.25,4.95769
+"28109","paid off","debt_consolidation",10.06,0.65,4.43663
+"12570","default","debt_consolidation",22.94,0.3,13.199
+"36019","paid off","debt_consolidation",1.81,0.65,4.97773
+"28180","paid off","major_purchase",21.83,0.6,5.17114
+"15625","default","credit_card",8.12,0.55,9.9072
+"21548","default","major_purchase",19.48,0.4,7.32799
+"23189","paid off","debt_consolidation",27.21,0.6,11.2345
+"39058","paid off","credit_card",22.37,0.75,6.93636
+"11443","default","credit_card",22.26,0.5,14.1739
+"33992","paid off","debt_consolidation",10.75,0.6,6.02681
+"26742","paid off","small_business",13.95,0.5,3.03325
+"2226","default","other",16.03,0.3,3.40211
+"18694","default","debt_consolidation",20.72,0.65,11.2901
+"8939","default","home_improvement",11.37,0.45,9.62691
+"40569","paid off","major_purchase",0.65,0.4,1.89231
+"3212","default","credit_card",5.47,0.4,7.38167
+"20184","default","credit_card",22.93,0.4,20.4008
+"13820","default","debt_consolidation",11.02,0.7,4.76986
+"7101","default","debt_consolidation",26.88,0.25,13.0632
+"18526","default","debt_consolidation",8.31,0.5,6.62213
+"775","default","small_business",19.76,0.35,14.9988
+"39729","paid off","credit_card",12.3,0.6,6.94712
+"43588","paid off","debt_consolidation",9.37,0.75,4.00896
+"41011","paid off","other",19.48,0.6,8.30682
+"31384","paid off","debt_consolidation",17.71,0.6,18.2456
+"24047","paid off","other",3.28,0.5,2.15617
+"35451","paid off","debt_consolidation",10.52,0.55,9.3288
+"17077","default","debt_consolidation",29.12,0.55,5.49413
+"6172","default","debt_consolidation",26.28,0.3,6.0876
+"13679","default","debt_consolidation",19.14,0.55,5.00647
+"26876","paid off","home_improvement",1.87,0.45,3.77689
+"6951","default","debt_consolidation",19.45,0.5,10.9414
+"37864","paid off","debt_consolidation",13.09,0.5,8.15844
+"21348","default","debt_consolidation",25.3,0.25,6.82897
+"22273","default","debt_consolidation",28.32,0.45,14.0102
+"12771","default","other",6.16,0.65,3.7022
+"17106","default","debt_consolidation",20.89,0.55,13.9552
+"31956","paid off","debt_consolidation",6.55,0.75,7.62651
+"11280","default","debt_consolidation",17.82,0.6,13.9868
+"22734","default","debt_consolidation",21.13,0.5,10.6421
+"3622","default","debt_consolidation",9.5,0.75,9.24135
+"34982","paid off","debt_consolidation",25.19,0.4,8.32572
+"22562","default","debt_consolidation",8.14,0.75,1.40519
+"23430","paid off","debt_consolidation",13.98,0.6,4.48349
+"43915","paid off","credit_card",16.32,0.4,9.23815
+"17711","default","home_improvement",14.4,0.5,14.3285
+"43662","paid off","debt_consolidation",15.51,0.4,7.52543
+"43163","paid off","other",4.74,0.5,18.3231
+"30041","paid off","other",8.79,0.7,4.2945
+"45374","paid off","home_improvement",21.92,0.5,2.43991
+"16276","default","debt_consolidation",17.1,0.4,5.06225
+"29017","paid off","small_business",5.11,0.8,5.39952
+"9739","default","debt_consolidation",22.47,0.35,4.94727
+"11631","default","debt_consolidation",3.5,0.5,8.64912
+"45662","paid off","other",2.68,0.55,3.04043
+"6817","default","other",12.85,0.55,3.77879
+"25397","paid off","credit_card",24.07,0.4,9.03456
+"44891","paid off","credit_card",26.3,0.55,14.7975
+"1655","default","debt_consolidation",19.37,0.25,10.9894
+"25971","paid off","debt_consolidation",18.85,0.45,14.1724
+"6858","default","other",4.38,0.55,9.12183
+"22014","default","debt_consolidation",13.15,0.6,7.5464
+"17155","default","debt_consolidation",30.36,0.5,7.81699
+"26594","paid off","debt_consolidation",10.53,0.35,6.83177
+"37891","paid off","debt_consolidation",4.36,0.85,2.87095
+"24787","paid off","credit_card",8.34,0.55,5.9139
+"3645","default","other",7.93,0.35,5.85786
+"22837","default","credit_card",31.31,0.55,7.12465
+"42594","paid off","home_improvement",12.7,0.6,6.86933
+"24524","paid off","other",16.07,0.4,18.2051
+"22087","default","debt_consolidation",28.27,0.55,7.77
+"15432","default","home_improvement",4.98,0.55,7.58389
+"428","default","debt_consolidation",21.55,0.3,10.8033
+"13689","default","debt_consolidation",7,0.4,5.32748
+"9039","default","debt_consolidation",24.91,0.4,12.008
+"30600","paid off","credit_card",9.71,0.8,1.84844
+"31959","paid off","credit_card",10.56,0.55,6.08326
+"24043","paid off","home_improvement",19.21,0.55,14.3837
+"33137","paid off","home_improvement",4.26,0.8,3.6846
+"34543","paid off","credit_card",18.29,0.65,9.50629
+"27836","paid off","home_improvement",14.79,0.55,2.28776
+"26033","paid off","credit_card",16.81,0.75,12.1999
+"32853","paid off","debt_consolidation",19.34,0.55,11.2249
+"15028","default","debt_consolidation",7.37,0.6,7.39253
+"46087","paid off","small_business",16.67,0.65,3.41156
+"33964","paid off","debt_consolidation",9.05,0.35,16.7006
+"24386","paid off","credit_card",25.23,0.6,10.4874
+"31388","paid off","debt_consolidation",19.52,0.5,15.0981
+"7018","default","debt_consolidation",21.36,0.65,11.5506
+"20594","default","other",18.01,0.5,15.5866
+"28666","paid off","debt_consolidation",22.84,0.45,14.8953
+"8436","default","credit_card",13.44,0.55,6.57105
+"28051","paid off","credit_card",15.17,0.65,5.322
+"30585","paid off","debt_consolidation",13.8,0.55,12.6552
+"4755","default","debt_consolidation",15.87,0.35,3.41126
+"20836","default","medical",13.24,0.45,1.3682
+"14300","default","debt_consolidation",28.9,0.4,8.49377
+"3603","default","debt_consolidation",3.68,0.55,7.7736
+"23670","paid off","other",12.84,0.45,0.884996
+"22831","default","credit_card",9.6,0.35,10.04
+"5176","default","other",15.62,0.45,1.59246
+"20439","default","debt_consolidation",21.27,0.45,5.23667
+"29194","paid off","debt_consolidation",16.45,0.4,4.12071
+"38830","paid off","credit_card",19.55,0.35,4.5513
+"32846","paid off","other",9.31,0.65,4.28341
+"23687","paid off","debt_consolidation",19.66,0.4,9.1992
+"12014","default","other",11.12,0.45,9.90405
+"45029","paid off","debt_consolidation",19.44,0.7,17.5928
+"39407","paid off","debt_consolidation",26.97,0.5,6.41714
+"22140","default","debt_consolidation",13.52,0.3,13.992
+"30808","paid off","credit_card",6.08,0.3,7.98528
+"17570","default","debt_consolidation",23.81,0.45,13.8495
+"36810","paid off","credit_card",14.98,0.5,3.5182
+"25770","paid off","medical",15.72,0.65,4.4788
+"31731","paid off","debt_consolidation",13.61,0.65,8.9937
+"40976","paid off","debt_consolidation",8.64,0.5,8.95303
+"21588","default","debt_consolidation",8.02,0.3,7.11624
+"36018","paid off","other",18.94,0.4,10.815
+"33191","paid off","debt_consolidation",30.38,0.6,19.7348
+"29170","paid off","debt_consolidation",26.4,0.5,16.538
+"45002","paid off","debt_consolidation",8.55,0.7,10.4888
+"13524","default","debt_consolidation",11.04,0.5,6.89922
+"7216","default","debt_consolidation",16.2,0.5,5.60075
+"203","default","debt_consolidation",19.31,0.4,15.2142
+"24113","paid off","debt_consolidation",8.19,0.55,10.4213
+"45837","paid off","debt_consolidation",12.49,0.55,6.90351
+"37400","paid off","credit_card",9.41,0.7,2.32872
+"25169","paid off","home_improvement",19.43,0.65,10.3724
+"851","default","debt_consolidation",23.25,0.5,10.3766
+"33675","paid off","home_improvement",9.83,0.6,3.76765
+"4984","default","debt_consolidation",17.74,0.3,8.45441
+"28932","paid off","debt_consolidation",15.03,0.5,5.89215
+"41827","paid off","debt_consolidation",7.13,0.65,8.98385
+"14876","default","credit_card",25.58,0.5,14.949
+"2006","default","medical",7.68,0.45,7.85616
+"39207","paid off","other",7.73,0.5,4.24
+"43271","paid off","debt_consolidation",23.8,0.3,7.08136
+"38216","paid off","home_improvement",25.2,0.7,8.94946
+"30391","paid off","debt_consolidation",26.34,0.4,10.2072
+"31089","paid off","credit_card",22.25,0.5,13.6089
+"37641","paid off","major_purchase",28.06,0.6,8.49254
+"43572","paid off","debt_consolidation",18.69,0.35,5.35611
+"7806","default","other",11,0.45,12.2527
+"19740","default","debt_consolidation",18.45,0.6,10.3573
+"41452","paid off","debt_consolidation",17.09,0.7,12.5653
+"30643","paid off","debt_consolidation",20.67,0.6,14.6004
+"41388","paid off","debt_consolidation",24.24,0.4,4.75849
+"13857","default","debt_consolidation",21.53,0.4,9.19075
+"25453","paid off","debt_consolidation",12.31,0.75,2.79154
+"18606","default","credit_card",17.41,0.5,9.39918
+"4624","default","small_business",7.3,0.65,15.7636
+"13344","default","debt_consolidation",19.7,0.5,9.32952
+"31001","paid off","other",14.48,0.55,3.40884
+"36794","paid off","credit_card",4.56,0.5,4.48937
+"30085","paid off","debt_consolidation",12.21,0.65,3.00869
+"35546","paid off","debt_consolidation",1.87,0.45,9.89128
+"29044","paid off","debt_consolidation",13.63,0.6,1.98475
+"10793","default","other",4.95,0.55,2.21124
+"11823","default","debt_consolidation",16.55,0.65,7.02969
+"34322","paid off","debt_consolidation",10.46,0.8,9.34286
+"38186","paid off","debt_consolidation",16.2,0.6,3.18
+"37424","paid off","home_improvement",1.84,0.65,4.1506
+"12732","default","debt_consolidation",7.17,0.35,8.41009
+"10375","default","debt_consolidation",15.81,0.5,11.7797
+"28380","paid off","debt_consolidation",3.45,0.75,9.77212
+"39745","paid off","credit_card",18.43,0.65,10.4415
+"23497","paid off","small_business",10.11,0.45,6.35109
+"27609","paid off","debt_consolidation",9.77,0.7,4.29129
+"13035","default","credit_card",9.27,0.4,7.59315
+"12445","default","home_improvement",17.87,0.5,10.0879
+"13717","default","debt_consolidation",12.97,0.2,7.05081
+"38695","paid off","credit_card",14.37,0.4,5.0709
+"46191","paid off","credit_card",9.18,0.4,12.3248
+"32477","paid off","home_improvement",11.15,0.85,4.08834
+"26288","paid off","major_purchase",16.47,0.7,5.50931
+"40503","paid off","home_improvement",14.51,0.7,4.44946
+"18668","default","debt_consolidation",18.55,0.55,8.50428
+"13724","default","credit_card",23.24,0.65,15.2021
+"28193","paid off","debt_consolidation",20.74,0.6,9.04254
+"39081","paid off","debt_consolidation",0.46,0.6,2.78815
+"22127","default","debt_consolidation",27.19,0.1,6.04832
+"15196","default","debt_consolidation",28.5,0.5,13.7614
+"6053","default","home_improvement",8.57,0.3,33.6309
+"28315","paid off","debt_consolidation",26.43,0.4,5.5039
+"23572","paid off","debt_consolidation",12.09,0.55,3.34648
+"36178","paid off","other",3.63,0.55,10.2471
+"577","default","credit_card",10.5,0.45,7.939
+"23423","paid off","credit_card",8.66,0.6,3.41656
+"20643","default","debt_consolidation",13.42,0.3,12.2106
+"42638","paid off","home_improvement",11.31,0.45,12.2755
+"43493","paid off","debt_consolidation",16.38,0.4,3.175
+"32273","paid off","credit_card",13.91,0.4,6.61398
+"5565","default","credit_card",11.56,0.45,7.6974
+"26131","paid off","debt_consolidation",24.7,0.5,8.1085
+"10096","default","debt_consolidation",17.85,0.5,2.35677
+"42827","paid off","debt_consolidation",22.04,0.55,2.14113
+"31259","paid off","debt_consolidation",10.24,0.5,3.75855
+"30233","paid off","debt_consolidation",23.96,0.45,13.714
+"32527","paid off","home_improvement",11.19,0.7,2.68516
+"34615","paid off","credit_card",18.45,0.65,13.6846
+"13014","default","credit_card",16.8,0.6,7.39059
+"161","default","credit_card",23.79,0.4,9.1656
+"16022","default","credit_card",23.24,0.45,12.1128
+"7699","default","debt_consolidation",9.13,0.45,5.46738
+"19084","default","major_purchase",11,0.65,1.42768
+"11382","default","debt_consolidation",22.78,0.3,9.97381
+"14435","default","debt_consolidation",24.48,0.55,4.67285
+"43128","paid off","debt_consolidation",19.51,0.75,6.79933
+"34095","paid off","debt_consolidation",15.79,0.5,5.92855
+"13288","default","debt_consolidation",28.65,0.7,7.67446
+"19656","default","other",15.21,0.5,11.5347
+"41713","paid off","debt_consolidation",15.37,0.55,6.08717
+"11174","default","debt_consolidation",9.68,0.3,7.66732
+"38658","paid off","debt_consolidation",17.33,0.45,3.78171
+"41790","paid off","debt_consolidation",13.38,0.35,10.7282
+"2653","default","debt_consolidation",13.56,0.35,14.9568
+"28458","paid off","debt_consolidation",15.86,0.7,14.9708
+"32980","paid off","debt_consolidation",16.24,0.55,6.2324
+"14972","default","debt_consolidation",23.06,0.4,5.28292
+"29046","paid off","debt_consolidation",14.33,0.5,5.33026
+"19892","default","other",14.7,0.55,21.1464
+"32669","paid off","debt_consolidation",9.77,0.6,9.43527
+"2214","default","debt_consolidation",3.73,0.6,6.92067
+"34467","paid off","debt_consolidation",7.17,0.55,9.03435
+"28846","paid off","debt_consolidation",8.07,0.6,6.48736
+"2906","default","debt_consolidation",6.53,0.7,6.032
+"31419","paid off","debt_consolidation",11.96,0.55,8.39936
+"12087","default","small_business",8.18,0.35,1.92878
+"23773","paid off","debt_consolidation",21.16,0.7,4.67688
+"41805","paid off","other",14.54,0.5,2.48538
+"367","default","debt_consolidation",22.22,0.6,10.4328
+"13019","default","credit_card",18.86,0.25,13.7632
+"34191","paid off","credit_card",17.11,0.55,8.71689
+"45057","paid off","debt_consolidation",4.32,0.4,4.39993
+"4479","default","other",13.49,0.5,4.82886
+"477","default","debt_consolidation",10.58,0.3,5.6182
+"268","default","credit_card",6.33,0.35,4.43481
+"18612","default","debt_consolidation",23.83,0.35,3.66505
+"1988","default","debt_consolidation",14.45,0.55,2.14311
+"11169","default","debt_consolidation",24.56,0.5,4.48983
+"30929","paid off","other",24.43,0.5,2.69378
+"30992","paid off","debt_consolidation",7.41,0.55,4.809
+"6575","default","credit_card",10.4,0.5,12.6318
+"25338","paid off","credit_card",7.28,0.7,2.01104
+"17839","default","debt_consolidation",34.47,0.35,14.385
+"26010","paid off","debt_consolidation",26.19,0.6,12.2281
+"5324","default","other",18.24,0.55,1.11223
+"35116","paid off","credit_card",21.07,0.3,3.68286
+"31141","paid off","debt_consolidation",16.95,0.45,10.8869
+"40286","paid off","credit_card",10.16,0.4,2.32027
+"43515","paid off","debt_consolidation",27.06,0.6,8.07778
+"38657","paid off","other",31.96,0.4,9.64778
+"27320","paid off","other",13.79,0.4,10.0671
+"31482","paid off","debt_consolidation",29.93,0.6,7.66412
+"39915","paid off","other",10.72,0.55,7.30973
+"33922","paid off","debt_consolidation",23.91,0.6,5.84543
+"29026","paid off","debt_consolidation",13.34,0.45,7.93752
+"17619","default","debt_consolidation",20.48,0.55,10.7189
+"3340","default","small_business",5.66,0.65,3.3806
+"40969","paid off","debt_consolidation",22.34,0.55,2.98691
+"3815","default","debt_consolidation",24.37,0.4,8.85897
+"38709","paid off","credit_card",17.67,0.3,10.6795
+"26260","paid off","home_improvement",3.82,0.65,14.3116
+"33188","paid off","other",15.02,0.45,3.16267
+"40562","paid off","debt_consolidation",10.55,0.35,6.84483
+"3403","default","home_improvement",1.66,0.55,5.8773
+"38442","paid off","debt_consolidation",16.97,0.35,4.85964
+"44744","paid off","debt_consolidation",11.4,0.45,6.5595
+"24854","paid off","debt_consolidation",14.17,0.7,5.42417
+"11672","default","debt_consolidation",6.85,0.3,8.07637
+"9397","default","credit_card",29.61,0.5,4.27614
+"12658","default","home_improvement",15.24,0.65,7.95829
+"28395","paid off","credit_card",24.6,0.15,5.7564
+"3032","default","credit_card",11.03,0.5,6.56772
+"18738","default","other",9.91,0.65,12.6644
+"19470","default","debt_consolidation",23.66,0.4,9.98963
+"3302","default","debt_consolidation",0.99,0.55,5.26525
+"42560","paid off","debt_consolidation",16.04,0.6,9.16867
+"43982","paid off","small_business",24.77,0.35,2.66955
+"25027","paid off","credit_card",13.12,0.5,4.72775
+"26850","paid off","debt_consolidation",15.41,0.6,13.6563
+"35902","paid off","small_business",1.2,0.6,5.5056
+"777","default","debt_consolidation",12.87,0.4,2.40043
+"21502","default","debt_consolidation",22.51,0.55,11.7181
+"34748","paid off","major_purchase",5.81,0.45,4.61388
+"24455","paid off","credit_card",9.19,0.6,8.35627
+"2414","default","debt_consolidation",10.76,0.5,8.21455
+"43032","paid off","credit_card",22.75,0.55,6.2388
+"26244","paid off","other",18.39,0.4,1.0491
+"5798","default","other",15.1,0.5,6.7675
+"34002","paid off","credit_card",6.97,0.55,6.654
+"36035","paid off","debt_consolidation",2.62,0.55,3.47492
+"26452","paid off","credit_card",18.08,0.45,14.493
+"24654","paid off","debt_consolidation",15.54,0.7,6.61711
+"20996","default","credit_card",35.27,0.2,9.3208
+"13252","default","debt_consolidation",21.18,0.4,19.3841
+"5310","default","debt_consolidation",13.5,0.5,15.2238
+"20238","default","small_business",10.93,0.35,7.32758
+"4518","default","home_improvement",10.13,0.5,7.17143
+"11017","default","debt_consolidation",23.91,0.5,7.89942
+"22239","default","debt_consolidation",33.58,0.25,5.01384
+"9601","default","debt_consolidation",13.14,0.45,8.73165
+"45635","paid off","home_improvement",20.33,0.45,9.57113
+"4993","default","other",4.89,0.35,1.86226
+"25790","paid off","debt_consolidation",8.77,0.6,3.414
+"16000","default","debt_consolidation",29.61,0.3,9.27557
+"1260","default","debt_consolidation",15.08,0.25,13.3256
+"37556","paid off","debt_consolidation",15.78,0.55,9.2362
+"6676","default","debt_consolidation",21.09,0.4,13.8118
+"42394","paid off","credit_card",10.79,0.7,3.12913
+"5801","default","other",20.6,0.25,3.18312
+"13447","default","debt_consolidation",6.69,0.55,12.7113
+"35448","paid off","credit_card",17.82,0.45,7.73082
+"40742","paid off","credit_card",11.58,0.55,7.8732
+"41379","paid off","debt_consolidation",22.15,0.7,5.00658
+"9407","default","debt_consolidation",8.77,0.65,14.4145
+"42387","paid off","credit_card",10.82,0.5,8.41089
+"17267","default","home_improvement",18.69,0.35,4.821
+"35914","paid off","credit_card",29.86,0.45,9.77031
+"23106","default","debt_consolidation",26.76,0.55,10.0302
+"25444","paid off","debt_consolidation",20.16,0.45,12.6715
+"36125","paid off","other",15.51,0.65,5.33801
+"42500","paid off","debt_consolidation",24.36,0.6,7.24571
+"24719","paid off","credit_card",8.7,0.65,5.11733
+"43500","paid off","debt_consolidation",30,0.45,11.7333
+"14743","default","debt_consolidation",23.97,0.55,5.0081
+"36570","paid off","debt_consolidation",14.66,0.7,13.1306
+"40530","paid off","debt_consolidation",18.18,0.6,9.783
+"44295","paid off","credit_card",11.3,0.45,7.4542
+"42443","paid off","debt_consolidation",29.63,0.45,8.64
+"45546","paid off","major_purchase",5.09,0.6,15.985
+"35160","paid off","credit_card",27.16,0.55,10.2976
+"32662","paid off","debt_consolidation",0.94,0.7,9.50297
+"25341","paid off","debt_consolidation",31.7,0.4,7.85312
+"20988","default","debt_consolidation",10.26,0.4,14.7303
+"11083","default","home_improvement",33.05,0.4,3.49024
+"7031","default","debt_consolidation",17.69,0.5,2.52454
+"16375","default","other",25.77,0.4,6.81893
+"15446","default","debt_consolidation",19.33,0.7,14.733
+"29522","paid off","debt_consolidation",11.18,0.5,2.81267
+"34138","paid off","debt_consolidation",30.48,0.5,9.3669
+"5090","default","major_purchase",17.53,0.55,5.01175
+"42219","paid off","debt_consolidation",7.54,0.6,13.7345
+"35137","paid off","credit_card",12.56,0.45,10.1839
+"18288","default","debt_consolidation",9.57,0.55,6.76815
+"16398","default","debt_consolidation",6.38,0.55,6.37571
+"23781","paid off","credit_card",9.31,0.55,5.4795
+"39164","paid off","credit_card",4.68,0.7,3.138
+"35132","paid off","major_purchase",0.98,0.65,2.55567
+"37850","paid off","other",13.6,0.7,1.55975
+"11229","default","debt_consolidation",23.38,0.5,10.5191
+"42212","paid off","major_purchase",8.46,0.6,0.863586
+"8632","default","other",7.63,0.25,1.39612
+"26534","paid off","debt_consolidation",21.08,0.45,10.7363
+"19263","default","debt_consolidation",11.89,0.45,12.0735
+"26745","paid off","debt_consolidation",9.97,0.65,6.08519
+"19609","default","other",19.16,0.25,2.6611
+"24336","paid off","credit_card",11.55,0.4,12.9734
+"24892","paid off","debt_consolidation",20.83,0.45,7.30457
+"10651","default","debt_consolidation",24.96,0.4,8.14214
+"5983","default","major_purchase",15.65,0.45,5.60174
+"29928","paid off","debt_consolidation",18.78,0.35,4.372
+"32988","paid off","debt_consolidation",1.55,0.65,5.68117
+"9259","default","home_improvement",23.1,0.3,0.942635
+"28854","paid off","debt_consolidation",6.94,0.45,4.15232
+"42309","paid off","home_improvement",0.26,0.6,4.62141
+"11294","default","debt_consolidation",21.36,0.2,8.54374
+"35529","paid off","debt_consolidation",25.91,0.45,6.21355
+"32420","paid off","debt_consolidation",14.91,0.45,5.58057
+"7969","default","major_purchase",11.9,0.45,6.20628
+"41109","paid off","credit_card",19.32,0.55,11.6859
+"36991","paid off","debt_consolidation",5.75,0.5,9.53521
+"5075","default","other",11.88,0.45,3.80097
+"25438","paid off","debt_consolidation",10.23,0.6,10.2575
+"7288","default","debt_consolidation",25.71,0.45,7.9704
+"304","default","major_purchase",1.88,0.55,7.30353
+"36324","paid off","credit_card",17.37,0.65,4.36762
+"32301","paid off","debt_consolidation",17.23,0.65,2.5119
+"36353","paid off","credit_card",9.47,0.7,2.72171
+"36409","paid off","debt_consolidation",10.58,0.65,7.28284
+"378","default","debt_consolidation",11.49,0.3,11.9206
+"43647","paid off","credit_card",25.18,0.6,8.75574
+"14366","default","debt_consolidation",23.08,0.65,6.93212
+"3143","default","debt_consolidation",2.94,0.2,4.82151
+"45099","paid off","other",5.89,0.5,3.12831
+"45100","paid off","debt_consolidation",16.25,0.45,13.532
+"45490","paid off","major_purchase",1.2,0.75,4.968
+"43114","paid off","credit_card",9.82,0.6,14.9198
+"45210","paid off","debt_consolidation",8.87,0.7,6.97858
+"42282","paid off","home_improvement",6.48,0.5,3.62682
+"11740","default","debt_consolidation",8.07,0.7,9.23502
+"44704","paid off","home_improvement",11.53,0.7,0.986609
+"758","default","debt_consolidation",21.98,0.4,10.4174
+"32236","paid off","debt_consolidation",25.87,0.35,19.1907
+"15173","default","credit_card",16.62,0.4,5.56017
+"43089","paid off","credit_card",18.37,0.5,5.98038
+"45453","paid off","other",25.6,0.5,2.94343
+"28306","paid off","other",5.6,0.8,1.41868
+"11485","default","other",31.92,0.6,12.1008
+"10880","default","debt_consolidation",14.26,0.55,8.92768
+"6038","default","credit_card",13.44,0.3,8.23416
+"32188","paid off","credit_card",21.66,0.55,5.63235
+"2330","default","home_improvement",2.43,0.55,5.02341
+"16389","default","other",23.19,0.35,3.47365
+"8502","default","home_improvement",14.01,0.55,2.0415
+"12152","default","credit_card",25.5,0.35,8.24544
+"28231","paid off","debt_consolidation",9.11,0.8,13.045
+"20799","default","debt_consolidation",23.21,0.5,11.6809
+"31018","paid off","debt_consolidation",8.64,0.3,5.5455
+"32077","paid off","home_improvement",12.89,0.4,13.9421
+"14014","default","small_business",14.8,0.3,13.6717
+"40226","paid off","major_purchase",21.81,0.35,3.45075
+"32924","paid off","medical",16.8,0.6,7.7796
+"20289","default","debt_consolidation",10.55,0.5,7.55768
+"32902","paid off","major_purchase",16.31,0.6,1.82615
+"6924","default","debt_consolidation",16.52,0.5,4.98862
+"35240","paid off","debt_consolidation",26.26,0.7,4.53629
+"19641","default","debt_consolidation",10.44,0.5,3.17042
+"37312","paid off","credit_card",13.22,0.4,10.1084
+"4728","default","debt_consolidation",20.24,0.3,16.3473
+"42442","paid off","debt_consolidation",29.54,0.4,8.64422
+"25779","paid off","debt_consolidation",24.24,0.4,10.3874
+"45813","paid off","other",10.84,0.55,1.85238
+"529","default","debt_consolidation",10.4,0.4,15.318
+"43631","paid off","debt_consolidation",9.7,0.55,13.3243
+"45627","paid off","debt_consolidation",23.13,0.35,6.77022
+"26891","paid off","debt_consolidation",26.37,0.5,10.4221
+"42945","paid off","credit_card",7.87,0.5,1.9002
+"9551","default","debt_consolidation",23.18,0.45,14.2859
+"1307","default","credit_card",13.42,0.3,4.44
+"42957","paid off","debt_consolidation",17.27,0.85,11.3981
+"37285","paid off","credit_card",22.99,0.5,10.2647
+"859","default","other",12.84,0.55,3.5301
+"37843","paid off","debt_consolidation",25.79,0.55,6.32351
+"32197","paid off","debt_consolidation",30.42,0.65,8.54576
+"6681","default","credit_card",21.54,0.55,7.3274
+"32715","paid off","debt_consolidation",8.93,0.5,10.8474
+"13686","default","major_purchase",20.24,0.4,16.7214
+"26502","paid off","credit_card",16.59,0.65,8.31157
+"25860","paid off","home_improvement",13.45,0.6,5.86254
+"18098","default","debt_consolidation",28.08,0.2,2.64202
+"20387","default","medical",11.12,0.6,2.68368
+"15671","default","other",8.58,0.45,5.58424
+"21612","default","debt_consolidation",28.87,0.6,8.47533
+"19919","default","debt_consolidation",16.92,0.3,12.5306
+"36927","paid off","debt_consolidation",18.23,0.4,6.25813
+"27095","paid off","debt_consolidation",11.83,0.75,13.9171
+"32864","paid off","debt_consolidation",11.78,0.75,9.95447
+"40011","paid off","credit_card",12.57,0.55,10.956
+"10387","default","debt_consolidation",8.86,0.6,5.7974
+"2213","default","debt_consolidation",14.35,0.4,10.5988
+"20834","default","other",12.74,0.45,1.8264
+"1021","default","credit_card",19.72,0.6,10.3242
+"12902","default","debt_consolidation",18.69,0.55,10.4993
+"39242","paid off","debt_consolidation",4.12,0.6,6.00766
+"22613","default","debt_consolidation",23.29,0.4,10.2454
+"5607","default","debt_consolidation",13.44,0.4,4.6792
+"10320","default","debt_consolidation",24.45,0.5,9.82954
+"35447","paid off","debt_consolidation",21.8,0.6,5.44637
+"28061","paid off","debt_consolidation",17.44,0.6,1.04788
+"18466","default","small_business",20.94,0.55,15.4423
+"22004","default","debt_consolidation",18.69,0.2,12.4349
+"10628","default","debt_consolidation",34.72,0.55,14.2293
+"9994","default","other",19.94,0.3,6.9192
+"41410","paid off","credit_card",14.48,0.5,6.12808
+"25177","paid off","credit_card",10.81,0.45,9.07906
+"36697","paid off","debt_consolidation",8.75,0.4,7.50987
+"29511","paid off","debt_consolidation",4.61,0.6,1.17902
+"25056","paid off","credit_card",24.74,0.7,4.98138
+"11454","default","debt_consolidation",29.6,0.35,16.8282
+"21616","default","debt_consolidation",27.13,0.4,6.27091
+"4942","default","home_improvement",7.62,0.65,7.36884
+"31425","paid off","debt_consolidation",18.93,0.45,10.0635
+"45973","paid off","credit_card",9.86,0.45,12.9553
+"511","default","credit_card",17,0.35,12.094
+"9231","default","debt_consolidation",11.75,0.55,11.434
+"12514","default","debt_consolidation",34.77,0.45,14.7033
+"6909","default","debt_consolidation",17.18,0.6,17.5642
+"23700","paid off","debt_consolidation",11.6,0.6,13.499
+"42726","paid off","debt_consolidation",25.07,0.45,3.83623
+"44412","paid off","other",5.29,0.6,8.72175
+"5715","default","debt_consolidation",9.43,0.35,1.25409
+"40271","paid off","other",21.83,0.3,1.77854
+"42499","paid off","small_business",17,0.45,10.418
+"2589","default","home_improvement",13.52,0.55,3.19167
+"9760","default","debt_consolidation",21.45,0.5,10.4759
+"43592","paid off","debt_consolidation",12.59,0.55,11.0751
+"42044","paid off","debt_consolidation",25.77,0.5,3.54254
+"18920","default","small_business",10.29,0.6,16.9973
+"23941","paid off","credit_card",15.61,0.55,7.43773
+"43866","paid off","debt_consolidation",5.06,0.55,7.20157
+"7441","default","other",20.1,0.6,13.2853
+"14229","default","debt_consolidation",9.52,0.45,4.528
+"12158","default","credit_card",33.47,0.4,10.4953
+"31988","paid off","debt_consolidation",15.86,0.65,12.5428
+"5263","default","debt_consolidation",8.66,0.55,3.2052
+"20460","default","credit_card",14.9,0.35,14.3209
+"7379","default","debt_consolidation",15.07,0.65,4.37526
+"13848","default","other",30.04,0.45,5.22671
+"3199","default","debt_consolidation",19.78,0.55,3.401
+"11931","default","debt_consolidation",23.18,0.65,8.43566
+"9479","default","debt_consolidation",32.47,0.5,11.5128
+"5027","default","other",20.75,0.55,1.36897
+"10106","default","debt_consolidation",19.69,0.4,4.04964
+"9189","default","debt_consolidation",15.38,0.35,14.553
+"30815","paid off","debt_consolidation",33.92,0.35,10.332
+"21293","default","credit_card",10.75,0.6,6.3034
+"36591","paid off","debt_consolidation",16.83,0.4,10.6599
+"41434","paid off","debt_consolidation",6.05,0.65,6.70482
+"24799","paid off","debt_consolidation",23.73,0.25,12.7037
+"32673","paid off","credit_card",10.12,0.5,14.6077
+"42796","paid off","other",7.81,0.45,1.46366
+"42062","paid off","debt_consolidation",12.44,0.45,14.287
+"14934","default","debt_consolidation",16.55,0.3,10.6227
+"30697","paid off","credit_card",4.69,0.6,6.352
+"2765","default","other",11.22,0.15,10.8063
+"10446","default","debt_consolidation",12.68,0.45,8.57889
+"21597","default","credit_card",25.95,0.5,16.0671
+"45141","paid off","credit_card",12.17,0.65,2.73582
+"8849","default","debt_consolidation",26.81,0.55,4.62567
+"37013","paid off","credit_card",6.78,0.75,10.7465
+"8786","default","debt_consolidation",10.25,0.4,10.7432
+"30407","paid off","debt_consolidation",19.32,0.45,6.38367
+"28067","paid off","credit_card",7.15,0.5,7.18256
+"7077","default","debt_consolidation",21.88,0.2,5.82776
+"23507","paid off","debt_consolidation",12.69,0.5,2.2692
+"9312","default","credit_card",29.31,0.35,8.49608
+"15085","default","debt_consolidation",32.34,0.25,13.7677
+"36016","paid off","debt_consolidation",8.3,0.55,7.01267
+"15428","default","debt_consolidation",30,0.5,19.1779
+"13602","default","credit_card",26.02,0.5,18.1093
+"33795","paid off","credit_card",8.42,0.5,4.12877
+"303","default","debt_consolidation",8.88,0.55,7.0226
+"2198","default","debt_consolidation",16.05,0.45,12.0036
+"33483","paid off","debt_consolidation",14.76,0.65,7.22875
+"40665","paid off","other",20.8,0.45,11.678
+"36956","paid off","debt_consolidation",3.71,0.7,1.58874
+"26418","paid off","debt_consolidation",11.04,0.35,6.5458
+"36866","paid off","debt_consolidation",33.07,0.55,13.4578
+"22996","default","debt_consolidation",26.46,0.45,12.7368
+"25293","paid off","credit_card",20.37,0.4,11.5534
+"9328","default","home_improvement",12.89,0.6,6.336
+"34194","paid off","debt_consolidation",19.68,0.45,8.28686
+"39140","paid off","credit_card",24.52,0.4,17.6502
+"22888","default","debt_consolidation",17.24,0.6,7.659
+"8475","default","other",20.86,0.4,10.5486
+"43745","paid off","debt_consolidation",20.58,0.55,12.296
+"41007","paid off","small_business",16.16,0.6,7.9036
+"24323","paid off","credit_card",6.58,0.65,2.18061
+"12013","default","debt_consolidation",20.54,0.5,7.79721
+"16521","default","debt_consolidation",17.47,0.65,10.2353
+"12113","default","debt_consolidation",20.03,0.35,11.1109
+"45236","paid off","credit_card",12.12,0.6,4.00589
+"40407","paid off","other",16.56,0.55,9.85925
+"45703","paid off","debt_consolidation",8.34,0.55,2.20845
+"7424","default","debt_consolidation",2.71,0.55,3.83003
+"5403","default","debt_consolidation",13.04,0.5,3.38452
+"12736","default","debt_consolidation",11.13,0.35,5.45785
+"4141","default","other",16.17,0.55,5.19772
+"18426","default","debt_consolidation",23.66,0.45,16.1581
+"11304","default","debt_consolidation",6.65,0.5,15.1832
+"32951","paid off","debt_consolidation",19.12,0.75,10.1327
+"39935","paid off","credit_card",12.98,0.7,5.1324
+"32822","paid off","debt_consolidation",24.06,0.4,3.54345
+"5787","default","other",24.81,0.25,1.2504
+"36374","paid off","debt_consolidation",5.38,0.5,5.27029
+"26175","paid off","other",11.91,0.35,2.09412
+"23417","paid off","debt_consolidation",16.54,0.6,8.04629
+"44800","paid off","debt_consolidation",9.15,0.6,5.63111
+"33648","paid off","other",8.67,0.65,3.58071
+"14583","default","debt_consolidation",11.58,0.45,9.88038
+"10532","default","other",8.62,0.3,3.9156
+"43027","paid off","debt_consolidation",11.39,0.45,12.7265
+"24573","paid off","debt_consolidation",17.18,0.65,8.27966
+"33820","paid off","debt_consolidation",9.78,0.7,9.89467
+"10108","default","debt_consolidation",7.37,0.55,8.99928
+"43180","paid off","debt_consolidation",16.6,0.65,4.6716
+"35125","paid off","debt_consolidation",15.04,0.25,0.406459
+"14509","default","major_purchase",13.28,0.45,7.65453
+"4450","default","small_business",2.5,0.6,7.30943
+"3375","default","debt_consolidation",14.32,0.6,4.31232
+"16660","default","debt_consolidation",26.91,0.6,1.82746
+"33178","paid off","debt_consolidation",12.58,0.65,3.9367
+"22069","default","debt_consolidation",12.91,0.5,4.24053
+"18015","default","debt_consolidation",11.88,0.5,8.7672
+"22364","default","debt_consolidation",23.15,0.45,6.13865
+"16329","default","credit_card",21.47,0.25,13.1147
+"2719","default","major_purchase",2.95,0.5,2.83622
+"44272","paid off","debt_consolidation",10.15,0.7,13.7425
+"840","default","debt_consolidation",18.64,0.4,12.3532
+"45222","paid off","home_improvement",2.8,0.4,3.26374
+"38276","paid off","debt_consolidation",32.74,0.25,9.46235
+"43358","paid off","other",1,0.6,4.02133
+"30975","paid off","credit_card",21.67,0.4,9.44944
+"26818","paid off","debt_consolidation",24.39,0.75,13.2126
+"10204","default","debt_consolidation",21.24,0.5,9.92313
+"4335","default","debt_consolidation",20.88,0.5,8.0988
+"22287","default","small_business",24.95,0.6,14.3582
+"38236","paid off","debt_consolidation",27.11,0.5,11.3151
+"19137","default","credit_card",21.37,0.45,8.26055
+"37379","paid off","debt_consolidation",21.93,0.55,13.483
+"15979","default","debt_consolidation",32.26,0.35,5.47552
+"28411","paid off","debt_consolidation",12.44,0.4,8.82578
+"45462","paid off","home_improvement",18.78,0.45,11.5595
+"2604","default","debt_consolidation",1.55,0.55,6.78097
+"13397","default","credit_card",6,0.3,14.0235
+"35457","paid off","debt_consolidation",22.27,0.6,4.65566
+"27298","paid off","debt_consolidation",15.3,0.6,9.54333
+"41550","paid off","debt_consolidation",18.64,0.55,5.28011
+"38219","paid off","debt_consolidation",16.95,0.55,7.66463
+"9814","default","debt_consolidation",27.37,0.35,12.4835
+"4449","default","other",0.6,0.75,16.2265
+"7956","default","other",17.58,0.45,8.52626
+"38200","paid off","debt_consolidation",9.93,0.35,3.60384
+"33132","paid off","debt_consolidation",12.88,0.6,5.98304
+"13045","default","debt_consolidation",15.46,0.45,11.0826
+"40006","paid off","credit_card",13.76,0.4,18.4451
+"3842","default","home_improvement",22.22,0.2,6.19062
+"46094","paid off","debt_consolidation",29.28,0.6,7.1216
+"36544","paid off","debt_consolidation",19,0.5,11.961
+"27501","paid off","debt_consolidation",23.16,0.35,12.9151
+"4130","default","other",14.47,0.55,3.97956
+"22796","default","debt_consolidation",16.92,0.6,1.7436
+"6560","default","home_improvement",3.88,0.2,1.89043
+"45679","paid off","debt_consolidation",9.6,0.8,13.3042
+"5391","default","debt_consolidation",20.22,0.55,5.01021
+"35225","paid off","home_improvement",10.33,0.8,15.9378
+"33020","paid off","other",1.81,0.5,5.09981
+"38192","paid off","credit_card",16.95,0.6,5.80815
+"40991","paid off","debt_consolidation",4.61,0.65,8.55566
+"4343","default","other",22.63,0.55,7.37548
+"1097","default","other",23.43,0.35,10.6389
+"22449","default","debt_consolidation",30.05,0.4,8.62512
+"28597","paid off","other",16.63,0.6,1.20393
+"31806","paid off","major_purchase",7.55,0.7,2.41976
+"28703","paid off","debt_consolidation",6.79,0.85,5.15619
+"40598","paid off","other",18.51,0.5,9.45333
+"4429","default","home_improvement",10.07,0.4,22.2
+"40127","paid off","home_improvement",21.01,0.5,1.64304
+"38550","paid off","debt_consolidation",14.81,0.6,8.0856
+"30039","paid off","debt_consolidation",16.75,0.6,5.62217
+"30091","paid off","debt_consolidation",14.12,0.7,6.94365
+"29577","paid off","other",12.98,0.65,7.104
+"42743","paid off","credit_card",33.95,0.4,7.25359
+"35104","paid off","debt_consolidation",30.59,0.6,7.97406
+"27907","paid off","debt_consolidation",8.42,0.7,3.73937
+"19575","default","other",4.1,0.75,18.891
+"39278","paid off","debt_consolidation",13.28,0.55,6.53168
+"6950","default","debt_consolidation",18.57,0.4,15.0276
+"13768","default","credit_card",28.72,0.25,8.9994
+"20516","default","debt_consolidation",13.13,0.35,16.6212
+"35500","paid off","credit_card",21.05,0.35,12.1855
+"9512","default","debt_consolidation",10.53,0.45,9.8769
+"21330","default","debt_consolidation",27.89,0.35,8.769
+"23237","paid off","credit_card",7.53,0.55,5.42189
+"39133","paid off","credit_card",14.47,0.4,14.1607
+"33951","paid off","credit_card",23.63,0.55,8.94436
+"32248","paid off","debt_consolidation",5.09,0.7,6.9416
+"7870","default","debt_consolidation",12.23,0.45,15.3065
+"6770","default","small_business",18.47,0.5,7.17932
+"1758","default","debt_consolidation",12.28,0.55,2.49075
+"7585","default","credit_card",30.85,0.45,7.91653
+"17498","default","debt_consolidation",28.42,0.45,8.87244
+"27018","paid off","debt_consolidation",10.85,0.7,5.15253
+"30678","paid off","debt_consolidation",7.81,0.75,5.17613
+"14177","default","debt_consolidation",19.67,0.5,6.00775
+"4133","default","home_improvement",7.4,0.55,14.249
+"20382","default","debt_consolidation",22.04,0.3,5.80585
+"23805","paid off","debt_consolidation",10.24,0.55,10.1216
+"24738","paid off","debt_consolidation",10.48,0.55,3.60932
+"5436","default","credit_card",20.24,0.4,6.0316
+"25582","paid off","debt_consolidation",15.87,0.6,7.95
+"25633","paid off","home_improvement",10.97,0.7,7.41629
+"42676","paid off","debt_consolidation",14.9,0.65,7.90875
+"17243","default","home_improvement",27.72,0.25,4.24841
+"20092","default","debt_consolidation",7.99,0.55,4.15386
+"30671","paid off","credit_card",10.56,0.55,3.93664
+"32020","paid off","debt_consolidation",19.68,0.45,3.2586
+"45271","paid off","debt_consolidation",4.58,0.6,1.92577
+"23265","paid off","major_purchase",12.47,0.6,4.80568
+"37357","paid off","credit_card",15.1,0.65,4.763
+"19488","default","debt_consolidation",22.83,0.5,5.18718
+"12105","default","debt_consolidation",9,0.45,9.47323
+"20333","default","debt_consolidation",9.08,0.45,1.98467
+"13076","default","debt_consolidation",20.44,0.4,14.726
+"15270","default","debt_consolidation",20.21,0.4,7.58385
+"20775","default","major_purchase",9.62,0.5,2.00496
+"4774","default","home_improvement",4.1,0.65,4.20148
+"44409","paid off","credit_card",24.65,0.45,14.736
+"79","default","debt_consolidation",5.47,0.45,1.914
+"45843","paid off","small_business",20.66,0.4,5.1216
+"16497","default","credit_card",26.44,0.45,6.72424
+"18474","default","debt_consolidation",24,0.4,11.0907
+"22313","default","debt_consolidation",15.71,0.35,4.57724
+"43319","paid off","credit_card",29.73,0.55,13.7585
+"40292","paid off","debt_consolidation",26.01,0.3,12.3235
+"10638","default","other",28.63,0.5,3.97689
+"14267","default","credit_card",16.37,0.7,5.22306
+"30462","paid off","other",16.8,0.6,2.596
+"31133","paid off","debt_consolidation",17.83,0.5,8.47354
+"12347","default","home_improvement",7.32,0.25,3.09206
+"10186","default","debt_consolidation",7.23,0.7,4.5328
+"30586","paid off","home_improvement",18.94,0.6,5.25863
+"31568","paid off","major_purchase",7.85,0.4,1.49883
+"12896","default","debt_consolidation",21.47,0.3,10.6693
+"10350","default","credit_card",12.4,0.55,9.325
+"24578","paid off","credit_card",7.47,0.75,2.3108
+"26653","paid off","major_purchase",0.41,0.9,4.42848
+"15039","default","major_purchase",2.56,0.6,6.03733
+"24976","paid off","debt_consolidation",13.29,0.8,3.53544
+"2267","default","debt_consolidation",7.92,0.45,9.76776
+"41060","paid off","major_purchase",3.33,0.7,10.8796
+"38378","paid off","home_improvement",8.62,0.45,1.65849
+"41872","paid off","debt_consolidation",4.05,0.65,4.37059
+"9164","default","debt_consolidation",28.6,0.3,11.4092
+"33490","paid off","debt_consolidation",12.42,0.45,15.7816
+"30129","paid off","credit_card",11.84,0.55,7.08127
+"34468","paid off","home_improvement",5.65,0.7,2.38745
+"16542","default","debt_consolidation",17.3,0.4,8.38632
+"28447","paid off","debt_consolidation",26.49,0.35,11.0289
+"17791","default","debt_consolidation",12.64,0.55,10.0394
+"8710","default","debt_consolidation",18.11,0.45,6.49535
+"6948","default","credit_card",13.11,0.55,8.70178
+"36721","paid off","debt_consolidation",15.92,0.5,13.6242
+"37453","paid off","credit_card",21.37,0.4,4.63144
+"34933","paid off","home_improvement",5.78,0.65,6.70824
+"31608","paid off","credit_card",17.04,0.35,5.82555
+"514","default","debt_consolidation",4.52,0.45,5.27831
+"38624","paid off","credit_card",16.29,0.55,7.7397
+"30237","paid off","debt_consolidation",22.79,0.5,6.82667
+"24214","paid off","home_improvement",21.99,0.55,15.7344
+"39009","paid off","other",10.63,0.6,10.1166
+"24500","paid off","credit_card",11.16,0.4,5.8448
+"10829","default","home_improvement",17.63,0.65,7.46861
+"17051","default","credit_card",20.4,0.55,9.88656
+"9225","default","debt_consolidation",29.13,0.35,14.9984
+"33597","paid off","debt_consolidation",15.44,0.45,7.91681
+"31915","paid off","debt_consolidation",13.07,0.65,5.91946
+"7111","default","debt_consolidation",32.48,0.4,15.2902
+"8065","default","other",7.33,0.5,1.67437
+"2257","default","debt_consolidation",21.15,0.55,12.9747
+"15997","default","debt_consolidation",15.43,0.4,14.0275
+"39473","paid off","debt_consolidation",22.85,0.55,9.10096
+"7486","default","debt_consolidation",19.27,0.65,13.1626
+"11493","default","debt_consolidation",32.61,0.3,13.8004
+"29880","paid off","debt_consolidation",19.28,0.7,4.51467
+"35596","paid off","credit_card",15.98,0.4,8.98364
+"27440","paid off","credit_card",15.72,0.65,4.64925
+"20196","default","other",10.7,0.5,14.768
+"15040","default","credit_card",6.42,0.5,2.70799
+"32114","paid off","home_improvement",8.58,0.55,6.46424
+"39728","paid off","debt_consolidation",10.68,0.65,5.98301
+"42840","paid off","debt_consolidation",12.19,0.5,9.63512
+"43331","paid off","debt_consolidation",17.22,0.65,4.42927
+"3589","default","major_purchase",3.12,0.85,9.9444
+"11093","default","credit_card",8.38,0.45,8.6006
+"44944","paid off","debt_consolidation",23.99,0.25,5.66115
+"41910","paid off","debt_consolidation",17.53,0.45,1.90223
+"11405","default","debt_consolidation",14.99,0.45,8.92557
+"40484","paid off","debt_consolidation",10.75,0.8,8.18383
+"25791","paid off","other",19.13,0.4,2.25408
+"20552","default","debt_consolidation",2.7,0.6,12.0844
+"7094","default","debt_consolidation",13.97,0.45,10.7659
+"19034","default","debt_consolidation",21.83,0.35,7.3114
+"14191","default","debt_consolidation",13.4,0.3,16.4221
+"20650","default","debt_consolidation",9.09,0.5,7.18877
+"41736","paid off","debt_consolidation",12,0.6,5.86215
+"3097","default","other",12.03,0.6,7.67394
+"21026","default","other",9.52,0.45,8.016
+"41530","paid off","debt_consolidation",23.81,0.35,13.1221
+"40107","paid off","debt_consolidation",9.68,0.45,3.65973
+"46100","paid off","credit_card",22.2,0.5,11.2646
+"4973","default","debt_consolidation",18.57,0.25,9.82933
+"33027","paid off","debt_consolidation",7.34,0.7,7.95337
+"42623","paid off","credit_card",19.44,0.4,12.5346
+"22063","default","other",21.26,0.3,2.69535
+"33092","paid off","debt_consolidation",7.98,0.7,7.34388
+"32740","paid off","credit_card",21.31,0.5,8.76
+"14843","default","debt_consolidation",21.02,0.4,4.8532
+"41055","paid off","debt_consolidation",22.13,0.5,9.95498
+"22011","default","other",29.91,0.45,11.9541
+"22732","default","debt_consolidation",15.13,0.5,6.30831
+"34274","paid off","debt_consolidation",4.14,0.6,3.7131
+"29022","paid off","major_purchase",2.86,0.4,10.3849
+"26589","paid off","debt_consolidation",19.82,0.35,15.0695
+"28797","paid off","credit_card",21.62,0.55,10.2321
+"16429","default","debt_consolidation",17.1,0.4,2.1182
+"2096","default","small_business",20.03,0.55,3.369
+"30377","paid off","credit_card",14.89,0.35,5.32947
+"3769","default","debt_consolidation",11.63,0.65,10.5641
+"23697","paid off","credit_card",23.36,0.55,6.65111
+"40558","paid off","debt_consolidation",16.76,0.6,6.80215
+"17659","default","debt_consolidation",20.6,0.5,13.8557
+"18671","default","debt_consolidation",33.58,0.35,7.5422
+"41103","paid off","other",20.79,0.35,5.79635
+"18680","default","debt_consolidation",15.45,0.65,16.5568
+"37523","paid off","debt_consolidation",22.43,0.55,12.2154
+"30021","paid off","debt_consolidation",21.15,0.7,3.32267
+"21826","default","debt_consolidation",33.5,0.3,7.9528
+"3766","default","debt_consolidation",13.63,0.5,5.30429
+"22694","default","debt_consolidation",8.4,0.45,18.2982
+"23393","paid off","other",25.03,0.65,0.814473
+"17475","default","debt_consolidation",23.39,0.2,11.5952
+"28805","paid off","debt_consolidation",14.53,0.55,12.7602
+"12739","default","credit_card",17.54,0.45,7.06158
+"3694","default","debt_consolidation",23.04,0.45,2.9472
+"15007","default","other",5.36,0.45,7.62113
+"38952","paid off","debt_consolidation",10.54,0.7,5.508
+"25536","paid off","debt_consolidation",7.3,0.35,3.16781
+"23365","paid off","home_improvement",13.71,0.85,7.11997
+"42983","paid off","credit_card",26.64,0.55,11.7925
+"22422","default","credit_card",21.72,0.6,4.72149
+"38584","paid off","credit_card",22.74,0.35,4.87385
+"25784","paid off","debt_consolidation",18.38,0.5,17.1985
+"36257","paid off","debt_consolidation",5.16,0.65,8.76635
+"11100","default","debt_consolidation",14.43,0.55,14.5162
+"24034","paid off","debt_consolidation",28.68,0.25,10.7068
+"17058","default","small_business",24.81,0.65,12.6788
+"18914","default","debt_consolidation",18.85,0.4,12.2056
+"21099","default","other",5.15,0.7,8.22557
+"2416","default","other",14.95,0.5,1.0181
+"45834","paid off","major_purchase",15.34,0.5,5.435
+"37304","paid off","major_purchase",13.98,0.45,9.3926
+"28224","paid off","credit_card",3.54,0.7,3.42945
+"6368","default","credit_card",7.04,0.6,10.1409
+"19722","default","other",14.82,0.4,15.0909
+"30098","paid off","debt_consolidation",12.58,0.55,14.2119
+"21800","default","debt_consolidation",27.85,0.25,12.8347
+"3860","default","other",18.88,0.3,2.96932
+"28254","paid off","debt_consolidation",7.25,0.5,4.67091
+"6750","default","debt_consolidation",18.31,0.5,11.7044
+"699","default","debt_consolidation",7.34,0.5,9.5528
+"30620","paid off","credit_card",14.58,0.65,4.55319
+"9460","default","debt_consolidation",26.38,0.45,3.5098
+"22644","default","debt_consolidation",11.27,0.6,12.0032
+"16661","default","credit_card",22.46,0.35,12.5342
+"28624","paid off","debt_consolidation",19.1,0.4,8.17149
+"20648","default","debt_consolidation",10.6,0.4,0.948127
+"1086","default","debt_consolidation",20.22,0.5,11.4788
+"12586","default","debt_consolidation",26.36,0.6,11.5407
+"13832","default","debt_consolidation",33.74,0.3,10.8898
+"21640","default","debt_consolidation",15.34,0.4,9.09024
+"36589","paid off","debt_consolidation",13.3,0.5,18.3662
+"43889","paid off","other",6.09,0.6,1.80421
+"7219","default","debt_consolidation",16.13,0.2,15.4218
+"8987","default","debt_consolidation",18.39,0.45,8.92335
+"11117","default","credit_card",26.67,0.4,12.8819
