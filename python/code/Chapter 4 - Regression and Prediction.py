@@ -240,23 +240,25 @@ outcome = 'AdjSalePrice'
 house_lm = LinearRegression()
 house_lm.fit(house[predictors], house[outcome])
 
+zip_residuals = pd.DataFrame({
+    'ZipCode': house['ZipCode'],
+    'residual' : house[outcome] - house_lm.predict(house[predictors]),
+})
 
 zip_groups = pd.DataFrame([
-    *pd.DataFrame({
-        'ZipCode': house['ZipCode'],
-        'residual' : house[outcome] - house_lm.predict(house[predictors]),
-    })
-    .groupby(['ZipCode'])
-    .apply(lambda x: {
-        'ZipCode': x.iloc[0,0],
+    {
+        'ZipCode': zipCode,
         'count': len(x),
         'median_residual': x.residual.median()
-    })
+    } 
+    for zipCode, x in zip_residuals.groupby('ZipCode')
 ]).sort_values('median_residual')
+
 zip_groups['cum_count'] = np.cumsum(zip_groups['count'])
 zip_groups['ZipGroup'] = pd.qcut(zip_groups['cum_count'], 5, labels=False, retbins=False)
 zip_groups.head()
 print(zip_groups.ZipGroup.value_counts().sort_index())
+
 
 to_join = zip_groups[['ZipCode', 'ZipGroup']].set_index('ZipCode')
 house = house.join(to_join, on='ZipCode')
@@ -439,11 +441,14 @@ print(result_poly.summary())
 
 def partialResidualPlot(model, df, outcome, feature, ax):
     y_pred = model.predict(df)
-    copy_df = df.copy()
+    # determine columns required for model
+    required = set(model.params.index).intersection(df.columns)
+    required.add(feature)
+    copy_df = df[list(required)].copy().astype('float')
     for c in copy_df.columns:
         if c == feature:
             continue
-        copy_df[c] = 0.0
+        copy_df.loc[:, c] = 0.0
     feature_prediction = model.predict(copy_df)
     results = pd.DataFrame({
         'feature': df[feature],

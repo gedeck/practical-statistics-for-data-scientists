@@ -27,9 +27,9 @@ imanishi <-  read.csv(file.path(PSDS_PATH, 'data', 'imanishi_data.csv'))
 ## Resampling
 ### Example: Web Stickiness
 
-graph <- ggplot(session_times, aes(x=Page, y=Time)) + 
+graph <- ggplot(session_times, aes(x=Page, y=Time)) +
   geom_boxplot() +
-  labs(y='Time (in seconds)') + 
+  labs(y='Time (in seconds)') +
   theme_bw()
 graph
 
@@ -87,7 +87,7 @@ t.test(Time ~ Page, data=session_times, alternative='less')
 
 ## ANOVA
 
-graph <- ggplot(four_sessions, aes(x=Page, y=Time)) + 
+graph <- ggplot(four_sessions, aes(x=Page, y=Time)) +
   geom_boxplot() +
   labs(y='Time (in seconds)') +
   theme_bw()
@@ -149,3 +149,4 @@ pwr.2p.test(h=effect_size, sig.level=0.05, power=0.8, alternative='greater')
 
 effect_size = ES.h(p1=0.0165, p2=0.011)
 pwr.2p.test(h=effect_size, sig.level=0.05, power=0.8, alternative='greater')
+

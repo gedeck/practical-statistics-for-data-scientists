@@ -248,7 +248,7 @@ def partialResidualPlot(model, df, outcome, feature, fig, ax):
     for i, name in enumerate(zero_params.index):
         if feature in name:
             continue
-        zero_params[i] = 0.0
+        zero_params.iloc[i] = 0.0
     model.initialize(model.model, zero_params)
     feature_prediction = model.predict(df)
     ypartial = -np.log(1/feature_prediction - 1)

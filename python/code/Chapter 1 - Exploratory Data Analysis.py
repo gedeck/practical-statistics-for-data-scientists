@@ -104,7 +104,7 @@ df = pd.concat([state, binnedPopulation], axis=1)
 df = df.sort_values(by='Population')
 
 groups = []
-for group, subset in df.groupby(by='binnedPopulation'):
+for group, subset in df.groupby(by='binnedPopulation', observed=False):
     groups.append({
         'BinRange': group,
         'Count': len(subset),
@@ -216,7 +216,7 @@ def plot_corr_ellipses(data, figsize=None, **kwargs):
     return ec, ax
 
 m, ax = plot_corr_ellipses(etfs.corr(), figsize=(5, 4), cmap='bwr_r')
-cb = fig.colorbar(m, ax=ax)
+cb = plt.colorbar(m, ax=ax)
 cb.set_label('Correlation coefficient')
 
 plt.tight_layout()
@@ -283,7 +283,7 @@ crosstab = lc_loans.pivot_table(index='grade', columns='status',
 print(crosstab)
 
 # Table 1-8(2)
-df = crosstab.copy().loc['A':'G',:]
+df = crosstab.copy().loc['A':'G',:].astype(float)
 df.loc[:,'Charged Off':'Late'] = df.loc[:,'Charged Off':'Late'].div(df['All'], axis=0)
 df['All'] = df['All'] / sum(df['All'])
 perc_crosstab = df

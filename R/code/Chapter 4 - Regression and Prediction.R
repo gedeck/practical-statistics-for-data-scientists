@@ -48,9 +48,9 @@ lung1 <- lung %>%
   mutate(Fitted=fitted,
          positive = PEFR>Fitted) %>%
   group_by(Exposure, positive) %>%
-  summarize(PEFR_max = max(PEFR), 
+  summarize(PEFR_max = max(PEFR),
             PEFR_min = min(PEFR),
-            Fitted = first(Fitted), 
+            Fitted = first(Fitted),
             .groups='keep') %>%
   ungroup() %>%
   mutate(PEFR = ifelse(positive, PEFR_max, PEFR_min)) %>%
@@ -62,11 +62,11 @@ segments(lung1$Exposure, lung1$PEFR, lung1$Exposure, lung1$Fitted, col="red", lt
 
 ## Multiple linear regression
 
-print(head(house[, c('AdjSalePrice', 'SqFtTotLiving', 'SqFtLot', 'Bathrooms', 
+print(head(house[, c('AdjSalePrice', 'SqFtTotLiving', 'SqFtLot', 'Bathrooms',
                'Bedrooms', 'BldgGrade')]))
 
-house_lm <- lm(AdjSalePrice ~ SqFtTotLiving + SqFtLot + Bathrooms + 
-                 Bedrooms + BldgGrade,  
+house_lm <- lm(AdjSalePrice ~ SqFtTotLiving + SqFtLot + Bathrooms +
+                 Bedrooms + BldgGrade,
                data=house, na.action=na.omit)
 
 house_lm
@@ -77,8 +77,8 @@ summary(house_lm)
 
 ### Model Selection and Stepwise Regression
 
-house_full <- lm(AdjSalePrice ~ SqFtTotLiving + SqFtLot + Bathrooms + 
-                   Bedrooms + BldgGrade + PropertyType + NbrLivingUnits + 
+house_full <- lm(AdjSalePrice ~ SqFtTotLiving + SqFtLot + Bathrooms +
+                   Bedrooms + BldgGrade + PropertyType + NbrLivingUnits +
                    SqFtFinBasement + YrBuilt + YrRenovated + NewConstruction,
                  data=house, na.action=na.omit)
 
@@ -93,10 +93,10 @@ lm(AdjSalePrice ~  Bedrooms, data=house)
 house$Year = year(house$DocumentDate)
 house$Weight = house$Year - 2005
 
-house_wt <- lm(AdjSalePrice ~ SqFtTotLiving + SqFtLot + Bathrooms + 
+house_wt <- lm(AdjSalePrice ~ SqFtTotLiving + SqFtLot + Bathrooms +
                  Bedrooms + BldgGrade,
                data=house, weight=Weight, na.action=na.omit)
-round(cbind(house_lm=house_lm$coefficients, 
+round(cbind(house_lm=house_lm$coefficients,
             house_wt=house_wt$coefficients), digits=3)
 
 ## Factor variables in regression
@@ -107,7 +107,7 @@ head(house[, 'PropertyType'])
 prop_type_dummies <- model.matrix(~PropertyType -1, data=house)
 head(prop_type_dummies)
 
-lm(AdjSalePrice ~ SqFtTotLiving + SqFtLot + Bathrooms + 
+lm(AdjSalePrice ~ SqFtTotLiving + SqFtLot + Bathrooms +
      Bedrooms +  BldgGrade + PropertyType, data=house)
 
 ### Factor Variables with many levels
@@ -124,7 +124,7 @@ zip_groups <- house %>%
   mutate(cum_cnt = cumsum(cnt),
          ZipGroup = factor(ntile(cum_cnt, 5)))
 house <- house %>%
-  left_join(select(zip_groups, ZipCode, ZipGroup), by='ZipCode')
+  left_join(dplyr::select(zip_groups, ZipCode, ZipGroup), by='ZipCode')
 
 table(zip_groups[c('ZipGroup')])
 
@@ -139,15 +139,15 @@ update(step_lm, . ~ . -SqFtTotLiving - SqFtFinBasement - Bathrooms)
 
 ### Confounding variables
 
-lm(AdjSalePrice ~  SqFtTotLiving + SqFtLot + 
-     Bathrooms + Bedrooms + 
+lm(AdjSalePrice ~  SqFtTotLiving + SqFtLot +
+     Bathrooms + Bedrooms +
      BldgGrade + PropertyType + ZipGroup,
    data=house, na.action=na.omit)
 
 ### Interactions and Main Effects
 
-lm(AdjSalePrice ~  SqFtTotLiving*ZipGroup + SqFtLot + 
-     Bathrooms + Bedrooms + 
+lm(AdjSalePrice ~  SqFtTotLiving*ZipGroup + SqFtLot +
+     Bathrooms + Bedrooms +
      BldgGrade + PropertyType,
    data=house, na.action=na.omit)
 
@@ -155,7 +155,7 @@ lm(AdjSalePrice ~  SqFtTotLiving*ZipGroup + SqFtLot +
 ### Outliers
 
 house_98105 <- house[house$ZipCode == 98105,]
-lm_98105 <- lm(AdjSalePrice ~ SqFtTotLiving + SqFtLot + Bathrooms + 
+lm_98105 <- lm(AdjSalePrice ~ SqFtTotLiving + SqFtLot + Bathrooms +
                  Bedrooms + BldgGrade, data=house_98105)
 
 summary(lm_98105)
@@ -187,13 +187,13 @@ abline(a=model$coefficients[1], b=model$coefficients[2], col="red", lwd=3, lty=2
 std_resid <- rstandard(lm_98105)
 cooks_D <- cooks.distance(lm_98105)
 hat_values <- hatvalues(lm_98105)
-plot(subset(hat_values, cooks_D > 0.08), subset(std_resid, cooks_D > 0.08), 
+plot(subset(hat_values, cooks_D > 0.08), subset(std_resid, cooks_D > 0.08),
      xlab='hat_values', ylab='std_resid',
      cex=10*sqrt(subset(cooks_D, cooks_D > 0.08)), pch=16, col='lightgrey')
 points(hat_values, std_resid, cex=10*sqrt(cooks_D))
 abline(h=c(-2.5, 2.5), lty=2)
 
-lm_98105_inf <- lm(AdjSalePrice ~ SqFtTotLiving + SqFtLot + 
+lm_98105_inf <- lm(AdjSalePrice ~ SqFtTotLiving + SqFtLot +
                      Bathrooms +  Bedrooms + BldgGrade,
                    subset=cooks_D<.08, data=house_98105)
 
@@ -222,14 +222,14 @@ df <- data.frame(SqFtTotLiving = house_98105[, 'SqFtTotLiving'],
                  PartialResid = partial_resid[, 'SqFtTotLiving'])
 graph <- ggplot(df, aes(SqFtTotLiving, PartialResid)) +
   geom_point(shape=1) + scale_shape(solid = FALSE) +
-  geom_smooth(linetype=2, formula=y~x, method='loess') + 
-  geom_line(aes(SqFtTotLiving, Terms)) + 
+  geom_smooth(linetype=2, formula=y~x, method='loess') +
+  geom_line(aes(SqFtTotLiving, Terms)) +
   scale_y_continuous(labels = function(x) format(x, scientific = FALSE))
 graph
 
 ### Polynomial and Spline Regression
 
-lm_poly <- lm(AdjSalePrice ~  poly(SqFtTotLiving, 2) + SqFtLot + 
+lm_poly <- lm(AdjSalePrice ~  poly(SqFtTotLiving, 2) + SqFtLot +
                 BldgGrade +  Bathrooms +  Bedrooms,
               data=house_98105)
 terms <- predict(lm_poly, type='terms')
@@ -241,7 +241,7 @@ df <- data.frame(SqFtTotLiving = house_98105[, 'SqFtTotLiving'],
                  PartialResid = partial_resid[, 1])
 graph <- ggplot(df, aes(SqFtTotLiving, PartialResid)) +
   geom_point(shape=1) + scale_shape(solid = FALSE) +
-  geom_smooth(linetype=2, formula=y~x, method='loess') + 
+  geom_smooth(linetype=2, formula=y~x, method='loess') +
   geom_line(aes(SqFtTotLiving, Terms)) +
   scale_y_continuous(labels = function(x) format(x, scientific = FALSE))
 graph
@@ -249,7 +249,7 @@ graph
 ### Splines
 
 knots <- quantile(house_98105$SqFtTotLiving, p=c(.25, .5, .75))
-lm_spline <- lm(AdjSalePrice ~ bs(SqFtTotLiving, knots=knots, degree=3) +  SqFtLot +  
+lm_spline <- lm(AdjSalePrice ~ bs(SqFtTotLiving, knots=knots, degree=3) +  SqFtLot +
                   Bathrooms + Bedrooms + BldgGrade,  data=house_98105)
 lm_spline
 
@@ -262,15 +262,15 @@ df1 <- data.frame(SqFtTotLiving = house_98105[, 'SqFtTotLiving'],
 
 graph <- ggplot(df1, aes(SqFtTotLiving, PartialResid)) +
   geom_point(shape=1) + scale_shape(solid = FALSE) +
-  geom_smooth(linetype=2, formula=y~x, method='loess') + 
+  geom_smooth(linetype=2, formula=y~x, method='loess') +
   geom_line(aes(SqFtTotLiving, Terms)) +
   scale_y_continuous(labels = function(x) format(x, scientific = FALSE))
 graph
 
 ### Generalized Additive Models
 
-lm_gam <- gam(AdjSalePrice ~ s(SqFtTotLiving) + SqFtLot + 
-              Bathrooms +  Bedrooms + BldgGrade, 
+lm_gam <- gam(AdjSalePrice ~ s(SqFtTotLiving) + SqFtLot +
+              Bathrooms +  Bedrooms + BldgGrade,
               data=house_98105)
 terms <- predict.gam(lm_gam, type='terms')
 partial_resid <- resid(lm_gam) + terms
@@ -281,7 +281,8 @@ df <- data.frame(SqFtTotLiving = house_98105[, 'SqFtTotLiving'],
                  PartialResid = partial_resid[, 5])
 graph <- ggplot(df, aes(SqFtTotLiving, PartialResid)) +
   geom_point(shape=1) + scale_shape(solid = FALSE) +
-  geom_smooth(linetype=2, formula=y~x, method='loess') + 
+  geom_smooth(linetype=2, formula=y~x, method='loess') +
   geom_line(aes(SqFtTotLiving, Terms)) +
   scale_y_continuous(labels = function(x) format(x, scientific = FALSE))
 graph
+

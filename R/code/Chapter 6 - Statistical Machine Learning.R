@@ -22,7 +22,7 @@ loan3000 <- read.csv(file.path(PSDS_PATH, 'data', 'loan3000.csv'), stringsAsFact
 loan3000$outcome <- ordered(loan3000$outcome, levels=c('paid off', 'default'))
 
 loan_data <- read.csv(file.path(PSDS_PATH, 'data', 'loan_data.csv.gz'), stringsAsFactors=TRUE)
-loan_data <- select(loan_data, -X, -status)
+loan_data <- dplyr::select(loan_data, -X, -status)
 loan_data$outcome <- ordered(loan_data$outcome, levels=c('paid off', 'default'))
 
 # Set this if XGBoost returns training errors of 0
@@ -37,7 +37,7 @@ knn_pred == 'paid off'
 
 ## look at the nearest 20 records and create circle
 # we add 1 as we excluded the first data point for prediction
-nearest_points <- loan200[attr(knn_pred, 'nn.index') + 1, ] 
+nearest_points <- loan200[attr(knn_pred, 'nn.index') + 1, ]
 nearest_points
 dist <- attr(knn_pred, 'nn.dist')
 
@@ -67,12 +67,12 @@ graph <- ggplot(data=loan200_df, aes(x=payment_inc_ratio, y=dti, color=outcome))
   scale_color_manual(values = c("paid off"="#1b9e77", "default"="#d95f02", "newloan"='black')) +
   geom_path(data=circle_df, aes(x=x, y=y), color='black') +
   coord_cartesian(xlim=c(3, 15), ylim=c(17, 29)) +
-  theme_bw() 
+  theme_bw()
 graph
 
 ### Standardization (Normalization, Z-Scores)
 
-loan_df <- model.matrix(~ -1 + payment_inc_ratio + dti + revol_bal + 
+loan_df <- model.matrix(~ -1 + payment_inc_ratio + dti + revol_bal +
                           revol_util, data=loan_data)
 newloan <- loan_df[1, , drop=FALSE]
 loan_df <- loan_df[-1,]
@@ -80,7 +80,7 @@ outcome <- loan_data[-1, 1]
 knn_pred <- knn(train=loan_df, test=newloan, cl=outcome, k=5)
 loan_df[attr(knn_pred, "nn.index"),]
 
-loan_df <- model.matrix(~ -1 + payment_inc_ratio + dti + revol_bal + 
+loan_df <- model.matrix(~ -1 + payment_inc_ratio + dti + revol_bal +
                           revol_util, data=loan_data)
 loan_std <- scale(loan_df)
 newloan_std <- loan_std[1, , drop=FALSE]
@@ -128,17 +128,17 @@ rules <- tibble(x=c(0.575, 0.375, 0.4, 0.4, 0.475),
                 y=c(24, 24, 10.42, 4.426, 9.42),
                 rule_number = factor(c(1, 2, 3, 4, 5))) # , 3, 4, 5)))
 
-labs <- tibble(x=c(.575 + (1-.575)/2, 
-                   .375/2, 
+labs <- tibble(x=c(.575 + (1-.575)/2,
+                   .375/2,
                    (.375 + .575)/2,
-                   (.375 + .575)/2, 
-                   (.475 + .575)/2, 
+                   (.375 + .575)/2,
+                   (.475 + .575)/2,
                    (.375 + .475)/2
                    ),
-               y=c(12.5, 
+               y=c(12.5,
                    12.5,
                    10.42 + (25-10.42)/2,
-                   4.426/2, 
+                   4.426/2,
                    4.426 + (10.42-4.426)/2,
                    4.426 + (10.42-4.426)/2
                    ),
@@ -151,8 +151,8 @@ graph <- ggplot(data=loan3000, aes(x=borrower_score, y=payment_inc_ratio)) +
   geom_segment(data=r_tree, aes(x=x1, y=y1, xend=x2, yend=y2, linetype=rule_number), size=1.5, alpha=.7) +
   guides(color = guide_legend(override.aes = list(size=1.5)),
          linetype = guide_legend(keywidth=3, override.aes = list(size=1))) +
-  scale_x_continuous(expand=c(0,0)) + 
-  scale_y_continuous(expand=c(0,0)) + 
+  scale_x_continuous(expand=c(0,0)) +
+  scale_y_continuous(expand=c(0,0)) +
   coord_cartesian(ylim=c(0, 25)) +
   geom_label(data=labs, aes(x=x, y=y, label=decision)) +
   #theme(legend.position='bottom') +
@@ -167,11 +167,11 @@ graph <- ggplot(data=loan3000, aes(x=borrower_score, y=payment_inc_ratio)) +
   geom_segment(data=r_tree, aes(x=x1, y=y1, xend=x2, yend=y2), size=1.5) + #, linetype=rule_number), size=1.5, alpha=.7) +
   guides(color = guide_legend(override.aes = list(size=1.5)),
          linetype = guide_legend(keywidth=3, override.aes = list(size=1))) +
-  scale_x_continuous(expand=c(0,0)) + 
-  scale_y_continuous(expand=c(0,0)) + 
+  scale_x_continuous(expand=c(0,0)) +
+  scale_y_continuous(expand=c(0,0)) +
   coord_cartesian(ylim=c(0, 25)) +
   geom_label(data=labs, aes(x=x, y=y, label=decision)) +
-  geom_label(data=rules, aes(x=x, y=y, label=rule_number), 
+  geom_label(data=rules, aes(x=x, y=y, label=rule_number),
              size=2.5,
              fill='#eeeeee', label.r=unit(0, "lines"), label.padding=unit(0.2, "lines")) +
   guides(color = guide_legend(override.aes = list(size=2))) +
@@ -198,13 +198,13 @@ impure <- data.frame(p = rep(x, 3),
                                   info(x)),
                      type = rep(c('Accuracy', 'Gini', 'Entropy'), rep(51,3)))
 
-graph <- ggplot(data=impure, aes(x=p, y=impurity, linetype=type, color=type)) + 
+graph <- ggplot(data=impure, aes(x=p, y=impurity, linetype=type, color=type)) +
   geom_line(size=1.5) +
   guides( linetype = guide_legend( keywidth=3, override.aes = list(size=1))) +
-  scale_x_continuous(expand=c(0,0.01)) + 
-  scale_y_continuous(expand=c(0,0.01)) + 
+  scale_x_continuous(expand=c(0,0.01)) +
+  scale_y_continuous(expand=c(0,0.01)) +
   theme_bw() +
-  theme(legend.title=element_blank()) 
+  theme(legend.title=element_blank())
 graph
 
 ## Bagging and the Random Forest
@@ -225,15 +225,15 @@ graph
 pred <- predict(rf, prob=TRUE)
 rf_df <- cbind(loan3000, pred = pred)
 
-graph <- ggplot(data=rf_df, aes(x=borrower_score, y=payment_inc_ratio, 
+graph <- ggplot(data=rf_df, aes(x=borrower_score, y=payment_inc_ratio,
                        shape=pred, color=pred, size=pred)) +
   geom_point(alpha=.8) +
   scale_color_manual(values = c('paid off'='#b8e186', 'default'='#d95f02')) +
   scale_shape_manual(values = c('paid off'=0, 'default'=1)) +
   scale_size_manual(values = c('paid off'=0.5, 'default'=2)) +
 
-  scale_x_continuous(expand=c(0,0)) + 
-  scale_y_continuous(expand=c(0,0)) + 
+  scale_x_continuous(expand=c(0,0)) +
+  scale_y_continuous(expand=c(0,0)) +
   coord_cartesian(ylim=c(0, 20)) +
   guides(color = guide_legend(override.aes = list(size=2))) +
   theme_bw()
@@ -244,8 +244,8 @@ graph
 # graph <- ggplot(data=rf_df, aes(x=borrower_score, y=payment_inc_ratio, color=prob_default)) +
 #   geom_point(alpha=.6) +
 #   scale_color_gradient2(low='blue', mid='white', high='red', midpoint=.5) +
-#   scale_x_continuous(expand=c(0,0)) + 
-#   scale_y_continuous(expand=c(0,0), lim=c(0, 20)) + 
+#   scale_x_continuous(expand=c(0,0)) +
+#   scale_y_continuous(expand=c(0,0), lim=c(0, 20)) +
 #   theme(legend.position='bottom') +
 #   geom_line(data=lda_df0, col='green', size=2, alpha=.8)
 # graph
@@ -268,9 +268,9 @@ imp <- data.frame(Predictor = rep(nms, 2),
                   Importance = c(imp1[idx, 1], imp2[idx, 1]),
                   Type = rep( c('Accuracy Decrease', 'Gini Decrease'), rep(nrow(imp1), 2)))
 
-graph <- ggplot(imp) + 
-  geom_point(aes(y=Predictor, x=Importance), size=2, stat="identity") + 
-  facet_wrap(~Type, ncol=1, scales="free_x") + 
+graph <- ggplot(imp) +
+  geom_point(aes(y=Predictor, x=Importance), size=2, stat="identity") +
+  facet_wrap(~Type, ncol=1, scales="free_x") +
   theme(
     panel.grid.major.x = element_blank() ,
     panel.grid.major.y = element_line(linetype=3, color="darkgray") ) +
@@ -298,33 +298,33 @@ graph
 
 predictors <- data.matrix(loan3000[, c('borrower_score', 'payment_inc_ratio')])
 label <- as.numeric(loan3000[,'outcome']) - 1
-xgb <- xgboost(data=predictors, label=label, objective='binary:logistic', 
-               params=list(subsample=0.63, eta=0.1), nrounds=100, 
+xgb <- xgboost(data=predictors, label=label, objective='binary:logistic',
+               params=list(subsample=0.63, eta=0.1), nrounds=100,
                eval_metric='error')
 
 
 pred <- predict(xgb, newdata=predictors)
 xgb_df <- cbind(loan3000, pred_default = pred > 0.5, prob_default = pred)
 
-graph <- ggplot(data=xgb_df, aes(x=borrower_score, y=payment_inc_ratio, 
+graph <- ggplot(data=xgb_df, aes(x=borrower_score, y=payment_inc_ratio,
                         color=pred_default, shape=pred_default)) +
   geom_point(alpha=0.6, size=2) +
   scale_shape_manual( values=c(46, 4)) +
-  scale_x_continuous(expand=c(0.03, 0)) + 
-  scale_y_continuous(expand=c(0, 0)) + 
+  scale_x_continuous(expand=c(0.03, 0)) +
+  scale_y_continuous(expand=c(0, 0)) +
   coord_cartesian(ylim=c(0, 20)) +
   theme_bw()
 graph
 
-graph <- ggplot(data=xgb_df, aes(x=borrower_score, y=payment_inc_ratio, 
+graph <- ggplot(data=xgb_df, aes(x=borrower_score, y=payment_inc_ratio,
                 color=pred_default, shape=pred_default, size=pred_default)) +
   geom_point(alpha=.8) +
   scale_color_manual(values = c('FALSE'='#b8e186', 'TRUE'='#d95f02')) +
   scale_shape_manual(values = c('FALSE'=0, 'TRUE'=1)) +
   scale_size_manual(values = c('FALSE'=0.5, 'TRUE'=2)) +
 
-  scale_x_continuous(expand=c(0.03, 0)) + 
-  scale_y_continuous(expand=c(0, 0)) + 
+  scale_x_continuous(expand=c(0.03, 0)) +
+  scale_y_continuous(expand=c(0, 0)) +
   coord_cartesian(ylim=c(0, 20)) +
   guides(color = guide_legend(override.aes = list(size=2))) +
   theme_bw()
@@ -337,17 +337,17 @@ predictors <- data.matrix(loan_data[,-which(names(loan_data) %in% 'outcome')])
 label <- as.numeric(loan_data$outcome)-1
 test_idx <- sample(nrow(loan_data), 10000)
 
-xgb_default <- xgboost(data=predictors[-test_idx,], label=label[-test_idx], 
-                       objective='binary:logistic', nrounds=250, verbose=0, 
+xgb_default <- xgboost(data=predictors[-test_idx,], label=label[-test_idx],
+                       objective='binary:logistic', nrounds=250, verbose=0,
                        eval_metric='error')
 pred_default <- predict(xgb_default, predictors[test_idx,])
 error_default <- abs(label[test_idx] - pred_default) > 0.5
 xgb_default$evaluation_log[250,]
 mean(error_default)
 
-xgb_penalty <- xgboost(data=predictors[-test_idx,], label=label[-test_idx], 
+xgb_penalty <- xgboost(data=predictors[-test_idx,], label=label[-test_idx],
                        params=list(eta=.1, subsample=.63, lambda=1000),
-                       objective='binary:logistic', nrounds=250, verbose=0, 
+                       objective='binary:logistic', nrounds=250, verbose=0,
                        eval_metric='error')
 pred_penalty <- predict(xgb_penalty, predictors[test_idx,])
 error_penalty <- abs(label[test_idx] - pred_penalty) > 0.5
@@ -367,7 +367,7 @@ errors <- rbind(xgb_default$evaluation_log,
                 xgb_penalty$evaluation_log,
                 data.frame(iter=1:250, train_error=error_default),
                 data.frame(iter=1:250, train_error=error_penalty))
-errors$type <- rep(c('default train', 'penalty train', 
+errors$type <- rep(c('default train', 'penalty train',
                      'default test', 'penalty test'), rep(250, 4))
 
 graph <- ggplot(errors, aes(x=iter, y=train_error, group=type)) +
@@ -391,10 +391,10 @@ for(i in 1:nrow(params)){
   for(k in 1:5){
     cat('Fold', k, 'for model', i, '\n')
     fold_idx <- (1:N)[fold_number == k]
-    xgb <- xgboost(data=predictors[-fold_idx,], label=label[-fold_idx], 
-                   params=list(eta=params[i, 'eta'], 
+    xgb <- xgboost(data=predictors[-fold_idx,], label=label[-fold_idx],
+                   params=list(eta=params[i, 'eta'],
                                max_depth=params[i, 'max_depth']),
-                   objective='binary:logistic', nrounds=100, verbose=0, 
+                   objective='binary:logistic', nrounds=100, verbose=0,
                    eval_metric='error')
     pred <- predict(xgb, predictors[fold_idx,])
     error[i, k] <- mean(abs(label[fold_idx] - pred) >= 0.5)

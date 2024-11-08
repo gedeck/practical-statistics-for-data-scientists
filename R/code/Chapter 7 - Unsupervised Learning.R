@@ -37,7 +37,7 @@ graph <- ggplot(data=oil_px, aes(x=CVX, y=XOM)) +
   stat_ellipse(type='norm', level=.99, color='grey25') +
   geom_abline(intercept = 0, slope = loadings[2,1]/loadings[1,1], color='grey25', linetype=2) +
   geom_abline(intercept = 0, slope = loadings[2,2]/loadings[1,2],  color='grey25', linetype=2) +
-  scale_x_continuous(expand=c(0,0)) + 
+  scale_x_continuous(expand=c(0,0)) +
   scale_y_continuous(expand=c(0,0)) +
   coord_cartesian(xlim=c(-3, 3), ylim=c(-3, 3)) +
   theme_bw()
@@ -59,7 +59,7 @@ loadings <- gather(loadings, 'Component', 'Weight', -Symbol)
 
 loadings$Color = loadings$Weight > 0
 graph <- ggplot(loadings, aes(x=Symbol, y=Weight, fill=Color)) +
-  geom_bar(stat='identity', position='identity', width=.75) + 
+  geom_bar(stat='identity', position='identity', width=.75) +
   facet_grid(Component ~ ., scales='free_y') +
   guides(fill='none') +
   ylab('Component Loading') +
@@ -92,15 +92,15 @@ coords = rbind(
 row.names(coords) <- gsub('_', ' ', row.names(coords))
 
 graph <- ggplot(coords, aes(x=Dim1, y=Dim2, color=type, label=rownames(coords), shape=type)) +
-    geom_hline(yintercept=0, linetype='dotted', color='#444444') + 
+    geom_hline(yintercept=0, linetype='dotted', color='#444444') +
     geom_vline(xintercept = 0, linetype='dotted', color='#444444') +
     geom_point() +
-    geom_text_repel() + 
+    geom_text_repel() +
     xlab(sprintf('Dimension 1 (%.1f%%)', 100 * contrib[1])) +
     ylab(sprintf('Dimension 2 (%.1f%%)', 100 * contrib[2])) +
     scale_color_manual(values = c('blue', 'red')) +
     theme_bw() +
-    theme(legend.position = "none") 
+    theme(legend.position = "none")
 graph
 
 ## K-Means Clustering
@@ -119,10 +119,10 @@ centers
 graph <- ggplot(data=df, aes(x=XOM, y=CVX, color=cluster, shape=cluster)) +
   geom_point() +
   scale_shape_manual(values = c(1, 3, 2, 4),
-                     guide = guide_legend(override.aes=aes(size=1))) + 
+                     guide = guide_legend(override.aes=aes(size=1))) +
   geom_point(data=centers,  aes(x=XOM, y=CVX), size=2, stroke=2, color='black')  +
   theme_bw() +
-  scale_x_continuous(expand=c(0,0)) + 
+  scale_x_continuous(expand=c(0,0)) +
   scale_y_continuous(expand=c(0,0)) +
   coord_cartesian(xlim=c(-2, 2), ylim=c(-2.5, 2.5))
 
@@ -149,7 +149,7 @@ centers <- gather(centers, 'Cluster', 'Mean', -Symbol)
 
 centers$Color = centers$Mean > 0
 graph <- ggplot(centers, aes(x=Symbol, y=Mean, fill=Color)) +
-  geom_bar(stat='identity', position='identity', width=.75) + 
+  geom_bar(stat='identity', position='identity', width=.75) +
   facet_grid(Cluster ~ ., scales='free_y') +
   guides(fill='none')  +
   ylab('Component Loading') +
@@ -179,7 +179,7 @@ graph
 ## Hierarchical Clustering
 ### A Simple Example
 
-syms1 <- c('GOOGL', 'AMZN', 'AAPL', 'MSFT', 'CSCO', 'INTC', 'CVX', 
+syms1 <- c('GOOGL', 'AMZN', 'AAPL', 'MSFT', 'CSCO', 'INTC', 'CVX',
            'XOM', 'SLB', 'COP', 'JPM', 'WFC', 'USB', 'AXP',
            'WMT', 'TGT', 'HD', 'COST')
 
@@ -238,7 +238,7 @@ names(df) <- c('X', 'Y', 'Prob')
 ## Figure 7-9: Multivariate normal ellipses
 dfmu <- data.frame(X=mu[1], Y=mu[2])
 
-graph <- ggplot(df, aes(X, Y)) + 
+graph <- ggplot(df, aes(X, Y)) +
   geom_path(aes(linetype=Prob)) +
   geom_point(data=dfmu, aes(X, Y), size=3) +
   theme_bw()
@@ -255,7 +255,7 @@ graph <- ggplot(data=df, aes(x=XOM, y=CVX, color=cluster, shape=cluster)) +
   geom_point(alpha=.8) +
   theme_bw() +
   scale_shape_manual(values = c(1, 3),
-                     guide = guide_legend(override.aes=aes(size=2))) 
+                     guide = guide_legend(override.aes=aes(size=2)))
 graph
 
 summary(mcl, parameters=TRUE)$mean
@@ -272,23 +272,23 @@ plot(mcl, what='BIC', ask=FALSE, cex=.75)
 defaults <- loan_data[loan_data$outcome=='default',]
 df <- defaults[, c('loan_amnt', 'annual_inc', 'revol_bal', 'open_acc', 'dti', 'revol_util')]
 km <- kmeans(df, centers=4, nstart=10)
-centers <- data.frame(size=km$size, km$centers) 
+centers <- data.frame(size=km$size, km$centers)
 print(round(centers, digits=2))
 
 df0 <- scale(df)
 km0 <- kmeans(df0, centers=4, nstart=10)
 centers0 <- scale(km0$centers, center=FALSE, scale=1/attr(df0, 'scaled:scale'))
 centers0 <- scale(centers0, center=-attr(df0, 'scaled:center'), scale=FALSE)
-centers0 <- data.frame(size=km0$size, centers0) 
+centers0 <- data.frame(size=km0$size, centers0)
 print(round(centers0, digits=2))
 
 km <- kmeans(df, centers=4, nstart=10)
-centers <- data.frame(size=km$size, km$centers) 
+centers <- data.frame(size=km$size, km$centers)
 round(centers, digits=2)
 
 ### Dominant Variables
 
-syms <- c('GOOGL', 'AMZN', 'AAPL', 'MSFT', 'CSCO', 'INTC', 'CVX', 'XOM', 
+syms <- c('GOOGL', 'AMZN', 'AAPL', 'MSFT', 'CSCO', 'INTC', 'CVX', 'XOM',
           'SLB', 'COP', 'JPM', 'WFC', 'USB', 'AXP', 'WMT', 'TGT', 'HD', 'COST')
 top_15 <- sp500_px[row.names(sp500_px)>='2011-01-01', syms]
 sp_pca1 <- princomp(top_15)
@@ -324,3 +324,4 @@ df0 <- scale(df)
 km0 <- kmeans(df0, centers=4, nstart=10)
 centers0 <- scale(km0$centers, center=FALSE, scale=1/attr(df0, 'scaled:scale'))
 round(scale(centers0, center=-attr(df0, 'scaled:center'), scale=FALSE), 2)
+
