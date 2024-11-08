@@ -1,3 +1,4 @@
+[![](https://img.shields.io/badge/python-3.8--3.12-blue.svg)](https://www.python.org/downloads/)
 ![Python](https://github.com/gedeck/dmba/actions/workflows/build.yml/badge.svg)
 
 # Code repository
