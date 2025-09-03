@@ -143,6 +143,17 @@ Excecute the notebooks in Binder:
      <a href='https://www.marcombo.com/estadistica-practica-para-ciencia-de-datos-con-r-y-python-9788426734433/'>Order here</a>
     </td>
   </tr>
+  <tr>
+    <td><img src='images/OReilly-portuguese.png' width=200></td>
+    <td><b>Portuguese (2025-10-30):</b><br>
+     Estatística prática para cientistas de dados<br>
+     2025: ISBN 978-8-550-82651-6 978-8-426-73443-3, Alta Books Editora
+     <br>
+     <!-- <a href='https://books.google.com/books?id=IZxeEAAAQBAJ'>Google books</a>,
+     <a href="https://www.amazon.com/Estad%25C3%25ADstica-pr%25C3%25A1ctica-ciencia-datos-Python/dp/842673443X/?&_encoding=UTF8&tag=petergedeck-20&linkCode=ur2&linkId=6946ee487a7aeee619508c0ca6aa25f4&camp=1789&creative=9325">Amazon</a>, -->
+     <a href='https://www.martinsfontespaulista.com.br/estatistica-pratica-para-cientistas-de-dados-1157971/p'>Order here</a>
+    </td>
+  </tr>
 </table>
 
 
