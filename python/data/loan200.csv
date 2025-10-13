@@ -1,0 +1,202 @@
+outcome,payment_inc_ratio,dti
+target,9.0,22.5
+default,5.46933,21.33
+paid off,6.90294,8.97
+paid off,11.148,1.83
+default,3.7212,10.81
+paid off,1.89923,11.34
+default,2.78485,16.0
+paid off,13.8562,11.24
+default,11.6848,27.78
+default,9.43396,24.15
+paid off,1.62408,7.66
+default,5.1505,23.81
+paid off,10.7316,11.46
+paid off,5.48028,3.05
+paid off,9.1232,16.21
+default,8.87467,28.06
+paid off,8.35831,7.15
+default,18.4205,27.65
+default,6.72874,16.3
+paid off,5.92267,18.11
+paid off,3.34661,12.16
+default,6.91886,22.47
+paid off,13.2091,12.0
+paid off,12.5258,23.19
+paid off,5.02149,18.93
+paid off,7.43493,15.8
+default,14.3348,33.17
+paid off,3.40145,8.49
+default,19.5196,19.42
+default,16.4191,26.08
+default,7.12971,12.17
+paid off,11.8603,22.54
+paid off,7.311,19.13
+paid off,3.84084,9.36
+paid off,9.03384,12.87
+default,8.65527,22.23
+paid off,9.71055,26.6
+default,2.93926,19.44
+default,14.5423,9.5
+paid off,4.27237,12.22
+default,5.9154,5.99
+paid off,8.1632,19.14
+paid off,4.80972,16.68
+paid off,3.42216,10.78
+default,1.49472,23.79
+default,5.41869,26.21
+paid off,5.62357,22.35
+paid off,5.4288,4.23
+default,6.1496,26.16
+paid off,4.2652,27.36
+default,11.8438,25.89
+paid off,7.02535,16.7
+paid off,2.06973,10.92
+paid off,2.49545,2.4
+default,11.127,11.36
+paid off,11.5225,21.45
+paid off,4.41246,12.73
+default,13.4988,27.16
+default,11.5629,19.36
+default,11.8498,6.71
+default,5.38409,6.8
+default,13.1508,15.62
+default,14.6718,21.82
+default,12.5148,4.87
+default,10.8558,6.8
+default,12.0252,13.94
+paid off,9.52255,19.66
+paid off,13.5606,5.56
+default,13.3276,13.87
+default,12.1789,25.06
+paid off,4.26278,28.29
+default,7.83832,27.75
+paid off,5.96351,18.62
+paid off,5.07267,5.95
+paid off,11.9274,17.64
+default,3.86227,22.91
+paid off,4.39094,2.86
+paid off,7.7016,24.57
+default,12.3538,22.22
+default,13.1824,14.27
+paid off,3.93975,28.95
+paid off,5.77245,18.61
+default,12.3112,15.47
+paid off,8.6083,16.17
+paid off,4.6424,17.36
+default,8.70942,24.13
+default,17.7202,17.26
+default,1.47484,7.12
+default,5.6208,15.53
+default,14.1741,24.51
+paid off,5.126,14.02
+default,6.18611,14.76
+paid off,5.37529,19.99
+paid off,9.70037,15.06
+default,12.6708,7.32
+paid off,14.1607,14.47
+paid off,1.91916,16.15
+paid off,4.18882,2.31
+default,7.91886,4.46
+default,7.49647,29.05
+default,4.04563,16.6
+paid off,13.9744,23.0
+default,3.6742,10.52
+paid off,10.1678,14.53
+default,6.44328,19.55
+default,8.11139,8.03
+paid off,5.08957,10.93
+paid off,9.9924,11.61
+paid off,3.82189,17.32
+default,3.84667,19.9
+paid off,4.7604,25.95
+default,12.6369,23.16
+default,5.82492,22.0
+paid off,0.693496,16.3
+paid off,7.57675,11.1
+default,7.03965,18.62
+default,7.52902,11.55
+default,5.17392,11.36
+paid off,5.14633,20.87
+paid off,7.02212,9.54
+paid off,5.45904,9.69
+paid off,11.0438,6.64
+paid off,4.61967,4.1
+paid off,2.6284,5.26
+default,10.8607,17.26
+default,11.0427,19.55
+paid off,11.8318,27.32
+default,5.60174,15.65
+default,7.88815,3.35
+default,4.55,24.68
+paid off,6.77783,16.87
+paid off,4.95549,24.73
+paid off,10.7842,17.57
+default,18.507,15.84
+default,4.8645,16.43
+default,3.79029,22.67
+paid off,8.26964,13.65
+paid off,3.29013,24.39
+paid off,11.879,18.65
+default,10.0245,19.11
+default,10.0963,15.86
+paid off,8.64978,19.78
+paid off,4.62138,5.58
+paid off,3.59664,16.51
+paid off,3.88236,8.84
+paid off,2.40163,23.04
+paid off,13.3309,13.97
+default,16.0055,18.68
+paid off,3.86336,14.24
+default,13.523,27.35
+paid off,17.0106,11.58
+default,3.6144,20.34
+paid off,2.80455,10.11
+default,8.1658,18.68
+paid off,10.0964,6.07
+paid off,4.30392,14.06
+paid off,6.04385,19.98
+default,12.4232,13.05
+default,15.3104,14.4
+paid off,1.65527,12.91
+paid off,7.73733,11.32
+paid off,10.1889,25.47
+default,8.33074,16.39
+paid off,7.90032,19.71
+default,6.36447,12.29
+paid off,8.43016,18.01
+default,7.36731,7.8
+default,10.1241,16.67
+default,13.4938,25.78
+default,8.02887,20.86
+default,2.30232,13.97
+default,11.093,15.35
+paid off,2.03592,16.58
+paid off,3.36652,22.7
+default,12.7615,18.82
+default,13.0808,29.67
+default,5.61568,4.16
+paid off,10.4625,12.73
+default,11.2068,12.66
+paid off,5.00386,5.97
+paid off,11.1079,15.33
+paid off,9.44925,23.3
+default,9.05778,21.62
+paid off,1.47615,11.24
+default,11.1024,28.05
+paid off,4.18306,14.82
+paid off,10.308,12.27
+paid off,12.5613,6.12
+paid off,6.5706,7.35
+default,6.89672,11.57
+default,1.63139,12.0
+default,4.37455,15.67
+paid off,10.683,13.09
+default,8.93428,18.09
+paid off,7.11182,14.91
+default,21.8575,31.05
+default,11.663,26.09
+default,2.97641,16.41
+default,1.96846,19.98
+paid off,9.642,20.17
+paid off,7.03924,13.88
