@@ -456,7 +456,8 @@ def partialResidualPlot(model, df, outcome, feature, ax):
         'ypartial': feature_prediction - model.params[0],
     })
     results = results.sort_values(by=['feature'])
-    smoothed = sm.nonparametric.lowess(results.ypartial, results.feature, frac=1/3)
+    smoothed = sm.nonparametric.lowess(results.ypartial + results.residual,
+                                       results.feature, frac=1/3)
     
     ax.scatter(results.feature, results.ypartial + results.residual)
     ax.plot(smoothed[:, 0], smoothed[:, 1], color='gray')
