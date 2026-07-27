@@ -174,7 +174,7 @@ We recommend using a conda environment to run the Python and R code.
 ```
 conda create -n sfds #Create the conda environment named sfds.
 conda activate sfds #Activate the environment we created.
-conda env update -n sfds -f environment.yml #Update the depencies of the environment from environment.yml 
+conda env update -n sfds -f environment.yml #Update the dependencies of the environment from environment.yml 
 ```
 
 The full list of Python and R dependencies from the [environment.yml](environment.yml) file:
