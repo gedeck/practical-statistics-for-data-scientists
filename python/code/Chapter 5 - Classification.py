@@ -244,7 +244,7 @@ def partialResidualPlot(model, df, outcome, feature, fig, ax):
     y_pred = model.predict(df)
     org_params = model.params.copy()
     zero_params = model.params.copy()
-    # set model parametes of other features to 0
+    # set model parameters of other features to 0
     for i, name in enumerate(zero_params.index):
         if feature in name:
             continue
