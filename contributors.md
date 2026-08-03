@@ -5,7 +5,7 @@
 * Fabrice Kinnar (Erratum, May 2020, Python):
   * Fix printing of stats.f_oneway result for ANOVA (PR #5)
 * SSJUSA (https://github.com/SSJUSA, August 2020, Python):
-  * Indentificaton of dendrogram issue
+  * Identification of dendrogram issue
 * deulkkae (https://github.com/deulkkae, February 2021, R, Python):
   * Correction of `house_sales.csv` file (Issue #14)
   * Changes to xgboost API (Issues #15, #16)
