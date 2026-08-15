@@ -167,7 +167,7 @@ Excecute the notebooks in Binder:
 - The code repository for the first edition is at: <a href="https://github.com/andrewgbruce/statistics-for-data-scientists">https://github.com/andrewgbruce/statistics-for-data-scientists</a>
 
 
-# Setup of R and Python environments
+# Setup of R and Python environment
 
 We recommend using a conda environment to run the Python and R code.
 
