@@ -1,5 +1,5 @@
 ## Practical Statistics for Data Scientists (R)
-## Chapter 3. Statistial Experiments and Significance Testing
+## Chapter 3. Statistical Experiments and Significance Testing
 # > (c) 2019 Peter C. Bruce, Andrew Bruce, Peter Gedeck
 
 # Import required R packages.
@@ -72,7 +72,7 @@ hist(perm_diffs, xlab='Conversion rate (percent)', main='')
 abline(v=obs_pct_diff, lty=2, lwd=1.5)
 text('   Observed\n   difference', x=obs_pct_diff,  y=par()$usr[4]-20, adj=0)
 
-# Obbserved difference
+# Observed difference
 obs_pct_diff
 
 ### P-Value

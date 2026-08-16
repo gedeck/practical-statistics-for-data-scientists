@@ -121,7 +121,7 @@ r2 = r2_score(house[outcome], fitted)
 print(f'RMSE: {RMSE:.0f}')
 print(f'r2: {r2:.4f}')
 
-# While _scikit-learn_ provides a variety of different metrics, _statsmodels_ provides a more in-depth analysis of the linear regression model. This package has two different ways of specifying the model, one that is similar to _scikit-learn_ and one that allows specifying _R_-style formulas. Here we use the first approach. As _statsmodels_ doesn't add an intercept automaticaly, we need to add a constant column with value 1 to the predictors. We can use the _pandas_ method assign for this.
+# While _scikit-learn_ provides a variety of different metrics, _statsmodels_ provides a more in-depth analysis of the linear regression model. This package has two different ways of specifying the model, one that is similar to _scikit-learn_ and one that allows specifying _R_-style formulas. Here we use the first approach. As _statsmodels_ doesn't add an intercept automatically, we need to add a constant column with value 1 to the predictors. We can use the _pandas_ method assign for this.
 
 model = sm.OLS(house[outcome], house[predictors].assign(const=1))
 results = model.fit()

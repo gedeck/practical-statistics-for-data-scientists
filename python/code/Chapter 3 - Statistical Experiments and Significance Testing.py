@@ -1,5 +1,5 @@
 ## Practical Statistics for Data Scientists (Python)
-## Chapter 3. Statistial Experiments and Significance Testing
+## Chapter 3. Statistical Experiments and Significance Testing
 # > (c) 2019 Peter C. Bruce, Andrew Bruce, Peter Gedeck
 
 # Import required Python packages.
